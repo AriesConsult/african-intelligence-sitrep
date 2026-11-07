@@ -7,6 +7,7 @@ Published snapshots are secondary evidence; INRB case/death series is unchanged.
 """
 from __future__ import annotations
 import argparse, json, os, re
+from datetime import datetime, timezone
 from pathlib import Path
 from sitrep_tables import extract_five_tables, SCHEMA
 from run_pipeline import load_json, write_json, update_feed
@@ -61,7 +62,7 @@ def reprocess(queue:Path, published:Path, registry:Path,feed_path:Path):
                             'tables_available':snap['tables_available'],
                             'tables_machine_validated':snap['tables_machine_validated'],
                             'rows_by_table':counts,
-                            'snapshot_path':f'tables/{num:03d}_{sha[:12]}.json',
+                            'snapshot_path':f'tables/{num:03d}_{sha[:12]}.json' if snap['tables_available'] else None,
                             'quality_flags_count':len(snap['quality_flags'])})
             if not is_revision:docs.append({'approved':obs(snap)})
         except (OSError,ValueError,TypeError,KeyError) as e:
@@ -81,7 +82,7 @@ def reprocess(queue:Path, published:Path, registry:Path,feed_path:Path):
     # Re-run from checked archive for deterministic backfill. Never delete
     # human-approved observations already present in the feed.
     preserved=[o for o in oldobs if o.get('evidence_status')=='human_verified']
-    feed=update_feed({'observations':preserved},docs,reg,old.get('generated_at') or '2026-11-07T00:00:00Z',[])
+    feed=update_feed({'observations':preserved},docs,reg,datetime.now(timezone.utc).isoformat(),[])
     feed['table_index_path']='published/table_index.json'
     feed['five_table_catalogue']={'reports_checked':len(reports),'reports_with_all_five_validated':sum(x['tables_machine_validated']==5 for x in reports),
                                   'latest_report':latest[0]['report_number'] if latest else None}
