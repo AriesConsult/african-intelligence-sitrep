@@ -179,8 +179,39 @@ def table_2(doc,output):
         if count(national[1])!=t1['national']['cumulative_cases'] or count(national[2])!=t1['national']['cumulative_deaths']:
             issues.append({'reason':'table2_table1_national_disagreement'})
     if len(distinct)<10:issues.append({'reason':'too_few_healthzones_for_complete_table'})
+    # A collection of internally consistent *rows* is not necessarily a complete
+    # national table. Historically, the first page often captures only the end
+    # of Ituri, silently omitting dozens of affected health zones.
+    if not t1 or t1.get('status')!='MACHINE_VALIDATED' or not t1.get('national'):
+        issues.append({'reason':'table2_full_coverage_cannot_be_crosschecked_with_validated_table1'})
+    else:
+        expected={r['scope']:r for r in t1.get('rows',[]) if r.get('cumulative_cases',0)>0}
+        actual={r['province']:r for r in provrows}
+        for p in sorted(set(expected)-set(actual)):
+            issues.append({'reason':'table2_missing_province_total','province':p})
+        for p in sorted(set(actual)-set(expected)):
+            issues.append({'reason':'table2_unexpected_province_total','province':p})
+        if len(actual)!=len(provrows):
+            issues.append({'reason':'table2_duplicate_province_totals'})
+        for p,reported in expected.items():
+            if p not in actual:continue
+            z=[r for r in distinct.values() if r['province']==p]
+            sum_cases=sum(r['cumulative_cases'] for r in z)
+            sum_deaths=sum(r['cumulative_deaths'] for r in z)
+            pending=sum(u['unallocated_deaths'] for u in unallocated if u['province']==p)
+            if sum_cases!=reported['cumulative_cases']:
+                issues.append({'reason':'table2_healthzone_cases_do_not_reconcile','province':p,
+                               'sum':sum_cases,'reported':reported['cumulative_cases']})
+            if sum_deaths+pending!=reported['cumulative_deaths']:
+                issues.append({'reason':'table2_healthzone_deaths_do_not_reconcile','province':p,
+                               'sum':sum_deaths,'unallocated':pending,'reported':reported['cumulative_deaths']})
+        expected_zones=t1['national'].get('health_zones_affected')
+        if expected_zones is not None and len(distinct)!=expected_zones:
+            issues.append({'reason':'table2_affected_healthzone_count_mismatch',
+                           'parsed':len(distinct),'reported':expected_zones})
     return {'status':'REVIEW_REQUIRED' if issues else 'MACHINE_VALIDATED','rows':list(distinct.values()),
             'province_totals':provrows,'unallocated_deaths':unallocated,'flags':issues,
+            'coverage_reconciliation':'all affected province totals and health-zone case/death sums required',
             'note':'Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.'}
 
 def table_3(doc,output):
