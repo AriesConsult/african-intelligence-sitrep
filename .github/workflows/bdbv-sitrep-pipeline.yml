@@ -1,6 +1,13 @@
 name: African Intelligence BDBV SitRep ingest and publication
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.py'
+      - 'tests/**'
+      - '.github/workflows/bdbv-sitrep-pipeline.yml'
   schedule:
     - cron: '27 5 * * *'   # Daily 08:27 East Africa Time (UTC+3)
     - cron: '41 4 * * 0'   # Sunday historical backfill
