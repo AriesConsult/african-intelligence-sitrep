@@ -44,6 +44,14 @@ jobs:
             LIMIT=12
           fi
           python run_pipeline.py --limit "$LIMIT" --work work
+      - name: Reanalyse validated SitRep tables 1–5
+        if: success()
+        run: |
+          if [ -f reprocess_tables.py ]; then
+            python reprocess_tables.py
+          else
+            echo "Five-table module not installed; preserving existing feed."
+          fi
       - name: Preserve source PDFs and extraction audit
         if: always()
         uses: actions/upload-artifact@v4
@@ -57,7 +65,7 @@ jobs:
         run: |
           git config user.name 'african-intelligence-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add state/registry.json published/feed.json review_queue/
+          git add state/registry.json published/ review_queue/
           if ! git diff --cached --quiet; then
             git commit -m 'Update BDBV SitRep source registry and validated feed'
             git push origin HEAD:${{ github.ref_name }}
