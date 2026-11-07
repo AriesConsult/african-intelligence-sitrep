@@ -8,7 +8,7 @@ import io
 import re
 from datetime import date
 from typing import Any
-import fitz
+import pymupdf as fitz
 import pdfplumber
 
 REPORT_NUMBER = re.compile(r'SitRep\s*(?:N\s*[°ºo.]*)?\s*(\d{1,3})',re.I)
