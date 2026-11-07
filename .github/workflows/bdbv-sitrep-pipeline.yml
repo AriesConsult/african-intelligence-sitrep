@@ -68,6 +68,9 @@ jobs:
             NARRATIVE_LIMIT=12
           fi
           python backfill_narratives.py --limit "$NARRATIVE_LIMIT" --work work/narrative_full_text
+      - name: Build review-only longitudinal narrative signal index
+        if: success()
+        run: python build_narrative_signals.py
       - name: Audit source identities and numerical validation coverage
         if: success()
         run: python audit_ingestion.py
