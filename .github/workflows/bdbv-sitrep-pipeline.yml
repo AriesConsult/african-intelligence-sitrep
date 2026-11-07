@@ -62,7 +62,7 @@ jobs:
       - name: Extract hash-verified narrative candidates for editorial review
         if: success()
         run: |
-          if [ '${{ inputs.full_backfill }}' = 'true' ] || [ '${{ github.event.schedule }}' = '41 4 * * 0' ]; then
+          if [ '${{ inputs.full_backfill }}' = 'true' ] || [ '${{ github.event_name }}' = 'push' ] || [ '${{ github.event.schedule }}' = '41 4 * * 0' ]; then
             NARRATIVE_LIMIT=0
           else
             NARRATIVE_LIMIT=12
@@ -78,7 +78,7 @@ jobs:
           name: bdbv-sitrep-audit-${{ github.run_id }}
           path: work/
           if-no-files-found: warn
-          retention-days: 30
+          retention-days: 90
       - name: Commit validated feed and review state
         if: success()
         run: |
