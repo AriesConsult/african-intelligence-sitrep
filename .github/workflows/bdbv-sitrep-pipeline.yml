@@ -52,6 +52,18 @@ jobs:
           else
             echo "Five-table module not installed; preserving existing feed."
           fi
+      - name: Extract hash-verified narrative candidates for editorial review
+        if: success()
+        run: |
+          if [ '${{ inputs.full_backfill }}' = 'true' ] || [ '${{ github.event.schedule }}' = '41 4 * * 0' ]; then
+            NARRATIVE_LIMIT=0
+          else
+            NARRATIVE_LIMIT=12
+          fi
+          python backfill_narratives.py --limit "$NARRATIVE_LIMIT" --work work/narrative_full_text
+      - name: Audit source identities and numerical validation coverage
+        if: success()
+        run: python audit_ingestion.py
       - name: Preserve source PDFs and extraction audit
         if: always()
         uses: actions/upload-artifact@v4
