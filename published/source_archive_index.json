@@ -1,0 +1,1595 @@
+{
+  "archived": {
+    "001:821ea26be20720b8ead7ae39f5f3b1df38970ee29198c6851d491882f39ecb39": {
+      "archive_member": "SitRep_001_821ea26be207.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 4722765,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-14",
+      "report_number": 1,
+      "source_sha256": "821ea26be20720b8ead7ae39f5f3b1df38970ee29198c6851d491882f39ecb39",
+      "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_001-2026.pdf"
+    },
+    "002:f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a": {
+      "archive_member": "SitRep_002_f44578a42496.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1098745,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-17",
+      "report_number": 2,
+      "source_sha256": "f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°-002_18-mai-2026.pdf"
+    },
+    "004:202dd6db65d2d3c29aa2aecc18ce20006965fd2909f8c5b8a71759f316068e92": {
+      "archive_member": "SitRep_004_202dd6db65d2.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1489626,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-19",
+      "report_number": 4,
+      "source_sha256": "202dd6db65d2d3c29aa2aecc18ce20006965fd2909f8c5b8a71759f316068e92",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°004-au-20-mai-2026.pdf"
+    },
+    "005:3ca1c8204515b4d22772a4ad271e7f64bc95acf58f5b736df5647af38ea49e7a": {
+      "archive_member": "SitRep_005_3ca1c8204515.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1233908,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-19",
+      "report_number": 5,
+      "source_sha256": "3ca1c8204515b4d22772a4ad271e7f64bc95acf58f5b736df5647af38ea49e7a",
+      "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_005-2026.pdf"
+    },
+    "006:7eba1b3706a3ffa30adb6714b67d29e21b434ba2364b90a517129f9513639dab": {
+      "archive_member": "SitRep_006_7eba1b3706a3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1263547,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-20",
+      "report_number": 6,
+      "source_sha256": "7eba1b3706a3ffa30adb6714b67d29e21b434ba2364b90a517129f9513639dab",
+      "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_006-2026.pdf"
+    },
+    "010:6f7b3a684913da7ba9f4433a3a16dcc0b90a5b917c799c6bb19a9cb91d59f8e5": {
+      "archive_member": "SitRep_010_6f7b3a684913.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1549638,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-24",
+      "report_number": 10,
+      "source_sha256": "6f7b3a684913da7ba9f4433a3a16dcc0b90a5b917c799c6bb19a9cb91d59f8e5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°010_25_05_26fv_IM.pdf"
+    },
+    "011:1464a88ca562a77af340fe25c1c214cd8f17d638b2eab7b71b07c8134a8cbe4e": {
+      "archive_member": "SitRep_011_1464a88ca562.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1729328,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-25",
+      "report_number": 11,
+      "source_sha256": "1464a88ca562a77af340fe25c1c214cd8f17d638b2eab7b71b07c8134a8cbe4e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°011_IM.pdf"
+    },
+    "012:08081d3ad8886ebc32f98f5c33cfa2384a22716c582a7b4837822e6da57ae80d": {
+      "archive_member": "SitRep_012_08081d3ad888.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1664732,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-26",
+      "report_number": 12,
+      "source_sha256": "08081d3ad8886ebc32f98f5c33cfa2384a22716c582a7b4837822e6da57ae80d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°012_26052026_Vf2_IM.pdf"
+    },
+    "013:0245ec89ce61357f0f4ab8e0c77e319a4f6362cd86d3c8844459b39a9325e692": {
+      "archive_member": "SitRep_013_0245ec89ce61.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1163454,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-27",
+      "report_number": 13,
+      "source_sha256": "0245ec89ce61357f0f4ab8e0c77e319a4f6362cd86d3c8844459b39a9325e692",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°013_27_05_2026_ES-IM4.pdf"
+    },
+    "014:6032732734794ca6e0ec3782ad449e6330b152d6c61c408da5875c0bf1114dec": {
+      "archive_member": "SitRep_014_603273273479.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1785194,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-28",
+      "report_number": 14,
+      "source_sha256": "6032732734794ca6e0ec3782ad449e6330b152d6c61c408da5875c0bf1114dec",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_NA°014_28_05_2026_VF-1.pdf"
+    },
+    "015:5ee4f2afca47fb6faca488c966203fe50d3bc14dcd55255b9794deecc4e36a2d": {
+      "archive_member": "SitRep_015_5ee4f2afca47.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1633460,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-29",
+      "report_number": 15,
+      "source_sha256": "5ee4f2afca47fb6faca488c966203fe50d3bc14dcd55255b9794deecc4e36a2d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_NA°015_29_05_2026.pdf"
+    },
+    "016:610c69987d59040ae672ea95be4815bbc87951566cde9e88f7e1cb8ffa5c9f80": {
+      "archive_member": "SitRep_016_610c69987d59.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1143193,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-30",
+      "report_number": 16,
+      "source_sha256": "610c69987d59040ae672ea95be4815bbc87951566cde9e88f7e1cb8ffa5c9f80",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°016_31_05_2026.pdf"
+    },
+    "017:0cf49dba23df615a0737fccbc06ce7ec2847e181e0b417c3551b3b8237fb9749": {
+      "archive_member": "SitRep_017_0cf49dba23df.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1323030,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-05-31",
+      "report_number": 17,
+      "source_sha256": "0cf49dba23df615a0737fccbc06ce7ec2847e181e0b417c3551b3b8237fb9749",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N017_01_06_2026-Revised_JO_PA_IM-1.pdf"
+    },
+    "018:14833f7e1a65b61b5222cc46b2f9531d7a57e4e8f0724009447b9319c86614c8": {
+      "archive_member": "SitRep_018_14833f7e1a65.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1430480,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-01",
+      "report_number": 18,
+      "source_sha256": "14833f7e1a65b61b5222cc46b2f9531d7a57e4e8f0724009447b9319c86614c8",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Daft-SitRep_MVE_RDC_N18_01_06_2026_JO_PA-Final-1.pdf"
+    },
+    "019:347720b747a917db84122dcc5689957a2483cf01223a7ef356f648893ec5df73": {
+      "archive_member": "SitRep_019_347720b747a9.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 6227269,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-02",
+      "report_number": 19,
+      "source_sha256": "347720b747a917db84122dcc5689957a2483cf01223a7ef356f648893ec5df73",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N19_02_06_2026-_JO_PA-FINAL.-2.pdf"
+    },
+    "020:6f1c2cf12404cf5d3d6ed04dc01767a5688fab2efee5b4715764c25bd9b7d1ac": {
+      "archive_member": "SitRep_020_6f1c2cf12404.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 3242151,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-02",
+      "report_number": 20,
+      "source_sha256": "6f1c2cf12404cf5d3d6ed04dc01767a5688fab2efee5b4715764c25bd9b7d1ac",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-2-SitRep_MVE_RDC_N20_02_06_2026-_JO_PA-FINAL.pdf"
+    },
+    "021:2a085f4451ee9222593c0938f21aa585d4027db607fea0275407ac4757363aec": {
+      "archive_member": "SitRep_021_2a085f4451ee.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 3798858,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-04",
+      "report_number": 21,
+      "source_sha256": "2a085f4451ee9222593c0938f21aa585d4027db607fea0275407ac4757363aec",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N21_04_JUIN_2026-_JO_PA-FINAL_OK.pdf"
+    },
+    "022:fb012aa6ffb2e98643e1f0a532112b652b7ed94b31fe69273ef1419ecb085a0b": {
+      "archive_member": "SitRep_022_fb012aa6ffb2.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1227132,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-05",
+      "report_number": 22,
+      "source_sha256": "fb012aa6ffb2e98643e1f0a532112b652b7ed94b31fe69273ef1419ecb085a0b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF_SitRep_MVE_RDC_N22_06_06_2026-FD_JO2_PA.pdf"
+    },
+    "023:f0307be57a990c621746e22407e5977d0822e655195d59ac0d7ac23b1612aff8": {
+      "archive_member": "SitRep_023_f0307be57a99.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1187794,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-06",
+      "report_number": 23,
+      "source_sha256": "f0307be57a990c621746e22407e5977d0822e655195d59ac0d7ac23b1612aff8",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF-Draft-Final-SitRep_MVE_RDC_NA°23_07_06_2026-FD.pdf"
+    },
+    "024:3d5646b5f3e65764fd6b0bcf9a282a9a6a4f461bc4210ae2c152fe7350e460a9": {
+      "archive_member": "SitRep_024_3d5646b5f3e6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1356164,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-07",
+      "report_number": 24,
+      "source_sha256": "3d5646b5f3e65764fd6b0bcf9a282a9a6a4f461bc4210ae2c152fe7350e460a9",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°24_07_06_2026-FD.pdf"
+    },
+    "025:46768bbb0b7deba44ccb740cce2de37023f1ab39f3e78b37e8a6ad986dd36c81": {
+      "archive_member": "SitRep_025_46768bbb0b7d.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1380972,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-08",
+      "report_number": 25,
+      "source_sha256": "46768bbb0b7deba44ccb740cce2de37023f1ab39f3e78b37e8a6ad986dd36c81",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°25_08_06_2026-FD-1.pdf"
+    },
+    "026:cf674a59b2d59b4edb10f58d61eb8588991bbf1ca5e043a096b5f852c27677a6": {
+      "archive_member": "SitRep_026_cf674a59b2d5.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 4230647,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-09",
+      "report_number": 26,
+      "source_sha256": "cf674a59b2d59b4edb10f58d61eb8588991bbf1ca5e043a096b5f852c27677a6",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°26_09_06_2026_Final.pdf"
+    },
+    "027:1b2af34d471dceda805615ea795a91f7d2b3b32773add7b2e6e785a0ece051f4": {
+      "archive_member": "SitRep_027_1b2af34d471d.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1864344,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-10",
+      "report_number": 27,
+      "source_sha256": "1b2af34d471dceda805615ea795a91f7d2b3b32773add7b2e6e785a0ece051f4",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft_1_SitRep_MVE_RDC_N°27_10_06_2026-2.pdf"
+    },
+    "028:b7d9261c860f5dd1ead43f4b59493ccb5668a754a8b1fa9a2ad7acb7589ad987": {
+      "archive_member": "SitRep_028_b7d9261c860f.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 6041048,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-11",
+      "report_number": 28,
+      "source_sha256": "b7d9261c860f5dd1ead43f4b59493ccb5668a754a8b1fa9a2ad7acb7589ad987",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°28_11062026_Final.pdf"
+    },
+    "030:8de93e5eebbf5e97263a18de2e4aaa635e6377832372e70c5c66ad14900f53aa": {
+      "archive_member": "SitRep_030_8de93e5eebbf.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1365148,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-13",
+      "report_number": 30,
+      "source_sha256": "8de93e5eebbf5e97263a18de2e4aaa635e6377832372e70c5c66ad14900f53aa",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-Final_SitRep_MVE_RDC_N°30_13_06_2026-FD-1-1.pdf"
+    },
+    "031:5021541c0b26ce5fc8d172664d11e5ed300d128cf6ba006466bfc269d6f687bc": {
+      "archive_member": "SitRep_031_5021541c0b26.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1442160,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-14",
+      "report_number": 31,
+      "source_sha256": "5021541c0b26ce5fc8d172664d11e5ed300d128cf6ba006466bfc269d6f687bc",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF-SitRep_MVE_RDC_N°31_14_06_2026.pdf"
+    },
+    "032:9c25ac85c6f6bf90b5a0965514a2452fd5abcee9f9760b9d0d68fba35fcc4dfb": {
+      "archive_member": "SitRep_032_9c25ac85c6f6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1464479,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-15",
+      "report_number": 32,
+      "source_sha256": "9c25ac85c6f6bf90b5a0965514a2452fd5abcee9f9760b9d0d68fba35fcc4dfb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Final_SitRep_MVE_RDC_N°32_15_06_2026-1.pdf"
+    },
+    "033:b70cd26f0bceba7ed91ac86dfbeaec776106385885536ce383d368068a6eb6cf": {
+      "archive_member": "SitRep_033_b70cd26f0bce.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1534111,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-16",
+      "report_number": 33,
+      "source_sha256": "b70cd26f0bceba7ed91ac86dfbeaec776106385885536ce383d368068a6eb6cf",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°33_16_06_2026.pdf"
+    },
+    "034:d9fb49946779aeb643a21aaebb47126b08ae4e440c8056f303f445abde211ab6": {
+      "archive_member": "SitRep_034_d9fb49946779.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1015964,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-17",
+      "report_number": 34,
+      "source_sha256": "d9fb49946779aeb643a21aaebb47126b08ae4e440c8056f303f445abde211ab6",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N34_17_06_2026_JO2-1.pdf"
+    },
+    "035:242cd2568fabd2f7f1e0088675c69d634a0a50a7c5a6809428a0208cf5798cbf": {
+      "archive_member": "SitRep_035_242cd2568fab.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1008927,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-18",
+      "report_number": 35,
+      "source_sha256": "242cd2568fabd2f7f1e0088675c69d634a0a50a7c5a6809428a0208cf5798cbf",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-Final-SitRep_MVE_RDC_N35_18_06_2026.pdf"
+    },
+    "036:fab8484c44b8c1dc40fb9bd812e0e963a95142f8a1241c7b0505f71a40a36439": {
+      "archive_member": "SitRep_036_fab8484c44b8.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1074100,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-19",
+      "report_number": 36,
+      "source_sha256": "fab8484c44b8c1dc40fb9bd812e0e963a95142f8a1241c7b0505f71a40a36439",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF-SitRep_MVE_RDC_N°036_19_06_2026.pdf"
+    },
+    "037:389770d734cea7353cadb5317daf761e49f7ba79cc5f69fb6b2bf681aba80e38": {
+      "archive_member": "SitRep_037_389770d734ce.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1066335,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-20",
+      "report_number": 37,
+      "source_sha256": "389770d734cea7353cadb5317daf761e49f7ba79cc5f69fb6b2bf681aba80e38",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-Final-SitRep_MVE_RDC_N°037_20_06_2026.pdf"
+    },
+    "038:f8a45cefa139ba0e9c945db36375c3522ac71cf6898503ef7bf328e8a3af5224": {
+      "archive_member": "SitRep_038_f8a45cefa139.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1401760,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-21",
+      "report_number": 38,
+      "source_sha256": "f8a45cefa139ba0e9c945db36375c3522ac71cf6898503ef7bf328e8a3af5224",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N038_21Jun2026_Final_JO2_260622_235251.pdf"
+    },
+    "039:00d159032158b2955e6be84d9155faadddd140c484ec1f42e44dfab025c4e79f": {
+      "archive_member": "SitRep_039_00d159032158.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1013345,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-22",
+      "report_number": 39,
+      "source_sha256": "00d159032158b2955e6be84d9155faadddd140c484ec1f42e44dfab025c4e79f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N039_22_06_2026_260623_211140.pdf"
+    },
+    "040:cbfe0414399f008c51ac90d7aa3fb552574eb02dd453fe290fa04f2cdb7ff9c3": {
+      "archive_member": "SitRep_040_cbfe0414399f.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1268442,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-23",
+      "report_number": 40,
+      "source_sha256": "cbfe0414399f008c51ac90d7aa3fb552574eb02dd453fe290fa04f2cdb7ff9c3",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N°040_23_06_2026.pdf"
+    },
+    "041:656822f7d31650f2b46c602c7decd620fd7ebb4b9f92d5e0bde730b8184182c2": {
+      "archive_member": "SitRep_041_656822f7d316.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 967031,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-24",
+      "report_number": 41,
+      "source_sha256": "656822f7d31650f2b46c602c7decd620fd7ebb4b9f92d5e0bde730b8184182c2",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Final-SitRep_MVE_RDC_N°041_24_06_2026-1.pdf"
+    },
+    "042:4da7b98c54b0b5e445dfd139c80b4a2df627683a8535888dd19acdec92001a97": {
+      "archive_member": "SitRep_042_4da7b98c54b0.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1458264,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-25",
+      "report_number": 42,
+      "source_sha256": "4da7b98c54b0b5e445dfd139c80b4a2df627683a8535888dd19acdec92001a97",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N°042_25_06_2026.pdf"
+    },
+    "044:122a15ac6296926dd1ff8c05e0c605fd8f4612943145c3097264d3df66d897f1": {
+      "archive_member": "SitRep_044_122a15ac6296.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1177650,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-27",
+      "report_number": 44,
+      "source_sha256": "122a15ac6296926dd1ff8c05e0c605fd8f4612943145c3097264d3df66d897f1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/06/Final-SitRep_MVE_RDC_N°044_27_06_2026.pdf"
+    },
+    "046:6b36553a0203f198c8b6808621182a73d06bf92cdadda60b0a0052f9d7c77beb": {
+      "archive_member": "SitRep_046_6b36553a0203.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1254498,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-29",
+      "report_number": 46,
+      "source_sha256": "6b36553a0203f198c8b6808621182a73d06bf92cdadda60b0a0052f9d7c77beb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft-SitRep_MVE_RDC_NA°046_29_06_2026_PAZ.pdf"
+    },
+    "047:a7596c30ac0794f5f2b5b1242daa767f6963d56facb531afc10f61eec9191ec6": {
+      "archive_member": "SitRep_047_a7596c30ac07.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 841919,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-06-30",
+      "report_number": 47,
+      "source_sha256": "a7596c30ac0794f5f2b5b1242daa767f6963d56facb531afc10f61eec9191ec6",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft-Final-SitRep_MVE_RDC_NA°047_30_06_2026_IM.pdf"
+    },
+    "048:8e22f356abc231471fa8f23ceb5b0789d9b8b3ecb87d4219afb8d4a02c7f41e5": {
+      "archive_member": "SitRep_048_8e22f356abc2.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 5981816,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-01",
+      "report_number": 48,
+      "source_sha256": "8e22f356abc231471fa8f23ceb5b0789d9b8b3ecb87d4219afb8d4a02c7f41e5",
+      "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_048_2026.pdf"
+    },
+    "049:e47833cc259a49798d094acab04b660012a37d18008533486cfc96d0e604728c": {
+      "archive_member": "SitRep_049_e47833cc259a.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1122659,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-02",
+      "report_number": 49,
+      "source_sha256": "e47833cc259a49798d094acab04b660012a37d18008533486cfc96d0e604728c",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°049_02_07_2026-3.pdf"
+    },
+    "050:37880c6d4af5da91940d7a6afbf049cb6ca84c5d972ce1d58d479775e6160864": {
+      "archive_member": "SitRep_050_37880c6d4af5.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1844601,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-02",
+      "report_number": 50,
+      "source_sha256": "37880c6d4af5da91940d7a6afbf049cb6ca84c5d972ce1d58d479775e6160864",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°050_04_07_2026.pdf"
+    },
+    "051:b01c0699fb60a6be23703c91b657994b3bdc25dc200f98f561bae3177fedc767": {
+      "archive_member": "SitRep_051_b01c0699fb60.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1314420,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-04",
+      "report_number": 51,
+      "source_sha256": "b01c0699fb60a6be23703c91b657994b3bdc25dc200f98f561bae3177fedc767",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°051_04_07_2026.pdf"
+    },
+    "052:437c86d14b06b9f31821c7aa9bf2701af6f5275a5ab4f655f5d74dec202a3c52": {
+      "archive_member": "SitRep_052_437c86d14b06.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1253534,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-05",
+      "report_number": 52,
+      "source_sha256": "437c86d14b06b9f31821c7aa9bf2701af6f5275a5ab4f655f5d74dec202a3c52",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°052_05_07_2026_CORRIGE-1.pdf"
+    },
+    "053:d8d21e9c003d1ae7b3b50bdb99c5d1e516ec5bd3e2580ff3f92a54a23c694c9a": {
+      "archive_member": "SitRep_053_d8d21e9c003d.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 933066,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-06",
+      "report_number": 53,
+      "source_sha256": "d8d21e9c003d1ae7b3b50bdb99c5d1e516ec5bd3e2580ff3f92a54a23c694c9a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°053_06_07_2026_NEW.pdf"
+    },
+    "054:a8086420e34653d8803d7dd6371f5de83f23a7a526be8ceca61987edd932abbb": {
+      "archive_member": "SitRep_054_a8086420e346.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1040438,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-07",
+      "report_number": 54,
+      "source_sha256": "a8086420e34653d8803d7dd6371f5de83f23a7a526be8ceca61987edd932abbb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft2_SitRep_MVE_RDC_N°054_07_07_2026.pdf"
+    },
+    "055:44706aea5157df826e05f4be706abca3acf93033d0e586a31c8e03711a94d91b": {
+      "archive_member": "SitRep_055_44706aea5157.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1204669,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-08",
+      "report_number": 55,
+      "source_sha256": "44706aea5157df826e05f4be706abca3acf93033d0e586a31c8e03711a94d91b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°055_08_07_2026.pdf"
+    },
+    "056:a195bf3c631a8e3547206a5085db54b29861d17e3b1d5f3a291e96160f9f989b": {
+      "archive_member": "SitRep_056_a195bf3c631a.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1491771,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-09",
+      "report_number": 56,
+      "source_sha256": "a195bf3c631a8e3547206a5085db54b29861d17e3b1d5f3a291e96160f9f989b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°56_09-07-2026.pdf"
+    },
+    "057:141c9539a4cc0a4a2c31f6972280e4f4251ecedc4aa3e1bf5f7123b53ecb6d05": {
+      "archive_member": "SitRep_057_141c9539a4cc.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1409453,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-10",
+      "report_number": 57,
+      "source_sha256": "141c9539a4cc0a4a2c31f6972280e4f4251ecedc4aa3e1bf5f7123b53ecb6d05",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_NA°57_10-07-2026_IM_SAM_vf.pdf"
+    },
+    "058:c62e6dda952cfacbc159d5735ce2f8e526f66e48d920eb47a632e2835e931185": {
+      "archive_member": "SitRep_058_c62e6dda952c.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1021161,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-11",
+      "report_number": 58,
+      "source_sha256": "c62e6dda952cfacbc159d5735ce2f8e526f66e48d920eb47a632e2835e931185",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°58_11-07-2026-final.pdf"
+    },
+    "060:d169542ecf17c4f83614098866bcf3a544dd96c3a3f42606fa0963917b23fcbb": {
+      "archive_member": "SitRep_060_d169542ecf17.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1359883,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-13",
+      "report_number": 60,
+      "source_sha256": "d169542ecf17c4f83614098866bcf3a544dd96c3a3f42606fa0963917b23fcbb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N°60_13-07-2026_Analytique_VF.pdf"
+    },
+    "061:b8d1228d2bf1160176e5704f13cc9ee9cafe3b04b52a8ab6ecb8e28bb1ee52ae": {
+      "archive_member": "SitRep_061_b8d1228d2bf1.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1306755,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-14",
+      "report_number": 61,
+      "source_sha256": "b8d1228d2bf1160176e5704f13cc9ee9cafe3b04b52a8ab6ecb8e28bb1ee52ae",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N_61_14-07-2026_Analytique.pdf"
+    },
+    "062:dfbd55ed538573b45bf8a0947accaebd54a5fcadf34e68160e21da5e0855374e": {
+      "archive_member": "SitRep_062_dfbd55ed5385.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1281656,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-15",
+      "report_number": 62,
+      "source_sha256": "dfbd55ed538573b45bf8a0947accaebd54a5fcadf34e68160e21da5e0855374e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft_SitRep_MVE_RDC_N_62_15-07-2026_VF.pdf"
+    },
+    "063:e09dc671dd7d68b6fcf99550e7d2a599fda66512d98dce30f1d5062440c6279f": {
+      "archive_member": "SitRep_063_e09dc671dd7d.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1712479,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-16",
+      "report_number": 63,
+      "source_sha256": "e09dc671dd7d68b6fcf99550e7d2a599fda66512d98dce30f1d5062440c6279f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N_63_16-07-2026_Final.pdf"
+    },
+    "064:9458cd2adaea90b7bd8002c4c6d869b34d615e05eab3e224a69fa06f31f49a53": {
+      "archive_member": "SitRep_064_9458cd2adaea.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 5002431,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-17",
+      "report_number": 64,
+      "source_sha256": "9458cd2adaea90b7bd8002c4c6d869b34d615e05eab3e224a69fa06f31f49a53",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_64_17-07-2026_OKK-2.pdf"
+    },
+    "065:204bde53343a36c2c343e4982b54fcbbc684204f688f10e2c1d31ad3391bf914": {
+      "archive_member": "SitRep_065_204bde53343a.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1386096,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-18",
+      "report_number": 65,
+      "source_sha256": "204bde53343a36c2c343e4982b54fcbbc684204f688f10e2c1d31ad3391bf914",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_65_18-07-2026.pdf"
+    },
+    "066:cca0b151591c66824a791965964f608f3d8fc8d6ee9c243a8ad215c8807faf5b": {
+      "archive_member": "SitRep_066_cca0b151591c.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1977539,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-19",
+      "report_number": 66,
+      "source_sha256": "cca0b151591c66824a791965964f608f3d8fc8d6ee9c243a8ad215c8807faf5b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_66_19-07-2026.pdf"
+    },
+    "067:32edfc9d78068773da67f0040d1b43d916a4c0bb264fe6d7c2b98532adbcfe2a": {
+      "archive_member": "SitRep_067_32edfc9d7806.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1508181,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-20",
+      "report_number": 67,
+      "source_sha256": "32edfc9d78068773da67f0040d1b43d916a4c0bb264fe6d7c2b98532adbcfe2a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_67_20-07-2026.pdf"
+    },
+    "068:3a2a0329be3f9038fc43665a48c1a557f588a0fe4682ebdd9fcc7ff6cdbd2936": {
+      "archive_member": "SitRep_068_3a2a0329be3f.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1614892,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-21",
+      "report_number": 68,
+      "source_sha256": "3a2a0329be3f9038fc43665a48c1a557f588a0fe4682ebdd9fcc7ff6cdbd2936",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_68_21-07-2026.pdf"
+    },
+    "069:ff252db2cc7b7edcb6d7116c5977460001e4104641c79b66248275c65f263bd1": {
+      "archive_member": "SitRep_069_ff252db2cc7b.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1363285,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-22",
+      "report_number": 69,
+      "source_sha256": "ff252db2cc7b7edcb6d7116c5977460001e4104641c79b66248275c65f263bd1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_69_22-07-2026.pdf"
+    },
+    "070:bf66814c9228eb8e30c523d9f4c10b4fe997d9a14ed49ff4008e36d038331547": {
+      "archive_member": "SitRep_070_bf66814c9228.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1846427,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-23",
+      "report_number": 70,
+      "source_sha256": "bf66814c9228eb8e30c523d9f4c10b4fe997d9a14ed49ff4008e36d038331547",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_70_23-07-2026.pdf"
+    },
+    "071:75631cfe8a240bd44a8afb0caa43c8bfccdccd6f35448e71e9a0e0f9cf813306": {
+      "archive_member": "SitRep_071_75631cfe8a24.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1468526,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-24",
+      "report_number": 71,
+      "source_sha256": "75631cfe8a240bd44a8afb0caa43c8bfccdccd6f35448e71e9a0e0f9cf813306",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_71_24-07-2026.pdf"
+    },
+    "072:7aaebe9ac2af074e4556c408e4efaf59d5082f50ece2bfd0dc079492de696f5f": {
+      "archive_member": "SitRep_072_7aaebe9ac2af.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1349359,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-25",
+      "report_number": 72,
+      "source_sha256": "7aaebe9ac2af074e4556c408e4efaf59d5082f50ece2bfd0dc079492de696f5f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_72_25-07-2026.pdf"
+    },
+    "073:f24c52e66be84e43d0fd9a3dcfe3c02174a583b52188fd11228ca2d856e78128": {
+      "archive_member": "SitRep_073_f24c52e66be8.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1373025,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-26",
+      "report_number": 73,
+      "source_sha256": "f24c52e66be84e43d0fd9a3dcfe3c02174a583b52188fd11228ca2d856e78128",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_73_26-07-2026.pdf"
+    },
+    "074:2cc0d9353be3ca04270a82a68497a54c7c7ce58f21ccd9603ccd6997540c45c7": {
+      "archive_member": "SitRep_074_2cc0d9353be3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 6490538,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-27",
+      "report_number": 74,
+      "source_sha256": "2cc0d9353be3ca04270a82a68497a54c7c7ce58f21ccd9603ccd6997540c45c7",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_74_27-07-2026_OKKK.pdf"
+    },
+    "077:49eaf5bb4ca1165f2d2f75c3d0afaeda2eaeba56e216970c0d065cf74f180580": {
+      "archive_member": "SitRep_077_49eaf5bb4ca1.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1504385,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-30",
+      "report_number": 77,
+      "source_sha256": "49eaf5bb4ca1165f2d2f75c3d0afaeda2eaeba56e216970c0d065cf74f180580",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_077_30-07-2026.pdf"
+    },
+    "078:27396ead73b599e9278d8a61f8fe39060f8b72122466a76e5194a36294ee6bca": {
+      "archive_member": "SitRep_078_27396ead73b5.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1413666,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-07-31",
+      "report_number": 78,
+      "source_sha256": "27396ead73b599e9278d8a61f8fe39060f8b72122466a76e5194a36294ee6bca",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_078_31-07-2026.pdf"
+    },
+    "079:f0b2d49221074615fbdfdee22561a9ac8fffc947f46ec238443985a78cf0c0ed": {
+      "archive_member": "SitRep_079_f0b2d4922107.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1499174,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-01",
+      "report_number": 79,
+      "source_sha256": "f0b2d49221074615fbdfdee22561a9ac8fffc947f46ec238443985a78cf0c0ed",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_079_01-08-2026.pdf"
+    },
+    "080:fae9db4cc474db768ed75063681811e09e5d9441e3e72aad2d47d3e2009692f1": {
+      "archive_member": "SitRep_080_fae9db4cc474.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1635660,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-02",
+      "report_number": 80,
+      "source_sha256": "fae9db4cc474db768ed75063681811e09e5d9441e3e72aad2d47d3e2009692f1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_080_02-08-2026.pdf"
+    },
+    "081:d342d30b1eaf941c50996d9fe1a92e20aacf430b711ef5a9405a259c65ccfd59": {
+      "archive_member": "SitRep_081_d342d30b1eaf.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1611364,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-03",
+      "report_number": 81,
+      "source_sha256": "d342d30b1eaf941c50996d9fe1a92e20aacf430b711ef5a9405a259c65ccfd59",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_081_03_08_2026_VF.pdf"
+    },
+    "082:f9060cb391e4b74569ad017fed2dae655909f1415d5ff0abd5a91f00376901d9": {
+      "archive_member": "SitRep_082_f9060cb391e4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 1578439,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-04",
+      "report_number": 82,
+      "source_sha256": "f9060cb391e4b74569ad017fed2dae655909f1415d5ff0abd5a91f00376901d9",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVE_RDC_N_082_04_08_2026.pdf"
+    },
+    "085:cf5ca1ad5f9ed10fe4ca84f2f646ce5cd5812dd06bcf4ec15347831da8397669": {
+      "archive_member": "SitRep_085_cf5ca1ad5f9e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 2684722,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-07",
+      "report_number": 85,
+      "source_sha256": "cf5ca1ad5f9ed10fe4ca84f2f646ce5cd5812dd06bcf4ec15347831da8397669",
+      "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_085_2026.pdf"
+    },
+    "086:811dad0ba88e361a6e8dd445ac5be35450d084fba5e6ec9eb2d8548f6d06569c": {
+      "archive_member": "SitRep_086_811dad0ba88e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 2557418,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-08",
+      "report_number": 86,
+      "source_sha256": "811dad0ba88e361a6e8dd445ac5be35450d084fba5e6ec9eb2d8548f6d06569c",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_086_080826.pdf"
+    },
+    "087:324746ce97738a9b3874de47e51c91f60abd937d07732da2e10a8074047b0697": {
+      "archive_member": "SitRep_087_324746ce9773.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 2629825,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-09",
+      "report_number": 87,
+      "source_sha256": "324746ce97738a9b3874de47e51c91f60abd937d07732da2e10a8074047b0697",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_087_09_08_2026_VF.pdf"
+    },
+    "088:6b0f322ee340d3a88a44f33323c8c5f05d92ebe572155ca45d0721a59fba987c": {
+      "archive_member": "SitRep_088_6b0f322ee340.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 651437,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-10",
+      "report_number": 88,
+      "source_sha256": "6b0f322ee340d3a88a44f33323c8c5f05d92ebe572155ca45d0721a59fba987c",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_088_10_08_2026_11.pdf"
+    },
+    "089:ef067a4df06d055c256cb974cdb039f527ccbcb24ee625afd719ce2a2852e8c9": {
+      "archive_member": "SitRep_089_ef067a4df06d.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 655402,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-11",
+      "report_number": 89,
+      "source_sha256": "ef067a4df06d055c256cb974cdb039f527ccbcb24ee625afd719ce2a2852e8c9",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_089_11_08_2026.pdf"
+    },
+    "090:91602d6b598f39767f1981f907f72ac37f8dba34b69f90d285c838fd50b1bae8": {
+      "archive_member": "SitRep_090_91602d6b598f.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 723708,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-12",
+      "report_number": 90,
+      "source_sha256": "91602d6b598f39767f1981f907f72ac37f8dba34b69f90d285c838fd50b1bae8",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_090_12_08_2026.pdf"
+    },
+    "092:068fa46ceee414b6d4b9da384d40522fd30076b5a20e1bb8efe0f117592a01e4": {
+      "archive_member": "SitRep_092_068fa46ceee4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 692706,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-14",
+      "report_number": 92,
+      "source_sha256": "068fa46ceee414b6d4b9da384d40522fd30076b5a20e1bb8efe0f117592a01e4",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_092_14_08_2026.pdf"
+    },
+    "093:0697ebde50404f283a1a143d471b2eb12aaf12a3cdc2b1371d516e7041888c2a": {
+      "archive_member": "SitRep_093_0697ebde5040.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 697123,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-15",
+      "report_number": 93,
+      "source_sha256": "0697ebde50404f283a1a143d471b2eb12aaf12a3cdc2b1371d516e7041888c2a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_093_15_08_2026.pdf"
+    },
+    "094:2732645a4f3836b68348f0440f764a028824133a478db545027acefb393a3702": {
+      "archive_member": "SitRep_094_2732645a4f38.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 725224,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-17",
+      "report_number": 94,
+      "source_sha256": "2732645a4f3836b68348f0440f764a028824133a478db545027acefb393a3702",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_094_2026.pdf"
+    },
+    "096:133c2d14b83c9c8bd7f5187f35deeed6543819a47d68a960b4916518f65a0d1f": {
+      "archive_member": "SitRep_096_133c2d14b83c.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 779785,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-19",
+      "report_number": 96,
+      "source_sha256": "133c2d14b83c9c8bd7f5187f35deeed6543819a47d68a960b4916518f65a0d1f",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_096_2026.pdf"
+    },
+    "097:163f259122c00822a2a6ab56942a1ab4ad010ea0f1a1d81fb69f0959a0f6a690": {
+      "archive_member": "SitRep_097_163f259122c0.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 760181,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-20",
+      "report_number": 97,
+      "source_sha256": "163f259122c00822a2a6ab56942a1ab4ad010ea0f1a1d81fb69f0959a0f6a690",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_097_2026.pdf"
+    },
+    "098:85c9960caf2b19fbf32c3bc80a0993e50718850c944c707e239a0ae9eaa5c7c1": {
+      "archive_member": "SitRep_098_85c9960caf2b.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 3520369,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-20",
+      "report_number": 98,
+      "source_sha256": "85c9960caf2b19fbf32c3bc80a0993e50718850c944c707e239a0ae9eaa5c7c1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_098_20_08_2026_VF_98.pdf"
+    },
+    "099:2a4fccff29c4edb1f3022ef2d1528e8cc2b702f8314ece7bbc9ea2c6d334525e": {
+      "archive_member": "SitRep_099_2a4fccff29c4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 816332,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-22",
+      "report_number": 99,
+      "source_sha256": "2a4fccff29c4edb1f3022ef2d1528e8cc2b702f8314ece7bbc9ea2c6d334525e",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_099_2026.pdf"
+    },
+    "101:f089d52554a3e0d70973cb97d3581f316842be1c991b470a0dd8b01019ee89f1": {
+      "archive_member": "SitRep_101_f089d52554a3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 791813,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-23",
+      "report_number": 101,
+      "source_sha256": "f089d52554a3e0d70973cb97d3581f316842be1c991b470a0dd8b01019ee89f1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_101_23_08_2026.pdf"
+    },
+    "102:834cde3d4d21870357ef6aa5ae5411c15ba13d17a0da7ab30a07444f28fb6bc2": {
+      "archive_member": "SitRep_102_834cde3d4d21.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 708857,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-24",
+      "report_number": 102,
+      "source_sha256": "834cde3d4d21870357ef6aa5ae5411c15ba13d17a0da7ab30a07444f28fb6bc2",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_102_24_08_2026.pdf"
+    },
+    "103:1e0954bc4c987f245e5bca8028b34e62c5b35c9070b48d57aa11d922b71d580e": {
+      "archive_member": "SitRep_103_1e0954bc4c98.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 707708,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-25",
+      "report_number": 103,
+      "source_sha256": "1e0954bc4c987f245e5bca8028b34e62c5b35c9070b48d57aa11d922b71d580e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_103_25_08_2026.pdf"
+    },
+    "104:1505d6174f01a62b88b50d1ed825504a681c0aed3752ee0ceb474a817d755ad2": {
+      "archive_member": "SitRep_104_1505d6174f01.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 833387,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-26",
+      "report_number": 104,
+      "source_sha256": "1505d6174f01a62b88b50d1ed825504a681c0aed3752ee0ceb474a817d755ad2",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_104_26_08_2026.pdf"
+    },
+    "105:b4a614eb1474d49bbfdc7aa6f0de80a52ec56020dfe3e89a6bb7be3517a284d8": {
+      "archive_member": "SitRep_105_b4a614eb1474.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 853520,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-27",
+      "report_number": 105,
+      "source_sha256": "b4a614eb1474d49bbfdc7aa6f0de80a52ec56020dfe3e89a6bb7be3517a284d8",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_105_27_08_2026.pdf"
+    },
+    "106:c6ea02bbacd48f13acc695dc13b9ec48e4a7e25a608256fafae61e1938da5dbd": {
+      "archive_member": "SitRep_106_c6ea02bbacd4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 716981,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-28",
+      "report_number": 106,
+      "source_sha256": "c6ea02bbacd48f13acc695dc13b9ec48e4a7e25a608256fafae61e1938da5dbd",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_106_28_08_2026.pdf"
+    },
+    "107:05e30250abf9911ee98b3d8510114ffd4152cc0959eb548e4656bca570106618": {
+      "archive_member": "SitRep_107_05e30250abf9.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 718492,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-29",
+      "report_number": 107,
+      "source_sha256": "05e30250abf9911ee98b3d8510114ffd4152cc0959eb548e4656bca570106618",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_107_29_08_2026.pdf"
+    },
+    "108:18ac83de44d9acfe7a0147f1b68c520d9437d03e3e057c20af005ed437c191b7": {
+      "archive_member": "SitRep_108_18ac83de44d9.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 723328,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-30",
+      "report_number": 108,
+      "source_sha256": "18ac83de44d9acfe7a0147f1b68c520d9437d03e3e057c20af005ed437c191b7",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_108_30_08_2026.pdf"
+    },
+    "109:3af13f5e0d859783e30e45485e6cd7883d41f5076d446031478ae4e147e87c16": {
+      "archive_member": "SitRep_109_3af13f5e0d85.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 742441,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-08-31",
+      "report_number": 109,
+      "source_sha256": "3af13f5e0d859783e30e45485e6cd7883d41f5076d446031478ae4e147e87c16",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_109_31_08_2026.pdf"
+    },
+    "110:8ae39ce0eff696464f0db0c29b3525017fbd1a9c444e9848bca2102dd76bdd54": {
+      "archive_member": "SitRep_110_8ae39ce0eff6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 683625,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-01",
+      "report_number": 110,
+      "source_sha256": "8ae39ce0eff696464f0db0c29b3525017fbd1a9c444e9848bca2102dd76bdd54",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_110_01_09_2026.pdf"
+    },
+    "111:f823d88886c4ceb156cfb98186f305cb59525afe8a246da673f8b33d7c485e65": {
+      "archive_member": "SitRep_111_f823d88886c4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 712110,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-02",
+      "report_number": 111,
+      "source_sha256": "f823d88886c4ceb156cfb98186f305cb59525afe8a246da673f8b33d7c485e65",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_111_02_09_2026.pdf"
+    },
+    "112:ec86710418daa22079fac4092bd69b605db239176dcae6526b0284c681d2b602": {
+      "archive_member": "SitRep_112_ec86710418da.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 726411,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-03",
+      "report_number": 112,
+      "source_sha256": "ec86710418daa22079fac4092bd69b605db239176dcae6526b0284c681d2b602",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_112_03_09_2026-1.pdf"
+    },
+    "113:13f6c4a73a1662f93906d9dea52e2ceb5f100e32453cc6218ad1e1fa3cd719b2": {
+      "archive_member": "SitRep_113_13f6c4a73a16.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 882527,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-04",
+      "report_number": 113,
+      "source_sha256": "13f6c4a73a1662f93906d9dea52e2ceb5f100e32453cc6218ad1e1fa3cd719b2",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_113_04_09_2026.pdf"
+    },
+    "114:88e08915ce28dcdeab9640925db0459504062df1dc0fb164194a1d97340aca96": {
+      "archive_member": "SitRep_114_88e08915ce28.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 699291,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-06",
+      "report_number": 114,
+      "source_sha256": "88e08915ce28dcdeab9640925db0459504062df1dc0fb164194a1d97340aca96",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_114_05_09_2026.pdf"
+    },
+    "115:6c7d619cc3a6de4a69eafe089327efca696ade5d40e38eb950987d2687fbff50": {
+      "archive_member": "SitRep_115_6c7d619cc3a6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 704997,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-07",
+      "report_number": 115,
+      "source_sha256": "6c7d619cc3a6de4a69eafe089327efca696ade5d40e38eb950987d2687fbff50",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_115_06_09_2026.pdf"
+    },
+    "116:d1bcadacaadfa049b76d07f131ff0d212bbf1023b6cbdb290e8c8dc3d2666191": {
+      "archive_member": "SitRep_116_d1bcadacaadf.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 722694,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-08",
+      "report_number": 116,
+      "source_sha256": "d1bcadacaadfa049b76d07f131ff0d212bbf1023b6cbdb290e8c8dc3d2666191",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_116_07_09_2026.pdf"
+    },
+    "117:de24c2198a5cfcb89ff023b713d03a29b7c931bc0b535fc3b2e2b04507b1c09b": {
+      "archive_member": "SitRep_117_de24c2198a5c.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 733058,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-08",
+      "report_number": 117,
+      "source_sha256": "de24c2198a5cfcb89ff023b713d03a29b7c931bc0b535fc3b2e2b04507b1c09b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_117_08_09_2026.pdf"
+    },
+    "118:1dac67e6e3400670f3fa35bef7d83d7e10462a86e67fc3ea093df9885f8416f6": {
+      "archive_member": "SitRep_118_1dac67e6e340.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 706137,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-10",
+      "report_number": 118,
+      "source_sha256": "1dac67e6e3400670f3fa35bef7d83d7e10462a86e67fc3ea093df9885f8416f6",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_118_09_09_2026.pdf"
+    },
+    "119:95f3f89bc0edafcef82e94eea7b5b3444dec0d87367295dda64b858074d6524d": {
+      "archive_member": "SitRep_119_95f3f89bc0ed.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 700419,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-10",
+      "report_number": 119,
+      "source_sha256": "95f3f89bc0edafcef82e94eea7b5b3444dec0d87367295dda64b858074d6524d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_119_10_09_2026-1.pdf"
+    },
+    "120:c21cfd2f7b4268cf2ade65139877bf510d5ddd108079d2910062c2839cd3b38d": {
+      "archive_member": "SitRep_120_c21cfd2f7b42.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 697313,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-11",
+      "report_number": 120,
+      "source_sha256": "c21cfd2f7b4268cf2ade65139877bf510d5ddd108079d2910062c2839cd3b38d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_120_11_09_2026.pdf"
+    },
+    "121:daff3ae981f4da3cd7f4ed442ca00e303e6d365880fd079a34faec9637230960": {
+      "archive_member": "SitRep_121_daff3ae981f4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 697825,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-12",
+      "report_number": 121,
+      "source_sha256": "daff3ae981f4da3cd7f4ed442ca00e303e6d365880fd079a34faec9637230960",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_121_12_09_2026.pdf"
+    },
+    "122:2df76cf391ad67647fa84de804b3cf4559554d17441a1c02d769ed14a384265a": {
+      "archive_member": "SitRep_122_2df76cf391ad.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 697438,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-13",
+      "report_number": 122,
+      "source_sha256": "2df76cf391ad67647fa84de804b3cf4559554d17441a1c02d769ed14a384265a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_122_13_09_2026.pdf"
+    },
+    "123:0061a89439c2334b2e18547a53f1e1a739b417faeecf9f65892e01ce3d92ff72": {
+      "archive_member": "SitRep_123_0061a89439c2.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 697975,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-14",
+      "report_number": 123,
+      "source_sha256": "0061a89439c2334b2e18547a53f1e1a739b417faeecf9f65892e01ce3d92ff72",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_123_14_09_2026.pdf"
+    },
+    "124:8f9826d0aa896ab554e696ed678c8e3204df9a9c9561720d49717dac5149f099": {
+      "archive_member": "SitRep_124_8f9826d0aa89.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 760244,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-15",
+      "report_number": 124,
+      "source_sha256": "8f9826d0aa896ab554e696ed678c8e3204df9a9c9561720d49717dac5149f099",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_124_15_09_2026.pdf"
+    },
+    "125:8caccf0c4545baf9307b32b14fbef1a08631dd5850f6a5105c3566b08ccf28a2": {
+      "archive_member": "SitRep_125_8caccf0c4545.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 711276,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-16",
+      "report_number": 125,
+      "source_sha256": "8caccf0c4545baf9307b32b14fbef1a08631dd5850f6a5105c3566b08ccf28a2",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_125_16_09_2026.pdf"
+    },
+    "126:fb0c4707f3a1ab45787cfdfd146352e6724e637f67739141e9cb2644914a0155": {
+      "archive_member": "SitRep_126_fb0c4707f3a1.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 725233,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-17",
+      "report_number": 126,
+      "source_sha256": "fb0c4707f3a1ab45787cfdfd146352e6724e637f67739141e9cb2644914a0155",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_126_17_09_2026.pdf"
+    },
+    "127:904dcfe25e5607e945d95e6ea649f5143125a458a1fe90fae61828cd48f4c86d": {
+      "archive_member": "SitRep_127_904dcfe25e56.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 725475,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-18",
+      "report_number": 127,
+      "source_sha256": "904dcfe25e5607e945d95e6ea649f5143125a458a1fe90fae61828cd48f4c86d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_127_18_09_2026.pdf"
+    },
+    "128:6c7bf6004826c3f4809ee9384dbfe52938ab65d6aa56bd56e89d6db8f397ba8d": {
+      "archive_member": "SitRep_128_6c7bf6004826.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 716869,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-19",
+      "report_number": 128,
+      "source_sha256": "6c7bf6004826c3f4809ee9384dbfe52938ab65d6aa56bd56e89d6db8f397ba8d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_128_19_09_2026.pdf"
+    },
+    "129:d35e136a8f833c2bc20d1c63ad3f45fb1cfcdb59cd44d1b95c1a74713ff7c3cb": {
+      "archive_member": "SitRep_129_d35e136a8f83.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 712383,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-20",
+      "report_number": 129,
+      "source_sha256": "d35e136a8f833c2bc20d1c63ad3f45fb1cfcdb59cd44d1b95c1a74713ff7c3cb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_129_20_09_2026.pdf"
+    },
+    "130:0232c6c6d45e6aeb3ae9c1717c28995ee99ffc0c8d7c09c0a7389c03aeb9aa1e": {
+      "archive_member": "SitRep_130_0232c6c6d45e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 712606,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-21",
+      "report_number": 130,
+      "source_sha256": "0232c6c6d45e6aeb3ae9c1717c28995ee99ffc0c8d7c09c0a7389c03aeb9aa1e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_130_21_09_2026.pdf"
+    },
+    "131:9e1103987171c058e1e48f5b2fa0008de62f2acdb485b1e54b88fa82662f6b64": {
+      "archive_member": "SitRep_131_9e1103987171.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 714896,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-22",
+      "report_number": 131,
+      "source_sha256": "9e1103987171c058e1e48f5b2fa0008de62f2acdb485b1e54b88fa82662f6b64",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_131_22_09_2026-1.pdf"
+    },
+    "132:d9d7d42202ef31ed9f80c5a163fa798cc462a839ccd391dc1c4ad2e69bef8986": {
+      "archive_member": "SitRep_132_d9d7d42202ef.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 720578,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-23",
+      "report_number": 132,
+      "source_sha256": "d9d7d42202ef31ed9f80c5a163fa798cc462a839ccd391dc1c4ad2e69bef8986",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_132_23_09_2026.pdf"
+    },
+    "133:b9c2fec259f7fc9d2af901538c5f11393e17ca9351cc2e5b2c0423acab163aae": {
+      "archive_member": "SitRep_133_b9c2fec259f7.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 720888,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-24",
+      "report_number": 133,
+      "source_sha256": "b9c2fec259f7fc9d2af901538c5f11393e17ca9351cc2e5b2c0423acab163aae",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_133_24_09_2026.pdf"
+    },
+    "134:b11171d33723cb0ac44a38b63787136218d09cfcf46a8f7c2ee4f068a8ed6730": {
+      "archive_member": "SitRep_134_b11171d33723.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 707634,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-25",
+      "report_number": 134,
+      "source_sha256": "b11171d33723cb0ac44a38b63787136218d09cfcf46a8f7c2ee4f068a8ed6730",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_134_25_09_2026.pdf"
+    },
+    "135:e70dce5c4963a1fd56785eb6286856bb6165e56a6742ef0ede366f0030a86e00": {
+      "archive_member": "SitRep_135_e70dce5c4963.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 709658,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-26",
+      "report_number": 135,
+      "source_sha256": "e70dce5c4963a1fd56785eb6286856bb6165e56a6742ef0ede366f0030a86e00",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_135_26_09_2026.pdf"
+    },
+    "136:5a905d8fcff346b11a295cbd678fc76f7b3ee7eb11c45c1dccd599a5c302f642": {
+      "archive_member": "SitRep_136_5a905d8fcff3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 714784,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-27",
+      "report_number": 136,
+      "source_sha256": "5a905d8fcff346b11a295cbd678fc76f7b3ee7eb11c45c1dccd599a5c302f642",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_136_27_09_2026.pdf"
+    },
+    "137:004f1f1048e459ae11ceb48843ae25407195f49a0ead838e74837f9cc10b3685": {
+      "archive_member": "SitRep_137_004f1f1048e4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 705451,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-28",
+      "report_number": 137,
+      "source_sha256": "004f1f1048e459ae11ceb48843ae25407195f49a0ead838e74837f9cc10b3685",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_137_28_09_2026.pdf"
+    },
+    "138:b32fd5301634a62c094ca4721bf1305ae418a8d46162cc1f06fc73d2f216acf1": {
+      "archive_member": "SitRep_138_b32fd5301634.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 695685,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-29",
+      "report_number": 138,
+      "source_sha256": "b32fd5301634a62c094ca4721bf1305ae418a8d46162cc1f06fc73d2f216acf1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_138_29_09_2026.pdf"
+    },
+    "139:b611aa1c7b2bc50a2c18e156d38dc0574913cad7b47cde22ff3a755953459a38": {
+      "archive_member": "SitRep_139_b611aa1c7b2b.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 708832,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-09-30",
+      "report_number": 139,
+      "source_sha256": "b611aa1c7b2bc50a2c18e156d38dc0574913cad7b47cde22ff3a755953459a38",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_139_30_09_2026.pdf"
+    },
+    "140:4a2e79f665110ea425ff38645c37e5e2cea3f4167137e8c3e4e5fdd0bbf36aa6": {
+      "archive_member": "SitRep_140_4a2e79f66511.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 672333,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-01",
+      "report_number": 140,
+      "source_sha256": "4a2e79f665110ea425ff38645c37e5e2cea3f4167137e8c3e4e5fdd0bbf36aa6",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_140_01_10_2026.pdf"
+    },
+    "141:2a16ce3e63e4239ee400f6d4ea61073997f5a074973652ebaacfab763a4c88f1": {
+      "archive_member": "SitRep_141_2a16ce3e63e4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 787172,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-01",
+      "report_number": 141,
+      "source_sha256": "2a16ce3e63e4239ee400f6d4ea61073997f5a074973652ebaacfab763a4c88f1",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_141_02_10_2026.pdf"
+    },
+    "142:9e3abc061ed6101aec70d8d23c5148b2e39e3ef886f859f60f720f7b65f5557f": {
+      "archive_member": "SitRep_142_9e3abc061ed6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 949858,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-03",
+      "report_number": 142,
+      "source_sha256": "9e3abc061ed6101aec70d8d23c5148b2e39e3ef886f859f60f720f7b65f5557f",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_142_2026.pdf"
+    },
+    "143:d3f8a15c0dc2158a501d58170483bfd87c0fcc1b3027ca36e62d3d56667172bb": {
+      "archive_member": "SitRep_143_d3f8a15c0dc2.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 781193,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-04",
+      "report_number": 143,
+      "source_sha256": "d3f8a15c0dc2158a501d58170483bfd87c0fcc1b3027ca36e62d3d56667172bb",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_143_04_10_2026.pdf"
+    },
+    "144:4cb75692c79a0c772e936801e595fc960a4fa131a0e615f3fa0645d76d712c9f": {
+      "archive_member": "SitRep_144_4cb75692c79a.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 781392,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-05",
+      "report_number": 144,
+      "source_sha256": "4cb75692c79a0c772e936801e595fc960a4fa131a0e615f3fa0645d76d712c9f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_144_05_10_2026-2.pdf"
+    },
+    "145:1436b61a20b36e0be605786f7e16eba200f71beb55f338f169d5c5c365e5610b": {
+      "archive_member": "SitRep_145_1436b61a20b3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 777857,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-06",
+      "report_number": 145,
+      "source_sha256": "1436b61a20b36e0be605786f7e16eba200f71beb55f338f169d5c5c365e5610b",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_145_06_10_2026.pdf"
+    },
+    "146:87202e269e7cef8ae221c79ec4dc33384fdb8b40d781ab3773e31080270f35fd": {
+      "archive_member": "SitRep_146_87202e269e7c.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 669461,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-07",
+      "report_number": 146,
+      "source_sha256": "87202e269e7cef8ae221c79ec4dc33384fdb8b40d781ab3773e31080270f35fd",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_146_07_10_2026-1.pdf"
+    },
+    "147:41c5599c80c0ef02bbec4031293518eeae5bc401af769df47c223bb4b6f3854f": {
+      "archive_member": "SitRep_147_41c5599c80c0.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 675125,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-08",
+      "report_number": 147,
+      "source_sha256": "41c5599c80c0ef02bbec4031293518eeae5bc401af769df47c223bb4b6f3854f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_147_08_10_2026.pdf"
+    },
+    "148:756bcac787b38e12545a8023b406ece095e8077d2cdc3e0f894d4f66c8af59aa": {
+      "archive_member": "SitRep_148_756bcac787b3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 774800,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-09",
+      "report_number": 148,
+      "source_sha256": "756bcac787b38e12545a8023b406ece095e8077d2cdc3e0f894d4f66c8af59aa",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_148_09_10_2026.pdf"
+    },
+    "149:74316d25fe44b3d080a4736af3f45ac8c76aacaf90005a4bc338c08044097ad5": {
+      "archive_member": "SitRep_149_74316d25fe44.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 775669,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-10",
+      "report_number": 149,
+      "source_sha256": "74316d25fe44b3d080a4736af3f45ac8c76aacaf90005a4bc338c08044097ad5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_149_10_10_2026.pdf"
+    },
+    "150:24000145be4bef1e2fbaad23cb65c0db7f519280ee6cd2d4a284ce74afd16464": {
+      "archive_member": "SitRep_150_24000145be4b.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 719549,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-11",
+      "report_number": 150,
+      "source_sha256": "24000145be4bef1e2fbaad23cb65c0db7f519280ee6cd2d4a284ce74afd16464",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_150_11_10_2026.pdf"
+    },
+    "151:70584ff1261eb516fcd8489ea04cbfd1910ef37cfff8bdae3ee26a73b24ca66e": {
+      "archive_member": "SitRep_151_70584ff1261e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 745654,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-12",
+      "report_number": 151,
+      "source_sha256": "70584ff1261eb516fcd8489ea04cbfd1910ef37cfff8bdae3ee26a73b24ca66e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_151_12_10_2026.pdf"
+    },
+    "152:814a224e13aae90f87105b61fd43779ed80d22419b1624f22794328a327c4950": {
+      "archive_member": "SitRep_152_814a224e13aa.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 735907,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-13",
+      "report_number": 152,
+      "source_sha256": "814a224e13aae90f87105b61fd43779ed80d22419b1624f22794328a327c4950",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_152_13_10_2026.pdf"
+    },
+    "153:fd1a239e3b302d1262d77cfae2702df792e222f4e95f74c6884b72d3b72cf197": {
+      "archive_member": "SitRep_153_fd1a239e3b30.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 730062,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-14",
+      "report_number": 153,
+      "source_sha256": "fd1a239e3b302d1262d77cfae2702df792e222f4e95f74c6884b72d3b72cf197",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_153_14_10_2026.pdf"
+    },
+    "154:74418034a9c4be3e0871c2853e0994f3a155bbcefd30f55c20ea6e513656d653": {
+      "archive_member": "SitRep_154_74418034a9c4.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 714693,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-15",
+      "report_number": 154,
+      "source_sha256": "74418034a9c4be3e0871c2853e0994f3a155bbcefd30f55c20ea6e513656d653",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_154_15_10_2026.pdf"
+    },
+    "155:2733667c29c9716332f0407ec00f9573b6a099d0d7e1fe992b1259b85c363c7c": {
+      "archive_member": "SitRep_155_2733667c29c9.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 722234,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-16",
+      "report_number": 155,
+      "source_sha256": "2733667c29c9716332f0407ec00f9573b6a099d0d7e1fe992b1259b85c363c7c",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_155_16_10_2026.pdf"
+    },
+    "156:059742c1bcd6d592c2a598ef1c97809d956352b9ae491f04cb7746c745855185": {
+      "archive_member": "SitRep_156_059742c1bcd6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 743325,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-17",
+      "report_number": 156,
+      "source_sha256": "059742c1bcd6d592c2a598ef1c97809d956352b9ae491f04cb7746c745855185",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_156_17_10_2026.pdf"
+    },
+    "157:ef6e21d04dea9fdfa61230753fed65c7192304ec52b91a447321562f27af058a": {
+      "archive_member": "SitRep_157_ef6e21d04dea.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 741622,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-18",
+      "report_number": 157,
+      "source_sha256": "ef6e21d04dea9fdfa61230753fed65c7192304ec52b91a447321562f27af058a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_157_18_10_2026.pdf"
+    },
+    "158:b286783875da3eee02a8d7d53f7162794303c69a79948e1f5a3d16ac8e1c647a": {
+      "archive_member": "SitRep_158_b286783875da.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 770364,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-19",
+      "report_number": 158,
+      "source_sha256": "b286783875da3eee02a8d7d53f7162794303c69a79948e1f5a3d16ac8e1c647a",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_158_19_10_2026.pdf"
+    },
+    "159:30b1d09067171821aecece169bdbfb6da8ac8615ca3dcf0b20198671b0c3d343": {
+      "archive_member": "SitRep_159_30b1d0906717.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 718296,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-20",
+      "report_number": 159,
+      "source_sha256": "30b1d09067171821aecece169bdbfb6da8ac8615ca3dcf0b20198671b0c3d343",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SITREP_MVEBDB_159_20_10_2026.pdf"
+    },
+    "160:6b0f352ce038017d4ffb8dfbee3d0a804630c900c0e68f46d995474a0ca513c5": {
+      "archive_member": "SitRep_160_6b0f352ce038.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 703824,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-21",
+      "report_number": 160,
+      "source_sha256": "6b0f352ce038017d4ffb8dfbee3d0a804630c900c0e68f46d995474a0ca513c5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SITREP_MVEBDB_160_21_10_2026-1.pdf"
+    },
+    "161:08229ed853072900ad2a5672ffc93f248583aeb0e1e3b6e5ca5caf3af36cd321": {
+      "archive_member": "SitRep_161_08229ed85307.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 700932,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-22",
+      "report_number": 161,
+      "source_sha256": "08229ed853072900ad2a5672ffc93f248583aeb0e1e3b6e5ca5caf3af36cd321",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SITREP_MVEBDB_161_22_10_2026.pdf"
+    },
+    "163:5e90608429408dfe66cc0b643d3bdf5142c88cd81b8d2940e3de9596c46f445e": {
+      "archive_member": "SitRep_163_5e9060842940.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 711973,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-24",
+      "report_number": 163,
+      "source_sha256": "5e90608429408dfe66cc0b643d3bdf5142c88cd81b8d2940e3de9596c46f445e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_163_24_10_2026.pdf"
+    },
+    "164:d1a8fc1287cf80dd2746ac09ff9b9a082cbe137525ccff061e3ad00ef4ce7a37": {
+      "archive_member": "SitRep_164_d1a8fc1287cf.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 953525,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-25",
+      "report_number": 164,
+      "source_sha256": "d1a8fc1287cf80dd2746ac09ff9b9a082cbe137525ccff061e3ad00ef4ce7a37",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_164_25_10_2026.pdf"
+    },
+    "165:7073b31d199ef8f32f3b56bedc7175ddcff4f11f2f84dbd949317c9d6e083e6d": {
+      "archive_member": "SitRep_165_7073b31d199e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 890863,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-26",
+      "report_number": 165,
+      "source_sha256": "7073b31d199ef8f32f3b56bedc7175ddcff4f11f2f84dbd949317c9d6e083e6d",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_165_26_10_2026.pdf"
+    },
+    "166:1eff6a88684f4316f12f6be6c83f834fbd39cbb7e1c6858d72958e347a0a4582": {
+      "archive_member": "SitRep_166_1eff6a88684f.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 573186,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-27",
+      "report_number": 166,
+      "source_sha256": "1eff6a88684f4316f12f6be6c83f834fbd39cbb7e1c6858d72958e347a0a4582",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_166_27_10_2026_VF.pdf"
+    },
+    "167:9ef21fe41f7bdce511d37d9253e19356cd50f5b449328acbd897a8d96a00d417": {
+      "archive_member": "SitRep_167_9ef21fe41f7b.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 574782,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-28",
+      "report_number": 167,
+      "source_sha256": "9ef21fe41f7bdce511d37d9253e19356cd50f5b449328acbd897a8d96a00d417",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_167_28_10_2026_VF.pdf"
+    },
+    "168:07e0f754a8a1f1b29ee27f803d30c0a9af6fa90c98d6436ab61395407839e83f": {
+      "archive_member": "SitRep_168_07e0f754a8a1.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 579841,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-29",
+      "report_number": 168,
+      "source_sha256": "07e0f754a8a1f1b29ee27f803d30c0a9af6fa90c98d6436ab61395407839e83f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/final_draft_SitRep_MVEBDB_168_29_10_2026.pdf"
+    },
+    "169:8e2cd47248423d71341536e26671abfeb08364094334d2cee548dcb457532fa5": {
+      "archive_member": "SitRep_169_8e2cd4724842.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 949714,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-30",
+      "report_number": 169,
+      "source_sha256": "8e2cd47248423d71341536e26671abfeb08364094334d2cee548dcb457532fa5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/final_draft_SitRep_MVE_RDC_N_169_30-10-2026.pdf"
+    },
+    "170:5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156": {
+      "archive_member": "SitRep_170_5a578aaf3624.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 948780,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-10-31",
+      "report_number": 170,
+      "source_sha256": "5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/final_draft_SitRep_MVE_RDC_N_170_31-10-2026.pdf"
+    },
+    "171:c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f": {
+      "archive_member": "SitRep_171_c6ded47362da.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 949430,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-11-01",
+      "report_number": 171,
+      "source_sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N_171_01-11-2026_1.pdf"
+    },
+    "173:7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02": {
+      "archive_member": "SitRep_173_7027c7bfd3d6.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 961918,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-11-03",
+      "report_number": 173,
+      "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/final_draft_SitRep_MVE_RDC_N_173_03-11-2026.pdf"
+    },
+    "174:a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3": {
+      "archive_member": "SitRep_174_a5fbce42535e.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 963192,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-11-04",
+      "report_number": 174,
+      "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/final_draft_SitRep_MVE_RDC_N_174_04-11-2026.pdf"
+    },
+    "175:c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5": {
+      "archive_member": "SitRep_175_c60742d222a3.pdf",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "pdf_bytes": 960981,
+      "release_tag": "bdbv-sitrep-originals-42413796114",
+      "report_date": "2026-11-05",
+      "report_number": 175,
+      "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/final_draft_SitRep_MVE_RDC_N_175_05-11-2026.pdf"
+    }
+  },
+  "archived_documents": 158,
+  "generated_at": "2026-11-07T21:09:36.287389+00:00",
+  "releases": [
+    {
+      "created_at": "2026-11-07T21:09:27.514631+00:00",
+      "download_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-sitrep-originals-42413796114/original_sitreps.zip",
+      "source_count": 158,
+      "tag": "bdbv-sitrep-originals-42413796114"
+    }
+  ],
+  "schema_version": "bdbv-pdf-release-index-v1"
+}
