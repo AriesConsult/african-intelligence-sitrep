@@ -15,7 +15,7 @@ The regular workflow `.github/workflows/bdbv-sitrep-pipeline.yml` executes:
 6. Write the integrity audit, then run the **independent publication gate**.
 7. Commit validated results only if the branch has not advanced. Never force-push over newer evidence.
 
-The separate workflow `.github/workflows/bdbv-source-archive.yml` creates immutable GitHub Release assets containing unmodified source PDFs, each checked against its recorded SHA-256. It updates `published/source_archive_index.json` only after a release has been created successfully. It runs monthly and on manual dispatch. It archives only new report/hash identities.
+The separate workflow `.github/workflows/bdbv-source-archive.yml` creates immutable GitHub Release assets containing unmodified source PDFs, each checked against its recorded SHA-256. It updates `published/source_archive_index.json` only after a release has been created successfully. It runs daily at 09:10 East Africa Time, on archive-code changes, and on manual dispatch. It archives only new report/hash identities.
 
 ## Primary data products
 
