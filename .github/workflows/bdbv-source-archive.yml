@@ -1,0 +1,86 @@
+name: Archive verified INSP SitRep originals (immutable GitHub Releases)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'archive_originals.py'
+      - '.github/workflows/bdbv-source-archive.yml'
+  schedule:
+    - cron: '0 4 1 * *'    # Monthly check, 07:00 East Africa Time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdbv-source-archive
+  cancel-in-progress: false
+
+jobs:
+  archive-original-pdfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out verified registry
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install source-download dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Download only unarchived original PDF revisions and verify SHA256
+        id: build
+        run: |
+          python archive_originals.py build --out work/source_archive
+          if [ -s work/source_archive/original_sitreps.zip ]; then
+            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'needed=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Publish immutable original-PDF source bundle
+        if: steps.build.outputs.needed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TAG="bdbv-sitrep-originals-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/source_archive/original_sitreps.zip \
+            work/source_archive/archive_manifest.json \
+            --title "BDBV official SitRep original PDFs — SHA-verified archive ${{ github.run_id }}" \
+            --notes "Unmodified PDFs retrieved from the registered public source URLs and SHA-256 verified against the GitHub SitRep registry. Includes original byte manifest. Research mirror of official source documents; no institutional endorsement is implied."
+      - name: Register durable release links after successful publication
+        if: steps.build.outputs.needed == 'true'
+        run: |
+          python archive_originals.py finalize \
+            --tag "bdbv-sitrep-originals-${{ github.run_id }}" \
+            --repository "${{ github.repository }}" \
+            --published published \
+            --manifest work/source_archive/archive_manifest.json
+      - name: Commit source archive index safely
+        if: steps.build.outputs.needed == 'true'
+        run: |
+          git config user.name "african-intelligence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add published/source_archive_index.json
+          git commit -m "Register immutable official SitRep original PDF release"
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Archive release exists, but the repository index push failed." >&2
+          exit 1
+      - name: Retain small archive integrity manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-pdf-archive-manifest-${{ github.run_id }}
+          path: work/source_archive/archive_manifest.json
+          if-no-files-found: ignore
+          retention-days: 90
