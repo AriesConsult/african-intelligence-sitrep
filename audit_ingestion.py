@@ -138,3 +138,5 @@ if __name__=='__main__':
        'numerical_validation':result['tables']['validation_distribution'],
        'audit_pass':result['source_consistency']['pass'],
        'errors':sum(len(v) for k,v in result['source_consistency'].items() if isinstance(v,list))},indent=2))
+    if not result['source_consistency']['pass']:
+        raise SystemExit('BLOCKED: source identity, snapshot, or feed-provenance audit failed')
