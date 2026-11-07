@@ -7,7 +7,7 @@ from reprocess_tables import reprocess
 from audit_ingestion import audit
 from verify_publication import verify
 
-FIX = Path(__file__).parent / 'fixtures' / 'sitrep_175_tables.json'
+FIX = next((Path(__file__).resolve().parents[1] / 'review_queue').glob('report_175_*.json'))
 
 
 def build(tmp_path):
