@@ -71,6 +71,9 @@ jobs:
       - name: Audit source identities and numerical validation coverage
         if: success()
         run: python audit_ingestion.py
+      - name: Gate publication against reconciled data and narrative snapshots
+        if: success()
+        run: python verify_publication.py
       - name: Preserve source PDFs and extraction audit
         if: always()
         uses: actions/upload-artifact@v4
