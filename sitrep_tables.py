@@ -222,27 +222,65 @@ def table_3(doc,output):
             'flags':flags,'reporting_gaps':missing,'note':'Only reporting provinces are summed; ND is never zero.'}
 
 def table_4(doc,output):
+    """Decode contact follow-up tables with varying blank-cell offsets.
+
+    A header row determines field coordinates: pdfplumber may shift the whole
+    table by one or more columns without changing the PDF's actual meaning.
+    Never infer a missing numeric denominator or silently treat ND as zero.
+    """
     t=table(doc,4)
     if not t:return None
-    rows=[];national=None;flags=[]
+    labels={'province':('province','dps'),
+            'contacts_to_follow':('contacts sous suivi','contacts a suivre'),
+            'contacts_seen':('contacts vus','contacts suivis'),
+            'contact_follow_up_rate':('taux de suivi',)}
+    headers=[]
+    for row in t['rows'][:7]:
+        positions={}
+        for key,synonyms in labels.items():
+            matches=[i for i,value in enumerate(row)
+                     if norm(value) in synonyms]
+            if len(matches)==1:positions[key]=matches[0]
+        if len(positions)==4 and len(set(positions.values()))==4:
+            ids=[positions[k] for k in labels]
+            if ids==sorted(ids):headers.append(positions)
+    if len(headers)!=1:
+        return {'status':'REVIEW_REQUIRED','rows':[],'flags':[{'reason':'table4_ambiguous_or_missing_header'}]}
+    pos=headers[0]
+    rows=[];national=None;flags=[];gaps=[]
     for i,r in enumerate(t['rows']):
-        if len(r)<9:continue
-        prov=scope_of(r[0]);is_total=norm(r[0])=='total'
+        if max(pos.values())>=len(r):continue
+        label=str(r[pos['province']]).strip()
+        prov=scope_of(label)
+        is_total=norm(label) in ('total','total general')
         if not prov and not is_total:continue
-        n=count(r[5]);d=count(r[2]);pct=percent(r[8]);is_undefined=norm(r[8]) in ('na','nd','n/a')
-        if n is None or d is None or n>d or (d>0 and not ok_rate(n,d,pct)) or (d==0 and (n!=0 or not is_undefined)):
-            flags.append({'reason':'table4_invalid_rate_or_denominator','row':i,'scope':prov or 'DRC'});continue
+        d_raw=r[pos['contacts_to_follow']]
+        n_raw=r[pos['contacts_seen']]
+        pct_raw=r[pos['contact_follow_up_rate']]
+        d=count(d_raw);n=count(n_raw);pct=percent(pct_raw)
+        if prov and d is None and n is None and all(norm(x) in ('na','nd','n/a','') for x in (d_raw,n_raw,pct_raw)):
+            gaps.append({'scope':prov,'reason':'contact_reporting_missing','source':cell_prov(t,i)})
+            continue
+        undefined=norm(pct_raw) in ('na','nd','n/a','')
+        if (n is None or d is None or n>d
+            or (d>0 and not ok_rate(n,d,pct))
+            or (d==0 and (n!=0 or not undefined))):
+            flags.append({'reason':'table4_invalid_rate_or_denominator','row':i,'scope':prov or 'DRC'})
+            continue
         rec={'scope':prov or 'DRC','contacts_to_follow':d,'contacts_seen':n,
              'contact_follow_up_rate':pct if d>0 else None,'source':cell_prov(t,i)}
         if prov:rows.append(rec)
+        elif national is not None:flags.append({'reason':'table4_duplicate_national_total'})
         else:national=rec
     if national is None or len(rows)<4:
         flags.append({'reason':'table4_missing_national_or_provinces'})
     else:
         for key in ('contacts_to_follow','contacts_seen'):
-            if sum(r[key] for r in rows)!=national[key]:flags.append({'reason':'table4_provincial_sum_mismatch','field':key})
+            if sum(r[key] for r in rows)!=national[key]:
+                flags.append({'reason':'table4_provincial_sum_mismatch','field':key})
     return {'status':'MACHINE_VALIDATED' if not flags else 'REVIEW_REQUIRED','rows':rows,'national':national,
-            'flags':flags,'note':'Zero contacts => undefined rate, not 0%.'}
+            'flags':flags,'reporting_gaps':gaps,
+            'note':'Coordinates derived from printed header; ND omitted, never zero. Zero contacts => undefined rate.'}
 
 def table_5(doc,output):
     t=table(doc,5)
