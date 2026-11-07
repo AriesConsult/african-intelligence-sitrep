@@ -40,6 +40,8 @@ def verify(published: Path, registry_path: Path, *, check_narratives: bool = Tru
         return {'pass': False, 'errors': [{'reason': 'required_index_unreadable', 'detail': str(e)[:150]}]}
     if not audit.get('source_consistency', {}).get('pass'):
         failures.append({'reason': 'source_integrity_audit_failed'})
+    if audit.get('original_pdf_archives', {}).get('status') in ('INDEX_UNREADABLE', 'INVENTORY_INVALID'):
+        failures.append({'reason':'original_pdf_release_inventory_invalid'})
     index_by_key = {}
     for report in index.get('reports', []):
         key = (report.get('report_number'), report.get('sha256'))
@@ -138,6 +140,7 @@ def verify(published: Path, registry_path: Path, *, check_narratives: bool = Tru
         'pass': not failures,
         'numerical_archive_completeness': audit.get('assessment', 'UNKNOWN'),
         'narrative_coverage': audit.get('narratives', {}).get('status', 'UNKNOWN'),
+        'original_pdf_archive_coverage': audit.get('original_pdf_archives', {}).get('status', 'UNKNOWN'),
         'counters': dict(totals),
         'errors': failures,
         'interpretation': 'PASS certifies published-record consistency, not historical completeness or independent source verification.',
