@@ -7,7 +7,7 @@ on:
       - 'archive_originals.py'
       - '.github/workflows/bdbv-source-archive.yml'
   schedule:
-    - cron: '0 4 1 * *'    # Monthly check, 07:00 East Africa Time
+    - cron: '10 6 * * *'   # Daily archive of newly ingested PDFs, 09:10 East Africa Time
   workflow_dispatch:
 
 permissions:
