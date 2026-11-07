@@ -119,6 +119,31 @@ def audit(queue:Path, index_path:Path, registry_path:Path, feed_path:Path, publi
             audit_result['narratives']={'status':'INDEX_INVALID','error':str(e)[:120]}
     else:
         audit_result['narratives']={'status':'NOT_YET_RUN'}
+    original_archive_path=published/'source_archive_index.json'
+    if original_archive_path.is_file():
+        try:
+            source_archive=load(original_archive_path)
+            mapped=source_archive.get('archived',{})
+            latest_keys={f'{int(no):03d}:{sha}' for no,sha in reg.get('latest_by_report',{}).items()}
+            unarchived=sorted(latest_keys-set(mapped))
+            malformed=[key for key,item in mapped.items()
+                if not isinstance(item,dict) or not key.endswith(':'+str(item.get('source_sha256','')))
+                or not item.get('download_url') or not isinstance(item.get('pdf_bytes'),int)
+                or item['pdf_bytes']<=0]
+            audit_result['original_pdf_archives']={
+                'status':'INVENTORY_INVALID' if malformed else
+                          ('ALL_CATALOGUED_ORIGINALS_ARCHIVED' if not unarchived else 'PARTIAL'),
+                'archived_document_hashes':len(mapped),
+                'latest_report_hashes':len(latest_keys),
+                'remaining_latest_hashes':len(unarchived),
+                'unarchived_report_keys':unarchived,
+                'malformed_archive_index_keys':malformed,
+                'release_count':len(source_archive.get('releases',[])),
+                'note':'Immutable GitHub Release inventory; archive asset checksums are in embedded manifests.'}
+        except (TypeError,ValueError,OSError,KeyError) as e:
+            audit_result['original_pdf_archives']={'status':'INDEX_UNREADABLE','reason':str(e)[:140]}
+    else:
+        audit_result['original_pdf_archives']={'status':'NOT_YET_ARCHIVED'}
     return audit_result
 
 
