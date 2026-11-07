@@ -1,0 +1,2757 @@
+{
+  "report_date": "2026-05-14",
+  "report_number": 1,
+  "sha256": "821ea26be20720b8ead7ae39f5f3b1df38970ee29198c6851d491882f39ecb39",
+  "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_001-2026.pdf",
+  "tables": [
+    {
+      "bbox": [
+        7.5,
+        111.1,
+        557.8,
+        273.4
+      ],
+      "extractor": "pdfplumber-lines",
+      "indicator_families": [],
+      "page": 1,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "Rapport de Situation de la Maladie à Virus Ebola/17ème épidémie",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "SitRep MVE N° 001/2026",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Pays/Province",
+          "",
+          "",
+          "RDC/Ituri",
+          ""
+        ],
+        [
+          "",
+          "Zone de Santé touchée",
+          "",
+          "",
+          "Mongbwalu, Bunia et Rwampara",
+          ""
+        ],
+        [
+          "",
+          "Date de rapportage",
+          "",
+          "",
+          "14 Mai 2026",
+          ""
+        ],
+        [
+          "",
+          "Date de publication",
+          "",
+          "",
+          "15 Mai 2026",
+          ""
+        ]
+      ],
+      "table_id": "p1-t1",
+      "title_context": "Centre des opérations d’urgences de sante publique\n« COUSP-RDC »"
+    },
+    {
+      "bbox": [
+        7.5,
+        299.5,
+        562.0,
+        434.8
+      ],
+      "extractor": "pdfplumber-lines",
+      "indicator_families": [
+        "treatment_capacity"
+      ],
+      "page": 1,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "R.I.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "261",
+          "8",
+          "",
+          "",
+          "246",
+          "",
+          "",
+          "4",
+          "",
+          "",
+          "?",
+          "",
+          "",
+          "?",
+          "",
+          "",
+          "?",
+          ""
+        ],
+        [
+          "Alert",
+          "Alert",
+          "Cas Confirmés",
+          "",
+          "Cas Suspects",
+          "Cas Suspects",
+          "",
+          "Décès\nconfirmés",
+          "Décès",
+          "",
+          "",
+          "Taux",
+          "",
+          "",
+          "Taux",
+          "",
+          "Guéris",
+          "Guéris",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "confirmés",
+          "",
+          "",
+          "d’occupation",
+          "",
+          "",
+          "d’occupation",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "des lits chez les",
+          "",
+          "",
+          "des lits chez les",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "confirmés",
+          "",
+          "",
+          "suspects",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p1-t2",
+      "title_context": "Zone de Santé touchée Mongbwalu, Bunia et Rwampara\nDate de rapportage 14 Mai 2026\nDate de publication 15 Mai 2026"
+    },
+    {
+      "bbox": [
+        12.5,
+        83.8,
+        472.1,
+        580.9
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [],
+      "page": 1,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "",
+          "",
+          "« COU",
+          "S",
+          "P-RDC »",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Rap",
+          "port de Situation de la Mala",
+          "d",
+          "ie à Virus Eb",
+          "ola/17ème ép",
+          "idémie"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "SitRep MVE N",
+          "°",
+          "001/2026",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Pays/",
+          "Province",
+          "",
+          "RD",
+          "C/Ituri",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zone",
+          "de Santé t",
+          "ouchée",
+          "Mo",
+          "ngbwalu, Bunia",
+          "et Rwampara",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Date",
+          "de rappor",
+          "tage",
+          "14",
+          "Mai 2026",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Date",
+          "de publica",
+          "tion",
+          "15",
+          "Mai 2026",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "R.I.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "261",
+          "8 246",
+          "",
+          "4",
+          "?",
+          "?"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Alert",
+          "Cas Confirmés Cas Suspects",
+          "",
+          "Décès",
+          "Taux",
+          "Taux"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "confirmés",
+          "d’occupation",
+          "d’occupation"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "d",
+          "es lits chez les d",
+          "es lits chez le"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "confirmés",
+          "suspects"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "I.",
+          "POINT",
+          "S SAILLANTS",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3 Z",
+          "S /36 sont",
+          "affectées dont Bunia, Rwampara et M",
+          "o",
+          "ngbwalu.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8 c",
+          "as confirm",
+          "é dont 4 décés .",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ten",
+          "ue de la d",
+          "euxieme reunion de la coordination",
+          "na",
+          "tional d’urgence",
+          "avec toutes parti",
+          "es prenantes"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DG",
+          "de l’INSP",
+          "sur la situation MVE_ITURI.",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p1-t3",
+      "title_context": "Centre des opérations d’urgences de sante publique\n« COUSP-RDC »"
+    },
+    {
+      "bbox": [
+        9.8,
+        16.8,
+        108.6,
+        256.9
+      ],
+      "extractor": "pdfplumber-lines",
+      "indicator_families": [],
+      "page": 2,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p2-t4",
+      "title_context": "<"
+    },
+    {
+      "bbox": [
+        29.0,
+        61.8,
+        560.9,
+        810.6
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [
+        "alert_management"
+      ],
+      "page": 2,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "",
+          "Le COUS",
+          "P/RDC a capté une",
+          "alert",
+          "e signalant des décès group",
+          "és d’étiologie",
+          "incon",
+          "nue dans la Zone"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "de Santé",
+          "de Mongbwalu (9",
+          "0 Km",
+          "de Bunia), territoire de Djug",
+          "u dans la pro",
+          "vince",
+          "de l’Ituri, qui elle,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "est situé",
+          "e dans la partie Es",
+          "t de l",
+          "a République démocratique",
+          "du Congo.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Un sign",
+          "al sanitaire préala",
+          "ble da",
+          "té du 05 mai 2026 émanant",
+          "du personne",
+          "l de sa",
+          "nté de la zone de"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "santé de",
+          "Mongbwalu ava",
+          "nt d'êt",
+          "re officiellement notifiée l",
+          "e 8 mai suite",
+          "à des",
+          "signalements de"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "décès gr",
+          "oupés inexpliqués",
+          "(50 d",
+          "écès via les réseaux sociaux",
+          "). Entre le 1er",
+          "Avril e",
+          "t le 13 mai 2026,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "261 – 28",
+          "0 suspects et pro",
+          "bable",
+          "dont 100 décès(55 intrahos",
+          "pitaliere et 45",
+          "décés",
+          "communautaire"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "dans la",
+          "zone de santé",
+          "de M",
+          "ongbwalu) ont été rappor",
+          "tés, parmi l",
+          "esquel",
+          "s 4 décès, tous"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "professi",
+          "onnels de santé.",
+          "Tous",
+          "ces cas provenaient des Z",
+          "ones de Sant",
+          "é (ZS)",
+          "de Mongbwalu,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Rwampa",
+          "ra et Bunia. Le fo",
+          "yer se",
+          "situe dans le Quartier Shu",
+          "n (ou Sun 1)",
+          "à Mon",
+          "gbwalu (avenues"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Alimasi",
+          "1 et 2).",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "L’événe",
+          "ment serait surve",
+          "nu da",
+          "ns un contexte de forte sus",
+          "picion d’épid",
+          "émie",
+          "communautaire,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "initialem",
+          "ent marqué par d",
+          "es dé",
+          "cès rapides et inexpliqués,",
+          "dont certains",
+          "cas s",
+          "eraient liés à des"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "pratique",
+          "s de manipulation",
+          "de c",
+          "orps et de rituels funéraires",
+          "à risque et le",
+          "s grou",
+          "pes de priere ."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Après la",
+          "revue de décès i",
+          "ntraho",
+          "spitaliers quelques signes",
+          "cliniques co",
+          "mmun",
+          "s tels que fièvre,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "céphalé",
+          "e, vomissement,",
+          "asthé",
+          "nie physique intense dan",
+          "s la majorit",
+          "é de",
+          "cas et dyspnée,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "hématé",
+          "mèse épistaxis, vo",
+          "misse",
+          "ment noirâtre chez d’autres",
+          "cas ont été n",
+          "otés.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Les inve",
+          "stigations menées",
+          "par l’",
+          "EIR en date de … ont perm",
+          "is de prélever",
+          "28 éc",
+          "hantillons sur les"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "cas susp",
+          "ects. Initialement",
+          ", les t",
+          "ests préliminaires effectués",
+          "à l’INRB/Bun",
+          "ia étai",
+          "ent tous négatifs"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "pour Eb",
+          "ola zaïre, dengue",
+          ", Rota",
+          "virus, Cholera, Paludisme,",
+          "Yersinia pes",
+          "tis, M",
+          "POX et COVID-19"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "avant d’",
+          "acheminer 13 de c",
+          "es éch",
+          "antillons à l’INRB/Kinshasa",
+          ".",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "En date",
+          "du 14 mai 2026,",
+          "8 ca",
+          "s se sont révélés positifs",
+          "à la maladie",
+          "à viru",
+          "s Ebola (souche"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Bundibu",
+          "gyo/Ouganda) ap",
+          "rès les",
+          "tests réalisés à l’INRB Kinsh",
+          "asa. Il s’agira",
+          "de la 1",
+          "7 -ème épidémie"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "de la ma",
+          "ladie à virus Ebol",
+          "a en R",
+          "DC.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "II. MISE A",
+          "JOUR",
+          "DE LA SITUAT",
+          "ION",
+          "EPIDEMIOLOGIQUE",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1er Avril et le 13 m",
+          "ai 2026,",
+          "246 cas suspects",
+          "dont 8",
+          "0 décès ont été rapportés,",
+          "parmi lesque",
+          "ls 4 dé",
+          "cès, tous"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "professionnels de san",
+          "té. Tous",
+          "ces cas provenaie",
+          "nt des",
+          "Zones de Santé (ZS) de Mo",
+          "ngbwalu, Rwa",
+          "mpara",
+          "et Bunia"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          ": Le foyer principal se",
+          "situe d",
+          "ans le Quartier Sh",
+          "un (ou",
+          "Sun 1) à Mongbwalu, part",
+          "iculièrement",
+          "sur les",
+          "avenues"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Alimasi 1 et 2",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "p Maladie à Virus Ebol",
+          "a / RDC /",
+          "No 1/ 2026",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p2-t5",
+      "title_context": "<\nContexte\nLe COUSP/RDC a capté une alerte signalant des décès groupés d’étiologie inconnue dans la Zone"
+    },
+    {
+      "bbox": [
+        21.3,
+        414.9,
+        344.8,
+        690.6
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [],
+      "page": 3,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "Tenue des",
+          "r",
+          "eu",
+          "nions reunion",
+          "s de la coordin",
+          "ation n",
+          "ational avec",
+          "toutes l"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Preparatio",
+          "n",
+          "du",
+          "plan de la ré",
+          "ponse MVE_17 I",
+          "TURI au",
+          "COUSP en",
+          "mode ri"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Preparatio",
+          "n",
+          "de",
+          "l’ acivation d",
+          "es EIR en casca",
+          "de et eq",
+          "uipet",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Préparatio",
+          "n",
+          "du",
+          "deploiement",
+          "des équipes à",
+          "tout les",
+          "niveaux",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IV.",
+          "S",
+          "U",
+          "RVEILLAN",
+          "CE EPIDEMI",
+          "OLOG",
+          "IQUE",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "oti",
+          "fication offici",
+          "elle de l'alerte l",
+          "e 8 mai",
+          "2026 suite",
+          "à des ru"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "In",
+          "ve",
+          "stigation prél",
+          "iminaire ayant",
+          "permis",
+          "de retracer",
+          "l'origine"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "(",
+          "Mon",
+          "gbwalu) dès",
+          "le 5 mai",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "In",
+          "ve",
+          "stigation de 3",
+          "alertes validés",
+          "et prél",
+          "evés,",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "enu",
+          "e de réunion",
+          "avec 5 ITs et E",
+          "CZ sur l",
+          "a recherche",
+          "active d"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "in",
+          "tra",
+          "hospitalier,",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "ré l",
+          "istage des co",
+          "ntacts (63 cont",
+          "acts) et",
+          "reste à com",
+          "pléter"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "enf",
+          "orcement de",
+          "surveillance ac",
+          "tive da",
+          "ns 3 AS (CEC",
+          "A 20, Mo"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "É",
+          "lab",
+          "oration de lis",
+          "tes de contacts",
+          "pour a",
+          "morcer le tr",
+          "açage."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "ech",
+          "erche active",
+          "des cas suspec",
+          "t FHA à",
+          "l’hôpital Mo",
+          "ngbwal"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "écu",
+          "risation de c",
+          "orps,",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p3-t6",
+      "title_context": ".\nIII. COORDINATION\nTenue des reunions reunions de la coordination national avec toutes les parties prenantes et ces provinces."
+    },
+    {
+      "bbox": [
+        21.3,
+        93.7,
+        525.9,
+        683.4
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [
+        "alert_management",
+        "laboratory"
+      ],
+      "page": 4,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "Treize premiers",
+          "échantill",
+          "ons prélevés",
+          "dont 2 analysés au TDR avec",
+          "le résultat négatif (Dengu",
+          "e, MPOX,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Paludisme, Yesi",
+          "nia pestis,",
+          "COVID-19, Ro",
+          "tavirus et Cholera),",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Prélèvements bi",
+          "ologiques",
+          "sur les cas su",
+          "spects des 28 échantillons et ache",
+          "minement vers l'INRB/Kinsh",
+          "asa pour"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "analyse.",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "II. PREVE",
+          "NTION E",
+          "T CONTR",
+          "ÔLE DE L’INFE CTION (PCI/",
+          "WASH)",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Evaluation PCI,",
+          "CS Abelko",
+          "zo (score 7%),",
+          "HGR Mongbwalu (score 34%)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Briefing PCI : hyg",
+          "iène de m",
+          "ain, gestion d",
+          "es déchets et l’isolement de malad",
+          "e ✓ Préparation de l’isolem",
+          "ent à HGR"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mongbwalu",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mise en place d",
+          "e mesures",
+          "de Préventio",
+          "n et Contrôle des Infections (PCI)",
+          "dans les structures de soin",
+          "s locales,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "malgré des diffic",
+          "ultés de m",
+          "ise en œuvre",
+          ".",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "X. COMM",
+          "UNICAT",
+          "ION SUR L",
+          "ES RISQUES ET ENGAGEM",
+          "ENT COMMUNAUTAI",
+          "RE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sensibilisation i",
+          "nitiale des",
+          "leaders com",
+          "munautaires et leaders religieux p",
+          "our contrer les rumeurs de",
+          "\"maladie"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "mystique\".",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "X. SECUR",
+          "ITE",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Monitorage sécu",
+          "ritaire qu",
+          "otidien.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DEFIS ET GA",
+          "PS",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Manque d’isole",
+          "ment confo",
+          "rme, elabora",
+          "tion du PAI et designation de SGI",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Manque d’intran",
+          "t PCI, kits",
+          "prélèvement",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Besoin de CREC",
+          "pour gére",
+          "r les rumeurs",
+          "communautaires,",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Personnel non",
+          "formé en",
+          "PCI, prélève",
+          "ment, transport et conservation",
+          "d’échantillon, surveillance",
+          ", PEC de"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "maladie à poten",
+          "tiel épidé",
+          "mique",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Manque de triag",
+          "e à HGR M",
+          "ongbwalu et",
+          "CS",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Réalisation EDS",
+          "complet",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Besoin urgent d’",
+          "urgent de",
+          "CTE normé d",
+          "ans les 3 ZS en épidemies",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p4-t7",
+      "title_context": "V. LABORATOIRE\nTreize premiers échantillons prélevés dont 2 analysés au TDR avec le résultat négatif (Dengue, MPOX,"
+    },
+    {
+      "bbox": [
+        21.3,
+        91.6,
+        525.7,
+        801.7
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [
+        "burials_ipc"
+      ],
+      "page": 5,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "Organiser et s",
+          "tandardiser les",
+          "Enterrements Digne",
+          "s et Sécurisés",
+          "(EDS) p",
+          "our neutrali",
+          "ser la source de"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "contamination",
+          "majeure que repré",
+          "sentent les corps.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Installer ou renf",
+          "orcer les Centres",
+          "de Traitement Ebola",
+          "(CTE) pour la pri",
+          "se en cha",
+          "rge précoce",
+          "des malades."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Intensifier l'enga",
+          "gement commu",
+          "nautaire pour stoppe",
+          "r les prières coll",
+          "ectives m",
+          "assives et les",
+          "rituels funéraires"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "à risque.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Résoudre la cri",
+          "se de confiance",
+          "entre la Zone de Sa",
+          "nté et la popu",
+          "lation en",
+          "fournissant",
+          "des informations"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "transparentes su",
+          "r les confirmatio",
+          "ns biologiques.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Déclencher une",
+          "coordination tra",
+          "nsfrontalière immédi",
+          "ate avec l'Ouga",
+          "nda et le",
+          "SudSoudan",
+          "pour surveiller les"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "mouvements de",
+          "population aux fr",
+          "ontières. L’activati",
+          "on du Centre d",
+          "es opér",
+          "ations d’Urg",
+          "ences de Santé"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Publique (COU",
+          "SP) à travers l’",
+          "Institut National d",
+          "e Santé Publiq",
+          "ue (INSP",
+          ") en mode",
+          "réponse, niveau"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1 selon le con",
+          "cept des opéra",
+          "tions.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Un appel à m",
+          "obilisation des",
+          "partenaires techn",
+          "ique et finan",
+          "ciers po",
+          "ur marquer",
+          "la solidarité et"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "soulager les s",
+          "ouffrances des",
+          "populations derriè",
+          "re l’action du",
+          "gouvern",
+          "ement de l",
+          "a république tel"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "que bien dit :",
+          "Une équipe d",
+          "e coordination,",
+          "Un plan et U",
+          "n budg",
+          "et ;",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Le renforcem",
+          "ent de la surv",
+          "eillance épidémio",
+          "logique et bio",
+          "logique",
+          "dans les",
+          "zones de santé"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "affectées et a",
+          "risque,",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "La prise en ch",
+          "arge holistiqu",
+          "e et gratuite des",
+          "cas de Ebola e",
+          "t isolem",
+          "ent aussi",
+          "bien rapide que"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "strict des mala",
+          "des suspects o",
+          "u confirmés,",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Le renforcem",
+          "ent de la com",
+          "munication sur l",
+          "es risques de",
+          "la mal",
+          "adie et l’e",
+          "ngagement des"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "communautés",
+          "contre cette",
+          "maladie dans un",
+          "contexte séc",
+          "uritaire",
+          "préoccupa",
+          "nt et une forte"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "démographie",
+          "ainsi qu’une m",
+          "obilité de la popula",
+          "tion importan",
+          "te,",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Le déploiemen",
+          "t immédiat de",
+          "s équipes d’interv",
+          "ention rapide",
+          "(EIR) en",
+          "cascade p",
+          "our protéger et"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "sauver des vie",
+          "s humaines. A",
+          "ussi, le déploieme",
+          "nt des médica",
+          "ments d",
+          "e base, du",
+          "sang sécurisé,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "des molécules",
+          "thérapeutique",
+          "s et des réactifs e",
+          "t équipement",
+          "s de lab",
+          "oratoire ne",
+          "saurait souffrir"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "L\nd’exercice ;",
+          "e foyer",
+          "principal",
+          "se situe",
+          "da",
+          "ns le",
+          "Quartier"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Shun (n",
+          "1) à Mo",
+          "ngbwalu,",
+          "part",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "ILLUSTRATION",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Re",
+          "union de la coordin",
+          "ation avec le D",
+          "G de l’INS",
+          "P",
+          ""
+        ]
+      ],
+      "table_id": "p5-t8",
+      "title_context": "XIII. PERSPECTIVES\nOrganiser et standardiser les Enterrements Dignes et Sécurisés (EDS) pour neutraliser la source de"
+    },
+    {
+      "bbox": [
+        7.4,
+        7.7,
+        552.5,
+        253.2
+      ],
+      "extractor": "pdfplumber-lines",
+      "indicator_families": [],
+      "page": 6,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "table_id": "p6-t9",
+      "title_context": ""
+    },
+    {
+      "bbox": [
+        300.5,
+        87.0,
+        456.1,
+        560.6
+      ],
+      "extractor": "pdfplumber-text",
+      "indicator_families": [],
+      "page": 7,
+      "review_status": "unverified",
+      "rows": [
+        [
+          "National",
+          "de la Sant",
+          "é Pub",
+          "lique ("
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Le Direct",
+          "eur Géné",
+          "ral de",
+          "l’INSP"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dr MWAM",
+          "BA KAZAD",
+          "I Die",
+          "udonn"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tel. :",
+          "+243 816",
+          "040 1",
+          "45"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "dieudonn",
+          "emwamb",
+          "akaza",
+          "di@g"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Le Coo",
+          "rdonnate",
+          "ur CO",
+          "U-SP"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Prof",
+          "NGANDU",
+          "Christ",
+          "ian"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tél.",
+          ": +243998",
+          "09191",
+          "5"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "mail : nga",
+          "nduchristi",
+          "an@y",
+          "mail.c"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "’Incident",
+          "Manager",
+          "SGI M",
+          "VE Epi"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E-mail",
+          ":",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "anisation",
+          "Mondiale",
+          "de la",
+          "Santé"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "e Représe",
+          "ntant ai d",
+          "e l’OM",
+          "S en R"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Dr",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "E-m",
+          "ail : @",
+          "who.i",
+          "nt"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "t Manager",
+          "de l’OMS",
+          "dans",
+          "la répo"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "E-m",
+          "ail: @",
+          "who.i",
+          "nt"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "am Lead",
+          "Cluster EP",
+          "R de l",
+          "’OMS e"
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dr",
+          "Mouctar",
+          "Diallo",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "E-mail",
+          ": dialloam",
+          "@wh",
+          "o.int"
+        ]
+      ],
+      "table_id": "p7-t10",
+      "title_context": "Pour l’Institut National de la Santé Publique (INSP) de la RDC"
+    }
+  ]
+}

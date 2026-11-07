@@ -1,10 +1,19 @@
 {
-  "schema_version": "bdbv-sitrep-feed-v1",
-  "generated_at": null,
-  "publication_status": "NO_APPROVED_OBSERVATIONS",
-  "documents_catalogued": 0,
-  "pending_review_count": 0,
-  "observations_count": 0,
+  "documents_catalogued": 158,
+  "generated_at": "2026-11-07T18:41:19.923271+00:00",
   "latest_by_metric": {},
-  "observations": []
+  "observations": [],
+  "observations_count": 0,
+  "pending_review_count": 158,
+  "publication_status": "NO_APPROVED_OBSERVATIONS",
+  "schema_version": "bdbv-sitrep-feed-v1",
+  "source_catalogue": "https://insp.cd/sitrep/",
+  "source_failures_this_run": 12,
+  "source_priority": [
+    "INSP official SitReps (original PDF)",
+    "INRB-UMIE/BDBV2026-Data PDF archive"
+  ],
+  "source_repository": "https://github.com/INRB-UMIE/BDBV2026-Data",
+  "validation_conflicts": [],
+  "validation_policy": "Machine-validated only when national numerator, denominator and printed percentage agree within 0.65 percentage points; not human audited."
 }
