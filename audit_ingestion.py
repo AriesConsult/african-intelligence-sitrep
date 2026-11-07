@@ -100,6 +100,25 @@ def audit(queue:Path, index_path:Path, registry_path:Path, feed_path:Path, publi
                      'Missing/ND data are not zero',
                      'Original PDF persistence must be checked separately; workflow artifacts expire'],
     }
+    narrative_index=published/'narrative_index.json'
+    if narrative_index.is_file():
+        try:
+            ni=load(narrative_index)
+            reportset={(r.get('report_number'),r.get('source_sha256')) for r in ni.get('reports',[])}
+            missing=[r.get('report_number') for r in reports
+                     if (r.get('report_number'),r.get('sha256')) not in reportset]
+            audit_result['narratives']={
+                'status':'PARTIAL' if missing else 'ALL_CATALOGUED_REPORTS_CLASSIFIED',
+                'reports_with_candidates':ni.get('reports_with_narrative_candidates',0),
+                'candidate_blocks_for_review':ni.get('candidates_total',0),
+                'unclassified_report_numbers':missing,
+                'last_run_failures':ni.get('failures_this_run',[]),
+                'all_candidates_require_review':True,
+            }
+        except (ValueError,TypeError,OSError) as e:
+            audit_result['narratives']={'status':'INDEX_INVALID','error':str(e)[:120]}
+    else:
+        audit_result['narratives']={'status':'NOT_YET_RUN'}
     return audit_result
 
 
