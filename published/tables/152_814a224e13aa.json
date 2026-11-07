@@ -2,6 +2,21 @@
   "date": "2026-10-13",
   "quality_flags": [
     {
+      "province": "Ituri",
+      "reason": "table2_healthzone_cases_do_not_reconcile",
+      "reported": 6775,
+      "sum": 1221,
+      "table": 2
+    },
+    {
+      "province": "Ituri",
+      "reason": "table2_healthzone_deaths_do_not_reconcile",
+      "reported": 3131,
+      "sum": 421,
+      "table": 2,
+      "unallocated": 493
+    },
+    {
       "reason": "table3_national_total_missing",
       "table": 3
     },
@@ -125,7 +140,22 @@
       "status": "MACHINE_VALIDATED"
     },
     "table_2": {
-      "flags": [],
+      "coverage_reconciliation": "all affected province totals and health-zone case/death sums required",
+      "flags": [
+        {
+          "province": "Ituri",
+          "reason": "table2_healthzone_cases_do_not_reconcile",
+          "reported": 6775,
+          "sum": 1221
+        },
+        {
+          "province": "Ituri",
+          "reason": "table2_healthzone_deaths_do_not_reconcile",
+          "reported": 3131,
+          "sum": 421,
+          "unallocated": 493
+        }
+      ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
       "province_totals": [
         {
@@ -766,7 +796,7 @@
           }
         }
       ],
-      "status": "MACHINE_VALIDATED",
+      "status": "REVIEW_REQUIRED",
       "unallocated_deaths": [
         {
           "province": "Ituri",
@@ -833,5 +863,5 @@
     }
   },
   "tables_available": 4,
-  "tables_machine_validated": 2
+  "tables_machine_validated": 1
 }

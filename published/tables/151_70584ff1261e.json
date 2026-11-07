@@ -60,6 +60,10 @@
       "table": 1
     },
     {
+      "reason": "table2_full_coverage_cannot_be_crosschecked_with_validated_table1",
+      "table": 2
+    },
+    {
       "reason": "table3_national_total_missing",
       "table": 3
     },
@@ -134,7 +138,12 @@
       "status": "REVIEW_REQUIRED"
     },
     "table_2": {
-      "flags": [],
+      "coverage_reconciliation": "all affected province totals and health-zone case/death sums required",
+      "flags": [
+        {
+          "reason": "table2_full_coverage_cannot_be_crosschecked_with_validated_table1"
+        }
+      ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
       "province_totals": [
         {
@@ -762,7 +771,7 @@
           }
         }
       ],
-      "status": "MACHINE_VALIDATED",
+      "status": "REVIEW_REQUIRED",
       "unallocated_deaths": [
         {
           "province": "Ituri",
@@ -829,5 +838,5 @@
     }
   },
   "tables_available": 4,
-  "tables_machine_validated": 1
+  "tables_machine_validated": 0
 }

@@ -2,6 +2,46 @@
   "date": "2026-10-28",
   "quality_flags": [
     {
+      "province": "Bas-Uélé",
+      "reason": "table2_missing_province_total",
+      "table": 2
+    },
+    {
+      "province": "Ituri",
+      "reason": "table2_missing_province_total",
+      "table": 2
+    },
+    {
+      "province": "Nord-Ubangi",
+      "reason": "table2_missing_province_total",
+      "table": 2
+    },
+    {
+      "province": "Sud-Kivu",
+      "reason": "table2_missing_province_total",
+      "table": 2
+    },
+    {
+      "province": "Sud-Ubangi",
+      "reason": "table2_missing_province_total",
+      "table": 2
+    },
+    {
+      "province": "Tshopo",
+      "reason": "table2_healthzone_cases_do_not_reconcile",
+      "reported": 91,
+      "sum": 39,
+      "table": 2
+    },
+    {
+      "province": "Tshopo",
+      "reason": "table2_healthzone_deaths_do_not_reconcile",
+      "reported": 27,
+      "sum": 5,
+      "table": 2,
+      "unallocated": 0
+    },
+    {
       "reason": "table3_national_total_missing",
       "table": 3
     },
@@ -137,7 +177,42 @@
       "status": "MACHINE_VALIDATED"
     },
     "table_2": {
-      "flags": [],
+      "coverage_reconciliation": "all affected province totals and health-zone case/death sums required",
+      "flags": [
+        {
+          "province": "Bas-Uélé",
+          "reason": "table2_missing_province_total"
+        },
+        {
+          "province": "Ituri",
+          "reason": "table2_missing_province_total"
+        },
+        {
+          "province": "Nord-Ubangi",
+          "reason": "table2_missing_province_total"
+        },
+        {
+          "province": "Sud-Kivu",
+          "reason": "table2_missing_province_total"
+        },
+        {
+          "province": "Sud-Ubangi",
+          "reason": "table2_missing_province_total"
+        },
+        {
+          "province": "Tshopo",
+          "reason": "table2_healthzone_cases_do_not_reconcile",
+          "reported": 91,
+          "sum": 39
+        },
+        {
+          "province": "Tshopo",
+          "reason": "table2_healthzone_deaths_do_not_reconcile",
+          "reported": 27,
+          "sum": 5,
+          "unallocated": 0
+        }
+      ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
       "province_totals": [
         {
@@ -675,7 +750,7 @@
           }
         }
       ],
-      "status": "MACHINE_VALIDATED",
+      "status": "REVIEW_REQUIRED",
       "unallocated_deaths": [
         {
           "province": "Ituri",
@@ -711,5 +786,5 @@
     }
   },
   "tables_available": 4,
-  "tables_machine_validated": 2
+  "tables_machine_validated": 1
 }

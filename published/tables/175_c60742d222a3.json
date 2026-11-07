@@ -138,6 +138,7 @@
       "status": "MACHINE_VALIDATED"
     },
     "table_2": {
+      "coverage_reconciliation": "all affected province totals and health-zone case/death sums required",
       "flags": [],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
       "province_totals": [
