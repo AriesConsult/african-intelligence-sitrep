@@ -16,10 +16,6 @@
     {
       "reason": "table1_missing_provincial_or_national_totals",
       "table": 1
-    },
-    {
-      "reason": "table4_missing_national_or_provinces",
-      "table": 4
     }
   ],
   "report_number": 174,
@@ -963,15 +959,100 @@
       "status": "MACHINE_VALIDATED"
     },
     "table_4": {
-      "flags": [
+      "flags": [],
+      "national": {
+        "contact_follow_up_rate": 82.7,
+        "contacts_seen": 30882,
+        "contacts_to_follow": 37364,
+        "scope": "DRC",
+        "source": {
+          "page": 5,
+          "source_row": 16,
+          "table_id": "p5-t10"
+        }
+      },
+      "note": "Coordinates derived from printed header; ND omitted, never zero. Zero contacts => undefined rate.",
+      "reporting_gaps": [],
+      "rows": [
         {
-          "reason": "table4_missing_national_or_provinces"
+          "contact_follow_up_rate": 87.8,
+          "contacts_seen": 13378,
+          "contacts_to_follow": 15229,
+          "scope": "Ituri",
+          "source": {
+            "page": 5,
+            "source_row": 2,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": 87.4,
+          "contacts_seen": 1614,
+          "contacts_to_follow": 1847,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 4,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": 78.3,
+          "contacts_seen": 15364,
+          "contacts_to_follow": 19628,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 5,
+            "source_row": 6,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": 76.1,
+          "contacts_seen": 417,
+          "contacts_to_follow": 548,
+          "scope": "Tshopo",
+          "source": {
+            "page": 5,
+            "source_row": 8,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": null,
+          "contacts_seen": 0,
+          "contacts_to_follow": 0,
+          "scope": "Bas-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 10,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": 97.3,
+          "contacts_seen": 109,
+          "contacts_to_follow": 112,
+          "scope": "Sud-Ubangi",
+          "source": {
+            "page": 5,
+            "source_row": 12,
+            "table_id": "p5-t10"
+          }
+        },
+        {
+          "contact_follow_up_rate": null,
+          "contacts_seen": 0,
+          "contacts_to_follow": 0,
+          "scope": "Nord-Ubangi",
+          "source": {
+            "page": 5,
+            "source_row": 14,
+            "table_id": "p5-t10"
+          }
         }
       ],
-      "national": null,
-      "note": "Zero contacts => undefined rate, not 0%.",
-      "rows": [],
-      "status": "REVIEW_REQUIRED"
+      "status": "MACHINE_VALIDATED"
     },
     "table_5": {
       "flags": [],
@@ -1081,5 +1162,5 @@
     }
   },
   "tables_available": 5,
-  "tables_machine_validated": 3
+  "tables_machine_validated": 4
 }

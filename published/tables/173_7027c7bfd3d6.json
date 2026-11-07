@@ -832,8 +832,75 @@
         }
       ],
       "national": null,
-      "note": "Zero contacts => undefined rate, not 0%.",
-      "rows": [],
+      "note": "Coordinates derived from printed header; ND omitted, never zero. Zero contacts => undefined rate.",
+      "reporting_gaps": [
+        {
+          "reason": "contact_reporting_missing",
+          "scope": "Bas-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 10,
+            "table_id": "p5-t11"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "contact_follow_up_rate": 88.9,
+          "contacts_seen": 15704,
+          "contacts_to_follow": 17670,
+          "scope": "Ituri",
+          "source": {
+            "page": 5,
+            "source_row": 2,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 84.8,
+          "contacts_seen": 1960,
+          "contacts_to_follow": 2311,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 4,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 79.6,
+          "contacts_seen": 15179,
+          "contacts_to_follow": 19070,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 5,
+            "source_row": 6,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 65.3,
+          "contacts_seen": 329,
+          "contacts_to_follow": 504,
+          "scope": "Tshopo",
+          "source": {
+            "page": 5,
+            "source_row": 8,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 97.3,
+          "contacts_seen": 109,
+          "contacts_to_follow": 112,
+          "scope": "Sud-Ubangi",
+          "source": {
+            "page": 5,
+            "source_row": 12,
+            "table_id": "p5-t11"
+          }
+        }
+      ],
       "status": "REVIEW_REQUIRED"
     },
     "table_5": {

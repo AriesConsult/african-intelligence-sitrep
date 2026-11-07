@@ -1338,7 +1338,8 @@
           "table_id": "p5-t10"
         }
       },
-      "note": "Zero contacts => undefined rate, not 0%.",
+      "note": "Coordinates derived from printed header; ND omitted, never zero. Zero contacts => undefined rate.",
+      "reporting_gaps": [],
       "rows": [
         {
           "contact_follow_up_rate": 89.3,

@@ -1,0 +1,110 @@
+{
+  "cached_this_run": 0,
+  "candidates_total": 377,
+  "failures_this_run": [],
+  "generated_at": "2026-11-07T20:34:35.633620+00:00",
+  "index_read_errors": [],
+  "new_processed_this_run": 12,
+  "publication_policy": "REVIEW_ONLY: lexical tags must not be treated as independently verified events or causal interpretations.",
+  "registry_reports": 158,
+  "reports": [
+    {
+      "candidate_count": 38,
+      "date": "2026-11-05",
+      "report_number": 175,
+      "snapshot_path": "narrative_candidates/175_c60742d222a3.json",
+      "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 38,
+      "date": "2026-11-04",
+      "report_number": 174,
+      "snapshot_path": "narrative_candidates/174_a5fbce42535e.json",
+      "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 36,
+      "date": "2026-11-03",
+      "report_number": 173,
+      "snapshot_path": "narrative_candidates/173_7027c7bfd3d6.json",
+      "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 32,
+      "date": "2026-11-01",
+      "report_number": 171,
+      "snapshot_path": "narrative_candidates/171_c6ded47362da.json",
+      "source_sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 34,
+      "date": "2026-10-31",
+      "report_number": 170,
+      "snapshot_path": "narrative_candidates/170_5a578aaf3624.json",
+      "source_sha256": "5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 32,
+      "date": "2026-10-30",
+      "report_number": 169,
+      "snapshot_path": "narrative_candidates/169_8e2cd4724842.json",
+      "source_sha256": "8e2cd47248423d71341536e26671abfeb08364094334d2cee548dcb457532fa5",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 32,
+      "date": "2026-10-29",
+      "report_number": 168,
+      "snapshot_path": "narrative_candidates/168_07e0f754a8a1.json",
+      "source_sha256": "07e0f754a8a1f1b29ee27f803d30c0a9af6fa90c98d6436ab61395407839e83f",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 29,
+      "date": "2026-10-28",
+      "report_number": 167,
+      "snapshot_path": "narrative_candidates/167_9ef21fe41f7b.json",
+      "source_sha256": "9ef21fe41f7bdce511d37d9253e19356cd50f5b449328acbd897a8d96a00d417",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 33,
+      "date": "2026-10-27",
+      "report_number": 166,
+      "snapshot_path": "narrative_candidates/166_1eff6a88684f.json",
+      "source_sha256": "1eff6a88684f4316f12f6be6c83f834fbd39cbb7e1c6858d72958e347a0a4582",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 26,
+      "date": "2026-10-26",
+      "report_number": 165,
+      "snapshot_path": "narrative_candidates/165_7073b31d199e.json",
+      "source_sha256": "7073b31d199ef8f32f3b56bedc7175ddcff4f11f2f84dbd949317c9d6e083e6d",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 25,
+      "date": "2026-10-25",
+      "report_number": 164,
+      "snapshot_path": "narrative_candidates/164_d1a8fc1287cf.json",
+      "source_sha256": "d1a8fc1287cf80dd2746ac09ff9b9a082cbe137525ccff061e3ad00ef4ce7a37",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 22,
+      "date": "2026-10-24",
+      "report_number": 163,
+      "snapshot_path": "narrative_candidates/163_5e9060842940.json",
+      "source_sha256": "5e90608429408dfe66cc0b643d3bdf5142c88cd81b8d2940e3de9596c46f445e",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    }
+  ],
+  "reports_with_narrative_candidates": 12,
+  "schema_version": "bdbv-narrative-index-v1"
+}

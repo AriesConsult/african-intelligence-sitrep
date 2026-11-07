@@ -848,8 +848,54 @@
         }
       ],
       "national": null,
-      "note": "Zero contacts => undefined rate, not 0%.",
-      "rows": [],
+      "note": "Coordinates derived from printed header; ND omitted, never zero. Zero contacts => undefined rate.",
+      "reporting_gaps": [],
+      "rows": [
+        {
+          "contact_follow_up_rate": 90.8,
+          "contacts_seen": 13768,
+          "contacts_to_follow": 15155,
+          "scope": "Ituri",
+          "source": {
+            "page": 5,
+            "source_row": 2,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 87.2,
+          "contacts_seen": 1288,
+          "contacts_to_follow": 1477,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 3,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 79.0,
+          "contacts_seen": 14604,
+          "contacts_to_follow": 18494,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 5,
+            "source_row": 4,
+            "table_id": "p5-t11"
+          }
+        },
+        {
+          "contact_follow_up_rate": 66.6,
+          "contacts_seen": 589,
+          "contacts_to_follow": 884,
+          "scope": "Tshopo",
+          "source": {
+            "page": 5,
+            "source_row": 5,
+            "table_id": "p5-t11"
+          }
+        }
+      ],
       "status": "REVIEW_REQUIRED"
     },
     "table_5": {

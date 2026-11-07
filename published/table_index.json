@@ -21,20 +21,20 @@
     },
     {
       "date": "2026-11-04",
-      "quality_flags_count": 4,
+      "quality_flags_count": 3,
       "report_number": 174,
       "rows_by_table": {
         "table_1": 8,
         "table_2": 41,
         "table_3": 5,
-        "table_4": 0,
+        "table_4": 7,
         "table_5": 6
       },
       "sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3",
       "snapshot_path": "tables/174_a5fbce42535e.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 3
+      "tables_machine_validated": 4
     },
     {
       "date": "2026-11-03",
@@ -44,7 +44,7 @@
         "table_1": 8,
         "table_2": 37,
         "table_3": 5,
-        "table_4": 0,
+        "table_4": 5,
         "table_5": 6
       },
       "sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02",
@@ -61,7 +61,7 @@
         "table_1": 8,
         "table_2": 37,
         "table_3": 6,
-        "table_4": 0,
+        "table_4": 4,
         "table_5": 6
       },
       "sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f",
@@ -72,37 +72,37 @@
     },
     {
       "date": "2026-10-31",
-      "quality_flags_count": 4,
+      "quality_flags_count": 3,
       "report_number": 170,
       "rows_by_table": {
         "table_1": 8,
         "table_2": 42,
         "table_3": 5,
-        "table_4": 0,
+        "table_4": 6,
         "table_5": 6
       },
       "sha256": "5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156",
       "snapshot_path": "tables/170_5a578aaf3624.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 3
+      "tables_machine_validated": 4
     },
     {
       "date": "2026-10-30",
-      "quality_flags_count": 6,
+      "quality_flags_count": 5,
       "report_number": 169,
       "rows_by_table": {
         "table_1": 7,
         "table_2": 43,
         "table_3": 6,
-        "table_4": 0,
+        "table_4": 6,
         "table_5": 0
       },
       "sha256": "8e2cd47248423d71341536e26671abfeb08364094334d2cee548dcb457532fa5",
       "snapshot_path": "tables/169_8e2cd4724842.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 2
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-10-29",
@@ -1252,7 +1252,7 @@
       "report_number": 89,
       "rows_by_table": {},
       "sha256": "ef067a4df06d055c256cb974cdb039f527ccbcb24ee625afd719ce2a2852e8c9",
-      "snapshot_path": "tables/089_ef067a4df06d.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1263,7 +1263,7 @@
       "report_number": 88,
       "rows_by_table": {},
       "sha256": "6b0f322ee340d3a88a44f33323c8c5f05d92ebe572155ca45d0721a59fba987c",
-      "snapshot_path": "tables/088_6b0f322ee340.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1287,7 +1287,7 @@
       "report_number": 86,
       "rows_by_table": {},
       "sha256": "811dad0ba88e361a6e8dd445ac5be35450d084fba5e6ec9eb2d8548f6d06569c",
-      "snapshot_path": "tables/086_811dad0ba88e.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1298,7 +1298,7 @@
       "report_number": 85,
       "rows_by_table": {},
       "sha256": "cf5ca1ad5f9ed10fe4ca84f2f646ce5cd5812dd06bcf4ec15347831da8397669",
-      "snapshot_path": "tables/085_cf5ca1ad5f9e.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1309,7 +1309,7 @@
       "report_number": 82,
       "rows_by_table": {},
       "sha256": "f9060cb391e4b74569ad017fed2dae655909f1415d5ff0abd5a91f00376901d9",
-      "snapshot_path": "tables/082_f9060cb391e4.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1320,7 +1320,7 @@
       "report_number": 81,
       "rows_by_table": {},
       "sha256": "d342d30b1eaf941c50996d9fe1a92e20aacf430b711ef5a9405a259c65ccfd59",
-      "snapshot_path": "tables/081_d342d30b1eaf.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1331,7 +1331,7 @@
       "report_number": 80,
       "rows_by_table": {},
       "sha256": "fae9db4cc474db768ed75063681811e09e5d9441e3e72aad2d47d3e2009692f1",
-      "snapshot_path": "tables/080_fae9db4cc474.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1342,7 +1342,7 @@
       "report_number": 79,
       "rows_by_table": {},
       "sha256": "f0b2d49221074615fbdfdee22561a9ac8fffc947f46ec238443985a78cf0c0ed",
-      "snapshot_path": "tables/079_f0b2d4922107.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1353,7 +1353,7 @@
       "report_number": 78,
       "rows_by_table": {},
       "sha256": "27396ead73b599e9278d8a61f8fe39060f8b72122466a76e5194a36294ee6bca",
-      "snapshot_path": "tables/078_27396ead73b5.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1520,7 +1520,7 @@
       "report_number": 63,
       "rows_by_table": {},
       "sha256": "e09dc671dd7d68b6fcf99550e7d2a599fda66512d98dce30f1d5062440c6279f",
-      "snapshot_path": "tables/063_e09dc671dd7d.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -1531,7 +1531,7 @@
       "report_number": 62,
       "rows_by_table": {},
       "sha256": "dfbd55ed538573b45bf8a0947accaebd54a5fcadf34e68160e21da5e0855374e",
-      "snapshot_path": "tables/062_dfbd55ed5385.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2125,7 +2125,7 @@
       "report_number": 16,
       "rows_by_table": {},
       "sha256": "610c69987d59040ae672ea95be4815bbc87951566cde9e88f7e1cb8ffa5c9f80",
-      "snapshot_path": "tables/016_610c69987d59.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2136,7 +2136,7 @@
       "report_number": 15,
       "rows_by_table": {},
       "sha256": "5ee4f2afca47fb6faca488c966203fe50d3bc14dcd55255b9794deecc4e36a2d",
-      "snapshot_path": "tables/015_5ee4f2afca47.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2147,7 +2147,7 @@
       "report_number": 14,
       "rows_by_table": {},
       "sha256": "6032732734794ca6e0ec3782ad449e6330b152d6c61c408da5875c0bf1114dec",
-      "snapshot_path": "tables/014_603273273479.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2158,7 +2158,7 @@
       "report_number": 13,
       "rows_by_table": {},
       "sha256": "0245ec89ce61357f0f4ab8e0c77e319a4f6362cd86d3c8844459b39a9325e692",
-      "snapshot_path": "tables/013_0245ec89ce61.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2169,7 +2169,7 @@
       "report_number": 12,
       "rows_by_table": {},
       "sha256": "08081d3ad8886ebc32f98f5c33cfa2384a22716c582a7b4837822e6da57ae80d",
-      "snapshot_path": "tables/012_08081d3ad888.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2180,7 +2180,7 @@
       "report_number": 11,
       "rows_by_table": {},
       "sha256": "1464a88ca562a77af340fe25c1c214cd8f17d638b2eab7b71b07c8134a8cbe4e",
-      "snapshot_path": "tables/011_1464a88ca562.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2191,7 +2191,7 @@
       "report_number": 10,
       "rows_by_table": {},
       "sha256": "6f7b3a684913da7ba9f4433a3a16dcc0b90a5b917c799c6bb19a9cb91d59f8e5",
-      "snapshot_path": "tables/010_6f7b3a684913.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2202,7 +2202,7 @@
       "report_number": 6,
       "rows_by_table": {},
       "sha256": "7eba1b3706a3ffa30adb6714b67d29e21b434ba2364b90a517129f9513639dab",
-      "snapshot_path": "tables/006_7eba1b3706a3.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2213,7 +2213,7 @@
       "report_number": 5,
       "rows_by_table": {},
       "sha256": "3ca1c8204515b4d22772a4ad271e7f64bc95acf58f5b736df5647af38ea49e7a",
-      "snapshot_path": "tables/005_3ca1c8204515.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2224,7 +2224,7 @@
       "report_number": 4,
       "rows_by_table": {},
       "sha256": "202dd6db65d2d3c29aa2aecc18ce20006965fd2909f8c5b8a71759f316068e92",
-      "snapshot_path": "tables/004_202dd6db65d2.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0
@@ -2248,7 +2248,7 @@
       "report_number": 1,
       "rows_by_table": {},
       "sha256": "821ea26be20720b8ead7ae39f5f3b1df38970ee29198c6851d491882f39ecb39",
-      "snapshot_path": "tables/001_821ea26be207.json",
+      "snapshot_path": null,
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 0,
       "tables_machine_validated": 0

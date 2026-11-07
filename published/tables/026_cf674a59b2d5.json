@@ -14,7 +14,7 @@
       "reason": "table_missing"
     },
     {
-      "reason": "table4_missing_national_or_provinces",
+      "reason": "table4_ambiguous_or_missing_header",
       "table": 4
     },
     {
@@ -41,11 +41,9 @@
     "table_4": {
       "flags": [
         {
-          "reason": "table4_missing_national_or_provinces"
+          "reason": "table4_ambiguous_or_missing_header"
         }
       ],
-      "national": null,
-      "note": "Zero contacts => undefined rate, not 0%.",
       "rows": [],
       "status": "REVIEW_REQUIRED"
     },
