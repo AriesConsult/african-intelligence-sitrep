@@ -96,16 +96,18 @@ jobs:
             # The repository can change during a long PDF backfill.
             # Rebase generated results onto the current remote tip before pushing.
             # Never force-push or silently overwrite a conflicting update.
-            for attempt in 1 2 3; do
-              git fetch origin "$GITHUB_REF_NAME"
-              git rebase "origin/$GITHUB_REF_NAME"
-              if git push origin "HEAD:$GITHUB_REF_NAME"; then
-                echo "Published SitRep analysis after synchronizing with main."
-                exit 0
-              fi
-              echo "Remote changed during push (attempt $attempt); retrying."
-              sleep 3
-            done
-            echo "Unable to push SitRep results safely after three attempts." >&2
-            exit 1
+            # A newer code/data commit can arrive during a long extraction.
+          # Never force-merge or overwrite newer generated source ledgers.
+          git fetch origin "$GITHUB_REF_NAME"
+          if ! git merge-base --is-ancestor "origin/$GITHUB_REF_NAME" HEAD; then
+            echo "Remote branch advanced during extraction; this stale run will not publish." >&2
+            echo "The newest scheduled or dispatched run can recompute from the updated tip."
+            exit 0
+          fi
+          if git push origin "HEAD:$GITHUB_REF_NAME"; then
+            echo "Published source-verified SitRep results."
+            exit 0
+          fi
+          echo "Concurrent push was detected; leaving the newer remote unchanged." >&2
+          exit 0
           fi
