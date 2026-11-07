@@ -1,9 +1,10 @@
 {
   "schema_version": "bdbv-publication-gate-v1",
-  "generated_at": "2026-11-07T21:06:20.936355+00:00",
+  "generated_at": "2026-11-07T21:11:44.396897+00:00",
   "pass": true,
   "numerical_archive_completeness": "PARTIAL_VALIDATION",
   "narrative_coverage": "ALL_CATALOGUED_REPORTS_CLASSIFIED",
+  "original_pdf_archive_coverage": "ALL_CATALOGUED_ORIGINALS_ARCHIVED",
   "counters": {
     "observations_checked": 27,
     "machine_observations_reconciled": 27,
