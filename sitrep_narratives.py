@@ -104,6 +104,7 @@ def narrative_from_pdf(raw:bytes,*,report_number:int,date:str,source_url:str,exp
             })
     return {'schema_version':SCHEMA,'report_number':report_number,'date':date,
             'source_url':source_url,'source_sha256':sha,'pages':len(doc),
+            'pymupdf_version':pymupdf.VersionBind,
             'narrative_blocks_examined':blocks_seen,'candidates_count':len(records),
             'topics_counts':dict(topics_total),'event_type_counts':dict(status),
             'candidates':records,
