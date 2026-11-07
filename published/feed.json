@@ -1,0 +1,10 @@
+{
+  "schema_version": "bdbv-sitrep-feed-v1",
+  "generated_at": null,
+  "publication_status": "NO_APPROVED_OBSERVATIONS",
+  "documents_catalogued": 0,
+  "pending_review_count": 0,
+  "observations_count": 0,
+  "latest_by_metric": {},
+  "observations": []
+}
