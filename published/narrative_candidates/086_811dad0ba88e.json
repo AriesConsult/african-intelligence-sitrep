@@ -1,0 +1,185 @@
+{
+  "candidates": [
+    {
+      "block_index": 0,
+      "candidate_id": "086-p03-b000-e563d8787d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "1.2. Surveillance épidémiologique 1.2.1. Principales Actions 1 282 alertes ont été enregistrées et vérifiées dans les cinq provinces affectées pour la journée du 08 août 2026, dont 258 (20,1%) ont été validées comme cas suspects et 258 (100%) ont été investigués et 124 suspects transférés vers les CT/CTE. Le suivi des contacts est à 84,6 …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e563d8787d95ea183982da8d18b309c76cd70e4987f4e4f9e83c970a06e95c47",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "086-p03-b001-1d9972ec1b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "L’Ituri a enregistré 68 résultats positifs dont 24 décès tandis que le Nord-Kivu et le Haut-Uélé ont confirmé respectivement 10 (5 décès) et 7 cas. 1.4.2. Défis Forte proportion d'échantillons positifs en Ituri (26,0 %) et rapportage incomplet des résultats de laboratoire au Haut-Uélé et à la Tshopo (aucune donnée transmise), limitant la …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1d9972ec1b2f790ff56051a19db5a7caa1eaf0e94dbe8013a534571ad1aae9df",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "086-p04-b000-e33628b55d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "service_disruption"
+      ],
+      "excerpt": "1.5.2. Défis Faible mise en œuvre des normes de PCI : complétude du rapportage très basse en Ituri (34 %) et au Nord-Kivu (4 ZS sur 12), décontamination partielle des sites identifiés en Ituri (39 sur 85) et des scores card faibles au Nord-Kivu (30,3 % à Beni et 31,4 % à Kalunguta), démontrant un risque continu des infections associées au…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e33628b55dbce6dd503e773e940520f5cb79e5ac45ca5f98e276dbf678603721",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "service_continuity",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "086-p04-b001-11a8ef7e00",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "1.7.2. Défis Persistance de défis communautaires : démotivation des acteurs liée au non-paiement depuis plus de deux mois au Nord-Kivu, déni de la MVE et opposition à un EDS à Isiro, attentes répétées sur la disponibilité du vaccin, susceptibles d'affecter l'adhésion des communautés aux interventions de riposte 1.8. Logistique 1.8.1. Prin…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "11a8ef7e00b2bd35e8a9d39b839f813be751c45cf5a1bc80dc825ced5d0e298a",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "086-p05-b000-8c99d5c517",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint",
+        "security_incident"
+      ],
+      "excerpt": "1.9. Sécurité 1.9.1. Principales actions Au Nord-Kivu, 13 accompagnements sécuritaires ont été assurés aux équipes EDS et PCI à Lubero et Katwa ; intervention de l'équipe de sécurité à Katwa, par tirs de sommation, face à une tentative de la population de récupérer le corps d'un cas confirmé. 1.9.2. Défis Insécurité persistante, incidents…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8c99d5c517dfb057068f84617671f24eeb25865efb6fe8590c732c60255d77f7",
+      "topic_tags": [
+        "ipc_and_burials",
+        "security",
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 16,
+      "candidate_id": "086-p05-b016-a8700ecbe1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "La transmission de la MVE reste active, avec 85 nouveaux cas et 29 décès confirmés enregistrés au cours des dernières 24 heures, portant le cumul national à 4 294 cas confirmés et 1 960 décès. L’Ituri demeure l’épicentre de l’épidémie, concentrant 86,4 % des cas confirmés cumulés et 82,0% des nouveaux cas rapportés au cours des dernières …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a8700ecbe167992a3bde61b8e4a06a1d03f94b4b3276ef603effb87e45364ae0",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 6,
+  "date": "2026-08-08",
+  "event_type_counts": {
+    "activity_or_delivery": 2,
+    "resource_constraint": 4,
+    "security_incident": 1,
+    "service_disruption": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 6,
+  "pages": 6,
+  "pymupdf_version": "1.28.2",
+  "report_number": 86,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "811dad0ba88e361a6e8dd445ac5be35450d084fba5e6ec9eb2d8548f6d06569c",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_086_080826.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 2,
+    "community_engagement": 2,
+    "contact_tracing": 1,
+    "ipc_and_burials": 6,
+    "laboratory": 2,
+    "logistics_and_supplies": 3,
+    "security": 1,
+    "service_continuity": 3,
+    "surveillance_and_alerts": 3,
+    "treatment_capacity": 3,
+    "vaccination": 1
+  }
+}

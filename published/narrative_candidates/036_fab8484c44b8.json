@@ -1,0 +1,427 @@
+{
+  "candidates": [
+    {
+      "block_index": 4,
+      "candidate_id": "036-p05-b004-773f960e63",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Tenue de la réunion de coordination axée sur le suivi des activités menées sur terrain, présidée par le ministre de la Santé Hygiène et Prévoyance sociale en présence du gouverneur de province.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "773f960e6344d5533dc685595fe038dd79ba9967f58bf2837ac696c19f13a1a5",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "036-p05-b006-99a149bc49",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Organisation de la cérémonie de décharge d’un patient guéri de la maladie à virus Ebola au CTE Rwampara.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "99a149bc49a54fd3b01bf7f17c88033e42342a9b89437944750c0144542f4efb",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "036-p05-b007-d15664fb0a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Mise à disposition de 6 ambulances pour renforcer le référencement des malades vers les différents CTE.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d15664fb0a36c84ea8e05eba9964cbb0341e7ead587cee007b7262fd1de3e956",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "036-p05-b012-d28ec5e35a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Alertes validées Vivantes 75 40 ND 115 Décédées 21 26 ND 47 Total des cas suspects du jour 96 66 ND 162",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d28ec5e35ae27e9d1dfdf86277856b6fd87fe2c8e80b1c406e90877ac5e0a219",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "036-p06-b000-b6614862b4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "En date du 19 juin 2026, 733 alertes ont été remontées uniquement dans les provinces de l’Ituri et NordKivu, 733 (100,0%) ont été investiguées, 162 cas suspects (4 décès) ont été identifiés.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b6614862b493dd95075bab2a5dfbfcc343a006657e486400d687dbc172824c2e",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "036-p06-b004-42d21f1b9f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Poursuite des investigations approfondies et du listage exhaustif et suivi des contacts autour des cas confirmés dans les ZS (narratifs des cas confirmés, nombre de contacts listés et suivis par cas).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "42d21f1b9f2202d75b235126e9a30fb322cf43dd61eceb788ccf748e62b8e858",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "036-p06-b005-4abb52d926",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "333 nouveaux contacts ont été listés dans 9 ZS de la province de l’Ituri. Ces contacts sont répartis dans les ZS de Rwampara (155), Bunia (54), Nyankunde (39), Mongbwalu (29), Lita (20), Aungba (15), Tchomia (13), Nizi (4), Mambasa (4). Point sur les activités de points de contrôle et points d’entrées (PoC/PoE)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4abb52d926d4114a3ebeacf7fc399f3f44bf04efd23ca0520a82f181c73c2c8e",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "036-p06-b006-d5764a5ed9",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Trois (3) alertes ont été notifiées dont 1 alerte vivante évadée du CTE de l’HGR Mongbwalu, interceptée, au PoC PLUTO (la famille a refusée de la retourner au CTE) qui a été validée et 2 alertes vivantes au PoC Foner Mambasa ont été invalidées.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d5764a5ed9d397364d18cad7f6666dfb54fa72e843aea2b5dd163d4cb8a6b74b",
+      "topic_tags": [
+        "border_screening",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "036-p07-b000-bcd1c762d9",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "4.4. Prévention et Contrôle de l'Infection (PCI) Ituri : Briefing de 114 prestataires a été organisé dans les ZS Bambu et Bunia, Komanda, Mambasa et Rwampara sur les précautions standards (le lavage correct des mains, le port et le retrait des EPI, ainsi que le bionettoyage) ; 9 rings et 9 décontaminations réalisés autour des cas confirmé…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "bcd1c762d934a5faf48b51db01071ea2b92f3331303a2e89f45e26a4d13a455a",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "036-p07-b001-1a6f36d5b1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "4.5 Prise en charge holistique Douze (12) patients atteints de la maladie à virus Ebola ont été déclarés guéris après avoir obtenu des tests de contrôles négatifs.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1a6f36d5b1603ee46a7db72847fd0a7b89a19111168c5277dc4735e3cd036eaf",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "036-p07-b002-b6565c125d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Poursuite de suivi nutritionnel des malades dans les CTE : 435 repas chauds ont été servis dont 88 auprès des cas confirmés, 109 suspects, 192 PPL, 46 accompagnants.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b6565c125d04dba63f86489ff0e0785be8dd49ccdc2d6f7cabc02422bb25728b",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "036-p07-b004-0dbe81dcff",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Indicateur Ituri Nord-Kivu Sud-Kivu Ensemble Patients au lit (J-1) 286 56 ND 342 Total admissions (24h) 59 6 ND 65 Sorties (24h)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0dbe81dcff3783925a858a4a2a602b998072872db98b60650886e6fcad25e47c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "036-p07-b005-649b6270a8",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Décédés (Suspects/Conf.) 5 0 ND 5 Non-cas 16 8 ND 24 Guéris 12 0 ND 12 Évadés (Suspects/Conf.) 5 0 ND 5 Transférés à l'HGR 0 0 ND 0 Total sorties 38 8 ND 46 Patients en isolement (Fin J) 307 54 ND 361 dont confirmés (NC+AC) 124 24 ND 148 dont suspects 183 30 ND 213 Taux d'occupation global 90,8% 76,1% NA 88,3% ND : Non disponible NA : Non…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "649b6270a89df6a995bc4ade0614da19408c5b8d624a5829e6818204708a36e3",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 23,
+      "candidate_id": "036-p08-b023-443961ad03",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "20 accoucheuses et infirmiers de la zone de santé de NYAKUNDE ont été formés en santé sexuelle et reproductive dans le contexte de la MVE. 4.7 Communication sur les risques et engagement communautaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "443961ad0312eeccdbe80ac17d4436d6c4b05702a388f71477aab1a74d8bfc9a",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 24,
+      "candidate_id": "036-p08-b024-9bc1db375d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Ituri : Dialogue communautaire avec 22 personnes dont 19 hommes et 3 femmes sur respect des mesures préventives de la MVE, la prise en charge, la remontée des alertes communautaires et les EDS dans la ZS de Bunia ; 5 801 personnes touchées dont 3 075 hommes et 2 726 femmes ; diffusion des spots et messages dans les 18 médias sur les mesur…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9bc1db375d2344d7152706401944c72b73c52b90cc9774a076577bc9e6bd5eb5",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 27,
+      "candidate_id": "036-p08-b027-5bf432cde6",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Livraison des intrants PCI et MEG aux ZS de Bambu, Kilo, Mongbwalu ainsi qu’au CTE HGR Bunia, CTE CME Bunia et au CSR SOTA/ZS Nyankunde.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5bf432cde66bcea30adb3ddb50ef867beac70520a803661b76219a0a779b3693",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "036-p09-b001-58ae2a6184",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Livraison des intrants PCI au CH Mudzi Maria/ZS Bunia ainsi qu’au pilier PCI Wash. 4.9. Sécurité",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "58ae2a618401a13f6ad9f034b30a42afeae2c3ea5fc1b7eaf142c0df128f5629",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "036-p09-b004-99cbf71078",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "N° Défis Impact Actions requises 1 Réticence aux prélèvements post mortem (EDS / swabs) et résistance communautaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "99cbf7107853f1b932a10e19e7ee44e7fa37191ef2962e7326a04aaafa72eef9",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "036-p09-b012-d5e5bf1623",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Former, déployer et motiver les relais communautaires (RECO), supervision renforcée 4 Faible remontée des alertes dans certaines ZS affectées",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d5e5bf162349c3909a2ca0785da51361ec828eee7a640772e14914b862d389e3",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "036-p09-b014-bdb4fee82a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Renforcer la surveillance communautaire, améliorer la remontée et l’investigation rapide des alertes 5 Cas confirmés non localisés ou non classifiés (~17 cas)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "bdb4fee82a4469345880deee29f4a74fb9f8ff68caf8c6f19ecc59b5ed6a13e9",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 16,
+      "candidate_id": "036-p09-b016-a6283ae72f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Conduire une réconciliation des données, élaguer les possibles doublons, et reclassifier ou préciser la zone de santé et le statut (décès, guéris, actifs, etc.) Vérification active sur le terrain 6 Insuffisance d’approvisionnement en MEG et intrants médicaux",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a6283ae72f6324f7581ea13014a833723e217a1303aef1986d3a7ea7435d1e3d",
+      "topic_tags": [
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "036-p09-b018-da811aa23c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Plaidoyer et approvisionnement urgent en médicaments essentiels 7 Insuffisance des intrants PCI (EPI, chlore) et formation limitée",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "da811aa23c81bc3b50f7cbe265c921ca1a5e628a3b35e476c50d836f246ad850",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    }
+  ],
+  "candidates_count": 22,
+  "date": "2026-06-19",
+  "event_type_counts": {
+    "activity_or_delivery": 4,
+    "resource_constraint": 2
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 28,
+  "pages": 11,
+  "pymupdf_version": "1.28.2",
+  "report_number": 36,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "fab8484c44b8c1dc40fb9bd812e0e963a95142f8a1241c7b0505f71a40a36439",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF-SitRep_MVE_RDC_N°036_19_06_2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 2,
+    "community_engagement": 5,
+    "contact_tracing": 2,
+    "ipc_and_burials": 7,
+    "laboratory": 2,
+    "logistics_and_supplies": 5,
+    "service_continuity": 1,
+    "surveillance_and_alerts": 7,
+    "treatment_capacity": 10
+  }
+}

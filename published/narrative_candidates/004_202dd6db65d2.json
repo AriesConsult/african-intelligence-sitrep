@@ -1,0 +1,240 @@
+{
+  "candidates": [
+    {
+      "block_index": 5,
+      "candidate_id": "004-p03-b005-ac5676c2a3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "service_disruption"
+      ],
+      "excerpt": "NordKivu (3 ZS : Katwa, Goma et Butembo). − Les éleveurs de la ferme TSERE dans la ZS Rwampara sensibilisés sur la non-consommation de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ac5676c2a3af67a604974a04a8a49f73d3ffe8a6d9dd368251f457264be747ff",
+      "topic_tags": []
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "004-p04-b019-e10882a8ce",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Tenue de la réunion de coordination avec les sections. Participation au renions stratégique au gouvernorat et au niveau central Tenue de la réunion de coordination avec les sections. Participation au renions stratégique au gouvernorat et au niveau provinciale Partage avec le niveau central les activités prioritaires avec budget Mise en pl…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e10882a8ce0a7108e73adffb22621ba6378ab4f5867cee273f1d5f55f4659a63",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 22,
+      "candidate_id": "004-p04-b022-8a43331c50",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "listage et suivi des contacts ; Briefing à l’équipe de PoE/PoC sur la cartographie de leurs sites ; Organisation du pilier surveillance (PF par ZS, rôles et responsabilités) ; Déploiement des équipes de surveillance dans 3 ZS en épidémie : Bunia, Rwampara et Nyankunde",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8a43331c500de9b753fcbf2a01eac9f9495008b8c86c985ff78726ff49c6fa6a",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "004-p05-b002-b942152ded",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Echantillons reçus : 27 (Nouveaux cas suspects) Echantillons analysés : 27 Echantillons de prélèvement analysé : 0 Cas confirmés du jour : 18 (Rwampara : 6, Bunia : 8, Mongbwalu : 1, en cours de vérification : 3) , 40echantillons en attente d’analyse au Laboratoire Ituri et 54 échantillons de Mongbwalu en attente d’expédition vers le labo…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b942152ded5333dc28f78c16c95765799a3ed9e1160f026878988d273db09d41",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "004-p05-b010-04b1be8c9e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Sensibilisation de 56 tuberculeux dont 7 femmes dans l’aire de santé de Mudzi-Maria ; Sensibilisation de 26 membres de CAC dont 12 femmes dans l’AS de Kasegwa pour activer les VAD dans toutes les avenues et villages ; Briefing des 23 PRESICODESA de la ZS de Bunia sur la CREC ; Renforcement en capacité par le niveau central à la rédaction …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "04b1be8c9e5765acd1a860f2e2be08179a8a40880e7fe8ca3531c4c380a09061",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 17,
+      "candidate_id": "004-p05-b017-67aae753bb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Début de briefing des équipes des superviseurs et de contaminateurs, Evaluation des lieux pour la mise en place du triage au niveau du bureau de la DPS de l’Ituri ;",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "67aae753bb2bd26ed160778c2343e2fed89007ba74ecf6dbe5572ae8e5e473fc",
+      "topic_tags": [
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "004-p05-b018-2feb02a4e0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "security_incident"
+      ],
+      "excerpt": "Briefing des techniciens pour l’entretien et la désinfection des espaces des réunions de la DPS, Evaluation des dispositifs anti- incendie au niveau de la DPS et LPSP (9 extincteurs pour LPSP et 12 pour la DPS) tous à maintenir. ZS Rwampara",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2feb02a4e03e356a7463e79d212f783de84a3eaab9442721d054ab2e7f1f171d",
+      "topic_tags": []
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "004-p05-b019-102c442953",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Début de l’évaluation du CME Nyankunde, présence de 18 malades suspects mais sans Isolément, parmi lesquels 8 prestataires de soins, Briefing de 68 prestataires sur la MVE Evaluation clinique Dieu Guéri : scorecard de 28 %",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "102c442953b76ef172ba472cd581dda56808a12c7669ff09c55f7246246a606f",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "004-p06-b001-ced252887d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Briefing de 5 prestataires de l’HGR Mongbwalu, Décontamination d’unité d’isolement, Dotation de kit Wash dans 4 CS par ACF.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ced252887d7b47de86c3ca06a6dc73ccbd65b2ec2c4111635a6034d75680d848",
+      "topic_tags": [
+        "ipc_and_burials",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "004-p06-b007-a3034f7d6c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Ambulances : 4 (HGR Bunia, HGR Mongbwalu, PNC et UMIR) ; Programmes et Coordinations : 3 (CPLT, MTN, PEV) OMS : 5 véhicules pour le pilier surveillance ; UNICEF : 6 véhicules en location dont 1 pour la SBC ;",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a3034f7d6c6cc7215c813919cdb8182783354ac04c502a5bafad895f31591511",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "004-p06-b012-b878397211",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Difficulté de mobilité des équipes pour l’investigation au niveau de la DPS et des ZS Difficulté de l’expédition des échantillons de Mongbwalu vers le laboratoire provincial de Bunia Insuffisance des kits de prélèvements",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b8783972117c7d747c3a60be4f4be9cc976cefb1954aef1790c810f00d0d9209",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "004-p06-b018-c968d0d22d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Combler le GAP en kit de prélèvement, Poursuivre les listages des contacts et démarrer le suivi des contacts dans toutes les ZS, Elaborer la cartographie de la mobilité de la population dans les zones de santé touchées, Renforcer la surveillance épidémiologique et surveillance à base communautaire, Former les prestataires en surveillance …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c968d0d22dcbc11a6fcabfcc55b99550dcc59bc051e354d044fa8ff74089f499",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 12,
+  "date": "2026-05-19",
+  "event_type_counts": {
+    "activity_or_delivery": 1,
+    "resource_constraint": 1,
+    "security_incident": 1,
+    "service_disruption": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 18,
+  "pages": 7,
+  "pymupdf_version": "1.28.2",
+  "report_number": 4,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "202dd6db65d2d3c29aa2aecc18ce20006965fd2909f8c5b8a71759f316068e92",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°004-au-20-mai-2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 1,
+    "community_engagement": 2,
+    "contact_tracing": 2,
+    "ipc_and_burials": 1,
+    "laboratory": 3,
+    "service_continuity": 1,
+    "surveillance_and_alerts": 3,
+    "treatment_capacity": 4,
+    "vaccination": 1
+  }
+}

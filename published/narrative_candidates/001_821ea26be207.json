@@ -1,0 +1,217 @@
+{
+  "candidates": [
+    {
+      "block_index": 17,
+      "candidate_id": "001-p03-b017-95dbb77ceb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Notification officielle de l'alerte le 8 mai 2026 suite à des rumeurs de décès groupés. Investigation préliminaire ayant permis de retracer l'origine de l'événement au quartier Shun",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "95dbb77cebfe25fc34ec27542958629921e10772efbbf696aad9de280a57ea62",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "001-p03-b018-aa4a205abc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "(Mongbwalu) dès le 5 mai Investigation de 3 alertes validés et prélevés, Tenue de réunion avec 5 ITs et ECZ sur la recherche active de décès communautaire et",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "aa4a205abc22bb7f5f880c64de65286c9b3e71eb1050cc2b873438f210282569",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "001-p03-b019-32d7e9e686",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "intrahospitalier, Pré listage des contacts (63 contacts) et reste à compléter Renforcement de surveillance active dans 3 AS (CECA 20, Mongbwalu et Abelkozo), Élaboration de listes de contacts pour amorcer le traçage. Recherche active des cas suspect FHA à l’hôpital Mongbwalu, Sécurisation de corps,",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "32d7e9e6866cafa1670d3819dac0816d31aa9c7d31d71238438b2571cb6dd399",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "001-p04-b003-929d45964f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Paludisme, Yesinia pestis, COVID-19, Rotavirus et Cholera), Prélèvements biologiques sur les cas suspects des 28 échantillons et acheminement vers l'INRB/Kinshasa pour",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "929d45964fd838c55c1a29dfcbf715e0a4fff6556f0677a7027a4d1a2f801d1f",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "001-p04-b009-8d7d333482",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Evaluation PCI, CS Abelkozo (score 7%), HGR Mongbwalu (score 34%) Briefing PCI : hygiène de main, gestion des déchets et l’isolement de malade ✓ Préparation de l’isolement à HGR",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8d7d333482421baf45e2e7c3a08768f68774c02a1c0baead7e83911143c2e8b7",
+      "topic_tags": [
+        "ipc_and_burials",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "001-p04-b010-a66104173b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Mongbwalu Mise en place de mesures de Prévention et Contrôle des Infections (PCI) dans les structures de soins locales,",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a66104173b60b1722b3615ca0de6b9598b4bd4f69cf9a9b2e2301cd08478a0ce",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 22,
+      "candidate_id": "001-p04-b022-6545c82bcc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Manque d’isolement conforme, elaboration du PAI et designation de SGI Manque d’intrant PCI, kits prélèvement Besoin de CREC pour gérer les rumeurs communautaires, Personnel non formé en PCI, prélèvement, transport et conservation d’échantillon, surveillance, PEC de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6545c82bcc8ea1710667752d15f208de62d09398741a1fb832b2aa9fe42fec98",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "001-p05-b003-bd3bb5616b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "contamination majeure que représentent les corps. Installer ou renforcer les Centres de Traitement Ebola (CTE) pour la prise en charge précoce des malades. Intensifier l'engagement communautaire pour stopper les prières collectives massives et les rituels funéraires",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "bd3bb5616b87c218873154b9f5621c7141d4d596adca13e9c112082d98a5d8ed",
+      "topic_tags": [
+        "community_engagement",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "001-p05-b008-093ec015d3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "soulager les souffrances des populations derrière l’action du gouvernement de la république tel que bien dit : Une équipe de coordination, Un plan et Un budget ; Le renforcement de la surveillance épidémiologique et biologique dans les zones de santé",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "093ec015d353fe54faa904d1968817a1dce4bbf490afdc1c67f55ce7f8d33f08",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "001-p05-b010-7a725bbdad",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "La prise en charge holistique et gratuite des cas de Ebola et isolement aussi bien rapide que",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7a725bbdad17d3965dcf82325d2eb93141895e2d9e67316aa5ca61a20201dbce",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "001-p05-b015-2ca83d1d2a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "sauver des vies humaines. Aussi, le déploiement des médicaments de base, du sang sécurisé, des molécules thérapeutiques et des réactifs et équipements de laboratoire ne saurait souffrir",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2ca83d1d2a3308e75750df0efcdec187ee1f616d97914e37dce1ea4eecdeb7f4",
+      "topic_tags": [
+        "laboratory",
+        "logistics_and_supplies"
+      ]
+    }
+  ],
+  "candidates_count": 11,
+  "date": "2026-05-14",
+  "event_type_counts": {
+    "activity_or_delivery": 1,
+    "resource_constraint": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 16,
+  "pages": 7,
+  "pymupdf_version": "1.28.2",
+  "report_number": 1,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "821ea26be20720b8ead7ae39f5f3b1df38970ee29198c6851d491882f39ecb39",
+  "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_001-2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "community_engagement": 3,
+    "contact_tracing": 1,
+    "ipc_and_burials": 3,
+    "laboratory": 3,
+    "logistics_and_supplies": 2,
+    "surveillance_and_alerts": 5,
+    "treatment_capacity": 4
+  }
+}

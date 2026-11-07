@@ -1,0 +1,375 @@
+{
+  "candidates": [
+    {
+      "block_index": 7,
+      "candidate_id": "014-p04-b007-73183b3f2e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "médias locaux sur les opérations de riposte en cours, avec un focus sur la réalisation des Enterrements Digne et Sécurisés (EDS).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "73183b3f2e6f620b12556898be568be8b71b24b04ea00bba6a95790d413714e9",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "014-p04-b009-7c12262a82",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "listage et suivi des contacts, revue documentaire rétrospective des cas et décès etc.). Réunion de la coordination avec le pilier surveillance pour orientation des actions urgentes. Accompagnement des ZS touchées : harmonisation des données et coaching sur la gestion des alertes",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7c12262a82d2e6d92b3dc0728541258fa1ff2f1c2f6c4d3535796d5b1ff3595b",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "014-p04-b010-48234e9547",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "dans la ZS de Bunia. Pour la journée du 28 mai 2026, 99 alertes ont été remontées, 75 (75,7%) investiguées et 67 (89,3%) ont",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "48234e9547cc21f4767146759774d2ac4c93ed215ce4404b3a5ca4d37d9e699a",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "014-p04-b014-c46757c220",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Visite guidée de circuit des voyageurs à l’arrivée et au départ de l’aéroport par leurs Excellences Monsieurs",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c46757c22060f1e7d53276805d21c3f27303cd08fac0337f6e0618dc5e4d226e",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "014-p04-b015-a72fa3a20e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "le Ministre de Santé et le Ministre de la communication. Approvisionnement en eau de PoC, installation des dispositifs de stockage d’eau de 3000 L dans les 3",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a72fa3a20e4068117618006c5c742c61ce35bb71395d0fa092b98f4b75145039",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 16,
+      "candidate_id": "014-p04-b016-5e18e0f73e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "PoC et connexion de tous les dispositifs de lavage des mains aux dispositifs de stockage avec l’appui de Samaritains Purse aux PoC (Tchai, Dele et Mudzibala).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5e18e0f73ebc9d17f0bb77a544a20cc47afa4f5d3fd824a5d27a60f72d6b2803",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "014-p05-b010-8e235061c1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "le paquet complet PCI (J2). 1. ZS Bunia Dotation et réception de 45kg de chlore au pilier PCI. Décontamination de 2 ménages à Solenyama 3 EDS réalisés sur 3 cas d’alertes (1 HGR-Bunia et 2 CS Aero). 2. ZS Rwamapara Briefing de 2 prestataires de soins sur l’espacement des lits (Maternité) (CS Rwamapara). 3. ZS Nyakunde 2 EDS réalisés sur 2…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8e235061c18d48c6b74d34d9d185562a2769265c272a98b29d176249dd02ffeb",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "014-p05-b011-9f18245636",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "(i) Annonce : 4 décès suivi d’accompagnement psychologique des familles au sujet l’EDS ; (ii) Briefing des psychologues cliniciens sur l’annonce de cas confirmé et des décès ;",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9f18245636ac035263b30f348e6b8fd11fcd3da8f36ff5f4634bb30b1a669ba6",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 37,
+      "candidate_id": "014-p06-b037-7c6f64c870",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Confirmés 1/3 (33,3%) 1/8 (12%) 0/12 (0%) ND ND ND 8,7% S : Suspects C : confirmés ND : Non disponible Gestion des rumeurs autour des EDS, de la décontamination et baisse de la fréquentation des ESS.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7c6f64c87058c93c83fe35648e7a4d2af0f61cc2505ee0698630c9b29eddede7",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 40,
+      "candidate_id": "014-p06-b040-4b68f14d60",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Bunia) à prévenir et gérer l’infodémie et les résistances communautaires ZS BUNIA : 478 personnes sensibilisées au marché central de Bunia sur les mesures préventives à la MVE dont 323 femmes et 135 hommes. Déploiement des supports de communication dans les lieux stratégiques de Bunia (Aéroport National de MURONGO et Marché central de Bun…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4b68f14d60d028a6390a3821fb3b51853e19442e09dcf8ab6df58c434c9dfd1d",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "014-p07-b002-e048cff57c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "de la MVE. ZS Nizi : Causeries éducatives avec 90 RECOS dont 30 dans l’AS LINGO, 30 dans l’AS LOPA et 30 dans l’AS LOPA Mission sur les mesures préventives à la MVE et l’orientation des malades vers les établissements de soins de santé le plus proches. Approvisionnement en intrants et matériels PCI aux",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e048cff57ca6006d8142a1c6f1bebed1da6c673faedf14afac74c974da3a04a4",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "014-p07-b012-ccd2897c14",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "La situation sécurité dans la ville de Bunia (ZS de Bunia et Rwampara) est relativement calme Briefing sécuritaire aux équipes nouvellement déployées.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ccd2897c1446c2acec908108c356d5d0238368c66600b859a9272b1bbd93520d",
+      "topic_tags": []
+    },
+    {
+      "block_index": 16,
+      "candidate_id": "014-p07-b016-7534eefcc6",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "de diagnostic (swabs) sur les corps des défunts dans les morgues. Absence de Centre Transit et Centre de Traitement Ebola normés en Ituri. Faiblesse du Suivi des Contacts et Déficit de Formation des Acteurs Persistance de lacunes dans l'identification et la surveillance rigoureuse des cas contacts au niveau",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7534eefcc6e62bebb99a65b6c4f39097f09ebfa3f88d14d7f1a960ed2d97afc8",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 17,
+      "candidate_id": "014-p07-b017-4b4d238cd0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "des zones de santé actives et à haut risque. Pénurie dans les structures d'isolement : Absence totale de médicaments essentiels au Centre de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4b4d238cd058eb97672ff24c84df48dafc24390dcd88092c923bda2ca95223a9",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "014-p07-b018-b2a6fe8e4a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Traitement Ebola (CTE) et au bloc d'isolement de Rwampara et de Nyankunde. Défaut d'approvisionnement des hôpitaux de référence : Manque de dotation en Médicaments",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b2a6fe8e4a105b427dbfc1ac75eda4d56883af405b24bcdf15b11767c1c34549",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "014-p07-b019-4e8011b544",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Essentiels Génériques (MEG) au sein des quatre Hôpitaux Généraux de Référence (HGR) ciblés, fragilisant la prise en charge globale des patients. Manque des matériels PCI (EPI, DLM, chlore) au Nord Kivu Faible remontée des alertes par les zones dans les 3 Provinces touchées (Ituri, Nord-Kivu et Sud-",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4e8011b5442fadcbf56fb47155b17471c21592afb87a986cf2483b81aaadcd64",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 20,
+      "candidate_id": "014-p07-b020-2b29ebd267",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Kivu) ; Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les ZS",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2b29ebd267657b111dd7ff0df39b975662857cf5862a4178501927a0957b711f",
+      "topic_tags": []
+    },
+    {
+      "block_index": 21,
+      "candidate_id": "014-p07-b021-f22c94eb2d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "touchées ; Difficulté d’acheminements des échantillons vers les laboratoires de Goma et Kinshasa. Propagation des rumeurs et prolifération des recettes de traitement traditionnel.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f22c94eb2d17c2a6691bb6a0fe413c11cbec6780111d4e68bebe4f085f4e1600",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "014-p08-b003-2a91f26706",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Formation des prestaires sur l’utilisation de PCR RADIONE Formation des prestataires sur la surveillance de la MVE et la SBC dans les ZS touchées et à haut",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2a91f267060ddc9ad9b368682c21e1b739e6b2c9bcc55a0b8bf10df377baef1a",
+      "topic_tags": [
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "014-p08-b004-6498256334",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "risque de trois provinces touchées ; Formation des Agents communautaires sur la surveillance de la MVE et la SBC dans les ZS touchées et",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6498256334bfe0d0729edbb8d3b8d97d17760082964eea7e2a46e534eb512e0b",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 20,
+  "date": "2026-05-28",
+  "event_type_counts": {
+    "activity_or_delivery": 3,
+    "resource_constraint": 4
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 30,
+  "pages": 9,
+  "pymupdf_version": "1.28.2",
+  "report_number": 14,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "6032732734794ca6e0ec3782ad449e6330b152d6c61c408da5875c0bf1114dec",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_NA°014_28_05_2026_VF-1.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 3,
+    "community_engagement": 1,
+    "contact_tracing": 2,
+    "ipc_and_burials": 6,
+    "laboratory": 2,
+    "logistics_and_supplies": 1,
+    "surveillance_and_alerts": 8,
+    "treatment_capacity": 6
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "candidates": [
+    {
+      "block_index": 0,
+      "candidate_id": "041-p03-b000-eedd4078a4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "3.2 Répartition par zone de santé (Cumul au 24/06/2026) Province de l'Ituri (1 054 cas) : Bunia (314), Mongbwalu (245), Rwampara (237), Nyankunde (91), Nizi (30), Lita (26), Mangala (17), Bambu (14), Komanda (13), Kilo (9), Tchomia (9), Aungba (6), Logo (5), NiaNia (5), Damas (4), Rimba (3), Aru (3), Mambasa (2), Drodro (1), Gety (1), Kam…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "eedd4078a4881006d8cbe31d24aac06be8577ba771d28034fb785bb59d2a7fb1",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "041-p05-b005-8d3537652b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Lancement du plan transfrontalier de la riposte de 90 jours entre la RDC et l’Ouganda : la mise en place et le renforcement des capacités conjointes de laboratoire ainsi que des dispositifs de prise en charge clinique sont les priorités de ce plan, en commençant par la zone stratégique d’Aru. Supervision des équipes terrain et des différe…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8d3537652bb8cc722d7abf2640869b63770645a7eb3c618965ac88d658a426aa",
+      "topic_tags": [
+        "laboratory",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "041-p05-b009-615bbde7d2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Alertes validées Vivantes 63 45 6 114 Décédées 34 6 0 40 Total des cas suspects du jour 97 51 6 154 Au décours de la journée du 24 juin 2026, 903 alertes ont été remontées à travers les trois provinces, 744 (82,4%) ont été investiguées, 154 cas suspects dont 40 décès ont été identifiés (Tableau 3).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "615bbde7d219c096f202b7f0e91067c349a1cee7a945e33ae83e9267472162b9",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "041-p06-b005-b782217038",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Poursuite des investigations approfondies et du listage exhaustif et suivi systématique des contacts autour des cas confirmés dans les ZS (narratifs des cas confirmés, nombre de contacts listés et suivis par cas).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b782217038a366ad758db061952450c2f5a4f0ae030692ab13c4d461aef1f9ab",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "041-p06-b006-ac8444c509",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "311 nouveaux contacts ont été listés dans 9 ZS de la province de l’Ituri. D’autre part, 99 contacts ont achevé leur suivi de 21 jours avec succès dont 79 au Nord-Kivu et 20 en Ituri.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ac8444c50938b6a594d58962f9df035f47fc5e88fed3fde599f80d05827eecea",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "041-p06-b008-c5fc26fb44",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "En Ituri : trois (3) alertes ont été notifiées aux PoE/PoC, dont une alerte vivante validée et référée au CTE Aru à partir du PoC Apinaka/ZS Aru ; deux alertes ont été invalidées après dépistage secondaire ou observation aux PoC/PoE FONER Mambasa et OFOO. Aucun corps sans vie n’a été intercepté ce jour. Tableau 5. Suivi des indicateurs au…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c5fc26fb445377922446304a00ed704670bff1612d9a457173493e4ba012ef97",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "041-p06-b011-95f4cf2b6d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Nord-Kivu : Sur un total de 117 échantillons reçus, 97 ont été analysés, 3 sont revenus positifs soit 3,1% et 20 en cours d’analyse.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "95f4cf2b6d4c9afb2163735449a18f11f42acbad522ebf536e7b20c35628182d",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "041-p06-b014-39e6b56a30",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "4.4. Prévention et Contrôle de l'Infection (PCI) Ituri : 22/27 enterrements dignes et sécurisés (EDS) ont été réalisés, avec 5 reports. Les activités PCI/WASH ont inclus 10 évaluations Score Card dans les ESS, 20 ESS accompagnés avec 81",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "39e6b56a3038cbc5a2ece2d500a62fe3ebf4afde7e4ae2dedc7c6130ad7f6c3e",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "041-p07-b001-a9a075e1b5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Nord-Kivu : Mission conjointe OMS et Pilier PCI WASH à la ZS d’Oicha incluant une visite du CT OICHA avec l’identification des gaps ainsi que la dotation des intrants PCI WASH à la ZS Oicha ; mission conjointe UNICEF et pilier PCI WASH au CSR CARL BEKER pour suivi de fonctionnement du forage photo voltaïque et unité de triage ; suivi du f…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a9a075e1b55ba388a1015cb088477ca75eeb3b3b6232f11f2f8d9ebafa41f7fc",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "041-p07-b002-6da2c44f9b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Sud-Kivu : Clôture de l’atelier de simulation port et déshabillage, EDS, coaching sur l’utilisation de l’outil Kobocollect pour les évaluations score card PCI aux 45 membres du pilier PCI à RIO.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6da2c44f9ba0909ed265d142115fa7905b57751915b39ede24e63d769d717d91",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "041-p07-b004-0e1de0e48d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Seize (16) patients ont été déclarés guéris en Ituri, après obtention des résultats de contrôle négatifs. Ainsi, le cumul des patients guéris est de 138 dont 129 en Ituri, 7 au Nord-Kivu et 2 au Sud-Kivu.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0e1de0e48d5a0f395a328f7aa53910b6ed0883b581ec219ff5b24ca274a9cb93",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "041-p07-b005-406a63e20b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Poursuite de la prise en charge médicale, des transferts vers les CTE/CT, des annonces de résultats et du suivi nutritionnel des malades. Au total, 660 repas chauds ont été servi dont 111 chez les cas confirmés, 100 aux cas suspects, 387 aux PPL et 62 aux accompagnants.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "406a63e20b0a732adc9fb7e43f9cb5e5075f5edd14f44549be06f08e509e4026",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "041-p07-b008-79649edea7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Indicateur Ituri Nord-Kivu* Sud-Kivu Ensemble Patients au lit (J-1) 322 56 12 390 Total admissions (24h) 59 8 6 73 Sorties (24h)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "79649edea747e79c56b4693aa1d77d92d14e6744111f2d74c390450dfc923f7d",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "041-p07-b009-d48ba1ac53",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Décédés (Suspects/Conf.) 14 0 0 14 Non-cas 37 5 5 47 Guéris 16 0 0 16 Évadés (Suspects/Conf.) 1 0 0 1 Transférés à l'HGR 0 0 0 0 Total sorties 68 5 5 78 Patients en isolement (Fin J) 313 59 13 385 dont confirmés (NC+AC) 188 17 0 205 dont suspects 125 42 13 180 Taux d'occupation global 85,3% 57,3% 29,5% 74,9% *Les données rapportées pour l…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d48ba1ac5354210e805c705825f0d07cada844e732f019a32698e7ccf93ed37f",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 23,
+      "candidate_id": "041-p08-b023-8da731e9e1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Suivi des travaux d’extension des CTE, notamment Rwampara et HGR/Bunia ; amélioration progressive du plateau technique ; transfert des malades des ESS/communautés vers les sites retenus pour la prise en charge ; briefing sur le rapportage des données au CTE Elikya. 4.7 Communication sur les risques et engagement communautaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8da731e9e16c54bac4be82713635cc697e0b303f371fb5d22433e04cdffebcb5",
+      "topic_tags": [
+        "community_engagement",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 24,
+      "candidate_id": "041-p08-b024-a99da3ac7e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Ituri : Les activités CREC ont porté sur la vérification de l’existence des RECO actifs dans la zone urbano-rurale de Bunia, la diffusion d’une émission interactive avec témoignage d’un guéri du CTE Rwampara relayée par 17 radios partenaires, ainsi que des actions de sensibilisation en zones minières et communautaires. Au total, 3 dialogu…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a99da3ac7e41b9c0b6d47a75544f8435204f026d3bb4c89addc59e9266f0ce33",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "041-p09-b000-caeec15a02",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "l’accompagnement des ZS Butembo et Katwa. Dans la ZS Vuhovi : briefing des tradipraticiens et les responsables des structures privées sur la communication des risques, la surveillance à base communautaire et l’engagement communautaire dans la lutte contre la MVE. Sud-Kivu : 1 059 ménages visités, 9 510 personnes sensibilisées, 54 leaders …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "caeec15a02f14b543691ef1bbbcff59088af3b563ed10b5302260b4d0a5f6c35",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "041-p09-b002-aedb399fb4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Au total, 23 véhicules et 4 ambulances ont été mis à la disposition des différents piliers pour assurer leur mobilité ; dix (10) contrats de véhicules ont été renouvelés avec l’appui de l’UG-PDSS.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "aedb399fb46a70a877d6d2d05789adc6d63dce2c7cf13ee39eb7d176ab50d0b8",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "041-p09-b003-2ad72f162f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Approvisionnement en intrants pour les piliers Bien-être et Surveillance à partir du stock de la DPS ; complément d’intrants PCI pour la ZS de Kilo ; préparation de kits médicaments pour la ZS de Nia-Nia ; livraison de 12 colis de Tyvek (98 kg) pour la ZS de Mongbwalu et de 22 colis d’intrants PCI (202 kg) pour la formation dans la ZS de …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2ad72f162ffeafd5bf42ee7bddde17ab68cadffd74ed8b50e06c54027e2b5912",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "041-p09-b004-13c8be8d9d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Gestion des infrastructures : poursuite des travaux du nouveau CTE à l’HGR/Bunia, mise en service de 12 nouvelles tentes au CME/Bunia et implantation d’une tente pour le pilier Bien-être. Nord Kivu",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "13c8be8d9d31a9481f300a9eba0397604ff0e1e037abe02eb47cef2cfb681ba1",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "041-p09-b005-c74ebb6411",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Livraison des médicaments UG-PDSS aux Zones de santé de Butembo, Kalunguta et Katwa ; Livraison des intrants PCI à la ZS de Beni",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c74ebb641129e895e1f41a0b394bc9142ab44ced57de1225c1cfee5738f80ea0",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "041-p09-b006-5e84d0e615",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Déploiement des équipes des différents piliers dans les zones de santé ; Livraison des intrants PCI au sous pilier Poc et PoE pour le PoC Kasitu. 4.9. Sécurité",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5e84d0e615e3d0d160ddd2b08a3c28bb98ebb039734f62b95a6c2868596bbef9",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "041-p09-b009-226066d7b0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Poursuite des briefings des acteurs, de la sensibilisation communautaire sur les exploitations, abus et harcèlements sexuels, ainsi que de la signature des codes de bonne conduite.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "226066d7b09d21c08d0e0a78741a4856960e8e393aaf9e336c6018eb0b381cb6",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "041-p09-b010-912d268940",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Sud-Kivu : Un briefing et plaidoyer organisés auprès de 54 (17 femmes) leaders communautaires, religieux et chefs de villages des aires de santé de Lwiro, Kahungu, Chaoboka et Buhandahanda, dans la Zone de Santé de Miti-Murhesa sur le principe de tolérance zéro à l'égard de l'exploitation et des abus, la ligne verte 495555, Ils se sont en…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "912d268940cf094007f389f8543cf3d0f4000ddab27afc9e5e4070f9c3da64f0",
+      "topic_tags": []
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "041-p10-b001-99cbf71078",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "N° Défis Impact Actions requises 1 Réticence aux prélèvements post mortem (EDS / swabs) et résistance communautaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "99cbf7107853f1b932a10e19e7ee44e7fa37191ef2962e7326a04aaafa72eef9",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "041-p10-b009-d5e5bf1623",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Former, déployer et motiver les relais communautaires (RECO), supervision renforcée 4 Faible remontée des alertes dans certaines ZS affectées",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d5e5bf162349c3909a2ca0785da51361ec828eee7a640772e14914b862d389e3",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "041-p10-b011-17bfbbc603",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Renforcer la surveillance communautaire, améliorer la remontée et l’investigation rapide des alertes 5 Cas confirmés non localisés ou non classifiés (17 cas)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "17bfbbc6031dddd621b8f75a8dd0e43ffa36094c00e507311d818676fa0117fa",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 13,
+      "candidate_id": "041-p10-b013-a6283ae72f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Conduire une réconciliation des données, élaguer les possibles doublons, et reclassifier ou préciser la zone de santé et le statut (décès, guéris, actifs, etc.) Vérification active sur le terrain 6 Insuffisance d’approvisionnement en MEG et intrants médicaux",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a6283ae72f6324f7581ea13014a833723e217a1303aef1986d3a7ea7435d1e3d",
+      "topic_tags": [
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "041-p10-b015-da811aa23c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Plaidoyer et approvisionnement urgent en médicaments essentiels 7 Insuffisance des intrants PCI (EPI, chlore) et formation limitée",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "da811aa23c81bc3b50f7cbe265c921ca1a5e628a3b35e476c50d836f246ad850",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 26,
+      "candidate_id": "041-p10-b026-bd93daf3cd",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Renforcer les mécanismes de coordination à tous les niveaux, rendre opérationnels les COUSP provinciaux 11 Insuffisance des ressources financières (gap 20 millions USD)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "bd93daf3cd5caddc5b7c5792a17cd164dcfb256a992b4d848be5445d9d8bb35a",
+      "topic_tags": []
+    }
+  ],
+  "candidates_count": 30,
+  "date": "2026-06-24",
+  "event_type_counts": {
+    "activity_or_delivery": 5,
+    "resource_constraint": 4
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 35,
+  "pages": 11,
+  "pymupdf_version": "1.28.2",
+  "report_number": 41,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "656822f7d31650f2b46c602c7decd620fd7ebb4b9f92d5e0bde730b8184182c2",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/Final-SitRep_MVE_RDC_N°041_24_06_2026-1.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 2,
+    "community_engagement": 8,
+    "contact_tracing": 5,
+    "ipc_and_burials": 10,
+    "laboratory": 4,
+    "logistics_and_supplies": 6,
+    "service_continuity": 1,
+    "surveillance_and_alerts": 8,
+    "treatment_capacity": 11
+  }
+}

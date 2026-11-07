@@ -1,0 +1,1004 @@
+{
+  "candidates": [
+    {
+      "block_index": 8,
+      "candidate_id": "146-p04-b008-f4b5f38a48",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "*Il s’agit des décès confirmés survenus dans les différents CTE de la province qui sont en cours de ventilation pour être classifiés par zone de santé.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f4b5f38a484966f87b79e6df8bd9fbf8c62f774eca537cc93652c3ebd0cc8707",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "146-p05-b002-ea0aabba74",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.1.1. Principales Actions Pour la journée du 07 octobre 2026, 3 197 alertes ont été rapportées dans les six provinces ayant notifié des alertes et toutes ont été vérifiées (100,0 %) : 506 (15,8 %) ont été validées comme cas suspects et 2 691 (84,2 %) invalidées. Les 506 cas suspects validés ont tous été investigués (100 %). Parmi eux, 26…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ea0aabba743657eb9e8783ecd12bc0084fcc1df76fb6923288a99d87a47f1b87",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "146-p05-b003-4af1d17196",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Parmi 30 891 contacts en cours de suivi, 24 717 ont été vus au cours des dernières 24 heures, soit une proportion de suivi de 80,0 %, en recul par rapport à la veille (82,0 %) et inférieure au seuil requis de 95,0 %. Par province, cette proportion était de 93,2 % (41/44) au Sud-Ubangi, 91,2 % (124/136) au Bas-Uélé, 89,2 % (222/249) à la T…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4af1d171961aba085d5a6411e985926675a9cf0c7e90520681a02ec005b6270f",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "146-p05-b004-06df65525b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Sept (7) alertes ont été notifiées aux PoE/PoC repris au Tableau 4 le 07 octobre : trois (3) en Ituri, trois (3) au Nord-Kivu et une (1) à la Tshopo ; les 5 cas suspects validés ont tous été investigués dans les 24 heures. En Ituri,…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "06df65525b761f1898c63ef07bcc8b3485fd976b0389a62626de7a7eaff6eafa",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 26,
+      "candidate_id": "146-p05-b026-730c9a2a49",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.2.2. Défis Au Nord-Kivu, le PoC de Butuhe ne fonctionne plus depuis l'incident sécuritaire du 26 septembre, la complétude des rapports reste à 95,2 % (20/21) et 1 821 voyageurs sur 94 168 (1,9 %) ont refusé le screening et le lavage des mains. À la Tshopo, 1,4 % des voyageurs (272/18 813) ont refusé le screening et 1,1 % (205/18 813) le…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Nord-Kivu",
+        "Sud-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "730c9a2a496f14c12caff2d9825932482910ab4ede41d0c659da0500e4277c6b",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "146-p06-b000-1333205f8f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "notification sont fonctionnels (46,3 %), aucun PoE n'est renforcé (0/11), la complétude des rapports n'est que de 83,3 % (15/18) et les services du PNHF ne sont pas opérationnels. . 2.3. Laboratoire 2.3.1. Principales actions",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1333205f8f46814f7c761e26d81287b2901a69b6dd09b752acdd4c1de8911fb3",
+      "topic_tags": [
+        "border_screening",
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "146-p06-b001-5e83b3a6f3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Ituri : 29 nouveaux résultats positifs (15 vivants et 14 décès) sur 175 échantillons reçus et analysés (positivité : 16,6 %). Nord-Kivu : 26 nouveaux résultats positifs (15 vivants et 11 décès) sur 180 échantillons reçus et analysés (positivité : 14,4 %). Haut-Uélé : 4 nouveaux résultats positifs (3 vivants et 1 décès) sur 24 échéntillons…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5e83b3a6f34522ec0a0b9f7bb15ddb71128ba2ed6d0589941072f82999ddeed4",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "146-p06-b003-1cf3450c78",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Bas Uélé : 4 échantillons (4 sangs) reçus et analysés au laboratoire de Buta, tous sont revenus négatifs.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1cf3450c7862fe650db4a363d45a05ce8a8f176abfc40f52e9456fcd05f8fdce",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "146-p06-b004-cca5faa3fa",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Ituri : 31 rings ont été ouverts sur 34 (91,2 %), 56 ménages décontaminés sur 57 (98,2 %) et 6 FOSA décontaminées sur 7 (85,7 %) ; aucun ménage, ESS ni école n'a été doté en kits. Sur 106 alertes EDS (dont 8 reports de la veille), 78 EDS ont été réalisés (73,6…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "cca5faa3fa2f5c1ad86042bd9a9aeb988f0e0ad41c603c082eb70b77e8dd784b",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "146-p06-b005-0d0de1d9fb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Nord-Kivu : 25 rings ont été ouverts sur 38 (65,8 %), avec un gap important à Katwa et à Beni, 42 ESS décontaminées sur 46 (91,3 %) et 7 ménages sur 36 (19,4 %), aucun des ménages décontaminés n'ayant été doté en kits ; 17 évaluations PCI (score card) ont été réalisées dans 17 ESS avec un score moyen de 31,6 % et la formation de 3 équipes…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0d0de1d9fb53a62e88b1806d844b765e2c739fbdd5a8d76a5feccae24f63b9dc",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "146-p06-b006-36da3dc23d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Haut-Uélé : 3 ESS sur 3 (100 %) ont été décontaminées, dont le CH CECCA 16 et le CS Maman Kahenga à Wamba après le passage d'un cas suspect et le CTE de Pawa après un EDS ; le laboratoire de l'HGR d'Isiro a fait l'objet d'un bio-nettoyage, 2 ESS ont été évaluées (scores de 41,9 % à Isiro et de 24,0 % à Boma Mangbetu) et 29 prestataires br…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "36da3dc23d2cd689b683fa4a911c93fc7a0c52e8f63f990ea553876ca3dd1460",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "146-p06-b007-4e9d4f6727",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Tshopo. 42 ESS sur 42 (100 %) et 31 ménages sur 34 (91,2 %) ayant accueilli un cas confirmé ont été décontaminés dans les 48 heures, et 53 ESS sur 103 (51,5 %) ont reçu des kits PCI. Quant aux EDS, sur 8 corps attendus (7 reports et 1 alerte du CTE), 3 ont été swabés (37,5 %) et 2 EDS ont été réalisés (CTE et HGR de Makiso-Kisangani).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4e9d4f6727dc9ec25f24716d4aeefce4b1a7ef4fe3cfb9096778a804e6492948",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "146-p06-b008-5efb86e1fc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Bas-Uélé : 12 ESS sur 12 (100 %) ont été suivies à Viadana (3), Buta (3) et Ganga (6), avec le briefing de 36 prestataires sur 38 (94,7 %) et de 6 hygiénistes sur 6 (100 %) ; la formation de 60 prestataires et de 35 hygiénistes sur la PCI s'est poursuivie à Viadana (J2) avec l'appui de FHI 360.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5efb86e1fcc8c4255376daadb3c8ee56674c13468958f5eeea98a1872fc8d907",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "146-p06-b010-24519c07cc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "service_disruption"
+      ],
+      "excerpt": "À la Tshopo, les intrants PCI et les prestataires formés restent insuffisants, seuls 2 ESS sur 103 (1,9 %) dépassent un score PCI de 80 %, l'incinérateur de l'HGR de Makiso-Kisangani est toujours en panne et les morgues Rekapi I et II manquent de kits de prélèvement et d'EPI. Au Bas-Uélé, l'HGR de Buta et les CS Bomea et Bamaria ne dispos…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "24519c07cc36603b296eb6600cd30ae16e78493fa8e6069cd284448e50372159",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "146-p07-b000-85375848c0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.4.3. Prise en charge holistique 2.4.4. Principales actions En Ituri, 45 nouvelles admissions ont été enregistrées contre 76 sorties, dont 15 guérisons. 360 patients demeuraient en isolement à la fin de la journée, soit un taux d'occupation des lits de 35,5 % (26 % pour les lits confirmés et 43 % pour les lits suspects), dont 31 malades …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "85375848c0ce0484d22834c7968385ff495ebe3a80174c9111d995e2b4c50680",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "146-p07-b001-8d8aec56cc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Nord-Kivu, 142 nouvelles admissions ont été enregistrées contre 116 sorties, dont 8 guérisons. Au total, 519 patients demeuraient en isolement à la fin de la journée, soit un taux d'occupation global des lits de 84,2 % (315/374), 84,2 % pour les lits confirmés (169/209) et 84,2% pour les lits suspects (146/165) ; 156 patients (33,1 %) …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "8d8aec56cc9dfb8c9523cb835be7cf822749050d1d9b1cfab5bd787bfa8947da",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "146-p07-b002-6eab114d07",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Haut-Uélé, 9 nouvelles admissions de cas suspects ont été enregistrées contre 2 sorties (1 non-cas et 1 décès confirmé au CTE de Pawa), sans aucune guérison. Au total, 76 patients demeuraient en isolement à la fin de la journée, dont 5 en état sévère ou critique, soit un taux d'occupation de 49,7 % (54/153), 29,6 % pour les lits confir…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6eab114d07067f33309d98aca2e252cb299f63f3bd0c44878fc940385558edc5",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "146-p07-b003-386321f421",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "À la Tshopo, 1 nouvelle admission d'un cas suspect, une infirmière décédée moins de 3 heures après son arrivée, a été enregistrée contre 7 sorties (6 non-cas et 1 décès). Au total, 15 patients (6 confirmés et 4 suspects) demeuraient en isolement à la fin de la journée, soit un taux d'occupation de 27,8% (10/36); depuis le début, 393 perso…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "386321f42182b881635d1827b0852aa71e762e7b94bec17af5b52f18d365f19e",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "146-p07-b005-b53553ff67",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.4.5. Défis En Ituri, la faible capacitée d'accueil de certains CTE/CT (Mambasa, Jina, Sota Mangala, Mandima et Lolwa), la prise en charge de 31 malades critiques et l'absence d'alimentation pour 12 patients à Mandima demeurent préoccupantes.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b53553ff671d33d90c763580b9bf0c4a11fd42e9a391a3889e905496e1ef49a3",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "146-p07-b006-b69b36b1bb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Nord-Kivu, la saturation des lits suspects (146/165 ; 88,5 %) et la prise en charge de 156 patients (33,1 %) en dehors des CTE/CT demeurent préoccupantes.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b69b36b1bb81a2ac632caea46657373282af7250aecb0e20d398400ce1384ff4",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "146-p07-b007-548e7741f7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Haut-Uélé, les incohérences des données de prise en charge et l'absence de corbillard au CTE de Boma Mangbetu demeurent des défis à résoudre.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "548e7741f7145fe96d8d884b51f7b0f3cfcb2297d687cffc280c5cc5ab2ad27c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "146-p07-b008-128f18860f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "À la Tshopo, la démotivation de 12 ambulanciers sur 29 (41,4 %) fragilise le transfert des patients.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "128f18860fc37c4e14b8e3e14776990f9971b15c128b866c8fb2cf7d92dd7931",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "146-p07-b009-f629cdfecb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Bas-Uélé, l'absence de CTE normé, encore en construction, et d'ambulance pour le transfert des malades demeure un défi opérationnel majeur.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f629cdfecbd8b47bc6905a1424861e6bf7ec6cddf99aaa804b3b21a282b6dc74",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "146-p07-b011-0149352bc5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Bas-Uélé, la vaccination des PPL et TPL s'est poursuivie dans la ZS de Poko, avec le préenregistrement des leaders religieux, RECO, tradipraticiens, motards et chasseurs, portant le cumul provincial à 1 412 personnes vaccinées sur une cible de 13 202 (10,7 %), principalement à Buta (620 ; 21,6 %), à Ganga (273 ; 20,5 %) et à Poko (150 …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0149352bc593889afb99258770a2a717248e55c52b2d52eb7de1ed34eb86b410",
+      "topic_tags": [
+        "community_engagement",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "146-p07-b012-b122909dcb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "En Ituri, les essais cliniques Partners, Oracle et EBO-PEP se sont poursuivis avec l'appui de l'INRB, de Kivu et d'ALIMA, et un protocole de recherche sur l'impact de l'épidémie sur l'utilisation des services de santé sexuelle et reproductive a été reçu pour analyse.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b122909dcbac5a41b0c5a00d55acdcc5e16d8e64e0f38c64c25c4045aae6b3d6",
+      "topic_tags": []
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "146-p08-b000-a3c92e24b5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "service_disruption"
+      ],
+      "excerpt": "2.5.2. Défis En Ituri, la vaccination des PPL et l'étude de l'immunité croisée avec la souche BDBV restent suspendues dans l'attente de l'approvisionnement en vaccin Ervebo par le PEV national. Au Bas-Uélé, la mise en marche des UCC n'est pas effective et le micro-plan validé ainsi que les fonds de la vaccination ne sont toujours pas disp…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a3c92e24b5122d7d61a13fd0a4d80ec62582061d81f807a0d7b8b5cec200a99d",
+      "topic_tags": [
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "146-p08-b002-ba66c457a3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "À la Tshopo, l'évaluation du CS Tshopo 2 et du CS Salama a révélé l'absence de zone de triage effective et de dispositif de gestion des déchets (ni incinérateur, ni fosse à ordures, ni fosse à placenta), la non-utilisation du partogramme lors des accouchements, une faible vaccination du personnel au CS Salama (2 agents sur 15 ; 13,3 %) et…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ba66c457a341ff65fd36632079cef339d5a579ccff1ac0800ef898bb68c1c5f0",
+      "topic_tags": [
+        "community_engagement",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "146-p08-b003-24e3d68055",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Bas-Uélé, 123 visites à domicile ont touché 482 personnes à Ganga et à Viadana, 3 séances de sensibilisation de masse 900 personnes et une émission radio sur la RVA/Aketi 13 859 auditeurs ; 41 prestataires de la ZS de Viadana et 8 prestataires du point de contrôle PK65 ont été briefés, et les 2 alertes communautaires, les 5 feedbacks e…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "24e3d680550210ee660e6c4dd6707acf0269734385ef5bd6c17ca50a79fc79f5",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "146-p08-b004-3053a2e63c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Nord-Kivu, 7 790 visites à domicile ont touché 23 427 personnes, 188 causeries éducatives 5 902 personnes et 25 séances de communication de masse 5 051 personnes ; 269 alertes communautaires sur 650 attendues (41,4 %) ont été notifiées, 26 feedbacks sur 34 (76,5 %) et 2 incidents sur 5 (40,0 %) ont été résolus dans les 48 heures et 1 9…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "3053a2e63c664392d3a71ac3645a1e270f5d67421a5acc603ffb81d3b292ace1",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "146-p08-b005-b9d335bd87",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Au Haut-Uélé, 24 causeries éducatives, 4 séances de sensibilisation de masse et 71 visites à domicile ont touché 1 412 personnes à Isiro et à Wamba ; 52 alertes communautaires, dont 4 décès, ont été notifiées dans 6 ZS et les 7 feedbacks reçus ont été résolus (100 %), la plupart portant sur la communication autour des patients du CTE, et …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b9d335bd87ca2ec38212afcb4e0e10dacfbbcdbaadbd185f51a90275c4b9005d",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "146-p08-b006-b5e21fb95c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.8. Santé mentale et soutien psychosocial (SMSPS) 2.8.1. Principales actions Nord-Kivu, 20 des cas confirmés sur 23 (87,0 %), 46 confirmés en cours de suivi, 93 nouveaux suspects et 676 suspects en cours de suivi ont bénéficié d'interventions SMSPS ; les équipes ont accompagné 70 ménages pour les actions de santé publique et 23 ménages d…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b5e21fb95c8b65cbdfe48525f7de2f226790a76a07d2470f617851a290aa043c",
+      "topic_tags": [
+        "psychosocial_support"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "146-p09-b000-f27f8f6424",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "orphelins sur 25 (92,0 %), soutenu 60 PPL, suivi 11 guéris sur 11 en communauté (100 %), 6 enfants sur 6 en crèche et 31 enfants sur 35 en communauté (88,6 %), réalisé la psychoéducation de 364 personnes (127 hommes, 196 femmes et 41 enfants) avec l'appui de l'UNICEF et annoncé 125 résultats, dont 23 positifs ; 7 ZS sur 9 ayant notifié so…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f27f8f6424e0f8ef5df49428072422b4ce8e8c896670f91cec342b7e34d085ac",
+      "topic_tags": [
+        "psychosocial_support",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "146-p09-b001-2deec96375",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "En Ituri, 24 des cas confirmés sur 34 (70,6 %), 91 confirmés en cours de suivi sur 132 (68,9 %), 30 nouveaux suspects sur 45 (66,7 %) et 112 suspects en cours de suivi sur 158 (70,9 %) ont bénéficié d'interventions SMSPS. Les équipes ont soutenu 270 accompagnants et 98 PPL, suivi 18 guéris sur 20 (90,0 %) en communauté et 15 enfants sur 1…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2deec963757826f601cb170c3f8e899de2ded7f2e6d131def0932c9a216c3b8f",
+      "topic_tags": [
+        "psychosocial_support"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "146-p09-b002-f6c007e4d2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "À la Tshopo, en l'absence de nouveau cas confirmé, les 6 confirmés en cours de suivi, le nouveau suspect et les 13 suspects en cours de suivi ont été pris en charge (100 %) ; les équipes ont soutenu 13 PPL et 3 ménages, levé 2 résistances sur 2 autour des ménages des contacts liés à DHKis et réalisé la psychoéducation de 121 personnes (52…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f6c007e4d214e3ee6e6299a9776f0a378cdf601ae0a74e09d6e19be7321cc18e",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "146-p09-b003-d167e40a6e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Haut-Uélé, 5 cas confirmés récents, 26 confirmés en cours de suivi, 4 nouveaux suspects et 20 suspects en cours de suivi ont bénéficié d'interventions SMSPS dans les CTE d'Isiro, Pawa, Boma Mangbetu et Wamba ; les équipes ont soutenu 49 accompagnants, 82 PPL (dont 25 membres de la coordination nationale), 10 enfants séparés en communau…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d167e40a6ef2a345ff49550887d9c0856f9c19ef094c632f2935426f5d462e3e",
+      "topic_tags": [
+        "ipc_and_burials",
+        "psychosocial_support",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "146-p09-b004-d0fd8240bf",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Bas-Uélé, 5 PPL, 6 membres de ménages et de la communauté et 2 contacts ont été soutenus, 1 guéri déchargé est suivi, 1 réticence a été levée et 3 résultats ont été annoncés (tous négatifs) ; une descente conjointe avec la CREC a été menée auprès de l'époux du dernier cas confirmé de Limba pour son adhésion au traitement compassionnel.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d0fd8240bf3c1bd56d7a56c3eb96dc7fb039b4dc5f2bfdfed8e95b0b503a2b2f",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "146-p09-b005-345fc56035",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.8.2. Défis En Ituri, seules 14 ZS affectées sur 28 sont couvertes (50,0 %) et la ZS de Mandima n'a aucune couverture SMSPS, ce qui impose de renforcer les capacités des psychologues et des APS/TPS pour assurer les interventions autour des cas.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "345fc5603515c79a9652eaaf1303edf5040c751e6e721af03255b4fe29ec78f2",
+      "topic_tags": [
+        "psychosocial_support"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "146-p09-b006-f607dc5979",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Bas-Uélé, la couverture SMSPS reste embryonnaire, les activités venant à peine de démarrer dans la ZS de Viadana.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f607dc5979300bd5958da7e8763a7b2fb3104f8bf43db649fef42f6cf5792043",
+      "topic_tags": [
+        "psychosocial_support"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "146-p09-b007-7296b2c403",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Au Haut-Uélé, la mobilité des APS reste difficile à Wamba et à Boma Mangbetu, les kits nutritionnels manquent pour les nourrissons sevrés à Wamba et à Isiro, le pilier ne dispose pas de matériel informatique et la remontée des données reste faible à Boma Mangbetu et à Pawa",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7296b2c40370f000b3c1c1963bd2059c93b576ed2f1441e8b76510ab7808d159",
+      "topic_tags": []
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "146-p09-b008-e64ba0e935",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "À la Tshopo, nécessité de former les APS des ZS de Wanie-Rukula et de Bafwasende et insuffisance des unités de communication et des motos pour les déplacements du pilier.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e64ba0e9354534457278003d152fa3c7bd584d6ab565a31621d140e479f9397a",
+      "topic_tags": []
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "146-p09-b009-1bc5fd89d0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "2.9. Logistique 2.9.1. Principales actions Au Bas-Uélé, réception des intrants PCI offerts par FHI 360, déploiement des équipes de surveillance à Ganga et à Viadana pour le suivi des contacts, la vérification des alertes et la recherche active, et poursuite de la réhabilitation de la salle de réunion (fixation des fenêtres) et des bureaux…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1bc5fd89d0c5917404d088f3a438b0f2c6926cf701fa2a145ef2fa97e912e5e9",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "146-p09-b010-91f72cbde4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "À la Tshopo, suivi de la construction du CTE de Bafwasende, de l'extension du CTE Météo et de l'isolement de Konga-Konga, dont les travaux reprendront après la finalisation des caniveaux, déballage des médicaments PHATKIN à Bafwasende, début des inventaires au dépôt et appui à la mobilité des piliers PCI, PEC, Communication et PoE/PoC ain…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "91f72cbde47a0f1b49e31779e0b7a785fa2661636caa676164c6664b92a3ae7d",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "ipc_and_burials",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "146-p09-b011-deee6ffaa5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au Haut-Uélé, 6 courses d'ambulance ont permis de transporter 6 patients à Pawa (2), Wamba (2), Isiro (1) et Boma Mangbetu (1)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "deee6ffaa5d6fa25bb5b944b1b21b01e58237180a662b960cbd1f671776a629d",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "146-p10-b000-50a6726d5e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "security_incident"
+      ],
+      "excerpt": "2.10. Sécurité 2.11. Principales actions À la Tshopo, les résistances communautaires aux investigations, aux prélèvements, à l'isolement et au transfert au CTE persistent, et des agressions physiques contre les équipes d'intervention rapide continuent d'être rapportées",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "50a6726d5ee7154876152fa0091904342d6a386668d2cf02def1a217fdf2f77a",
+      "topic_tags": [
+        "laboratory",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "146-p10-b001-bd7d44d3e7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Au Bas-Uélé, la situation sécuritaire est restée calme sur les sites d'intervention ; les activités de riposte ont été sécurisées et des échanges ont eu lieu avec les responsables des services de sécurité, de l'ANR et de la DGM sur l'appui à la recherche d'éventuels contacts dissimulés dans la communauté",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Bas-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "bd7d44d3e776c08a23a73649ec9ffb86aac3716ab590c307de56dcc30f884ebd",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "146-p10-b002-d438edeeb8",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "security_incident"
+      ],
+      "excerpt": "Au Nord-Kivu, l'équipe de décontamination a été agressée par la population au CS de Boikeni avant d'être libérée par les services de sécurité, qui ont interpellé les auteurs ; les équipes EDS et PCI ont été escortées pour les enterrements aux cimetières de Paida (ZS de Beni) et de Lusovovo (ZS de Katwa), le swab d'un corps au CH Kivika (Z…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d438edeeb84fc799d7481f1b54ed9a4d35b5e92b2f1f6ab2a7f57ee2b041b184",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "146-p10-b005-60147459d5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "2.12. PSEA (Prévention de l'Exploitation et Abus Sexuels) 2.12.1. Principales actions En Ituri, la formation des formateurs sur la PSEAH a démarré dans la ZS de Bunia avec 27 participants (19 femmes et 8 hommes), et des sessions de formation ont réuni 61 enseignants et membres des comités de parents à Komanda (23 femmes et 38 hommes) ains…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "60147459d58f4eb62a81923991c4c6d20886a96d0828edd27f3da9a2e6354a7d",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "146-p10-b006-7ef4a38fe2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "▪ Du 24 avril au 15 mai 2026, l'épidémie est passée de la détection des premiers cas suspects à la confirmation biologique du virus Ebola Bundibugyo, conduisant à la déclaration officielle de la 17ᵉ épidémie de Maladie à Virus Ebola en République Démocratique du Congo. ▪ Entre le 17 et le 18 mai 2026, les autorités nationales, avec l'appu…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7ef4a38fe25e11d59f0851bc546305dc715c43a82a8576fb12044fd8205d0976",
+      "topic_tags": []
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "146-p10-b007-88741906be",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "▪ ▪ Au cours des dernières 24 heures, tous les cas suspects (100,0%) ont été investigués ; des performances consolidées au regard des données transmises par les provinces. Cependant, le suivi des contacts demeure fluctuant (80,0 % vs 82,0 %) et mérite une attention particulière afin d'éviter des chaînes de transmission non contrôlées. Mai…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "88741906be4ef2669751ae09e8b36a07de642d9e364e34fe5b4157897966a5bc",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 49,
+  "date": "2026-10-07",
+  "event_type_counts": {
+    "activity_or_delivery": 16,
+    "resource_constraint": 5,
+    "security_incident": 2,
+    "service_disruption": 2
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 50,
+  "pages": 11,
+  "pymupdf_version": "1.28.2",
+  "report_number": 146,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "87202e269e7cef8ae221c79ec4dc33384fdb8b40d781ab3773e31080270f35fd",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_146_07_10_2026-1.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 5,
+    "community_engagement": 7,
+    "contact_tracing": 7,
+    "ipc_and_burials": 12,
+    "laboratory": 6,
+    "logistics_and_supplies": 2,
+    "psychosocial_support": 6,
+    "service_continuity": 1,
+    "surveillance_and_alerts": 15,
+    "treatment_capacity": 23,
+    "vaccination": 3
+  }
+}

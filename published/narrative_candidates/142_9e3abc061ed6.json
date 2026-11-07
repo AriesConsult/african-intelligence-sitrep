@@ -1,0 +1,470 @@
+{
+  "candidates": [
+    {
+      "block_index": 12,
+      "candidate_id": "142-p04-b012-0a72a32909",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "La situation montre une mortalité différenciée selon les provinces, avec une létalité nationale de 48,2 %. La Tshopo (32,7 %), le Haut-Uélé (41,5 %) et surtout l’Ituri (45,9 %) présentent une létalité inférieure à la moyenne nationale, tandis que le Nord-Kivu reste particulièrement préoccupant avec 58,5 %. La transmission des dernières 24…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0a72a329098a59ed8ccfee79db4ac95ee40244b54694b6dfc3a1bc76bc06324e",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 39,
+      "candidate_id": "142-p04-b039-1bc01375de",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Un bon niveau de performance est observé dans la vérification et l’investigation des alertes : les 2 800 alertes reçues ont été vérifiées, dont 490 (17,5 %) validées comme cas suspects et 2 310 (82,5 %) invalidées. Les 490 suspects validés ont tous été investigués (100 %), traduisant une bonne réactivité de la surveillance. La charge des …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1bc01375def038a6dfdfd41cfbfd5037496a340f7ebe997b7a7584aa4e2f486e",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p05-b000-e6473c1423",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Le principal gap concerne le transfert des suspects vivants vers les CT/CTE : seuls 239 des 395 suspects vivants investigués ont été transférés, soit 60,5 %. La performance est particulièrement faible au Bas-Uélé (0/31), tandis qu’elle reste partielle en Ituri (106/122 ; 86,9 %) et au Nord-Kivu (120/223 ; 53,8 %).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e6473c1423cd4b4f227a9cff2ec9f356006ebd164a1c380776bfeb9eb91000a8",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "142-p05-b010-7e9a618ab9",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "1. COORDINATION 1.1. Principales Actions Accueil, le 03 septembre 2026, du Ministre français des Affaires étrangères, accompagné du Professeur Jean-Jacques Muyembe, dans le cadre du suivi et du soutien aux efforts de riposte à la MVE-17 ; Poursuite de la coordination et de l’appui aux activités de réponse dans les provinces affectées, à t…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7e9a618ab9972893d49933bbcd998a53b74efcf1bc3e19504614a924268d1432",
+      "topic_tags": [
+        "contact_tracing",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p06-b000-5da256d9d7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "183/11 617) en Ituri et 67,9 % (9 532/14 039) au Nord-Kivu, où les ZS de Biena et de Katwa n'ont pas transmis leurs données ; le Sud Ubangi n'a pas rapporté 2.1.2. Défi majeur Le principal défi demeure l’insuffisance du suivi des contacts et du transfert rapide des cas suspects vers les CT/CTE. Malgré une investigation de 100 % des suspec…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Ubangi"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5da256d9d7920fc3f3eb32e0544f344e5b0740e3bc3d348083f87258c175826d",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "142-p06-b015-e8d8bc5936",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "% des voyageurs sensibilisés 99,3% 97,3% 100,0% 98,6% Nombre d’alertes notifiées 2 2 0 4 Nombre d’alertes vivantes validées (cas suspects)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e8d8bc593650c99a3423ef2ef4d6f7c9090c3ea5782384b9bf2323d3547a9626",
+      "topic_tags": [
+        "border_screening",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 24,
+      "candidate_id": "142-p06-b024-92c16ecbaa",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.2.2. Défi majeur Le défi majeur demeure d’assurer le référencement systématique et rapide de toutes les alertes validées aux PoE/PoC vers les structures appropriées, notamment face aux refus de transfert, comme observé au PoC DGRPI Nizi en Ituri. Ces refus constituent un risque de retard d’isolement, de diagnostic et de prise en charge,…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "92c16ecbaaec74c7cdc3e5f864fbf1e445f49aa99a5f02037121cfdfefe41145",
+      "topic_tags": [
+        "border_screening",
+        "community_engagement",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p07-b000-d9b1099ee8",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Ituri : 57 nouveaux résultats positifs (46 vivants et 11 décès) sur 190 échantillons reçus et analysés (positivité : 30,0 %) ; Nord-Kivu : 39 nouveaux résultats positifs (31 vivants et 8 décès) sur 176 échantillons reçus et analysés (positivité : 22,2 %) ; Haut-Uélé : 5 nouveaux résultats positi…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d9b1099ee81fc19bae669b8a1e0e3429e02779f1185fad57229cf12df85e829c",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "142-p07-b001-21c8f5f2cf",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions En Ituri, 51 nouvelles admissions ont été enregistrées contre 74 sorties, dont 12 guérisons. Au total, 355 patients demeuraient en isolement à la fin de la journée. Le taux d'occupation",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "21c8f5f2cf494c168afa91c23d8584f96388ee00495b5c81d0c217cee28ea713",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p08-b000-0f341e4e49",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "service_disruption"
+      ],
+      "excerpt": "des lits était de 35,0 % ; 314 patients sur 338 (92,9 %) ont bénéficié de repas chauds et les enfants sous LNPE/SLM ont été intégralement couverts au CTE (10/10), à la crèche (5/5) et dans la communauté (42/42) ; 30 malades sont en état critique ; Au Nord-Kivu, 109 nouvelles admissions ont été enregistrées contre 104 sorties (4 guéries). …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0f341e4e4949fbd9b869806fd45e3818dda1fecd11b889b92b315d2d97ad553d",
+      "topic_tags": [
+        "community_engagement",
+        "logistics_and_supplies",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "142-p08-b001-da2a6a06ee",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "2.7. Continuité des Soins 2.7.1. Principales actions À la Tshopo, l'évaluation du CS Boyoma (ZS de Makiso-Kisangani) a relevé 6 agents vaccinés sur 38 (15,8 %), l'absence de zone de triage fonctionnelle, un laborantin non formé au diagnostic du paludisme et l'annulation de la séance de vaccination de routine de la semaine 39 ; le plan de …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "da2a6a06ee53810b5c3264bcf761fd77c5987036488513b01f63059f45aae4a9",
+      "topic_tags": [
+        "service_continuity",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p09-b000-8325992130",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "l’interruption ponctuelle de la vaccination de routine — exposent à une perturbation supplémentaire des services essentiels. Au Haut-Uélé, la baisse de 40 % de l’utilisation des services constitue également un signal préoccupant nécessitant d’en identifier rapidement les déterminants et d’y apporter des réponses adaptées. 2.8. Communicati…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "83259921306e9cfa282ec9b01fbe53acab7c841a59a609c0a947f78d35208060",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "ipc_and_burials",
+        "psychosocial_support",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p10-b000-f54f697327",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "En Ituri, 21 cas confirmés sur 28 (75,0 %) de la veille, 99 confirmés en cours de suivi sur 134 (73,9 %), 32 nouveaux suspects sur 51 (62,7 %) et 114 suspects en cours de suivi sur 146 (78,1 %) ont bénéficié d'interventions SMSPS. Les équipes ont soutenu 295 accompagnants et 83 PPL, suivi 16 guéris sur 21 (76,2 %) en communauté, réinséré …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f54f6973277cc95108e687186e82318a70118e13c808aa6b276b9151a18c4085",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "psychosocial_support",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "142-p11-b000-34458e7d67",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "security_incident"
+      ],
+      "excerpt": "2.11.2. Défi majeur Le défi majeur demeure la sécurisation continue des équipes, des infrastructures et des interventions de riposte dans les zones présentant des contraintes sécuritaires, afin d’éviter que l’insécurité ne retarde ou n’interrompe les activités essentielles, notamment les décontaminations, les EDS, le transport des échanti…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "34458e7d678b5b8c8af76b4ff2044cf423cc57ccc5ceb0ed7c78bf1c242155b9",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "security",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "142-p11-b006-dcd0a712e3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "notamment avec l’investigation de 100 % des cas suspects dans les 24 heures suivant leur notification et une légère amélioration du suivi des contacts, passé de 73,1 % la veille à 73,8 %, soit un gain de 0,7 point. Ce niveau demeure toutefois en deçà de la cible opérationnelle de 95 %, justifiant l’intensification du suivi des contacts, p…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "dcd0a712e36f49aa3a6c9e847d56ea80c21bdd75d0116210f2e8c5f03b001e6f",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "142-p11-b009-e0953c9e19",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "nationales, avec l'appui des partenaires, ont renforcé la riposte par la déclaration de l'urgence de santé publique de portée nationale puis continentale, accompagnée de la mobilisation des fonds.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e0953c9e19a40e925b73ac9e0b9b9f38f84f63d1f1aa5d48ba4f043c79b6dc6a",
+      "topic_tags": []
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "142-p11-b010-d43b5fd6c8",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "principalement en Ituri, au Nord-Kivu et au Haut-Uélé. En revanche, aucun nouveau cas confirmé n’a été notifié au SudUbangi au cours des dernières 24 heures, tandis qu’une accalmie relative est observée à la Tshopo, avec une faible notification de cas au cours des dernières 72 heures. Ces acquis doivent être consolidés afin de prévenir to…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d43b5fd6c805c1e62e96aa575904d200f95bbd9d3d336cab5208bce2f0b6562b",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "142-p11-b012-b58ca3add6",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "en renforçant conjointement la surveillance épidémiologique, le référencement et le transfert rapide des suspects vers les CT/CTE, l’isolement précoce des cas confirmés, la prise en charge holistique, la PCI/EDS, la logistique et l’engagement communautaire. Une attention particulière doit être accordée aux capacités opérationnelles des CT…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b58ca3add69e983caa4f336770d5dc8391b90e505e677a66be0bd80f74b396f4",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "142-p11-b014-38a1426db4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "zones à risque, notamment au Sud-Ubangi, à travers la recherche active des cas, le suivi rigoureux des contacts, la disponibilité des intrants et le renforcement de la surveillance aux points d’entrée et de contrôle. Poursuivre également la surveillance transfrontalière avec le Soudan du Sud afin de réduire le risque de propagation transf…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Sud-Ubangi"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "38a1426db49d6317e25a17e1ebaa7a7009c7d90d63c9fb0f079e52f352d53f17",
+      "topic_tags": [
+        "contact_tracing",
+        "logistics_and_supplies",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 19,
+  "date": "2026-10-03",
+  "event_type_counts": {
+    "activity_or_delivery": 8,
+    "resource_constraint": 6,
+    "security_incident": 1,
+    "service_disruption": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 20,
+  "pages": 12,
+  "pymupdf_version": "1.28.2",
+  "report_number": 142,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "9e3abc061ed6101aec70d8d23c5148b2e39e3ef886f859f60f720f7b65f5557f",
+  "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_142_2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 3,
+    "community_engagement": 6,
+    "contact_tracing": 7,
+    "ipc_and_burials": 7,
+    "laboratory": 3,
+    "logistics_and_supplies": 4,
+    "psychosocial_support": 2,
+    "security": 1,
+    "service_continuity": 4,
+    "surveillance_and_alerts": 11,
+    "treatment_capacity": 11,
+    "vaccination": 3
+  }
+}

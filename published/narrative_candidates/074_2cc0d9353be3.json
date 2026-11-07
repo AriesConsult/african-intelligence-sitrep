@@ -1,0 +1,644 @@
+{
+  "candidates": [
+    {
+      "block_index": 18,
+      "candidate_id": "074-p06-b018-9568d7cfcf",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au total, 1 425 alertes (dont 1 263 nouvelles), 1 142 investigués dans les 24h (80,1%) et 321 validées (213 vivantes et 108 décès communautaires). Cette amélioration reflète la réduction des reports d'investigation et la consolidation des données provenant des provinces affectées. L'amélioration du taux d'investigation est liée à la réduc…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9568d7cfcfbc6d69be6b095bfad2f5fb7439a301ca06d8ffd113e4d10e2eb9ef",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 20,
+      "candidate_id": "074-p06-b020-5242f31f31",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "→ Ituri : 206 échantillons documentés dans le réseau de collecte, dont 87 positifs (71 vivants et 16 décès), soit une positivité",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5242f31f319523c4016c6c8ba2043e7a5bab6ccd23879cee2f5a84402e59e15a",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 22,
+      "candidate_id": "074-p06-b022-5d6fd3fd02",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "→ Nord-Kivu : 100 échantillons reçus et analysés, parmi lesquels 11 positifs (6 vivants et 5 décès), soit une positivité de 11,0%.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5d6fd3fd02bf5e54360115e01acd1923b78904c4db5816f498b2462f04163815",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "074-p07-b000-c68dc2b013",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "→ Tshopo : 3 échantillons reçus et analysés. Tous ces échantillons sont revenus négatifs après les analyses.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c68dc2b01335271011c0da6b25284084fd46a497315d5f406f37d9a435317c12",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "074-p07-b011-c7e34710a2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Le suivi des contacts demeure insuffisant au niveau national (78,9 %), en deçà du seuil opérationnel de 95 %. L'Ituri n'a assuré le suivi que de 9 706 contacts sur 12 500 (77,6 %). Le Nord-Kivu a réalisé une performance de 4 056 contacts vus sur 4 908 (85,6%). Le Haut-Uélé n’a suivi que 90 contacts sur 150 (60,0%). La Tshopo maintient une…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c7e34710a265aa8b0fc7ce8cbb909200bc4b734443a5d1e0d3463a1e3b1538a3",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "074-p07-b014-be56171ec8",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Ituri — 2 alertes notifiées Deux (2) alertes vivantes ont été notifiées et validées : une au PoC Mud’zibala, référée au CTE de Bunia, et une au PoC DGRPI Nizi, dont le transfert au CTE a été refusé. Nord-Kivu — 2 alertes notifiées Deux (2) alertes notifiées dont une validée et un corps sans vie intercepté. Tshopo — 1 alerte notifiée Une (…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "be56171ec83198c559c004b07ced7060c1981c8a40e0a73342054dff5fae0ddb",
+      "topic_tags": [
+        "border_screening",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "074-p08-b003-e20ed2d6e7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au total, cinq (5) alertes ont été notifiées aux PoE/PoC, dont trois alertes vivantes validées et un corps sans vie intercepté. Deux alertes vivantes ont été référées au CT/CTE (66,7 %) et le corps sans vie a été swabé.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e20ed2d6e718db3b706fedce37bea51c7291089e349a38283f2649565f2c8b6a",
+      "topic_tags": [
+        "border_screening",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 23,
+      "candidate_id": "074-p08-b023-4cc1c78dbd",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Au total, 733 patients étaient en isolement, dont 313 cas confirmés et 420 cas suspects, pour un taux d'occupation global de 77,3 % (733 patients pour 949 lits), pour 859 admissions et 126 sorties (14 guéris, 22 décès, 85 non-cas et 5 évadés). L'Ituri concentre l'essentiel de la charge avec 544 malades en isolement (290 confirmés, 254 sus…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4cc1c78dbd90be4bf8bf89f6f413304dd2f24791f42a09739566cc130eee322c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 23,
+      "candidate_id": "074-p09-b023-5656473d04",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "CONTINUITE DES SERVICES ESSENTIELS (CSSE) → Ituri : Poursuite de l’estimation des besoins des intrants PCI dans le cadre de continuité des services et des soins essentielles Analyse des indicateurs tire de DHIS2 (en cours) ; Elaboration et Budgétisation du plan de pilier CSSE.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5656473d04a9f308bcaf48ba27b13b5793ba9403f8e2b18d5a2b17d4d98d4339",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 27,
+      "candidate_id": "074-p09-b027-46b1a10951",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "PCI / WASH → Nord-Kivu : Décontamination de 3/31 Ménages de Cas confirmés dont 2 à Katwa et 1 à Butembo ;Décontamination de 10 ESS de séjour de cas dont 2 à Butembo, 6 à Katwa et 2 à Musienene ;Dotation en kit PCI incomplet dans 5 ESS à Butembo ;Evaluation score card PCI dans 1 ESS à Butembo avec score moyen de 22,5% (CS Vutike) ;Suivi et…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "46b1a109516d1e9f963ce81b5aefb1d151aae25fac48ce053c791e3441dc0f3e",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 28,
+      "candidate_id": "074-p09-b028-0dd54b41b0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "pour les activités de la riposte contre la MVE ; Livraison d’intrants au laboratoire INRB ;Collecte des données et Rédaction de rapports de la section ;Réception des intrants EDS de la part du partenaire FHI 369 ;Livraison des intrants de prise en charge nutritionnelle aux ZS de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0dd54b41b024d51d96f7bec782e0a504f91d7af844b6d435cb87ee069b0c4d5f",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "074-p10-b000-74cc7c7900",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Beni : (250 carton ) et ZS de Mutwanga (200 ) ;Réception du 2éme lot d’intrants de prise en charge nutritionnelle (2411 cartons de plumpy nut,11 cartons de F100 et 14 cartons de F75 et des intrants PCI destinés aux ZS de Butembo, Katwa et Beni/don de UGPDSS",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "74cc7c7900c7642b4783498e24cf1b88d67dd84b3271d80e570464aa33bd2b6e",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "074-p10-b001-cf3493acf1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "35 à Katwa, 23 à Kyondo et 259 à Oicha ; Décès communautaires ayant bénéficié d'un EDS : 43 dont 6 à Beni, 14 à Butembo, 21 à Katwa, 5 à Kyondo et 2 à Musienene ; Décès communautaire ayant fait objet de SWAB : 54 dont 11 à Beni, 1 à Butembo, 25 à Katwa, 5 à Kyondo, 2 à Musienene",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "cf3493acf1ed913d3a4812c8391c87fac45f5596bed7c59df2aa412bcfa8796b",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "074-p10-b003-5810d77f73",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "service_disruption"
+      ],
+      "excerpt": "→ Tshopo : Mauvaise gestion des déchets, Insuffisance des réceptacles, Service de triage non fonctionnel, Personnel non formé en PCI et Insuffisance de poubelles.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5810d77f73216230397431c7291ce3ed1610fd49d0d34cfd05cc4e7912be89c8",
+      "topic_tags": [
+        "ipc_and_burials",
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "074-p10-b005-edd5c42d68",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "PRISE EN CHARGE HOLISTIQUE (PECH) → Ituri : 13 nouveaux guéris ; 544 patients en isolement, 92 nouvelles admissions et 86 sorties dont 19 décès ; 988 personnes ont bénéficié de repas chauds ; Réception d’équipement pour la biochimie (High flow et Picollo + Accessoires) au CTE Rwampara en Ituri.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "edd5c42d680ba2b4901afaefec3df8dac18a60868c61fb338d3eb41baf5cc4cb",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "074-p10-b006-6840bdf0ef",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "de sensibilisation réalisées par les RECO 54 dans ménages de 1 sur 4 Zones de Santé (NIA-NIA, NIZI); 256 personnes ont été touchées aux thèmes de sensibilisation lors des causeries éducatives tenus par les acteurs communautaires dans zone de santé (NIA-NIA, NIZI).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6840bdf0ef9fbc8675421ed0dac5b50a6a9eb3c6761d96b7950692d0b20551d2",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "074-p10-b010-9715bfb5f3",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "déchargés et aucun patient hospitalisé. Poursuite du traitement expérimental de 2 contacts (J10) au CS FEDI de Mangobo.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9715bfb5f3ff812a6060f3ee69ae55da8844fb9d2f9ced0ac068d0ade66149fd",
+      "topic_tags": [
+        "contact_tracing",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "074-p10-b011-d6945da5c9",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "de déchargement d’un guéri militaire au CTE-Beni : à l’occasion, des messages ont été lancés aux autres militaires, aux représentants des motards présents et la communauté venue pour une visite guidée au CTE.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d6945da5c949f9d615204465d03267b42b7bafcad41a3e2bab69ed9842165f09",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "074-p10-b015-e2c43cac40",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "d’Isiro en vue de l’intensification des interventions de la CREC dans les AS affectées ; visite de 27 Recos dans les ménages visait à passer des messages sur l’importance des EDS auprès des responsables des ménages.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e2c43cac4022ed378afde96d8d7cc4ec22f739c803541fc1a02ac2fb2ae9156d",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 16,
+      "candidate_id": "074-p10-b016-94599891f7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "ENTERREMENTS DIGNES ET SECURISES (EDS) → Ituri : Clôture de la formation des 2 équipes (Niania et pk 51) ; J2 de la formation des 2 équipes EDS dans la ZS de Fataki, AS Jina ; Poursuite de la formation des deux équipes a Kasenyi : J3 ; Début de la formation des 2 équipes ECUMER dans les AS MWANGA et KUNDA dans la ZS de RWAMPARA ; Receptio…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "94599891f781f29153f49f3fcae6fa599633d70a9bff0eab2b6513721b9a03c1",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "074-p10-b018-d20659d4ea",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "RECHERCHE, INNOVATION & VACCINATION → Ituri : Détection des lacunes, arrêt de la propagation de l'épidémie de virus BDBV : protocole validé et préparation au lancement des enquêtes (Appui Africa CDC) ; Étude de la dynamique de propagation interprovinciale et transfrontalière à partir de l’épicentre : causes : Mouvements des malades et des…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d20659d4ea6c3633eaef52ab595eab469c9e71e122a9f96fe30c0449ab7837d5",
+      "topic_tags": [
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "074-p10-b019-12e118c03e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "sécurisés sur 42 alertes remonte en escorte lors de l'enterrement d'un cas confirmé au cimetière de Paida ; un trouble à l'ordre public survenu pendant",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "12e118c03e08c600b21c05474c79da59c2d5dc744cd045a0708e6013480c3385",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "074-p11-b006-7647c2c444",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Intensifier la CREC, impliquer les leaders religieux et communautaires, sécuriser les équipes, augmenter le nombre d'équipes EDS",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7647c2c4444360f909b05ba299102148032c253100029e8d6804585e371de68a",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "074-p11-b007-44040053ef",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "security_incident",
+        "service_disruption"
+      ],
+      "excerpt": "Réticence aux prélèvements postmortem (EDS/swabs), résistance communautaire et insécurité visant les équipes EDS (attaque au pont Muchanga, paralysie des activités à Nyankunde)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "44040053ef8e811beba56af6f4d529b16a0b91bf4b4ae8ac0f18ab761969a144",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "security"
+      ]
+    },
+    {
+      "block_index": 11,
+      "candidate_id": "074-p11-b011-6ca9589c5e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "service_disruption"
+      ],
+      "excerpt": "Non-paiement des prestataires (grève dans les ZS de Bunia et de Rwampara ; reprise annoncée après l'intervention du gouverneur militaire de l'Ituri)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6ca9589c5e87a6648c833e5db1b91e38d991a94c7d805caff5c0874154303cfd",
+      "topic_tags": [
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "074-p11-b014-3e7dec96cb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Accélérer la construction et l'expansion des CTE, déployer des structures temporaires, rapporter systématiquement les capacités en lits",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "3e7dec96cb20e14d3b3c4f602ebad40ea8586b40f883c417a969545fc0d1743c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "074-p11-b015-b038629027",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Capacité des CTE/CT insuffisante : occupation de 134,0 % au Nord-Kivu (capacités de lits : 141) et de 67,3 % en Ituri (544 patients pour 808 lits) ;",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b03862902729a793f7a79b4e151a08dcd34d10a59d0a8cf00e8cad25a24019b7",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 17,
+      "candidate_id": "074-p11-b017-0c66c9f69c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "4 Performance du suivi des contacts faible en Ituri 77,6% ; NordKivu 82,6% et Haut-Uele 60,0",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0c66c9f69c8dc654a15149ad266b18e296f2efc43329804c3402aa8794bd304c",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "074-p11-b018-e435600c01",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Former, déployer et motiver les relais communautaires (RECO) ; supervision renforcée ; investiguer la chute observée en Ituri",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e435600c016c92cb83709d483a6b2ba5121aa64cf14f90901efefdb6b0fd658b",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 19,
+      "candidate_id": "074-p11-b019-de60373000",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "5 Insuffisance d'ambulances et prépositionnement aux PoC Retards de transfert et d'isolement Prépositionner des ambulances (dont aux PoE/PoC), déployer des CT par ZS",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "de6037300058397d9013a7de0beee9582c3883d3e95bd7091eee4e92d37b8a6e",
+      "topic_tags": [
+        "border_screening",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 25,
+      "candidate_id": "074-p11-b025-0dc80fa664",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Insuffisance des intrants PCI (EPI, chlore) et unités de triage fonctionnelles limitées (175/1 170, soit 15 %)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "0dc80fa664bbdbeae110a047771c98e2f377aa23bf876a004debe4cb2741ec25",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 36,
+      "candidate_id": "074-p11-b036-814389b29e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "security_incident"
+      ],
+      "excerpt": "11 Insécurité et accès limité (CODECO, ADF) Restriction des opérations Renforcement de la coordination sécuritaire et de l'accès humanitaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "814389b29ef81793afaf659bde72e072a483280820a9eda0bba2a5a82cfe58ff",
+      "topic_tags": [
+        "security"
+      ]
+    }
+  ],
+  "candidates_count": 32,
+  "date": "2026-07-27",
+  "event_type_counts": {
+    "activity_or_delivery": 8,
+    "resource_constraint": 6,
+    "security_incident": 2,
+    "service_disruption": 3
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 47,
+  "pages": 13,
+  "pymupdf_version": "1.28.2",
+  "report_number": 74,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "2cc0d9353be3ca04270a82a68497a54c7c7ce58f21ccd9603ccd6997540c45c7",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N°_74_27-07-2026_OKKK.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 3,
+    "community_engagement": 6,
+    "contact_tracing": 3,
+    "ipc_and_burials": 12,
+    "laboratory": 5,
+    "logistics_and_supplies": 4,
+    "security": 2,
+    "service_continuity": 4,
+    "surveillance_and_alerts": 4,
+    "treatment_capacity": 10,
+    "vaccination": 1
+  }
+}

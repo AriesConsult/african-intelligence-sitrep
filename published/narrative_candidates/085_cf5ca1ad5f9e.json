@@ -1,0 +1,160 @@
+{
+  "candidates": [
+    {
+      "block_index": 0,
+      "candidate_id": "085-p03-b000-711f2204d6",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "1.2. Surveillance épidémiologique 1.2.1. Principales Actions 1 318 alertes ont été enregistrées et vérifiées dans les quatre provinces ayant rapporté pour la journée du 07 août 2026, dont 443 (33,6 %) ont été validées comme cas suspects et 305 (68,8%) ont été investigués et 198 suspects transférés vers les CT/CTE. Le suivi des contacts es…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "711f2204d657a8e5b14b45ccf24ed4cf42455b131fc6534eda2ea6be1bdc3631",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "085-p04-b000-eefc017029",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "service_disruption"
+      ],
+      "excerpt": "Faible mise en œuvre des normes de Prévention et Contrôle de l'Infection (PCI) : complétude du rapportage très basse en Ituri (34 %) et au Nord-Kivu (5 ZS sur 11), décontamination partielle des ménages des cas en Ituri (20 sur 66) et des scores card faibles au Nord-Kivu (29 % à Katwa), démontrant un risque continu des infections associées…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "eefc017029c8f73f0213437360c16dc39c6da802d44ec3b824fc0877ac28c2b9",
+      "topic_tags": [
+        "border_screening",
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "085-p05-b000-92bb7579cc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "security_incident"
+      ],
+      "excerpt": "1.9. Sécurité 1.9.1. Principales actions Au Nord-Kivu, 6 accompagnements sécuritaires ont été assurés aux équipes EDS et PCI à Butembo et Oicha ; incident majeur au PoC de Mukulia (agression de prestataires et d'éléments de sécurité par des députés provinciaux) et matériels du PoC de Vulindi emportés. 1.9.2. Défis Insécurité persistante, …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "92bb7579ccdc0601cc23c4592de7968ef0b2972c409ea85f346d0c338ee92ec0",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "security",
+        "service_continuity",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "085-p05-b004-b1696cb394",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Du 24 avril au 15 mai 2026, l'épidémie est passée de la détection des premiers cas suspects à la confirmation biologique du virus Ebola Bundibugyo, conduisant à la déclaration officielle de la 17ᵉ épidémie de Maladie à Virus Ebola en République Démocratique du Congo. Entre le 17 et le 18 mai 2026, les autorités nationales, avec l'appui de…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b1696cb394696dead3c7c2c516b73d24d8290b70e9fad4d7ef59f4154c97c950",
+      "topic_tags": []
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "085-p05-b005-e0b527b570",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "La transmission de la MVE reste active, avec 89 nouveaux cas confirmés et 29 décès (21 nouveaux et 8 intra CTE) enregistrés au cours des dernières 24 heures, portant le cumul national à 4 209 cas confirmés et 1 916 décès. L’Ituri demeure l’épicentre de l’épidémie, concentrant 86,5 % des cas confirmés cumulés et 82,0% des nouveaux cas rapp…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e0b527b57065e6c326bd5b270733413bbaffb5ef6331b13d904fd6ffcb6ae7da",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    }
+  ],
+  "candidates_count": 5,
+  "date": "2026-08-07",
+  "event_type_counts": {
+    "activity_or_delivery": 4,
+    "resource_constraint": 3,
+    "security_incident": 1,
+    "service_disruption": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 5,
+  "pages": 6,
+  "pymupdf_version": "1.28.2",
+  "report_number": 85,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "cf5ca1ad5f9ed10fe4ca84f2f646ce5cd5812dd06bcf4ec15347831da8397669",
+  "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_085_2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 3,
+    "community_engagement": 2,
+    "contact_tracing": 1,
+    "ipc_and_burials": 4,
+    "laboratory": 1,
+    "logistics_and_supplies": 3,
+    "security": 1,
+    "service_continuity": 2,
+    "surveillance_and_alerts": 2,
+    "treatment_capacity": 4,
+    "vaccination": 1
+  }
+}

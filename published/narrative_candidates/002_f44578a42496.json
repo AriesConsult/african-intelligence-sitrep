@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "block_index": 4,
+      "candidate_id": "002-p04-b004-d3103bab0a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Notification officielle de l'alerte le 8 mai 2026 suite à des rumeurs de décès groupés. Mise en jour de la situation épidémiologique et des listes linéaires des cas suspects et probables",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d3103bab0ae82a964df6e6eeecb21c19b0ba63923373ac4c900ecaa951ad20d2",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 17,
+      "candidate_id": "002-p04-b017-44b436d612",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "maladie à Virus Ebola qui fait morts d'hommes dans cette province, Élaboration des messages éducatifs, selon les cibles, sur la prévention de cette maladie PCI :",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "44b436d612803c0152f815314d544b4b6f1618f0269678c4684d5f9afbf23e07",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "002-p04-b018-2a1d2d9c7f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Poursuite des évaluations des conditions de la mise en œuvre de la Prévention et contrôle des infections dans les Etablissements des soins, Logistique : Réunion préparatoire des états des besoins logistiques pour l’ensemble des piliers.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2a1d2d9c7f7e40382cb20a90a8bb471c80b8ce4b26d5cc830b3c3773e646c8c3",
+      "topic_tags": [
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 24,
+      "candidate_id": "002-p04-b024-816a03c99e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Manque d’isolement conforme, élaboration du PAI et désignation de SGI ; Manque d’intrant PCI, kits prélèvement ; Besoin de CREC pour gérer les rumeurs communautaires, ; Personnel non formé en PCI, prélèvement, transport et conservation d’échantillon, surveillance, PEC de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "816a03c99e91a96208179f8f5c4978843e848e8ee2f72b8674289f55295147f0",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 25,
+      "candidate_id": "002-p04-b025-a455ba4c4e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "maladie à potentiel épidémique ; Manque de triage à HGR Mongbwalu et CS ; Réalisation EDS complète ;",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a455ba4c4e1740969016fdab7b426147fd63543c0ef1dcb39589c803d9c462bf",
+      "topic_tags": [
+        "ipc_and_burials",
+        "service_continuity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "002-p05-b003-290e9b6eb0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "de contamination majeure que représentent les corps. Kit PCI, de prélèvement et de transports des échantillons, Formation des prestataires sur la surveillance épidémiologique, PCI, CREC Renforcer la surveillance à base communautaire, Multiplication des outils de la surveillance épidémiologique, communication, … Identification, réhabilitat…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "290e9b6eb0b5fc6aad6673533dd23580ddd39d4351f2ca2cf0339b694448d8ea",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 6,
+  "date": "2026-05-17",
+  "event_type_counts": {
+    "activity_or_delivery": 2,
+    "resource_constraint": 3
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 9,
+  "pages": 6,
+  "pymupdf_version": "1.28.2",
+  "report_number": 2,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°-002_18-mai-2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "community_engagement": 2,
+    "ipc_and_burials": 4,
+    "laboratory": 2,
+    "logistics_and_supplies": 2,
+    "service_continuity": 1,
+    "surveillance_and_alerts": 3,
+    "treatment_capacity": 1
+  }
+}

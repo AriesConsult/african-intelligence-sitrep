@@ -1,0 +1,285 @@
+{
+  "candidates": [
+    {
+      "block_index": 6,
+      "candidate_id": "017-p04-b006-85b82d14e4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Accompagnement supervisé du Directeur Général de l'INSP dans les piliers techniques (laboratoire, planification, gestion des données et élaboration du SITREP).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "85b82d14e4f16293df2263dcc22eac09b2f5afd6136a969568b2e9acdc54ba29",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "017-p05-b002-14fa064b66",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Résistance communautaire dans la zone de santé de Nizi pour le listage et le suivi des contacts autour de cas confirmés.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "14fa064b663ddd3167ca1b1c09a89be16983312c058eb6d31f6edac8ca0f8378",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "017-p05-b003-926aeda0f2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Douze (12) alertes confrontées à des résistances communautaires dans la zone de santé de Bunia, entravant leur vérification.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "926aeda0f2682007d7c7b8b57ad29e6386a444e0ea9d3b9edcc86d486bdae637",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "017-p05-b004-5cb47ff209",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Neuf (9) alertes de PPL (Probables/Prélèvements) en cours de vérification dans la zone de santé de Bunia. Surveillance aux Points d'Entrée et Points de Contrôle (PoE/PoC)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5cb47ff209ae7355a9923a2679b23e581facf5003acd0943183c370de2d02f28",
+      "topic_tags": [
+        "border_screening",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 23,
+      "candidate_id": "017-p05-b023-48ad75d441",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Goulot d'étranglement identifié: 47 échantillons en attente d'analyse. Une capacité de traitement insuffisante retarde la confirmation diagnostique et le début de la prise en charge. L'arrivée des tests RADIONE permet d'espérer une amélioration dans les prochains jours.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "48ad75d4413d12e3a90ac96ef609945920bc8268012193bb6b90b55efdcbefe4",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "017-p06-b001-de34e44588",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Incident signalé : Soulèvement populaire contre l'équipe EDS aux Cliniques Universitaires (prestataires incriminés dans un décès). Un (1) enterrement digne et sécurisé (EDS) non réalisé. Incident similaire dans la zone de santé de Logo.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "de34e445881e51a665de9cc9bad3ca71a18642ddbe23bd63912c9ea65eafbf00",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "017-p06-b004-cd253b81e2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Bunia Dotation et installation de dispositifs de gestion des déchets; décontamination de 1 ESS (Clinique Marie Claire); 5 EDS réalisés sur 6 alertes remontées; 1 décontamination; 1 prélèvement (SWAB)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "cd253b81e28f23799281095bd10a4917b73c01c9e596ccaa791d83cfe321ba5b",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "017-p06-b005-ccffefaed9",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Rwampara Ring autour de CME Nyankunde: 3 structures sanitaires, 9 écoles, 9 églises, 1 496 ménages identifiés; briefing injection sécurisée au CS Ngona; 3 EDS, 3 décontaminations, 3 SWAB",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ccffefaed9d973d87ae1606052e5e577f8315afc3a61140e6121d04d5e80851f",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 15,
+      "candidate_id": "017-p06-b015-437ba109c5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Cinquante (50) familles de suspects et douze (12) familles de cas confirmés ont reçu un soutien psychosocial.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "437ba109c55b9fedc7de386affa44436815f5a8a2e9bdd51c9f6a18d8a604c41",
+      "topic_tags": [
+        "psychosocial_support"
+      ]
+    },
+    {
+      "block_index": 34,
+      "candidate_id": "017-p07-b034-adfbfb1977",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Bambu Sensibilisation à l'École Primaire Kilomoto 305 élèves (102 filles) Aru Briefing de 27 personnes sur la CREC et la surveillance à base communautaire",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "adfbfb197726d66122dfa9cd613f0eddcbeb73394c73755e412969b042d91ea6",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 36,
+      "candidate_id": "017-p07-b036-ad0786b8b7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Nyankunde Causerie éducative à l'église Brahanam (72 fidèles); sensibilisation dans l'Aire de Santé Sota (391 personnes, 233 femmes)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ad0786b8b754e5ecce657b702ad1838a7e3a67046067c7c55faedd813bf198f1",
+      "topic_tags": [
+        "community_engagement"
+      ]
+    },
+    {
+      "block_index": 40,
+      "candidate_id": "017-p07-b040-5ad0c3a04b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "\"Il y a beaucoup d'argent dans cette histoire, une fois admis au CTE les malades sont injectés avec de l'eau pour qu'ils meurent\"",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5ad0c3a04bfb86b4fc0f5aa5efe85011da09f0b16c6ebafd9636ebb36f91dfda",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "017-p08-b000-e9f9fd89a2",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Analyse: Ces rumeurs révèlent une méfiance profonde envers le système de santé et les équipes de riposte, un manque de compréhension des procédures de prise en charge, et des préoccupations économiques légitimes. Un plan de réponse aux rumeurs doit être activé avec des messages adaptés.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e9f9fd89a22db506a3fa58f473f3f3eb29e312019a1ed6e013cf4ae9782e58ef",
+      "topic_tags": []
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "017-p08-b002-9c46aa4816",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Réception de 30 motos comme appui logistique du Gouvernement central pour la surveillance et la coordination.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9c46aa4816a7c6fd8d5c45f3e79da9b5910651de1a82c41d656adb5a40272d34",
+      "topic_tags": [
+        "logistics_and_supplies",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "017-p09-b006-c32979fb2a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2 Briefing des prestataires sur la surveillance MVE et la SBC dans les zones touchées et à haut risque",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c32979fb2a385b573fbd7460aea2283d079e2f514fb275ad944bfc39961a264e",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 15,
+  "date": "2026-05-31",
+  "event_type_counts": {
+    "activity_or_delivery": 3,
+    "resource_constraint": 2
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 25,
+  "pages": 10,
+  "pymupdf_version": "1.28.2",
+  "report_number": 17,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "0cf49dba23df615a0737fccbc06ce7ec2847e181e0b417c3551b3b8237fb9749",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N017_01_06_2026-Revised_JO_PA_IM-1.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 1,
+    "community_engagement": 3,
+    "contact_tracing": 1,
+    "ipc_and_burials": 3,
+    "laboratory": 4,
+    "logistics_and_supplies": 1,
+    "psychosocial_support": 1,
+    "surveillance_and_alerts": 6,
+    "treatment_capacity": 1
+  }
+}

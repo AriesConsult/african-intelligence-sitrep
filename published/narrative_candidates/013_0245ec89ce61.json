@@ -1,0 +1,220 @@
+{
+  "candidates": [
+    {
+      "block_index": 6,
+      "candidate_id": "013-p03-b006-4824633d1e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Mise en œuvre des activités de surveillance sur le terrain : remontée et validation des alertes, investigations des cas, recherche active des cas, listage et suivi des contacts, ainsi que la revue documentaire rétrospective des cas et décès. Formation des acteurs de la PCI sur les généralités de la MVE et les activités de surveillance, in…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "4824633d1e89c8ce84f48b528c24e0f604054b76d2e2db8be87d7640661aabdc",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "013-p04-b001-2135bd1446",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Dotation de 4 tunks de 3 000 litres, dont 2 au PoC de Dele et 2 à Mudzibala par le partenaire Samaritan’s Purse. Identification de 5 PoC dans la ZS de Mongbwalu : Poipo, Pluto, Njebi, Pont-Frigo et Kilo afin de les rendre opérationnels.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2135bd14465b0ab8e375c4932a1d2a730d895ff93453235089f9fe2486815a6c",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "013-p05-b004-b0ee8161d6",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Poursuite de la formation des formateurs et partenaires d’appui sur le paquet complet PCI (J2). 1. ZS Bunia Dotation et réception de 45kg de chlore au pilier PCI. Décontamination de 2 ménages à Solenyama 3 EDS réalisés sur 3 cas d’alertes (1 HGR-Bunia et 2 CS Aero). 2. ZS Rwamapara Briefing de 2 prestataires de soins sur l’espacement des …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b0ee8161d6388e02f13a9a6c12da4ec9601a228b29630fbeb185476e4d38dbf0",
+      "topic_tags": [
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 34,
+      "candidate_id": "013-p06-b034-112fdfc876",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Confirmés 1/3 (33,3%) 1/8 (12%) 0/12 (0%) ND ND ND 8,7% S : Suspects C : confirmés Gestion des rumeurs autour des EDS, de la décontamination et baisse de la fréquentation des ESS.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "112fdfc876d19ae30dbad24bcc26780b6c8fbacedf721e4058b53515ee441b16",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 35,
+      "candidate_id": "013-p06-b035-6ea4a8d3c0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "21 journalistes des médias locaux de Bunia (Radios, TV et médias en ligne) se sont engagés à communiquer uniquement des informations Engagement de 31 APA (bourgmestre et chefs de différents services) de la Commune SHARI (ZS Bunia) à prévenir et gérer l’infodémie et les résistances communautaires ZS BUNIA : 478 personnes sensibilisées au m…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6ea4a8d3c08c0e2a904ee41353d4174fc932d8b9d5d900619a10568a3267f00d",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 38,
+      "candidate_id": "013-p06-b038-35a41ead7f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "3 662 élèves dont 2 414 filles, 1 248 garçons sensibilisés dans 5 écoles sur les mesures préventives de la MVE. ZS Nizi : Causeries éducatives avec 90 RECOS dont 30 dans l’AS LINGO, 30 dans l’AS LOPA et 30 dans l’AS LOPA Mission sur les mesures préventives à la MVE et l’orientation des malades vers les établissements de soins de santé le …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "35a41ead7fd3c33dee52df6eff877c228f2d39a3be4abb710446824876727138",
+      "topic_tags": [
+        "community_engagement",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "013-p07-b001-84e53b3b21",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Approvisionnement en intrants et matériels PCI aux ESS de catégorie 1 Suivi de l’évolution des travaux de construction du CTE à l’HGR BUNIA ; Suivi des travaux d’installation de 3 tentes au CME/BUNIA. Visite des installation hydraulique et électrique au Laboratoire provincial.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "84e53b3b2100f2b0307bee04406d961e23dfd547cdf38b4271baef523970c7e9",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "013-p07-b005-855597350b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "security_incident"
+      ],
+      "excerpt": "La situation sécurité dans la ville de Bunia (ZS de Bunia et Rwampara) est relativement calme Briefing sécuritaire aux équipes nouvellement déployées. Monitoring de l’incident (incendie d’isolement de HGR Mongbwalu).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "855597350becd0ff802489b603cf535409140428c5d385004c0248ded33a406c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "013-p07-b006-5461ee265e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "security_incident"
+      ],
+      "excerpt": "Réticence face aux prélèvements post-mortem : Refus formel des familles de faire réaliser les tests de diagnostic (swabs) sur les corps des défunts dans les morgues. Absence de Centre Transit et Centre de Traitement Ebola normés en Ituri. Faiblesse du Suivi des Contacts et Déficit de Formation des Acteurs Persistance de lacunes dans l'ide…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "5461ee265e5f7d2770b2fb4e6550899cfaf66cd53eade73d13c360528b6a5510",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "security",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "013-p07-b009-f385cc62be",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Formation des prestaires sur l’utilisation de PCR RADIONE Formation des prestataires sur la surveillance de la MVE et la SBC dans les ZS touchées et à haut risque de trois provinces touchées ; Formation des Agents communautaires sur la surveillance de la MVE et la SBC dans les ZS touchées et à haut risque de la province d’ITURI.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f385cc62bea36cb39082f449f973fd2cc30653c5026989ab3f04d8931e3b05ab",
+      "topic_tags": [
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 10,
+  "date": "2026-05-27",
+  "event_type_counts": {
+    "activity_or_delivery": 3,
+    "resource_constraint": 1,
+    "security_incident": 2
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 14,
+  "pages": 9,
+  "pymupdf_version": "1.28.2",
+  "report_number": 13,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "0245ec89ce61357f0f4ab8e0c77e319a4f6362cd86d3c8844459b39a9325e692",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°013_27_05_2026_ES-IM4.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 1,
+    "community_engagement": 1,
+    "contact_tracing": 2,
+    "ipc_and_burials": 5,
+    "laboratory": 3,
+    "logistics_and_supplies": 1,
+    "security": 1,
+    "surveillance_and_alerts": 5,
+    "treatment_capacity": 6
+  }
+}

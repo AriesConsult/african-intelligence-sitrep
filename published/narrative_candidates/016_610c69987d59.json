@@ -1,0 +1,224 @@
+{
+  "candidates": [
+    {
+      "block_index": 9,
+      "candidate_id": "016-p03-b009-6295988c65",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Remise officielle de motos à la DPS Ituri et SGI par le ministre de la santé pour appuyer les activités de la riposte. Appui au pilier laboratoire pour harmonisation des données.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6295988c6580fbedd94281e697659cfbb276cd5f6d35b8f9be5f6acbbc2407c6",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "016-p04-b002-dcb6cc45c5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Réorganisation du pilier et déploiement des épidémiologistes dans les sous-piliers et zones de santé hotspots. Mise en place d’un système d’alerte précoce dans le site des déplacés de l’ISP BUNIA ensemble avec la ZS de Bunia. Activités de routine de surveillance sur terrain (remontée des alertes, investigations, recherche active, listage …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "dcb6cc45c5d33fcdd12aabfda5d6ffe8e46130cf3c89ab73cba9c0f461d22c42",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "016-p04-b005-736cf2a2b4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Élaboration du chronogramme des activités intensives à mener pendant douze (12) jours aux points d’entrée (PoE) les 11 activités. Encodage des données et mise à jour de la base des données PoE/PoC Mise à jour de la cartographie de mouvements de population des ZS Bunia et Rwampara en cours.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "736cf2a2b438179cd505c48dc7b440885b10c3932d04f901650aebbdf9793f04",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "016-p04-b010-22440db42a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Lancement officiel de la formation PCI-WASH de deux cent quatre-vingt (280) prestataires de soins issus de différentes structures (étatiques, privées et tradipraticiens) dans la ZS de Mongbwalu.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "22440db42a02b5b7a9e4cc36f1a85e3dcfde7ab07d893d30e58e91358d27c95e",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "016-p05-b001-98a7604e37",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "1. ZS Bunia Dotation des EPI d'urgence au CH UNIBU et Clinique SOFEPADI. Deux (2) EDS réalisés sur deux (2) alertes remontées ains que deux 2 décontaminations une à l’(HGR et une autre dans AS Bigo). 2. ZS Rwampara Dotation des kits PCI au BCZ Rwampara. Trois (3) EDS réalisés sur (2) alertes remontées une à l’HGR, une (1) la Morgues Balid…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "98a7604e376ba379705fd64082743d70885be289582be7185a8610dd9c929edd",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 26,
+      "candidate_id": "016-p06-b026-e8c98685cf",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "S : Suspects C : confirmés ND : Non disponible ZS Bunia Deux cent cinquante (250) fidèles de l’église adventistes sensibilisés en swahili sur les mesures préventives de la MVE et la remontée des alertes maladies. C’était lors du culte en swahili, AS Adventiste Mille six cent trente-six (1636) élèves dont neuf cent quatre -vingt-six 990 fi…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e8c98685cf97ddeacbc0de3b94c4f4ea84b96123d69de815f7ab654969e7ec5f",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "016-p07-b002-f39153e194",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Tenue d’une réunion de planification des activités au sein du sous-pilier une santé avec les experts nationaux CCUS et DLMA (Direction de lutte contre les maladies animales). Résultat : Un plan d’activités une santé élaboré. ZS NYANKUNDE Septante-huit (78) personnes dont vinngt- cinq (25) femmes et cinquante -trois (53) hommes sensibilisé…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f39153e1944ab20b4f554bcd72903de41ffc9d18e3d32a48e38dd60ce0bc399c",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "016-p07-b005-e700b0dd45",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Réticence face aux prélèvements post-mortem : Refus formel des familles de faire réaliser les tests de diagnostic (swabs) sur les corps des défunts dans les morgues. Absence de Centre Transit et Centre de Traitement Ebola normés en Ituri. Faiblesse du Suivi des Contacts et Déficit de Formation des Acteurs Persistance de lacunes dans l'ide…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e700b0dd45023d33a1a4a28fa1752b155eee0a6b37a7038bd336d83688723a53",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "016-p08-b003-d0e1ea7581",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Formation des prestaires sur l’utilisation de PCR RADIONE. Formation des prestataires sur la surveillance de la MVE et la SBC dans les ZS touchées et à haut",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d0e1ea7581d53337165bb89878311b689aa49ee375f9b7a7a533f82218c5e2cc",
+      "topic_tags": [
+        "laboratory",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 4,
+      "candidate_id": "016-p08-b004-81d6557b49",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "risque de trois provinces touchées. Formation des Agents communautaires sur la surveillance de la MVE et la SBC dans les ZS touchées et",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "81d6557b490654b40d99286b727c953de1e1cd12e758c511f2062bd6036ac148",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 10,
+  "date": "2026-05-30",
+  "event_type_counts": {
+    "activity_or_delivery": 6,
+    "resource_constraint": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 15,
+  "pages": 9,
+  "pymupdf_version": "1.28.2",
+  "report_number": 16,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "610c69987d59040ae672ea95be4815bbc87951566cde9e88f7e1cb8ffa5c9f80",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°016_31_05_2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 1,
+    "community_engagement": 3,
+    "contact_tracing": 2,
+    "ipc_and_burials": 4,
+    "laboratory": 6,
+    "logistics_and_supplies": 1,
+    "surveillance_and_alerts": 7,
+    "treatment_capacity": 3
+  }
+}

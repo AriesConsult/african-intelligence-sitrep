@@ -1,0 +1,259 @@
+{
+  "candidates": [
+    {
+      "block_index": 11,
+      "candidate_id": "012-p03-b011-ffd058938b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "listage et suivi des contacts, revue documentaire rétrospective des cas et décès, etc) ; o Harmonisation des données de surveillance avec l’équipe de la planification (base des données) ; o Finalisation de TDR de briefing des prestataires et des agents communautaires de 8 ZS et déploiement",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ffd058938be75f8c0006296f470ad1b96c0cb9fbfa14b3368486463585a1a9f6",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "012-p04-b001-938d5f5a59",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "o Validation de la fiche digitale de notification aux PoE et deploiement o Briefing pré-deploiement des EIRs national sur le rapportage journalier ; o Dotation de pulvérisateurs aux PoE de mudziba-Iga barrière et Nizi par l’OIM ; o Approvisionnement de trois PoC en eau (200 L) par OIM : o Supervision des activités de surveillance, PCI et …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "938d5f5a59a584b3398d1698ef3ba505790a5b7dc5fcaa4fc541ead63ad0554c",
+      "topic_tags": [
+        "border_screening",
+        "community_engagement",
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "012-p04-b005-2b6032ec55",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "VARIABLES TOTAL Voyageurs passés par le PoE/PoC 15 504 Voyageurs screenés 15 504 Voyageurs ayant lavés les mains 9 440 Voyageurs sensibilisés sur la MVE 15 242 Contacts listés 0 Alertes remontées 0",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2b6032ec55f89030355cdb08c35eb76b37d7a8fdc2d0855547ab648efd9013fc",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "012-p04-b008-190b67cf51",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "o Début de la formation des formateurs et Partenaires d’appui sur le paquet complet PCI ; o Réalisation des 5 EDS réalisés à l’HGR-Bunia, Bunia cité et Ngezi et HGR Rwampara; o Désinfection de la salle Polyvalente et les différents bureaux du DPS Ituri.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "190b67cf51d1115c104f8e3574efa48566c08bafc349491d64cee94781e10e19",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "012-p04-b009-085a7d4e26",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Réalisation des EDS à l’HGR Bunia Formation de formateurs et PTF sur le paquet complet PCI",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "085a7d4e2641c527cf4ee93fc1fbacf019936c674bc9cad7f5f96ca877172937",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "012-p05-b003-67edca118e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "o Poursuite de l’aménagement du CTE CME Bunia o Tenue de la réunion technique avec tous les partenaires de la PEC ; o Poursuite de la Prise en charge et évaluation clinique des patients ; o 2 Décès dont 1 PPL Médecin au CME et 1 à l’HGR Rwampara; o Counseling : 12 cas suspects ; o Débriefing émotionnel de 45 membres de familles ; o Groupe…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "67edca118e52e6c51dd3b09f413113b9d61722caa4b15d3e913908467069ef22",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "012-p05-b005-7546497e3d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "mesures de prévention et la remontée des alertes ; o Engagement des chefs des marchés de Bunia (marché central et marché de Hoho) et du Maire de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7546497e3d28d6d84a98d70b3b36169601c8547fc88b34a0fd0f5e57f73f5d22",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "012-p05-b012-e2818c580c",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "o Elaboration de la procédure pour les autorisations des vols humanitaires o Approvisionnement en intrants et matériels PCI aux ESS de catégorie 1: CME/Bunia, HGR",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e2818c580cd419e6488f4c7661ad900e6847fa0a7ac04d887f30c2abf8300e7e",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "012-p06-b001-c2e92700e4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": ": Rwampara, Nyakunde, Bunia, Nizi et Bambu ; o Début de travaux de construction du CTE à l’HGR Bunia avec l’appui de l’IMC.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c2e92700e428d47619118be521b8e2a544c7ae859c3727a12a54a5c6a367fc0c",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 5,
+      "candidate_id": "012-p06-b005-9ebb918fe4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Q/Hoho dans la Commune Bunia contre l’EDS du corps du Dr Blaise KATHO pour le cimetière de MURONGO/KANDA. o Le suivi de contacts demeure encore non optimal nécessitant des briefings en cascade (IS, IT, agents",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "9ebb918fe4ad375e862746f847e5a5496294b5f63841cbef0a08db485d5dae6e",
+      "topic_tags": [
+        "contact_tracing",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 7,
+      "candidate_id": "012-p06-b007-70e972a2ea",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "pas de moto) o Retard dans le rendu des résultats qui impacte sur la petite capacité d’isolement ; o Retard dans la construction des CTE dans tous les sites (Nyankunde, HGR Bunia, HGR Rwampara); o Insuffisance d’intrants de protection pour les prestataires ; o Lenteur des travaux d’aménagement des sites d’isolement (CME, HGR Bunia, Rwampa…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "70e972a2ea9b3b295c4ed98c48a9d89e9e4ecb5337687bd4dfdacfee8dc72a0e",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 9,
+      "candidate_id": "012-p06-b009-909389892e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "o Organiser des briefings en cascades des acteurs des ZS sur la surveillance MVE et la SBC dans les ZS",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "909389892ef772d9fe186b86a76fe2e8d0be2078d3e5d4fe813205496e8f6720",
+      "topic_tags": [
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 10,
+      "candidate_id": "012-p06-b010-d062bcaaa1",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "touchées et à haut risque de la province d’ITURI ; o Poursuite de la sensibilisation dans les lieux publics (marchés, écoles, églises, …) ; o Elaboration d’un document de Questions et Réponses pour les relais ; o Cartographier tous les sites d’hébergement des Experts nationaux pour une évaluation sécuritaire ; o Poursuite de décontaminati…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "d062bcaaa1d2f194ed6458a7dca245cafe3c56975ef2a5b5395f242703594e56",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "surveillance_and_alerts"
+      ]
+    }
+  ],
+  "candidates_count": 13,
+  "date": "2026-05-26",
+  "event_type_counts": {
+    "activity_or_delivery": 2,
+    "resource_constraint": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 21,
+  "pages": 8,
+  "pymupdf_version": "1.28.2",
+  "report_number": 12,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "08081d3ad8886ebc32f98f5c33cfa2384a22716c582a7b4837822e6da57ae80d",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°012_26052026_Vf2_IM.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 2,
+    "community_engagement": 3,
+    "contact_tracing": 3,
+    "ipc_and_burials": 7,
+    "logistics_and_supplies": 2,
+    "surveillance_and_alerts": 6,
+    "treatment_capacity": 3
+  }
+}

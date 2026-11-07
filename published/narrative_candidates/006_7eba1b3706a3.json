@@ -1,0 +1,340 @@
+{
+  "candidates": [
+    {
+      "block_index": 8,
+      "candidate_id": "006-p03-b008-179b3669be",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Listage de 414 nouveaux contacts dont 286 dans la ZS de Rwampara et 128 dans la ZS de Bambu.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "179b3669beaf8093eed0292e241f782c2e0854e8e8cdb45c9c834ecc99b66cef",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 17,
+      "candidate_id": "006-p03-b017-c50359d58e",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Appui à la ZS de Katwa et Goma dans l’investigation approfondie et listage des contacts autour des cas confirmés. Mise en place d’un système de gestion des alertes (vulgarisation du numéro vert de la protection civile). Début de suivi des contacts autour du cas confirmé de la ZS de Goma et activation en cours dans les ZS de l’Ituri. Note …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Ituri"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c50359d58e971d26a34210b9cf187b5e76c4396c44683dfe6249a969b451ca1f",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 18,
+      "candidate_id": "006-p03-b018-3c83c434e5",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "congolais résidant en Ouganda qui reviennent des lieux de deuils de leurs frères décédés en RDC au bord du lac Albert. Investigations approfondies et listage des contacts autour de 4 cas confirmés au Nord Kivu et 58 cas à Ituri.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 3,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "3c83c434e5dfd1e05fd5e620114a63317892b24767033fe86f3e31074425115f",
+      "topic_tags": [
+        "contact_tracing"
+      ]
+    },
+    {
+      "block_index": 21,
+      "candidate_id": "006-p05-b021-70dfc90aea",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Activation et opérationnalisation du PoC Dele (ZS Rwampara) et Mudzibala (ZS Bunia) avec appui de l’OIM. Identification des ressources par PoE/PoC (124 prestataires pour 10 PoC). Dotation de 120 chaises plastiques ,60 boites des gants et autres matériels PCI (savons liquides etc) par l’OIM. État de lieu des PoE de Kasindi, Nobili et évalu…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "70dfc90aeaad9752c048148f483f9b93f84fbffda5107cd3ff209a1b0de7146a",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "block_index": 24,
+      "candidate_id": "006-p06-b024-ef17f63d9b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Échantillons analysés : 35 Positifs du jour : 12 (Rwampara 3 ; Bunia 5 ; Nyakunde 3 et Bambu-, mine 1) Négatifs du jour : 13 Invalides du jour : 10 Report échantillons : 49 Échantillons reçus : 92 Total échantillons à analyser : 141 102 échantillons envoyés à Kinshasa le 20/05/2026 pour le séquençage. Résultats au 20 Mai 2026 (RADIONE)",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ef17f63d9b48d9b60a3e9c4219435b4d071c334df4cb43c6f1ab15a76f84eff7",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 25,
+      "candidate_id": "006-p06-b025-771e0fbadb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Cumul échantillons reçus : 218 Ré prélèvements (contrôle): 3 dont 2 positifs et 1 non analysé Cumul échantillons analysés : 134 Cumuls positifs : 64",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "771e0fbadb9cb48c74afaa601863b4aadf3c4680fe6326f2d27e16fd5bbc7256",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 26,
+      "candidate_id": "006-p06-b026-894ba12bba",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "16 échantillons reçus au niveau du Laboratoire de Beni pour lesquels 7 déjà transmis à Goma dont 4 arrivés à",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "894ba12bbacefad0cafa125f60d29566052043cc862e04f0ac95d160d2f891d6",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 27,
+      "candidate_id": "006-p06-b027-39f2aebeda",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "l’INRB Goma et 3 autres encours de route 9 échantillons sont encore gardés à l’INRB Beni en attente d’un moyen de transport pour expédition au laboratoire d’analyse",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "39f2aebedae1047e0203adaeb3bccd528e398cb4edae5c4f8d7db6d95c2700bd",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "006-p07-b003-76a7abea29",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Diffusion de message du Gouverneur Militaire de la Province sur le respect des mesures de lutte contre le Plan de communication en cours d’elaboration Production des chronogrammes provisoires de communication Production de deux messages officiels l’un pour la préparation et l’autre pour la riposte Séance de communication en faveur des cad…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "76a7abea296acddf948a986bf1fddf71b4bfcf0ea46d29641eba093e2f083d79",
+      "topic_tags": [
+        "community_engagement",
+        "surveillance_and_alerts"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "006-p07-b006-45ec7f6cfa",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "▪ 2 EDS réalisés et 1 encours ; ▪ Briefing de 5 prestataires de soins de salle d’urgence de l’HGR-Bunia sur les mesures préventives ; ▪ Dotation des EPI et équipements de décontamination pour la séance pratique des équipes de ZS Bunia; ▪ Décontamination du bâtiment d'isolement de l’HGR-Bunia. ▪ Dotation des quelques intrants PCI par le pa…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "45ec7f6cfa7073c4e2726e15033a1bfc3994d421338ca0841b60cc797d9c6d72",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 8,
+      "candidate_id": "006-p07-b008-f01008c8de",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Nyakunde) sur la gestion des déchets Biomédicaux. ▪ 3 EDS réalisés et 1 encours ▪ Décontamination de la salle d'isolement à l'HGR/Rwampara; ▪ Briefing de 10 Techniciens de surface et 15 superviseurs PCI sur le port et retrait des EPI. ZS Mongbwalu",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "f01008c8de1e5d356508ebc364ad06331b6b064bd8636a7d203d3de048c81a95",
+      "topic_tags": [
+        "ipc_and_burials",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "006-p07-b012-c8a7516efb",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Decontamination de l’Hôpital Matanda où séjourne le cas confirmé de la ZS de Katwa; Évaluation score card PCI de l’Hôpital Matanda: 70,6%; Réalisation du mapping du cas; État de lieu du CTE pour le dégagement des besoins en intrants PCI (Epi, approvisionnement en eau, gestion des déchets, circuit du malade).",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "c8a7516efb7eecc61596fc403200813d082c57e33170c1d7dfe8635a0c3f13fa",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 14,
+      "candidate_id": "006-p07-b014-ea7ae7ef0a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Élaboration de l’état de besoin en logistique des ZS Goma, Katwa, Beni, Karisimbi, Mutwanga, Vuhovi, Kalunguta, Kamango, Mabalako, Oicha, Museniene, Kayina, Alimbongo, Butembo ; Acquisition des kits Starling pour la connexion internet en provenance de l’UNICEF ; Réception de 5 véhicules dotation de l’OMS ; Réception de 200 litres de Gasoi…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ea7ae7ef0ad99b0ae0613d0a98e5da1b412335acaf3286c76fc3273a6cfd612f",
+      "topic_tags": [
+        "logistics_and_supplies"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "006-p08-b001-e11a6ae63b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Briefing des prestataires des prestataires à l’HGR Bunia et Rwampara sur le port d’EPI ; Evaluation cliniques des patients ; Acheminement de 5 matelas, 5 lits et autres matériels au CME Montage de deux tentes d’isolement en cours à l’HGR Bunia ; Aménagement d’une salle à l’HGR Bunia en cours. Evaluation de l’état nutritionnel des malades …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "e11a6ae63bc31ceb9883adedd07e1ca64593ebab6badc72fc542656746bc3fec",
+      "topic_tags": [
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 31,
+      "candidate_id": "006-p08-b031-732c79d6c4",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "La situation sécurité dans la ville de Bunia (ZS de Bunia et Rwampara) est relativement calme Briefing sécuritaire aux équipes déployées.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "732c79d6c47653cabfa68fcefe535291e882283f60c050717945217254c5f869",
+      "topic_tags": []
+    },
+    {
+      "block_index": 3,
+      "candidate_id": "006-p09-b003-53854d5598",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Absence des CT et CTE normés Manques des matériels PCI (EPI, DLM, chlore) au Nord Kivu Faible remontée des alertes par les zones ; Insuffisance des ressources financières pour appuyer tous les piliers de la riposte ; Difficulté d’acheminements des echantillons vers les laboratoires de Goma et Kinshasa. Propagation des rumeurs et proliféra…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "53854d55987bfa74b3a975cde84e52c168b3298ecff217e39657640a04080fac",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 6,
+      "candidate_id": "006-p09-b006-378e497a7f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "Rendre opérationnel les CT et CTE de Beni, Butembo et Goma (réhabilitation et révision du circuit) Renforcer la surveillance en vue de la remontée des alertes et la recherche des contacts jamais vus et perdus de",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "378e497a7f65600d07217f08697ff187461556a80e35867ca44c21256a86dd2e",
+      "topic_tags": [
+        "contact_tracing",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    }
+  ],
+  "candidates_count": 17,
+  "date": "2026-05-20",
+  "event_type_counts": {
+    "activity_or_delivery": 7,
+    "resource_constraint": 3
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 25,
+  "pages": 11,
+  "pymupdf_version": "1.28.2",
+  "report_number": 6,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "7eba1b3706a3ffa30adb6714b67d29e21b434ba2364b90a517129f9513639dab",
+  "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_006-2026.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 2,
+    "community_engagement": 1,
+    "contact_tracing": 4,
+    "ipc_and_burials": 5,
+    "laboratory": 5,
+    "logistics_and_supplies": 4,
+    "surveillance_and_alerts": 4,
+    "treatment_capacity": 6
+  }
+}
