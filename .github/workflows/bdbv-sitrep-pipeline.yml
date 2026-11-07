@@ -68,5 +68,19 @@ jobs:
           git add state/registry.json published/ review_queue/
           if ! git diff --cached --quiet; then
             git commit -m 'Update BDBV SitRep source registry and validated feed'
-            git push origin HEAD:${{ github.ref_name }}
+            # The repository can change during a long PDF backfill.
+            # Rebase generated results onto the current remote tip before pushing.
+            # Never force-push or silently overwrite a conflicting update.
+            for attempt in 1 2 3; do
+              git fetch origin "$GITHUB_REF_NAME"
+              git rebase "origin/$GITHUB_REF_NAME"
+              if git push origin "HEAD:$GITHUB_REF_NAME"; then
+                echo "Published SitRep analysis after synchronizing with main."
+                exit 0
+              fi
+              echo "Remote changed during push (attempt $attempt); retrying."
+              sleep 3
+            done
+            echo "Unable to push SitRep results safely after three attempts." >&2
+            exit 1
           fi
