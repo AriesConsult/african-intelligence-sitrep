@@ -1,0 +1,88 @@
+{
+  "date": "2026-06-06",
+  "quality_flags": [
+    {
+      "province": "Ituri",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 2,
+      "table": 1
+    },
+    {
+      "province": "Nord-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 22,
+      "table": 1
+    },
+    {
+      "province": "Sud-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 32,
+      "table": 1
+    },
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table4_missing_national_or_provinces",
+      "table": 4
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 23,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "f0307be57a990c621746e22407e5977d0822e655195d59ac0d7ac23b1612aff8",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/VF-Draft-Final-SitRep_MVE_RDC_NA°23_07_06_2026-FD.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "province": "Ituri",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 2
+        },
+        {
+          "province": "Nord-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 22
+        },
+        {
+          "province": "Sud-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 32
+        },
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_4": {
+      "flags": [
+        {
+          "reason": "table4_missing_national_or_provinces"
+        }
+      ],
+      "national": null,
+      "note": "Zero contacts => undefined rate, not 0%.",
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 2,
+  "tables_machine_validated": 0
+}

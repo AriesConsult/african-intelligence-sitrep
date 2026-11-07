@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-18",
+  "quality_flags": [
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "reason": "too_few_healthzones_for_complete_table",
+      "table": 2
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table5_no_header",
+      "table": 5
+    }
+  ],
+  "report_number": 35,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "242cd2568fabd2f7f1e0088675c69d634a0a50a7c5a6809428a0208cf5798cbf",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-Final-SitRep_MVE_RDC_N35_18_06_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_2": {
+      "flags": [
+        {
+          "reason": "too_few_healthzones_for_complete_table"
+        }
+      ],
+      "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
+      "province_totals": [],
+      "rows": [],
+      "status": "REVIEW_REQUIRED",
+      "unallocated_deaths": []
+    },
+    "table_5": {
+      "flags": [
+        {
+          "reason": "table5_no_header"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 3,
+  "tables_machine_validated": 0
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-30",
+  "quality_flags": [
+    {
+      "number": 1,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table2_continuation_not_extractable",
+      "table": 2
+    },
+    {
+      "reason": "table3_national_total_missing",
+      "table": 3
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 47,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "a7596c30ac0794f5f2b5b1242daa767f6963d56facb531afc10f61eec9191ec6",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft-Final-SitRep_MVE_RDC_NA°047_30_06_2026_IM.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_2": {
+      "flags": [
+        {
+          "reason": "table2_continuation_not_extractable"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_3": {
+      "flags": [
+        {
+          "reason": "table3_national_total_missing"
+        }
+      ],
+      "national": null,
+      "note": "Only reporting provinces are summed; ND is never zero.",
+      "reporting_gaps": [],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 2,
+  "tables_machine_validated": 0
+}

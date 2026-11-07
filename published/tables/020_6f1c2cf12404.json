@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-02",
+  "quality_flags": [
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table4_missing_national_or_provinces",
+      "table": 4
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 20,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "6f1c2cf12404cf5d3d6ed04dc01767a5688fab2efee5b4715764c25bd9b7d1ac",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-2-SitRep_MVE_RDC_N20_02_06_2026-_JO_PA-FINAL.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_4": {
+      "flags": [
+        {
+          "reason": "table4_missing_national_or_provinces"
+        }
+      ],
+      "national": null,
+      "note": "Zero contacts => undefined rate, not 0%.",
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 2,
+  "tables_machine_validated": 0
+}

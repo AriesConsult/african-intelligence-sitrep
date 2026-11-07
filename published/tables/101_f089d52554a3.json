@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-23",
+  "quality_flags": [
+    {
+      "province": "Ituri",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 8,
+      "table": 1
+    },
+    {
+      "province": "Nord-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 9,
+      "table": 1
+    },
+    {
+      "province": "Haut-Uélé",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 10,
+      "table": 1
+    },
+    {
+      "province": "Tshopo",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 11,
+      "table": 1
+    },
+    {
+      "province": "Sud-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 12,
+      "table": 1
+    },
+    {
+      "province": "Bas-Uélé",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 13,
+      "table": 1
+    },
+    {
+      "province": null,
+      "reason": "table1_invalid_case_death_rate",
+      "row": 15,
+      "table": 1
+    },
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 101,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "f089d52554a3e0d70973cb97d3581f316842be1c991b470a0dd8b01019ee89f1",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_101_23_08_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "province": "Ituri",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 8
+        },
+        {
+          "province": "Nord-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 9
+        },
+        {
+          "province": "Haut-Uélé",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 10
+        },
+        {
+          "province": "Tshopo",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 11
+        },
+        {
+          "province": "Sud-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 12
+        },
+        {
+          "province": "Bas-Uélé",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 13
+        },
+        {
+          "province": null,
+          "reason": "table1_invalid_case_death_rate",
+          "row": 15
+        },
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 1,
+  "tables_machine_validated": 0
+}

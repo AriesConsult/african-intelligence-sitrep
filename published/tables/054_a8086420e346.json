@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-07",
+  "quality_flags": [
+    {
+      "number": 1,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table2_continuation_not_extractable",
+      "table": 2
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table5_no_header",
+      "table": 5
+    }
+  ],
+  "report_number": 54,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "a8086420e34653d8803d7dd6371f5de83f23a7a526be8ceca61987edd932abbb",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/07/Draft2_SitRep_MVE_RDC_N°054_07_07_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_2": {
+      "flags": [
+        {
+          "reason": "table2_continuation_not_extractable"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_5": {
+      "flags": [
+        {
+          "reason": "table5_no_header"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 2,
+  "tables_machine_validated": 0
+}

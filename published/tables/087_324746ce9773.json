@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-09",
+  "quality_flags": [
+    {
+      "province": "Ituri",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 8,
+      "table": 1
+    },
+    {
+      "province": "Nord-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 27,
+      "table": 1
+    },
+    {
+      "province": "Haut-Uélé",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 34,
+      "table": 1
+    },
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 87,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "324746ce97738a9b3874de47e51c91f60abd937d07732da2e10a8074047b0697",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_087_09_08_2026_VF.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "province": "Ituri",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 8
+        },
+        {
+          "province": "Nord-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 27
+        },
+        {
+          "province": "Haut-Uélé",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 34
+        },
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 1,
+  "tables_machine_validated": 0
+}

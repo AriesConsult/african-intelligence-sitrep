@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-11",
+  "quality_flags": [
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table4_missing_national_or_provinces",
+      "table": 4
+    },
+    {
+      "reason": "table5_no_header",
+      "table": 5
+    }
+  ],
+  "report_number": 28,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "b7d9261c860f5dd1ead43f4b59493ccb5668a754a8b1fa9a2ad7acb7589ad987",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°28_11062026_Final.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_4": {
+      "flags": [
+        {
+          "reason": "table4_missing_national_or_provinces"
+        }
+      ],
+      "national": null,
+      "note": "Zero contacts => undefined rate, not 0%.",
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_5": {
+      "flags": [
+        {
+          "reason": "table5_no_header"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 3,
+  "tables_machine_validated": 0
+}

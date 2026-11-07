@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-13",
+  "quality_flags": [
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table3_national_total_missing",
+      "table": 3
+    },
+    {
+      "reason": "table4_missing_national_or_provinces",
+      "table": 4
+    },
+    {
+      "reason": "table5_no_header",
+      "table": 5
+    }
+  ],
+  "report_number": 30,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "8de93e5eebbf5e97263a18de2e4aaa635e6377832372e70c5c66ad14900f53aa",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/06/Draft-Final_SitRep_MVE_RDC_N°30_13_06_2026-FD-1-1.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_3": {
+      "flags": [
+        {
+          "reason": "table3_national_total_missing"
+        }
+      ],
+      "national": null,
+      "note": "Only reporting provinces are summed; ND is never zero.",
+      "reporting_gaps": [],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_4": {
+      "flags": [
+        {
+          "reason": "table4_missing_national_or_provinces"
+        }
+      ],
+      "national": null,
+      "note": "Zero contacts => undefined rate, not 0%.",
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_5": {
+      "flags": [
+        {
+          "reason": "table5_no_header"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 4,
+  "tables_machine_validated": 0
+}

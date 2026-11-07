@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-01",
+  "quality_flags": [
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "reason": "table2_continuation_not_extractable",
+      "table": 2
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "reason": "table4_missing_national_or_provinces",
+      "table": 4
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 48,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "8e22f356abc231471fa8f23ceb5b0789d9b8b3ecb87d4219afb8d4a02c7f41e5",
+  "source_url": "https://media.githubusercontent.com/media/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_048_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_2": {
+      "flags": [
+        {
+          "reason": "table2_continuation_not_extractable"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_4": {
+      "flags": [
+        {
+          "reason": "table4_missing_national_or_provinces"
+        }
+      ],
+      "national": null,
+      "note": "Zero contacts => undefined rate, not 0%.",
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 3,
+  "tables_machine_validated": 0
+}

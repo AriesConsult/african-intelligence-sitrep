@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-27",
+  "quality_flags": [
+    {
+      "province": null,
+      "reason": "table1_invalid_case_death_rate",
+      "row": 12,
+      "table": 1
+    },
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "number": 2,
+      "reason": "table_missing"
+    },
+    {
+      "number": 3,
+      "reason": "table_missing"
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 105,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "b4a614eb1474d49bbfdc7aa6f0de80a52ec56020dfe3e89a6bb7be3517a284d8",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_105_27_08_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "province": null,
+          "reason": "table1_invalid_case_death_rate",
+          "row": 12
+        },
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [
+        {
+          "cumulative_cases": 4845,
+          "cumulative_deaths": 2185,
+          "new_cases_24h": 43,
+          "reported_cfr_pct": 45.1,
+          "scope": "Ituri",
+          "source": {
+            "page": 2,
+            "source_row": 6,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 788,
+          "cumulative_deaths": 538,
+          "new_cases_24h": 13,
+          "reported_cfr_pct": 68.3,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 2,
+            "source_row": 7,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 205,
+          "cumulative_deaths": 91,
+          "new_cases_24h": 11,
+          "reported_cfr_pct": 44.4,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 2,
+            "source_row": 8,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 19,
+          "cumulative_deaths": 8,
+          "new_cases_24h": 2,
+          "reported_cfr_pct": 42.1,
+          "scope": "Tshopo",
+          "source": {
+            "page": 2,
+            "source_row": 9,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "new_cases_24h": 0,
+          "reported_cfr_pct": 33.3,
+          "scope": "Sud-Kivu",
+          "source": {
+            "page": 2,
+            "source_row": 10,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "new_cases_24h": 0,
+          "reported_cfr_pct": 33.3,
+          "scope": "Bas-Uélé",
+          "source": {
+            "page": 2,
+            "source_row": 11,
+            "table_id": "p2-t3"
+          }
+        }
+      ],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 1,
+  "tables_machine_validated": 0
+}

@@ -1,0 +1,694 @@
+{
+  "date": "2026-09-14",
+  "quality_flags": [
+    {
+      "province": "Ituri",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 7,
+      "table": 1
+    },
+    {
+      "province": "Nord-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 8,
+      "table": 1
+    },
+    {
+      "province": "Haut-Uélé",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 9,
+      "table": 1
+    },
+    {
+      "province": "Tshopo",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 10,
+      "table": 1
+    },
+    {
+      "province": "Sud-Kivu",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 11,
+      "table": 1
+    },
+    {
+      "province": "Bas-Uélé",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 12,
+      "table": 1
+    },
+    {
+      "province": "Sud-Ubangi",
+      "reason": "table1_invalid_case_death_rate",
+      "row": 13,
+      "table": 1
+    },
+    {
+      "province": null,
+      "reason": "table1_invalid_case_death_rate",
+      "row": 15,
+      "table": 1
+    },
+    {
+      "reason": "table1_missing_provincial_or_national_totals",
+      "table": 1
+    },
+    {
+      "reason": "table3_national_total_missing",
+      "table": 3
+    },
+    {
+      "number": 4,
+      "reason": "table_missing"
+    },
+    {
+      "number": 5,
+      "reason": "table_missing"
+    }
+  ],
+  "report_number": 123,
+  "schema_version": "bdbv-sitrep-tables-v1",
+  "source_role": "INSP original SitRep; corroborated by INRB archive",
+  "source_sha256": "0061a89439c2334b2e18547a53f1e1a739b417faeecf9f65892e01ce3d92ff72",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/09/SitRep_MVEBDB_123_14_09_2026.pdf",
+  "status": "PARTIAL_REVIEW_REQUIRED",
+  "tables": {
+    "table_1": {
+      "flags": [
+        {
+          "province": "Ituri",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 7
+        },
+        {
+          "province": "Nord-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 8
+        },
+        {
+          "province": "Haut-Uélé",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 9
+        },
+        {
+          "province": "Tshopo",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 10
+        },
+        {
+          "province": "Sud-Kivu",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 11
+        },
+        {
+          "province": "Bas-Uélé",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 12
+        },
+        {
+          "province": "Sud-Ubangi",
+          "reason": "table1_invalid_case_death_rate",
+          "row": 13
+        },
+        {
+          "province": null,
+          "reason": "table1_invalid_case_death_rate",
+          "row": 15
+        },
+        {
+          "reason": "table1_missing_provincial_or_national_totals"
+        }
+      ],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    },
+    "table_2": {
+      "flags": [],
+      "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
+      "province_totals": [
+        {
+          "community_deaths_24h": 8,
+          "cte_deaths_24h": 3,
+          "cumulative_cases": 1302,
+          "cumulative_deaths": 808,
+          "deaths_24h": 11,
+          "health_zone": null,
+          "new_cases_24h": 21,
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 62.1,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 6,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "community_deaths_24h": 1,
+          "cte_deaths_24h": 2,
+          "cumulative_cases": 290,
+          "cumulative_deaths": 118,
+          "deaths_24h": 3,
+          "health_zone": null,
+          "new_cases_24h": 9,
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 40.7,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 40,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "community_deaths_24h": 0,
+          "cte_deaths_24h": 0,
+          "cumulative_cases": 28,
+          "cumulative_deaths": 10,
+          "deaths_24h": 0,
+          "health_zone": null,
+          "new_cases_24h": 0,
+          "province": "Tshopo",
+          "reported_cfr_pct": 35.7,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 55,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": null,
+          "province": "Tshopo",
+          "reported_cfr_pct": 0.0,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 68,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "community_deaths_24h": 0,
+          "cte_deaths_24h": 0,
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "deaths_24h": 0,
+          "health_zone": null,
+          "new_cases_24h": 0,
+          "province": "Sud-Kivu",
+          "reported_cfr_pct": 33.3,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 72,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "community_deaths_24h": 0,
+          "cte_deaths_24h": 0,
+          "cumulative_cases": 5,
+          "cumulative_deaths": 3,
+          "deaths_24h": 0,
+          "health_zone": null,
+          "new_cases_24h": 0,
+          "province": "Bas-Uélé",
+          "reported_cfr_pct": 60.0,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 76,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "community_deaths_24h": 0,
+          "cte_deaths_24h": 0,
+          "cumulative_cases": 1,
+          "cumulative_deaths": 1,
+          "deaths_24h": 0,
+          "health_zone": null,
+          "new_cases_24h": 0,
+          "province": "Sud-Ubangi",
+          "reported_cfr_pct": 100.0,
+          "scope": "province",
+          "source": {
+            "page": 3,
+            "source_row": 84,
+            "table_id": "p3-t8"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "cumulative_cases": 231,
+          "cumulative_deaths": 170,
+          "health_zone": "Beni",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 73.6,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 8,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 18,
+          "cumulative_deaths": 7,
+          "health_zone": "Biena",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 38.9,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 10,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 240,
+          "cumulative_deaths": 157,
+          "health_zone": "Butembo",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 65.4,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 12,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": "Goma",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 0.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 14,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 32,
+          "cumulative_deaths": 12,
+          "health_zone": "Kalunguta",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 37.5,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 16,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 533,
+          "cumulative_deaths": 337,
+          "health_zone": "Katwa",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 63.2,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 18,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": "Kayna",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 0.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 20,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 30,
+          "cumulative_deaths": 19,
+          "health_zone": "Kyondo",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 63.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 22,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 15,
+          "cumulative_deaths": 7,
+          "health_zone": "Lubero",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 46.7,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 24,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 19,
+          "cumulative_deaths": 9,
+          "health_zone": "Mabalako",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 47.4,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 26,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 9,
+          "cumulative_deaths": 3,
+          "health_zone": "Manguredjipa",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 33.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 28,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 21,
+          "cumulative_deaths": 9,
+          "health_zone": "Masereka",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 42.9,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 30,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 117,
+          "cumulative_deaths": 64,
+          "health_zone": "Musienene",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 54.7,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 32,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 6,
+          "cumulative_deaths": 2,
+          "health_zone": "Mutwanga",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 33.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 34,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 11,
+          "cumulative_deaths": 7,
+          "health_zone": "Oicha",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 63.6,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 36,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 18,
+          "cumulative_deaths": 5,
+          "health_zone": "Vuhovi",
+          "province": "Nord-Kivu",
+          "reported_cfr_pct": 27.8,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 38,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 34,
+          "cumulative_deaths": 15,
+          "health_zone": "Boma",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 44.1,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 42,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "health_zone": "Mangbetu Gombari",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 33.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 45,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 98,
+          "cumulative_deaths": 42,
+          "health_zone": "Isiro",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 42.9,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 47,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 61,
+          "cumulative_deaths": 26,
+          "health_zone": "Pawa",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 42.6,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 49,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 2,
+          "cumulative_deaths": 1,
+          "health_zone": "Rungu",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 50.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 51,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 92,
+          "cumulative_deaths": 33,
+          "health_zone": "Wamba",
+          "province": "Haut-Uélé",
+          "reported_cfr_pct": 35.9,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 53,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 7,
+          "cumulative_deaths": 1,
+          "health_zone": "Bafwasende",
+          "province": "Tshopo",
+          "reported_cfr_pct": 14.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 57,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 4,
+          "cumulative_deaths": 1,
+          "health_zone": "Kabondo",
+          "province": "Tshopo",
+          "reported_cfr_pct": 25.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 59,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": "Lubunga",
+          "province": "Tshopo",
+          "reported_cfr_pct": 0.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 61,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 10,
+          "cumulative_deaths": 5,
+          "health_zone": "Makiso-Kisangani",
+          "province": "Tshopo",
+          "reported_cfr_pct": 50.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 64,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 4,
+          "cumulative_deaths": 2,
+          "health_zone": "Mangobo",
+          "province": "Tshopo",
+          "reported_cfr_pct": 50.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 66,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 1,
+          "health_zone": "Wanie-Rukula",
+          "province": "Tshopo",
+          "reported_cfr_pct": 100.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 70,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "health_zone": "Miti-Murhesa",
+          "province": "Sud-Kivu",
+          "reported_cfr_pct": 33.3,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 74,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 1,
+          "health_zone": "Buta",
+          "province": "Bas-Uélé",
+          "reported_cfr_pct": 100.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 78,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": "Viadana",
+          "province": "Bas-Uélé",
+          "reported_cfr_pct": 0.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 80,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 2,
+          "health_zone": "Ganga",
+          "province": "Bas-Uélé",
+          "reported_cfr_pct": 66.67,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 82,
+            "table_id": "p3-t8"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 1,
+          "health_zone": "Bulu",
+          "province": "Sud-Ubangi",
+          "reported_cfr_pct": 100.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 86,
+            "table_id": "p3-t8"
+          }
+        }
+      ],
+      "status": "MACHINE_VALIDATED",
+      "unallocated_deaths": []
+    },
+    "table_3": {
+      "flags": [
+        {
+          "reason": "table3_national_total_missing"
+        }
+      ],
+      "national": null,
+      "note": "Only reporting provinces are summed; ND is never zero.",
+      "reporting_gaps": [],
+      "rows": [],
+      "status": "REVIEW_REQUIRED"
+    }
+  },
+  "tables_available": 3,
+  "tables_machine_validated": 1
+}
