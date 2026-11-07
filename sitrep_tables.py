@@ -279,18 +279,45 @@ def table_4(doc,output):
         return {'status':'REVIEW_REQUIRED','rows':[],'flags':[{'reason':'table4_ambiguous_or_missing_header'}]}
     pos=headers[0]
     rows=[];national=None;flags=[];gaps=[]
-    for i,r in enumerate(t['rows']):
-        if max(pos.values())>=len(r):continue
-        label=str(r[pos['province']]).strip()
+    source_rows=[(i,row,pos,t) for i,row in enumerate(t['rows'])]
+    # If the report breaks the contact grid across pages, the continuation
+    # can shift its column origins by one. Require a unique arithmetic match
+    # on a printed Total row before considering those rows part of the table.
+    next_parts=[part for part in doc.get('tables',[])
+        if part.get('page')==t['page']+1
+        and part.get('extractor')=='pdfplumber-lines'
+        and len(part.get('rows',[]))<=10
+        and any(norm(row[0]) in ('total','total general') for row in part.get('rows',[]) if row)]
+    matches=[]
+    for part in next_parts:
+        for delta in range(-2,3):
+            shifted={k:v+delta for k,v in pos.items()}
+            if min(shifted.values())<0:continue
+            totals=[row for row in part['rows'] if row and
+                    norm(row[0]) in ('total','total general')]
+            for total in totals:
+                if max(shifted.values())>=len(total):continue
+                d=count(total[shifted['contacts_to_follow']])
+                n=count(total[shifted['contacts_seen']])
+                rate=percent(total[shifted['contact_follow_up_rate']])
+                if ok_rate(n,d,rate):matches.append((part,shifted))
+    if len(matches)==1:
+        part,shifted=matches[0]
+        source_rows.extend((i,row,shifted,part) for i,row in enumerate(part['rows']))
+    elif len(matches)>1:
+        flags.append({'reason':'table4_ambiguous_page_continuation'})
+    for i,r,coords,source_table in source_rows:
+        if max(coords.values())>=len(r):continue
+        label=str(r[coords['province']]).strip()
         prov=scope_of(label)
         is_total=norm(label) in ('total','total general')
         if not prov and not is_total:continue
-        d_raw=r[pos['contacts_to_follow']]
-        n_raw=r[pos['contacts_seen']]
-        pct_raw=r[pos['contact_follow_up_rate']]
+        d_raw=r[coords['contacts_to_follow']]
+        n_raw=r[coords['contacts_seen']]
+        pct_raw=r[coords['contact_follow_up_rate']]
         d=count(d_raw);n=count(n_raw);pct=percent(pct_raw)
         if prov and d is None and n is None and all(norm(x) in ('na','nd','n/a','') for x in (d_raw,n_raw,pct_raw)):
-            gaps.append({'scope':prov,'reason':'contact_reporting_missing','source':cell_prov(t,i)})
+            gaps.append({'scope':prov,'reason':'contact_reporting_missing','source':cell_prov(source_table,i)})
             continue
         undefined=norm(pct_raw) in ('na','nd','n/a','')
         if (n is None or d is None or n>d
@@ -299,7 +326,7 @@ def table_4(doc,output):
             flags.append({'reason':'table4_invalid_rate_or_denominator','row':i,'scope':prov or 'DRC'})
             continue
         rec={'scope':prov or 'DRC','contacts_to_follow':d,'contacts_seen':n,
-             'contact_follow_up_rate':pct if d>0 else None,'source':cell_prov(t,i)}
+             'contact_follow_up_rate':pct if d>0 else None,'source':cell_prov(source_table,i)}
         if prov:rows.append(rec)
         elif national is not None:flags.append({'reason':'table4_duplicate_national_total'})
         else:national=rec
