@@ -1,5 +1,8 @@
 # AFRICAN INTELLIGENCE — BDBV 2026 HISTORICAL CORPUS, INCREMENTAL INTAKE & NARRATIVE AUDIT
 
+> **STATUS UPDATE — 8 November 2026:** This document captures an earlier implementation/review checkpoint. The subsequent [qualified historical evidence release](DATA_RELEASES.md) is now published (15,726 rows; 14,442 permitted for labelled descriptive use; 1,284 restricted). The [main README](../README.md) and [operations runbook](OPERATIONS_HANDOVER.md) describe the current ongoing scraper. Numerical source-cell and narrative-fidelity review remain separate and are not silently certified.
+
+
 **Evidence checkpoint:** 8 November 2026, Nairobi. **Status:** Operational source and analysis-preparation infrastructure, **not** final source-cell certification of the complete epidemic dataset.
 
 ## 1. Coherent historical data
