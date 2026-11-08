@@ -5,8 +5,22 @@ on:
     branches:
       - main
     paths:
-      - '*.py'
-      - 'tests/**'
+      - 'run_pipeline.py'
+      - 'discovery.py'
+      - 'ingest.py'
+      - 'extraction.py'
+      - 'validation.py'
+      - 'candidates.py'
+      - 'sitrep_tables.py'
+      - 'reprocess_tables.py'
+      - 'sitrep_narratives.py'
+      - 'backfill_narratives.py'
+      - 'build_narrative_signals.py'
+      - 'audit_ingestion.py'
+      - 'audit_source_to_extraction.py'
+      - 'verify_publication.py'
+      - 'review_approved.py'
+      - 'requirements.txt'
       - '.github/workflows/bdbv-sitrep-pipeline.yml'
   schedule:
     - cron: '27 5 * * *'   # Daily 08:27 East Africa Time (UTC+3)
