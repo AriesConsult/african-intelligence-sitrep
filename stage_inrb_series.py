@@ -62,11 +62,20 @@ def stage(registry_path,commit,out,session=None,paths=None):
    raw=response.content;sha=hashlib.sha256(raw).hexdigest()
    (source_dir/Path(path).name).write_bytes(raw)
    csv_rows=csv.DictReader(io.StringIO(raw.decode('utf-8-sig')))
-   if not csv_rows.fieldnames or not {'nom','date',metric}.issubset(csv_rows.fieldnames):
-    raise ValueError('Unexpected INRB CSV columns: '+path+' '+repr(csv_rows.fieldnames))
+   if not csv_rows.fieldnames or not {'nom','date'}.issubset(csv_rows.fieldnames):
+    raise ValueError('Missing required INRB identity/date CSV columns: '+path)
+   # Some historic files use a value-column name unlike their filename.
+   # Preserve the original column label and raise a schema-alias exception.
+   measure_columns=[x for x in csv_rows.fieldnames if x not in ('nom','date','PoE')]
+   if metric in measure_columns:value_column=metric
+   elif len(measure_columns)==1:
+    value_column=measure_columns[0]
+    exceptions.append({'metric':metric,'problem':'value_column_differs_from_filename',
+       'source_column':value_column,'csv_path':path})
+   else:raise ValueError('Ambiguous source value columns: '+path+' '+repr(csv_rows.fieldnames))
    counts=Counter();dates=set();geographies=set();duplicates=set();seen=set()
    for lineno,row in enumerate(csv_rows,2):
-    day=row['date'];name=row['nom'];raw_value=row[metric]
+    day=row['date'];name=row['nom'];raw_value=row[value_column]
     try:
      date.fromisoformat(day)
      date_valid=True
@@ -75,7 +84,7 @@ def stage(registry_path,commit,out,session=None,paths=None):
      exceptions.append({'metric':metric,'problem':'invalid_source_date','csv_row_number':lineno,'raw_date':day})
      counts['INVALID_SOURCE_DATE']+=1
     value,code=decode_value(raw_value)
-    extra={k:v for k,v in row.items() if k not in ('nom','date',metric)}
+    extra={k:v for k,v in row.items() if k not in ('nom','date',value_column)}
     key=(name,day,tuple(sorted(extra.items())))
     if key in seen:duplicates.add(str(key))
     seen.add(key)
@@ -84,7 +93,7 @@ def stage(registry_path,commit,out,session=None,paths=None):
     counts[code]+=1;counts['rows']+=1
     fh.write(json.dumps({'inrb_commit':commit,'inrb_csv_path':path,
      'inrb_csv_sha256':sha,'inrb_csv_row_number':lineno,
-     'metric_id':metric,'geography_raw':name,'date_raw':day,
+     'metric_id':metric,'source_value_column':value_column,'geography_raw':name,'date_raw':day,
      'extra_columns_raw':extra,'value_raw':raw_value,'value_parsed':value,
      'value_status':code,'candidate_provenance_class':candidate_policy(metric),
      'date_matched_registry_sources':by_date.get(day,[]) if date_valid else [],
@@ -92,7 +101,7 @@ def stage(registry_path,commit,out,session=None,paths=None):
      'pdf_cell_confirmed':False,'approved_for_analysis':False},ensure_ascii=False,separators=(',',':'))+'\n')
    if duplicates:exceptions.append({'metric':metric,'problem':'duplicate_source_keys','examples':sorted(duplicates)[:8]})
    totals.update(counts)
-   summaries.append({'metric_id':metric,'csv_path':path,'source_csv_sha256':sha,
+   summaries.append({'metric_id':metric,'source_value_column':value_column,'csv_path':path,'source_csv_sha256':sha,
     'rows':counts['rows'],'numeric_values':counts['NUMERIC_UNVERIFIED'],
     'ND_values':counts['NOT_REPORTED'],'other_missing':counts['MISSING_OR_NOT_APPLICABLE'],
     'unparseable':counts['UNPARSEABLE'],'unique_geo_labels':len(geographies),
