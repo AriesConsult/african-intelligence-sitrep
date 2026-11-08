@@ -12,6 +12,7 @@ import hashlib
 import json
 import re
 from collections import Counter
+from datetime import date
 from pathlib import Path
 from sitrep_narratives import TOPICS, PROVINCES, normalize
 
@@ -91,8 +92,22 @@ def inventory(directory: Path, registry_path: Path, output: Path):
             "status":"SOURCE_LINKED_MACHINE_EXTRACTION_REVIEW_REQUIRED"})
     missing=sorted(set(expected)-audited)
     for key in missing:exceptions.append({"report_number":expected[key]["report_number"],"reason":"registered_source_not_in_full_page_audit"})
+    # Report numbers behave like elapsed calendar days, not a publication count.
+    # This is a *registry date alignment* check, not an independent PDF date audit.
+    anchor=date(2026,5,14)
+    offsets=Counter()
+    for row in rows:
+        try:
+            offsets[(date.fromisoformat(row["report_date"])-anchor).days-row["report_number"]]+=1
+        except (TypeError,ValueError):
+            offsets["date_unparseable"]+=1
+    numbering_alignment={"date_anchor":"2026-05-14",
+       "measure":"(registry_report_date - anchor in days) - report_number",
+       "offset_distribution":{str(k):v for k,v in sorted(offsets.items(),key=lambda x:str(x[0]))},
+       "caution":"Date source and one-day reporting/publication offsets require checking against PDF covers; gaps are not presumed missing reports."}
     result={"schema_version":"bdbv-content-availability-inventory-v1",
         "scope":"machine extraction content presence by original SitRep and page",
+        "numbering_calendar_alignment":numbering_alignment,
         "status":"INCOMPLETE" if missing or any(x["reason"] not in ("no_existing_topic_lexicon_match",) for x in exceptions) else "ALL_REGISTERED_DOCUMENTS_INVENTORIED_REVIEW_REQUIRED",
         "counters":dict(totals),"topic_page_occurrences":dict(by_topic),
         "province_mention_page_occurrences":dict(by_province),
