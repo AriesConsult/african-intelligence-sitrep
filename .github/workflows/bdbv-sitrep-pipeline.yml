@@ -110,4 +110,3 @@ jobs:
           fi
           echo "Concurrent push was detected; leaving the newer remote unchanged." >&2
           exit 0
-          fi
