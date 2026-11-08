@@ -40,3 +40,15 @@ def test_ingestion_audit_counts_registry_and_queues():
     assert a['collected']['queue_documents_verified']==a['collected']['registry_documents']
     assert a['tables']['indexed_reports']==a['collected']['unique_report_numbers']
     assert a['feed']['observations_declared']==a['feed']['observations_verified']
+
+
+def test_actual_sitrep_174_national_cfr_cell_offset():
+    x=extract_five_tables(report(174))
+    t=x['tables']['table_1']
+    assert t['status']=='MACHINE_VALIDATED',t['flags']
+    assert t['national']['new_cases_24h']==73
+    assert t['national']['cumulative_cases']==10741
+    assert t['national']['cumulative_deaths']==5230
+    assert t['national']['reported_cfr_pct']==48.7
+    # Table 2 is only valid when its zone-level coverage reconciles fully.
+    assert x['tables']['table_2']['status']=='REVIEW_REQUIRED'
