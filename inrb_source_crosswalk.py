@@ -31,7 +31,13 @@ def run(registry_path,commit,out):
    state={'report_number':n,'source_url':origin,'inrb_path':item['path'],'status':'SOURCE_LEAD_UNVERIFIED'}
    try:
     resp=requests.get(origin,timeout=120);resp.raise_for_status();raw=resp.content
-    if len(raw)>35000000 or not raw.startswith(b'%PDF-'):raise ValueError('invalid PDF signature/size')
+    # INRB stores large PDFs with Git LFS. raw.githubusercontent.com returns
+    # the pointer, not the PDF. Retrieve the pinned revision through GitHub media.
+    if raw.startswith(b'version https://git-lfs.github.com/spec/v1'):
+     media=f'https://media.githubusercontent.com/media/{REPO}/{commit}/{item["path"]}'
+     resp=requests.get(media,timeout=180);resp.raise_for_status();raw=resp.content
+     state['retrieval_url']=media
+    if len(raw)>35000000 or not raw.startswith(b'%PDF-'):raise ValueError('invalid PDF signature/size, or unresolved LFS pointer')
     with pymupdf.open(stream=raw,filetype='pdf') as doc:
      if doc.is_encrypted or doc.page_count<1:raise ValueError('encrypted/empty PDF')
      cover=doc[0].get_text(sort=True)
