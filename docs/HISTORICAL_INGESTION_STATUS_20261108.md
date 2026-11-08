@@ -1,5 +1,8 @@
 # AFRICAN INTELLIGENCE — BDBV 2026 HISTORICAL INGESTION STATUS
 
+> **STATUS UPDATE — 8 November 2026:** This document captures an earlier implementation/review checkpoint. The subsequent [qualified historical evidence release](DATA_RELEASES.md) is now published (15,726 rows; 14,442 permitted for labelled descriptive use; 1,284 restricted). The [main README](../README.md) and [operations runbook](OPERATIONS_HANDOVER.md) describe the current ongoing scraper. Numerical source-cell and narrative-fidelity review remain separate and are not silently certified.
+
+
 **8 November 2026**  
 **Research policy:** source custody and full extraction first; numerical reconciliation second; research products and dashboards are out of scope until explicit QA approval.
 
