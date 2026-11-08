@@ -33,11 +33,12 @@ jobs:
       - name: Fetch accepted historical evidence
         run: |
           mkdir -p work/evidence
-          gh release download bdbv-qualified-historical-42498372593 --pattern historical_qualified_release.csv --dir work/evidence
+          curl -fLsS --retry 3 --max-time 180 https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-qualified-historical-42498372593/historical_qualified_release.csv -o work/evidence/historical_qualified_release.csv
+          test "$(wc -c < work/evidence/historical_qualified_release.csv)" -gt 4000000
       - name: Pin latest INRB source revision
         id: upstream
         run: |
-          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          SHA="$(curl -fLsS --retry 3 https://api.github.com/repos/INRB-UMIE/BDBV2026-Data/commits/main | python -c 'import sys,json; print(json.load(sys.stdin)["sha"])')"
           [[ "$SHA" =~ ^[a-f0-9]{40}$ ]]
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
       - name: Stage current INRB source candidates
