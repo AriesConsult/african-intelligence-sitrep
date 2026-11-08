@@ -1,0 +1,53 @@
+name: BDBV original PDF historical exception adjudication
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'adjudicate_historical_exceptions.py'
+      - 'tests/test_historical_exception_adjudication.py'
+      - '.github/workflows/bdbv-adjudicate-history.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  adjudicate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test provenance and exception classification
+        run: python -m pip install pytest && python -m pytest -q tests/test_historical_exception_adjudication.py
+      - name: Retrieve frozen revision, original PDF, and zone concordance records
+        run: |
+          set -euo pipefail
+          mkdir -p work/revision work/zone work/national work/source
+          gh release download bdbv-historical-assembly-42479820408 \
+            --pattern historical_cumulative_revision_flags.csv --dir work/revision
+          gh release download bdbv-historical-zone-review-42476718553 \
+            --pattern historical_zone_review_ledgers.zip --dir work/zone
+          unzip -q work/zone/historical_zone_review_ledgers.zip -d work/zone
+          gh release download bdbv-source-extract-evidence-42474203980 \
+            --pattern inrb_reconciliation.tar.gz --dir work/source
+          tar -xzf work/source/inrb_reconciliation.tar.gz -C work/national
+      - name: Reclassify all historical exceptions with documented SitRep 169 evidence
+        run: |
+          python adjudicate_historical_exceptions.py \
+            --revisions work/revision/historical_cumulative_revision_flags.csv \
+            --zone-ledger work/zone/healthzone_reconciliation/healthzone_concordance.jsonl \
+            --national-csv work/national/national_banner_comparison.csv \
+            --zone-triage work/zone/healthzone_reconciliation/healthzone_adjudication_triage.csv \
+            --out work/adjudication
+      - name: Archive immutable adjudication decisions, not source corrections
+        run: |
+          TAG="bdbv-historical-adjudication-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/adjudication/historical_exception_decision_summary.json \
+            work/adjudication/historical_exception_decision_register.csv \
+            --title "BDBV historical numerical exception decision register ${{ github.run_id }}" \
+            --notes "Source-hash-linked SitRep169 PDF reading decisions and comprehensive 114-downward-revision, source-difference and duplicated-row review queue. No source data modified or unreviewed values approved."
