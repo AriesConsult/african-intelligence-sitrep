@@ -37,7 +37,7 @@ def main():
         raise ValueError("Full-page audit is not verified for archival")
     if raster["status"]!="RASTER_RESOURCES_PRESERVED_REVIEW_PENDING":
         raise ValueError("Raster image preservation was not successful")
-    original_ids={(x["report_number"],x["source_sha256"]) for x in registry["documents"].values()}
+    original_ids={(x["report_number"],x["sha256"]) for x in registry["documents"].values()}
     recorded_ids={(x["report_number"],x["source_sha256"]) for x in pdfs["records"]}
     if original_ids!=recorded_ids:raise ValueError("Registry/report identity set mismatch")
     if raster["documents_examined"]!=len(recorded_ids):raise ValueError("Raster provenance document count mismatch")
