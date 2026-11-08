@@ -1,0 +1,146 @@
+{
+  "schema_version": "bdbv-original-cover-visual-audit-v1",
+  "review_date": "2026-11-08",
+  "method": "Visual inspection of official INSP PDF first page, plus SitRep150 original provincial totals table (page 2); archived SHA links reflect registry identity, original bytes not independently rehashed by web capture.",
+  "status": "SOURCE_READINGS_VISUALLY_CHECKED_CURATED_SERIES_UNCHANGED",
+  "evidence": [
+    {
+      "report_number": 4,
+      "registry_sha256": "202dd6db65d2d3c29aa2aecc18ce20006965fd2909f8c5b8a71759f316068e92",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°004-au-20-mai-2026.pdf",
+      "report_date": "2026-05-19",
+      "metrics": {
+        "national_cumulative_confirmed_cases": {
+          "preferred_verbatim_pdf": 33,
+          "locations": [
+            "page 1 banner",
+            "page 1 national Total row"
+          ],
+          "other_printed_values": [
+            {
+              "value": 30,
+              "scope": "Ituri province",
+              "location": "page 1 Ituri row"
+            }
+          ],
+          "issue": "MACHINE_NATIONAL_READER_SELECTED_PROVINCE_SUBTOTAL"
+        },
+        "national_cumulative_confirmed_deaths": {
+          "preferred_verbatim_pdf": 4,
+          "locations": [
+            "page 1 banner",
+            "page 1 national Total row"
+          ]
+        }
+      }
+    },
+    {
+      "report_number": 86,
+      "registry_sha256": "811dad0ba88e361a6e8dd445ac5be35450d084fba5e6ec9eb2d8548f6d06569c",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SITREP_MVEBDB_086_080826.pdf",
+      "report_date": "2026-08-08",
+      "metrics": {
+        "national_cumulative_confirmed_cases": {
+          "preferred_verbatim_pdf": 4294,
+          "locations": [
+            "page 1 banner",
+            "page 1 provincial Total row"
+          ]
+        },
+        "national_cumulative_confirmed_deaths": {
+          "preferred_verbatim_pdf": 1960,
+          "locations": [
+            "page 1 banner",
+            "page 1 provincial Total row"
+          ]
+        }
+      },
+      "note": "INRB digitisation notes for report 086 call the report August 9, whereas printed report date is August 8. Preserve both evidence versions."
+    },
+    {
+      "report_number": 103,
+      "registry_sha256": "1e0954bc4c987f245e5bca8028b34e62c5b35c9070b48d57aa11d922b71d580e",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_103_25_08_2026.pdf",
+      "report_date": "2026-08-25",
+      "metrics": {
+        "national_cumulative_confirmed_cases": {
+          "preferred_verbatim_pdf": 5713,
+          "locations": [
+            "page 1 banner",
+            "page 1 narrative"
+          ]
+        },
+        "national_cumulative_confirmed_deaths": {
+          "preferred_verbatim_pdf": 2744,
+          "locations": [
+            "page 1 banner",
+            "page 1 narrative"
+          ]
+        }
+      }
+    },
+    {
+      "report_number": 150,
+      "registry_sha256": "24000145be4bef1e2fbaad23cb65c0db7f519280ee6cd2d4a284ce74afd16464",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/SitRep_MVEBDB_150_11_10_2026.pdf",
+      "report_date": "2026-10-11",
+      "metrics": {
+        "national_cumulative_confirmed_cases": {
+          "preferred_verbatim_pdf": 9065,
+          "locations": [
+            "page 1 national banner",
+            "page 2 Table 1 national Total row",
+            "page 2 sum of printed provincial cases"
+          ],
+          "other_printed_values": [
+            {
+              "value": 9066,
+              "scope": "contradictory prose",
+              "location": "page 1 narrative"
+            }
+          ],
+          "issue": "INTERNAL_PDF_BANNER_TABLE_VERSUS_NARRATIVE_DISCREPANCY"
+        },
+        "national_cumulative_confirmed_deaths": {
+          "preferred_verbatim_pdf": 4381,
+          "locations": [
+            "page 1 banner",
+            "page 2 Table 1 Total row"
+          ]
+        }
+      },
+      "note": "SitRep designation is 11 October, title/summary refer to 11 October, but cover says date du rapport 12 October and publication 13 October. Date metadata conflict retained."
+    },
+    {
+      "report_number": 169,
+      "registry_sha256": "8e2cd47248423d71341536e26671abfeb08364094334d2cee548dcb457532fa5",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/10/final_draft_SitRep_MVE_RDC_N_169_30-10-2026.pdf",
+      "report_date": "2026-10-30",
+      "metrics": {
+        "national_cumulative_confirmed_cases": {
+          "preferred_verbatim_pdf": 10414,
+          "locations": [
+            "page 1 banner",
+            "page 1 narrative"
+          ]
+        },
+        "national_cumulative_confirmed_deaths": {
+          "preferred_verbatim_pdf": 5372,
+          "locations": [
+            "page 1 banner",
+            "page 1 narrative",
+            "page 2 provincial Total row"
+          ],
+          "issue": "RETROSPECTIVE_ITURI_HARMONISATION_PLUS_314"
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "This verifies visual transcription of what these source pages say, not the correctness of the underlying epidemic measurements.",
+    "Source PDFs may reflect different report/publication dates, revisions or inconsistent narrative and table numbers.",
+    "INRB values are preserved separately; this file never modifies production data.",
+    "Machine banner candidate extraction must not override these independently reviewed readings.",
+    "Original hosted PDF byte identity has not been independently compared to archived registry hash within this visual audit."
+  ]
+}
