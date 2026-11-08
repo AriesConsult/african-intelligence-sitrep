@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'extract_full_pages.py'
+      - 'render_flagged_pages.py'
       - 'tests/test_full_page_extraction.py'
       - '.github/workflows/bdbv-full-pages.yml'
 
@@ -44,6 +45,17 @@ jobs:
           done
       - name: Verify every archived original PDF and extract all pages
         run: python extract_full_pages.py --zip work/source_archive/original_sitreps.zip --out work/full_page_audit
+      - name: Render flagged original pages for visual fidelity review
+        run: |
+          python render_flagged_pages.py --zip work/source_archive/original_sitreps.zip --audit-dir work/full_page_audit --output work/flagged_page_renders
+      - name: Preserve rendered pages and targeted-review index
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-flagged-page-renders-${{ github.run_id }}
+          path: work/flagged_page_renders/
+          if-no-files-found: warn
+          retention-days: 90
       - name: Preserve complete per-page extracts and exception register for review
         if: always()
         uses: actions/upload-artifact@v4
