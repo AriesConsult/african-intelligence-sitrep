@@ -13,7 +13,7 @@ def digest(raw):return hashlib.sha256(raw).hexdigest()
 
 def parse_tsv(raw):
     words=[]
-    for row in csv.DictReader(io.StringIO(raw)):
+    for row in csv.DictReader(io.StringIO(raw),delimiter="\t"):
         text=row.get("text","").strip()
         if not text:continue
         try:conf=float(row.get("conf","-1"))
