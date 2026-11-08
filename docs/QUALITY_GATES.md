@@ -1,4 +1,4 @@
-# BDBV SITREP INGESTION — QUALITY GATES (v1, 7 November 2026)
+# BDBV SITREP INGESTION — QUALITY GATES (v2, 8 November 2026)
 
 The ingestion status **must not be described as fully verified** solely because
 a GitHub Actions job finished successfully.
@@ -45,12 +45,32 @@ a GitHub Actions job finished successfully.
 3. Repeated claims across SitReps are not independent events. An editorial event
    register must distinguish new, continuing, worsening, improving and resolved.
 4. Do not automatically publish full narrative text, names or contact details on
-   the public repository. Original full extracted page text in workflow artifacts
-   is temporary; establish access-controlled durable storage before relying on it
-   for monthly bulletins.
+   the public repository. Full extracted page text is now versioned in GitHub Releases, which are not access-controlled on a public repository. Screen named contacts and sensitive information before any public narrative reuse.
 5. Daily/weekly/monthly analytical bulletins require an evidence-linked editorial
    review step. The existing literature section remains separate and unchanged.
 
-**Current status (baseline before these upgrades are rerun):** 158 catalogued
-report numbers, 15 accepted operational observations, only one report with all
-five tables machine-validated. This baseline is not an acceptance certificate.
+
+## E. Qualified historical evidence acceptance (8 November 2026)
+
+The user-approved **qualified historical descriptive release** is published separately from the core operational feed. It preserves **15,726** pinned INRB-curated source records across **31** metrics, each with an evidence tier and explicit restrictions. **14,442** rows are permitted for qualified descriptive use; **1,284** remain restricted. Descriptive permission is **not** full scientific certification.
+
+1. Tier **A (3)**: original PDF reading visually documented, INRB concordant and no other blocking exclusion. PDF fidelity is not independent epidemiological validation.
+2. Tier **B (4,222)**: machine PDF/INRB concordance; provisional descriptive use only.
+3. Tier **C (10,217)**: pinned INRB curated, original PDF-cell fidelity unverified; provisional descriptive use only.
+4. **Restricted (1,284)**: excluded from qualified descriptive use but preserved in the research audit. Restriction reasons (which overlap): 114 cumulative decreases, 242 ambiguous or discordant PDF readings, 562 scanned-date source uncertainties, 450 nonnumeric/missing or unsuitable source rows, and 13 differences versus visually reviewed original PDF readings.
+5. SitReps **007–009** are separately archived, 37 pages, with OCR-only numerical content excluded until visual source verification.
+6. All historical values are excluded from blind *daily-incidence derivation by differencing* without a validated reporting-period/revision model.
+7. Historical qualification **does not modify the published operational feed**, website dashboard or forecasting models.
+8. Revised historical versions require a new source-frozen release and documented reasons, never silent replacement.
+
+See the [qualified release, exclusions and source archive catalogue](DATA_RELEASES.md).
+
+## F. Continuing ingestion and research boundaries
+
+The latest inspected scheduled pipeline run (**8 November 2026**) passed discovery, extraction, narrative classification and the independent publication gate. The associated audit counted 158 original machine-extracted PDF identities, 27 machine-validated operational observations across five indicators and durable source archiving for those 158 original PDFs. The separate 007–009 scans bring source identities to 161, **not** 161 fully source-cell-certified SitReps.
+
+The configured jobs run daily at **08:27 EAT** (intake), **09:10 EAT** (original archive) and **09:55 EAT** (source-change guard), subject to GitHub scheduling delay and independent errors. Check the *latest actual Actions result* rather than assuming schedule guarantees completion. See [operations](OPERATIONS_HANDOVER.md).
+
+Narrative section boundaries, complete reading order and scanned/OCR content remain under a **separate** verification track.
+
+**Bottom line:** the scraper works, the qualified historical descriptive dataset is released, and future source/version checks are operational. This is not a blanket certificate of the complete original historical tables or all narrative content.
