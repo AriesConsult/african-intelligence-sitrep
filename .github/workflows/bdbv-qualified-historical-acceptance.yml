@@ -1,0 +1,89 @@
+name: BDBV final qualified historical evidence acceptance
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'accept_historical_qualified.py'
+      - 'tests/test_qualified_historical_acceptance.py'
+      - '.github/workflows/bdbv-qualified-historical-acceptance.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdbv-qualified-historical-acceptance
+  cancel-in-progress: false
+
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check explicit uncertainty and exclusions
+        run: |
+          python -m pip install pytest
+          python -m pytest -q tests/test_qualified_historical_acceptance.py
+      - name: Fetch immutable pinned historical input releases
+        run: |
+          set -euo pipefail
+          mkdir -p work/in/two work/in/aligned work/in/verified work/in/revisions
+          gh release download bdbv-two-historical-evidence-views-42495749569 \
+            --pattern two_evidence_vintages.jsonl.gz --dir work/in/two
+          gh release download bdbv-historical-aligned-42482026260 \
+            --pattern historical_evidence_aligned.jsonl.gz \
+            --pattern historical_evidence_alignment_summary.json --dir work/in/aligned
+          gh release download bdbv-source-verified-readings-42495579497 \
+            --pattern verified_primary_pdf_verbatim_readings.csv --dir work/in/verified
+          gh release download bdbv-historical-assembly-42479820408 \
+            --pattern historical_cumulative_revision_flags.csv --dir work/in/revisions
+      - name: Produce qualified historical dataset and acceptance report
+        run: |
+          python accept_historical_qualified.py \
+            --two-views work/in/two/two_evidence_vintages.jsonl.gz \
+            --aligned work/in/aligned/historical_evidence_aligned.jsonl.gz \
+            --alignment-summary work/in/aligned/historical_evidence_alignment_summary.json \
+            --verified-pdf work/in/verified/verified_primary_pdf_verbatim_readings.csv \
+            --revisions work/in/revisions/historical_cumulative_revision_flags.csv \
+            --scanned-index published/scanned_source_index.json \
+            --out work/qualified
+      - name: Verify output manifest and strict excluded-pool preservation
+        run: |
+          python - <<'PY'
+          import csv,json
+          from pathlib import Path
+          root=Path("work/qualified")
+          report=json.loads((root/"historical_acceptance_report.json").read_text())
+          with (root/"historical_qualified_release.csv").open(newline="",encoding="utf-8") as f:
+              rows=list(csv.DictReader(f))
+          with (root/"historical_exclusions.csv").open(newline="",encoding="utf-8") as f:
+              excluded=list(csv.DictReader(f))
+          assert len(rows)==15726 and report["observations_retained"]==len(rows)
+          assert len(excluded)==sum(x["acceptance_tier"]=="RESTRICTED_EVIDENCE_ONLY" for x in rows)
+          assert all(x["excluded_from_derived_incidence"]=="TRUE" for x in rows)
+          assert all(x["production_feed_modified"]=="FALSE" for x in rows)
+          assert all(x["curated_value_eligible_for_qualified_descriptive_use"]=="FALSE" for x in excluded)
+          assert report["production_feed_modified"] is False
+          print("QUALIFIED HISTORICAL ACCEPTANCE OUTPUT VALIDATED")
+          PY
+      - name: Publish immutable qualified historical evidence release
+        run: |
+          TAG="bdbv-qualified-historical-${{ github.run_id }}"
+          gh release create "$TAG" work/qualified/* \
+            --title "BDBV qualified historical evidence and final acceptance report ${{ github.run_id }}" \
+            --notes "User-authorized qualified historical descriptive release. INRB revision pinned, source-verified values separate, all 114 cumulative declines restricted, unverified scans 007-009 excluded, narrative track separate, explicit exclusion CSV. Not a fully epidemiologically certified incidence series."
+      - name: Preserve review summary in Actions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-qualified-historical-summary-${{ github.run_id }}
+          path: |
+            work/qualified/historical_acceptance_report.json
+            work/qualified/HISTORICAL_ACCEPTANCE_REPORT.md
+          if-no-files-found: warn
+          retention-days: 90
