@@ -68,6 +68,8 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
          "source_pdf_sha256":r.get("pdf_sha256"),
          "pdf_page":r.get("pdf_page"),"curated_INRB_value":r.get("inrb_value_raw"),
          "original_pdf_candidate":r.get("pdf_value"),
+         "verified_pdf_value":expected if is169 and expected==actual else "",
+         "machine_pdf_reading_agrees_with_verified_value":expected==actual if is169 and expected is not None else "",
          "disposition":disposition,"evidence_document":evidence,
          "epidemiological_revision_explained":False,"approved_for_analysis":False})
     for r in read_csv(national_csv):
@@ -76,7 +78,7 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
         number=val(r["report_number"])
         expected=ALIGNED_NATIONAL_169.get(r["metric_id"])
         is169=(number==169 and r["source_pdf_sha256"]==SITREP169_HASH)
-        if is169 and expected is not None and val(r["pdf_value_candidate"])==expected:
+        if is169 and expected is not None:
             disposition="PRIMARY_PDF_169_NATIONAL_REVISION_EXPLAINED"
             evidence="docs/SITREP169_SOURCE_ADJUDICATION.md"
             explained=True
@@ -88,6 +90,8 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
          "geography":"DRC","report_number":number,
          "source_pdf_sha256":r["source_pdf_sha256"],"pdf_page":r.get("pdf_page"),
          "curated_INRB_value":r["inrb_value"],"original_pdf_candidate":r["pdf_value_candidate"],
+         "verified_pdf_value":expected if is169 else "",
+         "machine_pdf_reading_agrees_with_verified_value":val(r["pdf_value_candidate"])==expected if is169 else "",
          "disposition":disposition,"evidence_document":evidence,
          "epidemiological_revision_explained":explained,"approved_for_analysis":False})
     for r in read_csv(revisions):
@@ -112,7 +116,8 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
     shifts=list(read_csv(triage))
     shift_counts=Counter(r.get("diagnosis") for r in shifts)
     fields=["category","date","metric","geography","report_number","source_pdf_sha256",
-      "pdf_page","curated_INRB_value","original_pdf_candidate","previous_date","previous_value","delta",
+      "pdf_page","curated_INRB_value","original_pdf_candidate","verified_pdf_value",
+      "machine_pdf_reading_agrees_with_verified_value","previous_date","previous_value","delta",
       "reporting_gap_days","disposition","evidence_document",
       "epidemiological_revision_explained","approved_for_analysis"]
     with (out/"historical_exception_decision_register.csv").open("w",newline="",encoding="utf-8") as f:
