@@ -1,0 +1,56 @@
+name: Preserve historical unmatched zone page-locator evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bdbv-preserve-zone-page-leads.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  preserve-locator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SOURCE_RUN: '42477117520'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve complete verified-source page locator records
+        run: |
+          mkdir -p work/zone_locator
+          gh run download "$SOURCE_RUN" --name "bdbv-zone-page-leads-$SOURCE_RUN" --dir work/zone_locator
+          test -s work/zone_locator/unmatched_zone_page_leads.jsonl
+          test -s work/zone_locator/unmatched_zone_page_locator_summary.json
+      - name: Add original evidence snapshot and integrity manifest
+        run: |
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          target=Path("work/zone_locator")
+          result=json.loads((target/"unmatched_zone_page_locator_summary.json").read_text(encoding="utf-8"))
+          assert result["inrb_candidate_rows_located"]==9065
+          archive=target/"unmatched_healthzone_page_leads.zip"
+          with zipfile.ZipFile(archive,"w",compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for name in ("unmatched_zone_page_leads.jsonl","unmatched_zone_page_locator_summary.json"):
+                  z.write(target/name,arcname=name)
+          sha=hashlib.sha256(archive.read_bytes()).hexdigest()
+          manifest={"schema_version":"bdbv-page-locator-archive-v1",
+            "source_workflow_run":42477117520,
+            "source_pdf_extraction_release":"bdbv-source-extract-evidence-42474203980",
+            "reconciliation_review_release":"bdbv-historical-zone-review-42476718553",
+            "records":result["inrb_candidate_rows_located"],"counts":result["counts"],
+            "archive_sha256":sha,
+            "status":"NAME_ONLY_SOURCE_PAGE_LEADS_REVIEW_REQUIRED",
+            "warning":"Zone-name occurrence is not proof that the named INRB numeric value appears on the PDF page."}
+          (target/"locator_release_manifest.json").write_text(json.dumps(manifest,indent=2)+"\n",encoding="utf-8")
+          PY
+      - name: Preserve immutable source locator archive
+        run: |
+          TAG="bdbv-unmatched-zone-page-leads-$SOURCE_RUN"
+          gh release create "$TAG"             work/zone_locator/unmatched_healthzone_page_leads.zip             work/zone_locator/locator_release_manifest.json             --title "BDBV unmatched zone PDF-page recovery leads — run $SOURCE_RUN"             --notes "Page-name evidence pointers for 9065 unmatched INRB health-zone candidate records. These are not verified PDF cell values."
