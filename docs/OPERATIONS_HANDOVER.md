@@ -1,8 +1,38 @@
 # AFRICAN INTELLIGENCE — BDBV SITREP INGESTION OPERATIONS
 
 **System:** `AriesConsult/african-intelligence-sitrep`  
-**Revision:** 7 November 2026  
+**Revision:** 8 November 2026 (qualified historical acceptance and routine daily source collection)  
 **Boundary:** GitHub acquisition, numerical and narrative classification, source verification and release archiving. The existing One.com observatory, forecasting models and literature portal are *not* modified.
+
+## Current operating decision
+
+The core scraper and publication QA are operational. The latest inspected scheduled run on **8 November 2026** succeeded across source discovery, downloads, table/narrative processing, integrity and publication gates: [run 42478204067](https://github.com/AriesConsult/african-intelligence-sitrep/actions/runs/42478204067).
+
+The **qualified historical evidence dataset** is separately released with 15,726 pinned source rows and explicit acceptance tiers (14,442 eligible for labelled descriptive use, 1,284 restricted); it is **not** automatically published into the operational feed or the One.com website. See [release guide](DATA_RELEASES.md).
+
+**Priority:** preserve reliable daily source collection. Historical cells and narrative text can be improved independently in versioned, review-controlled evidence releases.
+
+## Daily schedule and operational monitoring
+
+| Job | GitHub Actions workflow | Schedule in UTC / EAT | What to verify |
+| --- | --- | --- | --- |
+| New SitRep discovery and extraction | [Core pipeline](../.github/workflows/bdbv-sitrep-pipeline.yml) | 05:27 / 08:27 daily | Success, `state/registry.json`, `published/ingestion_audit.json`, `published/publication_qa.json` |
+| Sunday complete source backfill | [Same pipeline](../.github/workflows/bdbv-sitrep-pipeline.yml) | 04:41 / 07:41 Sunday | Full source discovery `--limit 0`, source failures, publication QA |
+| Archive original PDF bytes | [Source archive](../.github/workflows/bdbv-source-archive.yml) | 06:10 / 09:10 daily | SHA-256 manifest, GitHub Release, `published/source_archive_index.json` |
+| Detect later original-PDF revisions | [Source change control](../.github/workflows/bdbv-future-change-control.yml) | 06:55 / 09:55 daily | No disappearing frozen hash; new/revised sources routed to review |
+
+GitHub schedules may start late. **Do not assume the 09:10 archive is for today's newest PDF without checking job/run timestamps**; the three schedules are independently triggered and not a single transactional workflow.
+
+If the daily pipeline does not complete successfully:
+
+1. Check the [Actions runs](https://github.com/AriesConsult/african-intelligence-sitrep/actions) and inspect the failing step; source discovery or upstream HTTP errors may be temporary.
+2. Check `published/ingestion_audit.json` and `published/publication_qa.json` before interpreting the prior successful result as current.
+3. Use **Run workflow** on the core pipeline; choose `full_backfill=false` for a normal bounded run and `true` only when a historical discovery/backfill is needed.
+4. Once the source registry is updated and the pipeline has passed, run the **source archive** workflow if its daily execution already happened before new PDF ingestion.
+5. Run **future source-change control** afterwards; investigate any new report hash or revision before approving changed historical figures. Never force-push or wipe existing archive revisions.
+6. If upstream access repeatedly fails, retain the previous accepted data and record the source gap/freshness warning; do not replace missing reports or `ND` with zero.
+
+For local checks, run commands from the **repository root**, using `python3 -m pip install -r requirements.txt pytest reportlab` and `python3 -m pytest -q tests`. The older `sitrep_pipeline/` directory path in the former README was obsolete.
 
 ## Workflow and destinations
 
@@ -16,6 +46,21 @@ The regular workflow `.github/workflows/bdbv-sitrep-pipeline.yml` executes:
 7. Commit validated results only if the branch has not advanced. Never force-push over newer evidence.
 
 The separate workflow `.github/workflows/bdbv-source-archive.yml` creates immutable GitHub Release assets containing unmodified source PDFs, each checked against its recorded SHA-256. It updates `published/source_archive_index.json` only after a release has been created successfully. It runs daily at 09:10 East Africa Time, on archive-code changes, and on manual dispatch. It archives only new report/hash identities.
+
+## Qualified historical evidence, distinct from the operational feed
+
+The [qualified historical release](https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-qualified-historical-42498372593) contains:
+
+- `historical_qualified_release.csv` — all 15,726 source records and their classification.
+- `historical_exclusions.csv` — the 1,284 restricted records and their precise, possibly overlapping reasons.
+- `metric_tier_coverage.csv` — distribution by indicator.
+- `HISTORICAL_ACCEPTANCE_REPORT.md` and `historical_acceptance_report.json` — human/machine audit decisions plus frozen input hashes.
+
+**A: 3**, **B: 4,222**, **C: 10,217** rows permitted for their specified *descriptive* uses, with different evidentiary confidence; no row is automatically suitable for deriving daily incidence from cumulative figures. The 17 existing individually visually checked PDF transcriptions live in a separate source-reading release. The 114 cumulative declines and ambiguous cells are preserved as review evidence; no retrospective case/death dates are invented.
+
+The three scanned SitReps 007–009 are separately hash-archived (37 pages); OCR text and numbers are provisional. Narrative completeness is a **separate** track: 158 digitally extracted originals and three additional scanned identities, with heuristic segments and INRB source comparisons requiring substantive verification.
+
+Any subsequent historical update needs a new immutable-convention release, source revision and acceptance report. Do **not** edit the frozen historical originals or treat a green Actions run as automatic evidence promotion.
 
 ## Primary data products
 
@@ -60,7 +105,7 @@ For a full narrative/source extraction pass, use `python backfill_narratives.py 
 
 - Gaps in report numbering are **unconfirmed publications** until official primary-source evidence establishes whether those report numbers were issued.
 - Historical PDFs use changing table layouts and table numbers. Partially extracted rows stay quarantined and must never be labelled a fully validated provincial/health-zone history.
-- Original source PDFs must be present in confirmed immutable releases before long-term source preservation is certified.
+- Original source PDFs for the current 158-document primary registry have confirmed SHA-checked versioned GitHub Releases; retain independent backups for custody resilience.
 - The AI editorial event register and daily/weekly/monthly bulletins require separate review and publication approval.
 - The live One.com dashboard remains unchanged until historical coverage and source labels are suitable for public consumption.
 
