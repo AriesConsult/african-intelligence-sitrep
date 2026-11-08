@@ -1,0 +1,63 @@
+name: BDBV historical curated series consolidation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assemble_historical_series.py'
+      - 'tests/test_historical_assembly.py'
+      - '.github/workflows/bdbv-historical-series.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdbv-historical-series
+  cancel-in-progress: false
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install staging and test dependencies
+        run: python -m pip install requests pytest
+      - name: Regression-test staging and historical assembly
+        run: python -m pytest -q tests/test_inrb_staging.py tests/test_historical_assembly.py
+      - name: Pin INRB source history at exact commit
+        id: inrb
+        run: |
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          [[ "$SHA" =~ ^[a-f0-9]{40}$ ]]
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+      - name: Preserve each source CSV and stage its unmodified observations
+        run: |
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.inrb.outputs.sha }}" --out work/source_staging
+      - name: Consolidate coherent long-form historical dataset and revision register
+        run: |
+          python assemble_historical_series.py --staged-dir work/source_staging --out work/historical_assembly
+      - name: Archive complete source and provisional historical assembly
+        run: |
+          set -euo pipefail
+          TAG="bdbv-historical-assembly-${{ github.run_id }}"
+          mkdir -p work/historical_release
+          tar -czf work/historical_release/inrb_historical_source_csvs.tar.gz -C work/source_staging source_csv
+          cp work/source_staging/inrb_staging_summary.json work/historical_release/
+          cp work/historical_assembly/* work/historical_release/
+          gh release create "$TAG" work/historical_release/*             --title "BDBV coherent historical candidate series — run ${{ github.run_id }}"             --notes "Frozen, commit-pinned INRB CSVs and versioned long-form historical observations; missingness, duplicates and cumulative downward revision flags preserved. Review-only and not a certified SitRep as-reported series."
+      - name: Retain summary and coverage audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-historical-assembly-${{ github.run_id }}
+          path: work/historical_assembly/
+          if-no-files-found: warn
+          retention-days: 90
