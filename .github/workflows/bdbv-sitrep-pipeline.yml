@@ -97,6 +97,7 @@ jobs:
             # Rebase generated results onto the current remote tip before pushing.
             # Never force-push or silently overwrite a conflicting update.
             # A newer code/data commit can arrive during a long extraction.
+          fi
           # Never force-merge or overwrite newer generated source ledgers.
           git fetch origin "$GITHUB_REF_NAME"
           if ! git merge-base --is-ancestor "origin/$GITHUB_REF_NAME" HEAD; then
