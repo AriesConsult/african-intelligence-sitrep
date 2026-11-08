@@ -1,0 +1,40 @@
+name: BDBV future SitRep change-control QA
+
+on:
+  schedule:
+    - cron: '55 6 * * *'  # 09:55 Nairobi, after existing daily source ingest
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit_future_ingestion.py'
+      - 'tests/test_future_ingestion_audit.py'
+      - 'state/historical_source_freeze_20261108.json'
+      - '.github/workflows/bdbv-future-change-control.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdbv-future-change-control
+  cancel-in-progress: true
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test historical source integrity and new revision guard
+        run: python -m pip install pytest && python -m pytest -q tests/test_future_ingestion_audit.py
+      - name: Audit source additions and revisions since historical freeze
+        run: python audit_future_ingestion.py --out work/future_qa
+      - name: Preserve actionable, source-hash-linked change-control register
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-future-source-change-control-${{ github.run_id }}
+          path: work/future_qa/
+          retention-days: 90
