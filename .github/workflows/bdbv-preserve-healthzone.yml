@@ -1,0 +1,64 @@
+name: Preserve historical health-zone comparison evidence
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bdbv-preserve-healthzone.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: bdbv-zone-evidence-release
+  cancel-in-progress: false
+
+jobs:
+  preserve-zone-ledgers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SOURCE_RUN: '42476718553'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve completed historical health-zone reconciliation artifact
+        run: |
+          mkdir -p work/zone_archive
+          gh run download "$SOURCE_RUN" --name "bdbv-healthzone-reconciliation-$SOURCE_RUN" --dir work/zone_archive
+          test -s work/zone_archive/healthzone_reconciliation/healthzone_reconciliation_summary.json
+          test -s work/zone_archive/healthzone_reconciliation/healthzone_adjudication_triage.json
+      - name: Bundle full source-linked comparison, unmatched cells and exception triage
+        run: |
+          mkdir -p work/zone_release
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          source=Path('work/zone_archive')
+          output=Path('work/zone_release')
+          listing=sorted(x for x in source.rglob('*') if x.is_file())
+          with zipfile.ZipFile(output/'historical_zone_review_ledgers.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for f in listing:z.write(f,arcname=f.relative_to(source).as_posix())
+          zfile=output/'historical_zone_review_ledgers.zip'
+          summary=json.loads((source/'healthzone_reconciliation/healthzone_reconciliation_summary.json').read_text(encoding='utf-8'))
+          manifest={'schema_version':'bdbv-historical-healthzone-evidence-v1',
+             'source_workflow_run':42476718553,'upstream_inrb_commit':summary['inrb_commit'],
+             'source_archive_release':'bdbv-source-extract-evidence-42474203980',
+             'status':'REVIEW_ONLY_NO_NUMERIC_AUTO_APPROVAL',
+             'ledger_sha256':hashlib.sha256(zfile.read_bytes()).hexdigest(),
+             'ledger_bytes':zfile.stat().st_size,'files':[f.relative_to(source).as_posix() for f in listing],
+             'notice':'INRB and automated SitRep table transcriptions are concordance candidates; unresolved rows must be visually adjudicated against original PDF.'}
+          (output/'review_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(manifest,indent=2))
+          PY
+      - name: Create immutable review-only release
+        run: |
+          TAG="bdbv-historical-zone-review-$SOURCE_RUN"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Immutable release exists; do not overwrite"
+            exit 0
+          fi
+          gh release create "$TAG"             work/zone_release/review_manifest.json             work/zone_release/historical_zone_review_ledgers.zip             --title "BDBV historical zone reconciliation evidence — run $SOURCE_RUN"             --notes "Review-only historical health-zone comparison and discrepancy triage; pinned INRB inputs and original PDF page references. No automatic approval of observations."
