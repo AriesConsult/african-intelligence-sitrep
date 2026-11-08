@@ -1,0 +1,54 @@
+name: BDBV scanned SitRep dual-layout OCR fidelity triage
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit_scanned_ocr_dual.py'
+      - 'tests/test_scanned_dual_ocr.py'
+      - '.github/workflows/bdbv-dual-scanned-ocr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  check-scans:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install bilingual source OCR and Python validation libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-fra tesseract-ocr-eng
+          python -m pip install pymupdf pytest
+      - name: Test OCR nonapproval and numerical discrepancy detection
+        run: python -m pytest -q tests/test_scanned_dual_ocr.py
+      - name: Retrieve immutable source PDFs and first OCR candidate output
+        run: |
+          mkdir -p work/scans work/ocr
+          gh release download bdbv-scanned-sources-007-009-c00b8843 \
+            --pattern scanned_sitrep_originals.zip --dir work/scans
+          gh release download bdbv-scanned-ocr-42482358347 \
+            --pattern scanned_page_ocr_candidates.jsonl.gz --dir work/ocr
+      - name: Run independent OCR page-layout method and compare all 37 pages
+        run: |
+          python audit_scanned_ocr_dual.py \
+            --archive work/scans/scanned_sitrep_originals.zip \
+            --index published/scanned_source_index.json \
+            --first-ocr work/ocr/scanned_page_ocr_candidates.jsonl.gz \
+            --out work/dual_ocr
+      - name: Preserve complete source-page OCR agreement and mismatch register
+        run: |
+          gh release create "bdbv-scanned-dual-ocr-${{ github.run_id }}" \
+            work/dual_ocr/scanned_dual_ocr_summary.json \
+            work/dual_ocr/scanned_dual_ocr_page_checks.jsonl \
+            --title "BDBV scanned historical SitRep OCR fidelity triage ${{ github.run_id }}" \
+            --notes "All 37 original scanned pages checked using French+English PSM3 and PSM6 OCR. Matching OCR values are not certified source-cell readings. Numeric differences explicitly prioritized for original-page visual review."
