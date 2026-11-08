@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'adjudicate_historical_exceptions.py'
+      - 'state/verified_original_cover_readings_20261108.json'
       - 'tests/test_historical_exception_adjudication.py'
       - '.github/workflows/bdbv-adjudicate-history.yml'
 
