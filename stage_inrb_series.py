@@ -61,20 +61,28 @@ def stage(registry_path,commit,out,session=None,paths=None):
    counts=Counter();dates=set();geographies=set();duplicates=set();seen=set()
    for lineno,row in enumerate(csv_rows,2):
     day=row['date'];name=row['nom'];raw_value=row[metric]
-    try:date.fromisoformat(day)
-    except (ValueError,TypeError):raise ValueError(f'Invalid date {path}:{lineno}')
+    try:
+     date.fromisoformat(day)
+     date_valid=True
+    except (ValueError,TypeError):
+     date_valid=False
+     exceptions.append({'metric':metric,'problem':'invalid_source_date','csv_row_number':lineno,'raw_date':day})
+     counts['INVALID_SOURCE_DATE']+=1
     value,code=decode_value(raw_value)
     extra={k:v for k,v in row.items() if k not in ('nom','date',metric)}
     key=(name,day,tuple(sorted(extra.items())))
     if key in seen:duplicates.add(str(key))
-    seen.add(key);dates.add(day);geographies.add(name)
+    seen.add(key)
+    if date_valid:dates.add(day)
+    geographies.add(name)
     counts[code]+=1;counts['rows']+=1
     fh.write(json.dumps({'inrb_commit':commit,'inrb_csv_path':path,
      'inrb_csv_sha256':sha,'inrb_csv_row_number':lineno,
      'metric_id':metric,'geography_raw':name,'date_raw':day,
      'extra_columns_raw':extra,'value_raw':raw_value,'value_parsed':value,
      'value_status':code,'candidate_provenance_class':candidate_policy(metric),
-     'date_matched_registry_sources':by_date.get(day,[]),
+     'date_matched_registry_sources':by_date.get(day,[]) if date_valid else [],
+     'date_valid':date_valid,
      'pdf_cell_confirmed':False,'approved_for_analysis':False},ensure_ascii=False,separators=(',',':'))+'\n')
    if duplicates:exceptions.append({'metric':metric,'problem':'duplicate_source_keys','examples':sorted(duplicates)[:8]})
    totals.update(counts)
