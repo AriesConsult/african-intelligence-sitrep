@@ -1,0 +1,93 @@
+name: BDBV preserve and register historical scanned sources 007-009
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'stage_scanned_sources.py'
+      - 'tests/test_scanned_source_staging.py'
+      - '.github/workflows/bdbv-scanned-sources.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdbv-scanned-source-archive
+  cancel-in-progress: false
+
+jobs:
+  archive-scans:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install requirements
+        run: python -m pip install -r requirements.txt pytest
+      - name: Check scanned source quarantine safeguards
+        run: python -m pytest -q tests/test_scanned_source_staging.py
+      - name: Verify original PDF hashes and preserve all scanned pages
+        run: python stage_scanned_sources.py --out work/scanned_sources
+      - name: Publish immutable original scanned sources and page renderings
+        run: |
+          set -euo pipefail
+          TAG="bdbv-scanned-sources-007-009-c00b8843"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release already exists; do not modify it."
+          else
+            gh release create "$TAG"               work/scanned_sources/scanned_source_manifest.json               work/scanned_sources/scanned_sitrep_originals.zip               work/scanned_sources/scanned_sitrep_page_renders.zip               --title "BDBV historical scanned SitReps 007–009, source-evidence archive"               --notes "Pinned INRB-UMIE revision c00b8843; original bytes checked against previously inspected SHA256 values, full-page renderings retained. These are source records, NOT approved epidemiological data. Transcription and historical table fidelity remain under review."
+          fi
+      - name: Register source custody separately from approved machine-validated corpus
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path("work/scanned_sources/scanned_source_manifest.json").read_text(encoding="utf-8"))
+          url="https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-scanned-sources-007-009-c00b8843"
+          out={"schema_version":"bdbv-scanned-source-index-v1",
+               "status":"SOURCE_ARCHIVED_PAGE_TEXT_EXTRACTION_REVIEW_REQUIRED",
+               "release_url":url,
+               "source_repo":manifest["upstream_repository"],
+               "source_commit":manifest["upstream_commit_sha"],
+               "scanned_reports":manifest["reports"],
+               "scanned_pages":manifest["pages"],
+               "originals_zip_sha256":manifest["archive_sha256"],
+               "page_renders_zip_sha256":manifest["page_render_archive_sha256"],
+               "source_records":[{"report_number":r["report_number"],
+                                   "report_date":r["report_date_cover_review"],
+                                   "publication_date":r["publication_date_cover_review"],
+                                   "source_sha256":r["source_sha256"],
+                                   "pdf_pages":r["pdf_pages"],
+                                   "evidence_status":r["source_identity_status"],
+                                   "extraction_status":r["transcription_status"],
+                                   "approved_for_analysis":False} for r in manifest["documents"]],
+               "warning":"Separate provenance register; do not count as fully extracted or add to existing 158 verified-text records until all pages have been transcribed and audited."}
+          p=Path("published/scanned_source_index.json")
+          p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          PY
+          git config user.name "african-intelligence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add published/scanned_source_index.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Register immutable scanned SitRep originals 007-009 with review-only status"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1
+      - name: Retain source admission manifest for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-scanned-source-admission-${{ github.run_id }}
+          path: work/scanned_sources/scanned_source_manifest.json
+          if-no-files-found: warn
+          retention-days: 90
