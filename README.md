@@ -98,6 +98,18 @@ python3 audit_future_ingestion.py --out work/future_qa
 | `published/ingestion_audit.json`, `published/publication_qa.json` | Core ingestion and publication safety audit |
 | [Qualified historical GitHub Release](https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-qualified-historical-42498372593) | Complete long-form historical CSV, tier decisions, exclusions and final acceptance report |
 
+
+## Daily, weekly and monthly outbreak bulletins (no AI)
+
+The first deterministic source-led bulletin backfill completed successfully on **9 November 2026**: **129 daily**, **26 ISO-weekly** and **7 monthly** editions (162 EN/FR publication periods). It reads the frozen, qualified historical release plus newly staged version-pinned INRB GitHub observations, preserving historical exclusions and indicating where cumulative totals cannot support incidence claims.
+
+- [Bulletin pipeline documentation, source rules and site deployment](docs/BULLETINS.md)
+- [Initial GitHub bulletin release, including One.com upload ZIP](https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-rulebased-bulletins-c00b8843e6eb-897fa8e99a64)
+- [Automated generation workflow](.github/workflows/bdbv-bulletins.yml) — **07:25 UTC / 10:25 EAT daily** (subject to scheduling delay)
+- Generated site assets: `/bdvd2026/assets/data/bulletins_public.json`, `contact_tracing_public.json` and `weekly_national_public.json` plus bilingual HTML bulletins.
+
+The GitHub generation and archive runs are working; **automatic FTPS deployment to One.com is optional and disabled until the site owner configures FTPS credentials**. No credentials are committed or shown publicly. Bulletins are labelled automated, not independently expert-reviewed.
+
 ## Historical acceptance policy
 
 The 8 November 2026 qualified historical release retains **every** of the 15,726 curated records; it does **not** certify all of them as epidemiological truth.
