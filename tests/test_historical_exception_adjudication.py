@@ -18,7 +18,7 @@ def test_documented_169_original_cells_preserved_without_upstream_overwrite(tmp_
             "metric_id","pdf_value_candidate","inrb_value","outcome"])
         w.writeheader();w.writerow({"report_number":169,"report_date":"2026-10-30",
             "source_pdf_sha256":SITREP169_HASH,"pdf_page":1,
-            "metric_id":"national_cumulative_confirmed_deaths","pdf_value_candidate":5372,
+            "metric_id":"national_cumulative_confirmed_deaths","pdf_value_candidate":32,
             "inrb_value":5058,"outcome":"DIFFERENCE_REVIEW_REQUIRED"})
     triage=tmp_path/"triage.csv"
     with triage.open("w",newline="") as f:
@@ -31,3 +31,4 @@ def test_documented_169_original_cells_preserved_without_upstream_overwrite(tmp_
         rows=list(csv.DictReader(f))
     assert any(r["curated_INRB_value"]=="139" and r["original_pdf_candidate"]=="154" for r in rows)
     assert any(r["disposition"].startswith("CUMULATIVE_DROP_") for r in rows)
+    assert any(r["metric"]=="national_cumulative_confirmed_deaths" and r["original_pdf_candidate"]=="32" and r["verified_pdf_value"]=="5372" and r["machine_pdf_reading_agrees_with_verified_value"]=="False" for r in rows)
