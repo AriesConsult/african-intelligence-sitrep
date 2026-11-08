@@ -7,6 +7,7 @@ on:
     paths:
       - 'extract_full_pages.py'
       - 'render_flagged_pages.py'
+      - 'preserve_raster_assets.py'
       - 'tests/test_full_page_extraction.py'
       - '.github/workflows/bdbv-full-pages.yml'
 
@@ -48,6 +49,17 @@ jobs:
       - name: Render flagged original pages for visual fidelity review
         run: |
           python render_flagged_pages.py --zip work/source_archive/original_sitreps.zip --audit-dir work/full_page_audit --output work/flagged_page_renders
+      - name: Preserve embedded raster images from all archived PDF pages
+        run: |
+          python preserve_raster_assets.py --zip work/source_archive/original_sitreps.zip --audit-dir work/full_page_audit --output work/raster_preservation
+      - name: Retain raster resource inventory and exact binary assets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-raster-assets-${{ github.run_id }}
+          path: work/raster_preservation/
+          if-no-files-found: warn
+          retention-days: 90
       - name: Preserve rendered pages and targeted-review index
         if: always()
         uses: actions/upload-artifact@v4
