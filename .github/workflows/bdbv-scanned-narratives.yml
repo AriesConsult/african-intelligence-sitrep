@@ -1,0 +1,47 @@
+name: BDBV scanned narrative completion inventory
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'integrate_scanned_narratives.py'
+      - 'tests/test_scanned_narrative_integration.py'
+      - '.github/workflows/bdbv-scanned-narratives.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  integrate-scans:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify scanned OCR source identity and missingness safeguards
+        run: python -m pip install pytest && python -m pytest -q tests/test_scanned_narrative_integration.py tests/test_narrative_sections.py
+      - name: Retrieve full historical scanned OCR evidence release
+        run: |
+          mkdir -p work/scanned_ocr
+          gh release download bdbv-scanned-ocr-42482358347 \
+            --pattern scanned_ocr_summary.json \
+            --pattern scanned_page_ocr_candidates.jsonl.gz \
+            --dir work/scanned_ocr
+      - name: Integrate all scanned narrative pages as separately labelled candidates
+        run: |
+          python integrate_scanned_narratives.py \
+            --ocr work/scanned_ocr/scanned_page_ocr_candidates.jsonl.gz \
+            --summary work/scanned_ocr/scanned_ocr_summary.json \
+            --index published/scanned_source_index.json \
+            --out work/scanned_narratives
+      - name: Permanently preserve source-provenanced scanned narrative segments
+        run: |
+          TAG="bdbv-scanned-narrative-sections-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/scanned_narratives/scanned_narrative_integration_summary.json \
+            work/scanned_narratives/scanned_narrative_section_candidates.jsonl.gz \
+            --title "BDBV scanned 007–009 narrative recovery ${{ github.run_id }}" \
+            --notes "Source-hash-linked OCR candidate narrative segments and 161-source combined coverage inventory. OCR text and headings remain unverified."
