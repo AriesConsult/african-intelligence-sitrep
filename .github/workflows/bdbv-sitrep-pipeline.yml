@@ -74,6 +74,9 @@ jobs:
       - name: Audit source identities and numerical validation coverage
         if: success()
         run: python audit_ingestion.py
+      - name: Audit entire source-to-extraction artifact collection
+        if: success()
+        run: python audit_source_to_extraction.py
       - name: Gate publication against reconciled data and narrative snapshots
         if: success()
         run: python verify_publication.py
