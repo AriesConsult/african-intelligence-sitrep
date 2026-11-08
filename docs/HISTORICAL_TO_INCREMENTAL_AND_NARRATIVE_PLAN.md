@@ -1,5 +1,8 @@
 # BDBV 2026 — HISTORICAL DATASET ACCEPTANCE BEFORE FUTURE INGESTION
 
+> **STATUS UPDATE — 8 November 2026:** This document captures an earlier implementation/review checkpoint. The subsequent [qualified historical evidence release](DATA_RELEASES.md) is now published (15,726 rows; 14,442 permitted for labelled descriptive use; 1,284 restricted). The [main README](../README.md) and [operations runbook](OPERATIONS_HANDOVER.md) describe the current ongoing scraper. Numerical source-cell and narrative-fidelity review remain separate and are not silently certified.
+
+
 **Decision date:** 8 November 2026. **Scope:** African Intelligence's full SitRep evidence corpus.
 
 ## Sequence (binding research workflow)
