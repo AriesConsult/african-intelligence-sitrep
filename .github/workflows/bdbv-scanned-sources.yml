@@ -43,10 +43,16 @@ jobs:
           else
             gh release create "$TAG"               work/scanned_sources/scanned_source_manifest.json               work/scanned_sources/scanned_sitrep_originals.zip               work/scanned_sources/scanned_sitrep_page_renders.zip               --title "BDBV historical scanned SitReps 007–009, source-evidence archive"               --notes "Pinned INRB-UMIE revision c00b8843; original bytes checked against previously inspected SHA256 values, full-page renderings retained. These are source records, NOT approved epidemiological data. Transcription and historical table fidelity remain under review."
           fi
+      - name: Re-download release assets to verify durable custody
+        run: |
+          mkdir -p work/scanned_release_check
+          gh release download bdbv-scanned-sources-007-009-c00b8843 --pattern "scanned_sitrep_*.zip" --dir work/scanned_release_check --clobber
+          test -s work/scanned_release_check/scanned_sitrep_originals.zip
+          test -s work/scanned_release_check/scanned_sitrep_page_renders.zip
       - name: Register source custody separately from approved machine-validated corpus
         run: |
           python - <<'PY'
-          import json
+          import json,hashlib
           from pathlib import Path
           manifest=json.loads(Path("work/scanned_sources/scanned_source_manifest.json").read_text(encoding="utf-8"))
           url="https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-scanned-sources-007-009-c00b8843"
@@ -57,8 +63,8 @@ jobs:
                "source_commit":manifest["upstream_commit_sha"],
                "scanned_reports":manifest["reports"],
                "scanned_pages":manifest["pages"],
-               "originals_zip_sha256":manifest["archive_sha256"],
-               "page_renders_zip_sha256":manifest["page_render_archive_sha256"],
+               "originals_zip_sha256":hashlib.sha256(Path("work/scanned_release_check/scanned_sitrep_originals.zip").read_bytes()).hexdigest(),
+               "page_renders_zip_sha256":hashlib.sha256(Path("work/scanned_release_check/scanned_sitrep_page_renders.zip").read_bytes()).hexdigest(),
                "source_records":[{"report_number":r["report_number"],
                                    "report_date":r["report_date_cover_review"],
                                    "publication_date":r["publication_date_cover_review"],
