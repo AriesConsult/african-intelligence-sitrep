@@ -1,0 +1,48 @@
+name: BDBV recover historical health-zone source page leads
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'locate_historical_zone_pages.py'
+      - 'tests/test_zone_page_locator.py'
+      - '.github/workflows/bdbv-zone-page-recovery.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: bdbv-zone-page-recovery
+  cancel-in-progress: false
+
+jobs:
+  recover-page-leads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate locator safety
+        run: python -m pip install pytest && python -m pytest -q tests/test_zone_page_locator.py
+      - name: Download pinned source-page evidence and historical zone comparison
+        run: |
+          mkdir -p work/full_archive work/full_pages work/comparison
+          gh release download bdbv-source-extract-evidence-42474203980             --pattern full_pages.tar.gz --dir work/full_archive
+          tar -xzf work/full_archive/full_pages.tar.gz -C work/full_pages
+          gh run download 42476718553 --name bdbv-healthzone-reconciliation-42476718553 --dir work/comparison
+      - name: Locate unmatched health-zone names in verified original page extracts
+        run: |
+          python locate_historical_zone_pages.py             --ledger work/comparison/healthzone_reconciliation/healthzone_concordance.jsonl             --full-pages work/full_pages             --out work/zone_page_leads
+      - name: Preserve page-specific recovery queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-zone-page-leads-${{ github.run_id }}
+          path: work/zone_page_leads/
+          retention-days: 90
