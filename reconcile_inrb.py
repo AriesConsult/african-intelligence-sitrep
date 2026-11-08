@@ -7,6 +7,7 @@ verification of the outbreak metric. All comparison results stay review-only.
 from __future__ import annotations
 import argparse,csv,gzip,hashlib,io,json,re,unicodedata
 from collections import Counter
+from datetime import date,timedelta
 from pathlib import Path
 import requests
 
@@ -112,10 +113,20 @@ def run(full_dir,registry_path,commit,out,inrb_inputs=None):
    matches=banner_candidates(page,metric);cand=choose(matches)
    inrb_value=curated[metric]['values'].get(report_date)
    parsed=int(inrb_value) if inrb_value and re.fullmatch(r'\d+',inrb_value) else None
+   date_offset=None
    if parsed is None:outcome='INRB_DATE_UNAVAILABLE'
    elif cand['pdf_value'] is None:outcome=cand['status']
    elif cand['pdf_value']==parsed:outcome='AGREES_WITH_INRB_PENDING_SOURCE_VISUAL_QA'
-   else:outcome='DIFFERENCE_REVIEW_REQUIRED'
+   else:
+    outcome='DIFFERENCE_REVIEW_REQUIRED'
+    # A one-day offset is a discovery lead, NOT automatic date correction.
+    for shift in (-1,1):
+     alternate_day=(date.fromisoformat(report_date)+timedelta(days=shift)).isoformat()
+     alternative=curated[metric]['values'].get(alternate_day)
+     if alternative and re.fullmatch(r'\d+',alternative) and int(alternative)==cand['pdf_value']:
+      date_offset=shift
+      outcome='POSSIBLE_REPORTING_DATE_ALIGNMENT_REVIEW_REQUIRED'
+      break
    counts[outcome]+=1
    ledger.append({'report_number':no,'report_date':report_date,'source_pdf_sha256':sha,
        'pdf_page':1,'metric_id':metric,'pdf_value_candidate':cand['pdf_value'],
@@ -124,7 +135,7 @@ def run(full_dir,registry_path,commit,out,inrb_inputs=None):
        'candidate_count':cand['candidate_count'],'inrb_value':parsed,
        'inrb_csv_path':'data/insp_sitrep/processed/'+METRICS[metric],
        'inrb_csv_sha256':curated[metric]['sha256'],'inrb_commit':commit,
-       'outcome':outcome,'approved_for_analysis':False})
+       'outcome':outcome,'possible_inrb_date_offset_days':date_offset,'approved_for_analysis':False})
  out.mkdir(parents=True,exist_ok=True)
  with (out/'national_banner_comparison.csv').open('w',newline='',encoding='utf-8') as fp:
   writer=csv.DictWriter(fp,fieldnames=list(ledger[0]));writer.writeheader()
