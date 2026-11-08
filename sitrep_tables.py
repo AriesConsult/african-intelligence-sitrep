@@ -79,6 +79,11 @@ def table_1(doc,output):
         p=scope_of(r[0]);is_total=bool(re.fullmatch('total(?: general)?',norm(r[0]))) or (not norm(r[0]) and count(r[2]) is not None and count(r[3]) is not None and i>=6)
         if not p and not is_total:continue
         nc,c,d,pct=(count(r[1]),count(r[2]),count(r[3]),percent(r[4]))
+        # The national total may have its CFR shifted one blank cell right
+        # (confirmed in original INSP SitRep 174), with 'Total' on next line.
+        # Restrict this fallback to an already identified unlabeled total.
+        if is_total and not p and pct is None and len(r)>5 and not norm(r[4]):
+            pct=percent(r[5])
         if None in (nc,c,d,pct) or d>c or not ok_rate(d,c,pct):
             # The national Total caption can occupy a line below the numeric row.
             if is_total and national is not None:continue
