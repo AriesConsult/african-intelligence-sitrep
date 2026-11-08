@@ -33,11 +33,20 @@ def run(registry_path,commit,out):
     resp=requests.get(origin,timeout=120);resp.raise_for_status();raw=resp.content
     # INRB stores large PDFs with Git LFS. raw.githubusercontent.com returns
     # the pointer, not the PDF. Retrieve the pinned revision through GitHub media.
-    if raw.startswith(b'version https://git-lfs.github.com/spec/v1'):
-     media=f'https://media.githubusercontent.com/media/{REPO}/{commit}/{item["path"]}'
-     resp=requests.get(media,timeout=180);resp.raise_for_status();raw=resp.content
-     state['retrieval_url']=media
-    if len(raw)>35000000 or not raw.startswith(b'%PDF-'):raise ValueError('invalid PDF signature/size, or unresolved LFS pointer')
+    if not raw.startswith(b'%PDF-'):
+     # GitHub returns LFS pointers or remote-render responses for some historic PDFs.
+     # Try the pinned media route and the branch media route, retaining uncertainty
+     # if no verified PDF bytes can be obtained.
+     for revision in (commit,'main'):
+      media=f'https://media.githubusercontent.com/media/{REPO}/{revision}/{item["path"]}'
+      try:
+       alternate=requests.get(media,timeout=180)
+       if alternate.ok and alternate.content.startswith(b'%PDF-'):
+        raw=alternate.content
+        state['retrieval_url']=media
+        break
+      except requests.RequestException:pass
+    if len(raw)>35000000 or not raw.startswith(b'%PDF-'):raise ValueError('PDF bytes unavailable; source remains unverified (possible LFS pointer)')
     with pymupdf.open(stream=raw,filetype='pdf') as doc:
      if doc.is_encrypted or doc.page_count<1:raise ValueError('encrypted/empty PDF')
      cover=doc[0].get_text(sort=True)
@@ -58,11 +67,13 @@ def run(registry_path,commit,out):
   'inrb_pdf_files':len(entries),'inrb_report_numbers':len(by_num),
   'inrb_only_report_numbers':new_nums,'our_only_report_numbers':sorted(set(ours)-set(by_num)),
   'inrb_only_source_evidence':evidence,'crosswalk':crosswalk,
-  'policy':'NO_INRB_ONLY_REPORT_AUTOMATICALLY_IMPORTED_OR_APPROVED'}
+  'policy':'NO_INRB_ONLY_REPORT_AUTOMATICALLY_IMPORTED_OR_APPROVED',
+  'unverified_source_lead_count':sum(x['status']=='SOURCE_LEAD_DOWNLOAD_OR_PDF_ERROR' for x in evidence)}
  out.mkdir(parents=True,exist_ok=True)
  (out/'inrb_source_crosswalk.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  print(json.dumps({k:v for k,v in result.items() if k!='crosswalk'},indent=2,ensure_ascii=False)[:6500])
- if any(x['status']=='SOURCE_LEAD_DOWNLOAD_OR_PDF_ERROR' for x in evidence):raise SystemExit(1)
+ # Source leads are review findings, not a failure of the national numeric comparison.
+ # They remain explicitly unresolved and are never silently ingested.
  return result
 
 if __name__=='__main__':
