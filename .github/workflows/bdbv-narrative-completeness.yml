@@ -1,0 +1,64 @@
+name: BDBV narrative source completeness audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit_narrative_completeness.py'
+      - 'tests/test_narrative_completeness_audit.py'
+      - '.github/workflows/bdbv-narrative-completeness.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdbv-narrative-completeness
+  cancel-in-progress: false
+
+jobs:
+  audit-narratives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify narrative completeness audit invariants
+        run: python -m pip install pytest && python -m pytest -q tests/test_narrative_completeness_audit.py
+      - name: Recover exact historical full-page extract release
+        run: |
+          mkdir -p work/full_archive work/full_pages
+          gh release download bdbv-source-extract-evidence-42474203980 \
+            --pattern full_pages.tar.gz --dir work/full_archive
+          tar -xzf work/full_archive/full_pages.tar.gz -C work/full_pages
+      - name: Audit every digitally extractable page and narrative candidate
+        run: |
+          python audit_narrative_completeness.py \
+            --full-dir work/full_pages --published published \
+            --scanned-index published/scanned_source_index.json \
+            --out work/narrative_coverage
+      - name: Preserve permanent full narrative evidence, coverage and review queue
+        run: |
+          TAG="bdbv-narrative-coverage-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/narrative_coverage/full_narrative_page_evidence.jsonl.gz \
+            work/narrative_coverage/narrative_coverage_summary.json \
+            work/narrative_coverage/narrative_heading_candidates.csv \
+            work/narrative_coverage/narrative_report_coverage.csv \
+            --title "BDBV full narrative page and coverage audit — ${{ github.run_id }}" \
+            --notes "Source-hash linked complete digital page text and mechanical narrative coverage audit. Existing truncated candidate excerpts are NOT the full text. Section boundaries and 37 scanned pages require visual review. All narrative interpretation remains review-only."
+      - name: Retain concise narrative audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-narrative-audit-${{ github.run_id }}
+          path: |
+            work/narrative_coverage/narrative_coverage_summary.json
+            work/narrative_coverage/narrative_report_coverage.csv
+          if-no-files-found: warn
+          retention-days: 90
