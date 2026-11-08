@@ -1,0 +1,49 @@
+name: BDBV historical evidence-aligned series
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'align_historical_evidence.py'
+      - 'tests/test_historical_alignment.py'
+      - '.github/workflows/bdbv-historical-alignment.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test evidence separation and discrepancy nonpromotion
+        run: python -m pip install pytest && python -m pytest -q tests/test_historical_alignment.py
+      - name: Retrieve immutable historical, health-zone and national ledgers
+        run: |
+          set -euo pipefail
+          mkdir -p work/historical work/zone work/national_archive work/national
+          gh release download bdbv-historical-assembly-42479820408 --pattern historical_curated_candidates.jsonl.gz --pattern historical_assembly_summary.json --dir work/historical
+          gh release download bdbv-historical-zone-review-42476718553 --pattern historical_zone_review_ledgers.zip --dir work/zone
+          unzip -q work/zone/historical_zone_review_ledgers.zip -d work/zone
+          gh release download bdbv-source-extract-evidence-42474203980 --pattern inrb_reconciliation.tar.gz --dir work/national_archive
+          tar -xzf work/national_archive/inrb_reconciliation.tar.gz -C work/national
+      - name: Align historical series to original-PDF comparison evidence
+        run: |
+          python align_historical_evidence.py \
+            --historical work/historical \
+            --zone-ledger work/zone/healthzone_reconciliation/healthzone_concordance.jsonl \
+            --national-ledger work/national/national_banner_comparison.csv \
+            --out work/evidence_aligned
+      - name: Permanently preserve source-linked historical evidence layer
+        run: |
+          TAG="bdbv-historical-aligned-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/evidence_aligned/historical_evidence_aligned.jsonl.gz \
+            work/evidence_aligned/historical_evidence_alignment_summary.json \
+            --title "BDBV historical provisional series and PDF evidence — ${{ github.run_id }}" \
+            --notes "Full frozen 31-metric INRB historical series matched to available original PDF national/zone comparison evidence; all values remain review-only, mismatches retained."
