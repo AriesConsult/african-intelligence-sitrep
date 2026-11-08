@@ -39,3 +39,13 @@ Versioned release: https://github.com/AriesConsult/african-intelligence-sitrep/r
 **Scientifically restricted:** source-cell verified original observations total **17**, not 15,726; only those 17 have explicit, individually documented visual-review evidence. This is a strict *transcription*-verification tally, not the number of PDF-based machine-validated feed observations, which are counted separately.
 
 **Conclusion:** The five previously identified barriers have been narrowed and properly recorded but **not fully eliminated**. No green GitHub workflow, keyword match, duplicate numerical agreement or OCR confidence score may change that conclusion.
+
+## Supplementary original-source triage completed later on 8 November
+
+**Physical source-row ambiguity versus numerical candidate:** the 174 ambiguous zone comparisons break down as 113 same-number/same-province multiple-row candidates and 61 cases where value or province remains ambiguous (59 different values, two cross-province names). This is an *invariant numerical candidate* classification, **not** a source-verification certificate. The 113 still have unresolved physical row identity. Immutable machine results: https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-zone-numeric-invariants-42496053798.
+
+**Revision documentation search:** all 114 downward cumulative steps were searched against the original PDF text for the same reported date and following two calendar days. 65 have a source-page candidate containing both the geography and revision-related terminology; 48 have nearby revision terminology without the geography on that page; one has no matching terminology. These are *review locators*, not documented explanations of those 114 numerical decreases. Immutable source hash/page leads: https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-source-revision-leads-42496212722.
+
+**Two-view historical data:** the 17 individually visually checked original SitRep readings overlap with the 15,726 INRB curated candidates on 17 exact date/metric/geography keys. Four agree and 13 differ; differences are not silently resolved or replaced. Original-PDF transcription fidelity of those 17 readings is narrowly documented; wider epidemiological confirmation is not claimed.
+
+**Certification gate remains closed** until disagreements are substantiated with same-indicator, same-reference-period source evidence, scanned cell layouts have been visually reviewed, and section completeness has been audited against primary pages. A machine-reproducible dataset with exclusions is valuable; a blanket certificate is not warranted.
