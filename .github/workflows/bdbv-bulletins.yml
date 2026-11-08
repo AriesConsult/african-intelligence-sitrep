@@ -1,0 +1,108 @@
+name: BDBV automated daily weekly monthly source bulletins
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'generate_bdbv_bulletins.py'
+      - 'tests/test_bdbv_bulletins.py'
+      - '.github/workflows/bdbv-bulletins.yml'
+  schedule:
+    - cron: '25 7 * * *' # 10:25 Nairobi after regular source ingestion
+permissions:
+  contents: write
+concurrency:
+  group: bdbv-rulebased-bulletins
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: \${{ github.token }}
+      GH_REPO: \${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test deterministic generator
+        run: |
+          python -m pip install requests pytest
+          python -m pytest -q tests/test_bdbv_bulletins.py tests/test_inrb_staging.py
+      - name: Fetch accepted historical evidence
+        run: |
+          mkdir -p work/evidence
+          gh release download bdbv-qualified-historical-42498372593 --pattern historical_qualified_release.csv --dir work/evidence
+      - name: Pin latest INRB source revision
+        id: upstream
+        run: |
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          [[ "$SHA" =~ ^[a-f0-9]{40}$ ]]
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+      - name: Stage current INRB source candidates
+        run: |
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "\${{ steps.upstream.outputs.sha }}" --out work/current_stage
+      - name: Back-create historical and current bilingual editions
+        run: |
+          python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --out work/output
+      - name: Validate publication links and source data
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          root=pathlib.Path('work/output/bdvd2026')
+          c=json.loads((root/'assets/data/bulletins_public.json').read_text())
+          assert c['schema_version']=='ai-bdbv-published-bulletins-v1'
+          assert len(c['bulletins'])>=100
+          for item in c['bulletins']:
+              assert item['status']=='published'
+              for lang in item['languages']:
+                  assert (pathlib.Path('work/output')/lang['url'].lstrip('/')).is_file()
+          assert (root/'assets/data/contact_tracing_public.json').is_file()
+          assert (root/'assets/data/weekly_national_public.json').is_file()
+          print('Validated',len(c['bulletins']),'bilingual source editions')
+          PY
+      - name: Package upload to One.com
+        run: |
+          cd work/output
+          zip -qr ../BDBV_BULLETINS_SITE_UPLOAD.zip bdvd2026
+      - name: Preserve archive linked to source and generator revisions
+        env:
+          UPSTREAM_SHA: \${{ steps.upstream.outputs.sha }}
+        run: |
+          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py | cut -c1-12)"
+          TAG="bdbv-rulebased-bulletins-\${UPSTREAM_SHA:0:12}-\${GEN_HASH}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo 'Identical source and generator release already exists.'
+          else
+            gh release create "$TAG" work/BDBV_BULLETINS_SITE_UPLOAD.zip work/output/BULLETIN_BUILD_REPORT.json --title 'BDBV deterministic bilingual daily weekly monthly bulletins' --notes 'Generated from GitHub-extracted qualified historical INRB data and subsequent pinned INRB candidate records. No AI-generated narrative, no fabricated incidence, limited zone-sum contact reporting.'
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-bulletins-site-\${{ github.run_id }}
+          path: |
+            work/BDBV_BULLETINS_SITE_UPLOAD.zip
+            work/output/BULLETIN_BUILD_REPORT.json
+          retention-days: 90
+      - name: Optional One.com FTPS synchronization
+        env:
+          ENABLED: \${{ vars.BDBV_BULLETIN_DEPLOY_ENABLED }}
+          HOST: \${{ secrets.BDBV_FTPS_HOST }}
+          USER: \${{ secrets.BDBV_FTPS_USER }}
+          PASS: \${{ secrets.BDBV_FTPS_PASSWORD }}
+          REMOTE: \${{ vars.BDBV_FTPS_PUBLIC_HTML }}
+        run: |
+          if [ "$ENABLED" != 'true' ]; then
+            echo 'Site auto-sync disabled; ZIP available in GitHub release.'
+            exit 0
+          fi
+          test -n "$HOST" && test -n "$USER" && test -n "$PASS" || { echo 'Incomplete FTPS configuration'; exit 1; }
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          lftp -u "$USER","$PASS" -e "
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate true;
+            open ftps://$HOST;
+            mirror -R --only-newer work/output/bdvd2026/bulletins \${REMOTE:-public_html}/bdvd2026/bulletins;
+            mirror -R --only-newer work/output/bdvd2026/assets/data \${REMOTE:-public_html}/bdvd2026/assets/data;
+            bye"
