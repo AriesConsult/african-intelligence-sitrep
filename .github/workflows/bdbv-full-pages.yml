@@ -8,6 +8,8 @@ on:
       - 'extract_full_pages.py'
       - 'render_flagged_pages.py'
       - 'preserve_raster_assets.py'
+      - 'inventory_extracted_content.py'
+      - 'tests/test_content_inventory.py'
       - 'tests/test_full_page_extraction.py'
       - '.github/workflows/bdbv-full-pages.yml'
 
@@ -30,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt pytest reportlab
       - name: Validate extraction regression tests
-        run: python -m pytest -q tests/test_full_page_extraction.py
+        run: python -m pytest -q tests/test_full_page_extraction.py tests/test_content_inventory.py
       - name: Retrieve original PDF release asset with authenticated GitHub CLI
         env:
           GH_TOKEN: ${{ github.token }}
@@ -46,6 +48,16 @@ jobs:
           done
       - name: Verify every archived original PDF and extract all pages
         run: python extract_full_pages.py --zip work/source_archive/original_sitreps.zip --out work/full_page_audit
+      - name: Inventory all source-linked extracted text for availability and review
+        run: python inventory_extracted_content.py --full-pages work/full_page_audit --output work/content_inventory
+      - name: Preserve per-report content availability and exceptions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-content-inventory-${{ github.run_id }}
+          path: work/content_inventory/
+          if-no-files-found: warn
+          retention-days: 90
       - name: Render flagged original pages for visual fidelity review
         run: |
           python render_flagged_pages.py --zip work/source_archive/original_sitreps.zip --audit-dir work/full_page_audit --output work/flagged_page_renders
