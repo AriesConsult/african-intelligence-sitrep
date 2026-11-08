@@ -50,12 +50,6 @@
       "table": 1
     },
     {
-      "province": null,
-      "reason": "table1_invalid_case_death_rate",
-      "row": 15,
-      "table": 1
-    },
-    {
       "reason": "table1_missing_provincial_or_national_totals",
       "table": 1
     },
@@ -124,11 +118,6 @@
           "province": "Nord-Ubangi",
           "reason": "table1_invalid_case_death_rate",
           "row": 14
-        },
-        {
-          "province": null,
-          "reason": "table1_invalid_case_death_rate",
-          "row": 15
         },
         {
           "reason": "table1_missing_provincial_or_national_totals"

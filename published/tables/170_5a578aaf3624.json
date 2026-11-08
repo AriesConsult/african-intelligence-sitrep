@@ -2,23 +2,8 @@
   "date": "2026-10-31",
   "quality_flags": [
     {
-      "province": null,
-      "reason": "table1_invalid_case_death_rate",
-      "row": 15,
-      "table": 1
-    },
-    {
-      "province": null,
-      "reason": "table1_invalid_case_death_rate",
-      "row": 16,
-      "table": 1
-    },
-    {
-      "reason": "table1_missing_provincial_or_national_totals",
-      "table": 1
-    },
-    {
-      "reason": "table2_full_coverage_cannot_be_crosschecked_with_validated_table1",
+      "province": "Ituri",
+      "reason": "table2_missing_province_total",
       "table": 2
     }
   ],
@@ -30,21 +15,20 @@
   "status": "PARTIAL_REVIEW_REQUIRED",
   "tables": {
     "table_1": {
-      "flags": [
-        {
-          "province": null,
-          "reason": "table1_invalid_case_death_rate",
-          "row": 15
-        },
-        {
-          "province": null,
-          "reason": "table1_invalid_case_death_rate",
-          "row": 16
-        },
-        {
-          "reason": "table1_missing_provincial_or_national_totals"
+      "flags": [],
+      "national": {
+        "cumulative_cases": 10467,
+        "cumulative_deaths": 5103,
+        "new_cases_24h": 53,
+        "reported_cfr_pct": 48.8,
+        "scope": "DRC",
+        "source": {
+          "page": 2,
+          "source_row": 15,
+          "table_id": "p2-t3"
         }
-      ],
+      },
+      "reconciliation": "province counts sum to national totals; reported CFR independently matches",
       "rows": [
         {
           "cumulative_cases": 7412,
@@ -143,13 +127,14 @@
           }
         }
       ],
-      "status": "REVIEW_REQUIRED"
+      "status": "MACHINE_VALIDATED"
     },
     "table_2": {
       "coverage_reconciliation": "all affected province totals and health-zone case/death sums required",
       "flags": [
         {
-          "reason": "table2_full_coverage_cannot_be_crosschecked_with_validated_table1"
+          "province": "Ituri",
+          "reason": "table2_missing_province_total"
         }
       ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
@@ -1197,5 +1182,5 @@
     }
   },
   "tables_available": 5,
-  "tables_machine_validated": 3
+  "tables_machine_validated": 4
 }

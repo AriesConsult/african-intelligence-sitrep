@@ -21,7 +21,7 @@
     },
     {
       "date": "2026-11-04",
-      "quality_flags_count": 4,
+      "quality_flags_count": 1,
       "report_number": 174,
       "rows_by_table": {
         "table_1": 8,
@@ -34,7 +34,7 @@
       "snapshot_path": "tables/174_a5fbce42535e.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 3
+      "tables_machine_validated": 4
     },
     {
       "date": "2026-11-03",
@@ -72,7 +72,7 @@
     },
     {
       "date": "2026-10-31",
-      "quality_flags_count": 4,
+      "quality_flags_count": 1,
       "report_number": 170,
       "rows_by_table": {
         "table_1": 8,
@@ -85,7 +85,7 @@
       "snapshot_path": "tables/170_5a578aaf3624.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 3
+      "tables_machine_validated": 4
     },
     {
       "date": "2026-10-30",
@@ -154,7 +154,7 @@
     },
     {
       "date": "2026-10-26",
-      "quality_flags_count": 15,
+      "quality_flags_count": 13,
       "report_number": 165,
       "rows_by_table": {
         "table_1": 0,
@@ -170,7 +170,7 @@
     },
     {
       "date": "2026-10-25",
-      "quality_flags_count": 14,
+      "quality_flags_count": 13,
       "report_number": 164,
       "rows_by_table": {
         "table_1": 0,
