@@ -50,9 +50,8 @@ def verify(cover,registry_path,table169,out):
         raise ValueError("SitRep169 reference source identity mismatch")
     observed={}
     for item in tab["tables"]["table_2"]["rows"]:
-        for _,metric in VERIFIED_169_ZONES:
-            if metric=="cumulative_confirmed_cases":field="cumulative_cases"
-            else:field="cumulative_deaths"
+        for metric,field in (("cumulative_confirmed_cases","cumulative_cases"),
+                             ("cumulative_confirmed_deaths","cumulative_deaths")):
             key=(item.get("health_zone"),metric)
             if key in VERIFIED_169_ZONES and type(item.get(field)) is int:
                 observed.setdefault(key,[]).append((item[field],item.get("source",{})))
