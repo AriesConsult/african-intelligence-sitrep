@@ -1,0 +1,50 @@
+name: INRB pinned source series staging QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'stage_inrb_series.py'
+      - 'tests/test_inrb_staging.py'
+      - '.github/workflows/bdbv-inrb-staging.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdbv-inrb-staging
+  cancel-in-progress: true
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install staging dependencies
+        run: python -m pip install requests==2.34.2 pytest
+      - name: Test INRB staging safeguards
+        run: python -m pytest -q tests/test_inrb_staging.py
+      - name: Pin INRB upstream revision
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          [[ "$SHA" =~ ^[0-9a-f]{40}$ ]]
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+      - name: Stage every INRB daily indicator with raw provenance
+        run: |
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.source.outputs.sha }}" --out work/inrb_staging
+      - name: Preserve complete candidate staging and all upstream input CSVs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-inrb-staged-series-${{ github.run_id }}
+          path: work/inrb_staging/
+          if-no-files-found: warn
+          retention-days: 90
