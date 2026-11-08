@@ -1,0 +1,56 @@
+name: BDBV historical health-zone reconciliation QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'reconcile_healthzones.py'
+      - 'tests/test_healthzone_reconciliation.py'
+      - '.github/workflows/bdbv-healthzone.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdbv-healthzone-qa
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt pytest
+      - name: Test conservative health-zone matching
+        run: python -m pytest -q tests/test_healthzone_reconciliation.py tests/test_inrb_staging.py
+      - name: Pin upstream INRB repository commit
+        id: inrb
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          [[ "$SHA" =~ ^[0-9a-f]{40}$ ]]
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "INRB source SHA: $SHA"
+      - name: Stage every upstream row with immutable input provenance
+        run: |
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.inrb.outputs.sha }}" --out work/inrb_staging
+      - name: Reconcile historical health-zone and provincial source candidates
+        run: |
+          python reconcile_healthzones.py --registry state/registry.json --published published --staged-dir work/inrb_staging --out work/healthzone_reconciliation
+      - name: Preserve candidate ledgers and review exceptions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-healthzone-reconciliation-${{ github.run_id }}
+          path: |
+            work/inrb_staging/inrb_staging_summary.json
+            work/healthzone_reconciliation/
+          if-no-files-found: warn
+          retention-days: 90
