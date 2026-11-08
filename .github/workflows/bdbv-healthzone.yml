@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'reconcile_healthzones.py'
+      - 'triage_healthzone_discrepancies.py'
       - 'tests/test_healthzone_reconciliation.py'
       - '.github/workflows/bdbv-healthzone.yml'
 
@@ -44,6 +45,9 @@ jobs:
       - name: Reconcile historical health-zone and provincial source candidates
         run: |
           python reconcile_healthzones.py --registry state/registry.json --published published --staged-dir work/inrb_staging --out work/healthzone_reconciliation
+      - name: Classify date-alignment leads in health-zone discrepancies
+        run: |
+          python triage_healthzone_discrepancies.py --review-csv work/healthzone_reconciliation/review_priority.csv --upstream-csv-dir work/inrb_staging/source_csv --out work/healthzone_reconciliation
       - name: Preserve candidate ledgers and review exceptions
         if: always()
         uses: actions/upload-artifact@v4
