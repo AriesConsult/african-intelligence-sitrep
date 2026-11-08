@@ -1,0 +1,41 @@
+name: BDBV full-page PDF ingestion fidelity audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'extract_full_pages.py'
+      - 'tests/test_full_page_extraction.py'
+      - '.github/workflows/bdbv-full-pages.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdbv-full-page-audit
+  cancel-in-progress: false
+
+jobs:
+  full-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt pytest reportlab
+      - name: Validate extraction regression tests
+        run: python -m pytest -q tests/test_full_page_extraction.py
+      - name: Verify every archived original PDF and extract all pages
+        run: python extract_full_pages.py --out work/full_page_audit
+      - name: Preserve complete per-page extracts and exception register for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-full-page-extraction-${{ github.run_id }}
+          path: work/full_page_audit/
+          if-no-files-found: error
+          retention-days: 90
