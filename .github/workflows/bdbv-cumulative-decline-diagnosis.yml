@@ -1,0 +1,49 @@
+name: BDBV historical cumulative decrease diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'diagnose_cumulative_declines.py'
+      - 'tests/test_cumulative_decline_diagnosis.py'
+      - '.github/workflows/bdbv-cumulative-decline-diagnosis.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regression-test cumulative revision review restrictions
+        run: python -m pip install pytest && python -m pytest -q tests/test_cumulative_decline_diagnosis.py
+      - name: Obtain complete frozen historical series and 114 flags
+        run: |
+          mkdir -p work/sources
+          gh release download bdbv-historical-assembly-42479820408 \
+            --pattern historical_curated_candidates.jsonl.gz \
+            --pattern historical_cumulative_revision_flags.csv \
+            --dir work/sources
+      - name: Classify consecutive-decrease and followup patterns against original reporting dates
+        run: |
+          python diagnose_cumulative_declines.py \
+            --series work/sources/historical_curated_candidates.jsonl.gz \
+            --flags work/sources/historical_cumulative_revision_flags.csv \
+            --registry state/registry.json \
+            --out work/cumulative_diagnosis
+      - name: Persist source-linked cumulative revision patterns without automatic corrections
+        run: |
+          gh release create "bdbv-cumulative-diagnostics-${{ github.run_id }}" \
+            work/cumulative_diagnosis/cumulative_decline_followup_summary.json \
+            work/cumulative_diagnosis/cumulative_decline_followup.jsonl \
+            --title "BDBV historical cumulative-reporting revision triage ${{ github.run_id }}" \
+            --notes "Follow-up and source date cross-checks for each of 114 decreases in curated cumulative series. Not automatically interpreted as negative incidence or a corrected vintage."
