@@ -7,6 +7,7 @@ on:
     paths:
       - 'adjudicate_historical_exceptions.py'
       - 'state/verified_original_cover_readings_20261108.json'
+      - 'tests/test_verified_cover_readings.py'
       - 'tests/test_historical_exception_adjudication.py'
       - '.github/workflows/bdbv-adjudicate-history.yml'
 
@@ -23,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Test provenance and exception classification
-        run: python -m pip install pytest && python -m pytest -q tests/test_historical_exception_adjudication.py
+        run: python -m pip install pytest && python -m pytest -q tests/test_historical_exception_adjudication.py tests/test_verified_cover_readings.py
       - name: Retrieve frozen revision, original PDF, and zone concordance records
         run: |
           set -euo pipefail
