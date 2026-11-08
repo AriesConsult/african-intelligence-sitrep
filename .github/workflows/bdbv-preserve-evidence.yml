@@ -1,0 +1,58 @@
+name: Preserve verified-source extraction evidence in durable GitHub Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'preserve_extraction_release.py'
+      - '.github/workflows/bdbv-preserve-evidence.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: bdbv-preserve-evidence
+  cancel-in-progress: false
+
+jobs:
+  permanent-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SOURCE_RUN: '42474203980'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve source-audited extracts, images and comparative ledgers
+        run: |
+          set -euo pipefail
+          mkdir -p work/release_sources/{full,raster,comparison}
+          gh run download "$SOURCE_RUN" --name "bdbv-full-page-extraction-$SOURCE_RUN" --dir work/release_sources/full
+          gh run download "$SOURCE_RUN" --name "bdbv-raster-assets-$SOURCE_RUN" --dir work/release_sources/raster
+          gh run download "$SOURCE_RUN" --name "bdbv-inrb-reconciliation-$SOURCE_RUN" --dir work/release_sources/comparison
+      - name: Verify all source hashes, page counts, raster binaries and reconciliation material
+        run: |
+          python preserve_extraction_release.py             --registry state/registry.json             --full-dir work/release_sources/full             --raster-dir work/release_sources/raster             --comparison-dir work/release_sources/comparison             --upstream-run "$SOURCE_RUN"             --out work/durable_evidence
+      - name: Publish immutable versioned evidence archive (never overwrite release)
+        run: |
+          set -euo pipefail
+          TAG="bdbv-source-extract-evidence-$SOURCE_RUN"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release already exists. Refusing to replace immutable evidence." >&2
+            exit 1
+          fi
+          gh release create "$TAG"             work/durable_evidence/evidence_manifest.json             work/durable_evidence/full_pages.tar.gz             work/durable_evidence/raster_images.tar.gz             work/durable_evidence/inrb_reconciliation.tar.gz             --title "BDBV historical extraction and evidence archive — run $SOURCE_RUN"             --notes "Permanent versioned preservation of 158 SHA-verified INSP SitRep page-extraction files, embedded raster images, and pinned INRB comparison ledgers. All machine-extracted numerical values remain review-only unless separately approved; see evidence_manifest.json. Original PDFs preserved in a separate immutable release."
+      - name: Retain bundle manifest for immediate audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-permanent-evidence-manifest-${{ github.run_id }}
+          path: work/durable_evidence/evidence_manifest.json
+          retention-days: 90
+          if-no-files-found: warn
