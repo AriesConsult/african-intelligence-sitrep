@@ -1,0 +1,41 @@
+name: BDBV distinguish numeric and source-row zone ambiguities
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'resolve_zone_numerical_invariants.py'
+      - 'tests/test_zone_numerical_invariants.py'
+      - '.github/workflows/bdbv-zone-numeric-invariants.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce difference between numerical consistency and source fidelity
+        run: python -m pip install pytest && python -m pytest -q tests/test_zone_numerical_invariants.py
+      - name: Retrieve all 174 source-row ambiguity records
+        run: |
+          mkdir -p work/input
+          gh release download bdbv-zone-ambiguity-42485037633 \
+            --pattern ambiguous_healthzone_pdf_rows.jsonl --dir work/input
+      - name: Classify invariant values without falsely certifying row provenance
+        run: |
+          python resolve_zone_numerical_invariants.py \
+            --source work/input/ambiguous_healthzone_pdf_rows.jsonl \
+            --out work/invariants
+      - name: Archive immutable ambiguity disposition evidence
+        run: |
+          TAG="bdbv-zone-numeric-invariants-${{ github.run_id }}"
+          gh release create "$TAG" work/invariants/* \
+            --title "BDBV historical health-zone value invariants ${{ github.run_id }}" \
+            --notes "113 same-value candidate matches can be treated as numerically invariant under source-row choice, but none has visually proven row identity; other 61 remain numerically or geographically ambiguous."
