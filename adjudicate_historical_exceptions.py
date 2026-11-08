@@ -41,9 +41,15 @@ def val(v):
     try:return int(str(v).replace(",","").strip())
     except (TypeError,ValueError):return None
 
-def resolve(revisions,zone_ledger,national_csv,triage,out):
+def resolve(revisions,zone_ledger,national_csv,triage,out,cover_readings=None):
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
     priority=[];counts=Counter()
+    reviewed={}
+    if cover_readings is not None:
+        raw=json.loads(Path(cover_readings).read_text(encoding="utf-8"))
+        for document in raw["evidence"]:
+            for metric,details in document["metrics"].items():
+                reviewed[(document["report_number"],document["registry_sha256"],metric)]=details
     z=list(read_jsonl(zone_ledger))
     by_zone={(r["date"],r["metric_id"],r["geography"],str(r.get("pdf_report") or "")):r
              for r in z if r.get("pdf_report")}
@@ -78,7 +84,27 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
         number=val(r["report_number"])
         expected=ALIGNED_NATIONAL_169.get(r["metric_id"])
         is169=(number==169 and r["source_pdf_sha256"]==SITREP169_HASH)
-        if is169 and expected is not None:
+        source_reading=reviewed.get((number,r["source_pdf_sha256"],r["metric_id"]))
+        if source_reading:
+            expected=source_reading["preferred_verbatim_pdf"]
+            issue=source_reading.get("issue","")
+            if is169 and r["metric_id"]=="national_cumulative_confirmed_deaths":
+                disposition="PRIMARY_PDF_169_NATIONAL_REVISION_EXPLAINED"
+                evidence="docs/SITREP169_SOURCE_ADJUDICATION.md"
+                explained=True
+            elif issue=="INTERNAL_PDF_BANNER_TABLE_VERSUS_NARRATIVE_DISCREPANCY":
+                disposition="PRIMARY_PDF_INTERNAL_INCONSISTENCY_TABULAR_FIGURE_IDENTIFIED"
+                evidence="state/verified_original_cover_readings_20261108.json"
+                explained=False
+            elif val(r["pdf_value_candidate"])!=expected:
+                disposition="PRIMARY_PDF_MACHINE_BANNER_READ_ERROR_VISUALLY_CORRECTED"
+                evidence="state/verified_original_cover_readings_20261108.json"
+                explained=False
+            else:
+                disposition="PRIMARY_PDF_READING_VISUALLY_CONFIRMED_INRB_DIFF_REMAINS"
+                evidence="state/verified_original_cover_readings_20261108.json"
+                explained=False
+        elif is169 and expected is not None:
             disposition="PRIMARY_PDF_169_NATIONAL_REVISION_EXPLAINED"
             evidence="docs/SITREP169_SOURCE_ADJUDICATION.md"
             explained=True
@@ -90,8 +116,10 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
          "geography":"DRC","report_number":number,
          "source_pdf_sha256":r["source_pdf_sha256"],"pdf_page":r.get("pdf_page"),
          "curated_INRB_value":r["inrb_value"],"original_pdf_candidate":r["pdf_value_candidate"],
-         "verified_pdf_value":expected if is169 else "",
-         "machine_pdf_reading_agrees_with_verified_value":val(r["pdf_value_candidate"])==expected if is169 else "",
+         "verified_pdf_value":expected if source_reading or is169 else "",
+         "machine_pdf_reading_agrees_with_verified_value":val(r["pdf_value_candidate"])==expected if source_reading or is169 else "",
+         "original_document_internal_conflict":bool(source_reading and source_reading.get("other_printed_values")),
+         "source_document_other_values_json":json.dumps(source_reading.get("other_printed_values",[])) if source_reading else "",
          "disposition":disposition,"evidence_document":evidence,
          "epidemiological_revision_explained":explained,"approved_for_analysis":False})
     for r in read_csv(revisions):
@@ -117,7 +145,8 @@ def resolve(revisions,zone_ledger,national_csv,triage,out):
     shift_counts=Counter(r.get("diagnosis") for r in shifts)
     fields=["category","date","metric","geography","report_number","source_pdf_sha256",
       "pdf_page","curated_INRB_value","original_pdf_candidate","verified_pdf_value",
-      "machine_pdf_reading_agrees_with_verified_value","previous_date","previous_value","delta",
+      "machine_pdf_reading_agrees_with_verified_value","original_document_internal_conflict",
+      "source_document_other_values_json","previous_date","previous_value","delta",
       "reporting_gap_days","disposition","evidence_document",
       "epidemiological_revision_explained","approved_for_analysis"]
     with (out/"historical_exception_decision_register.csv").open("w",newline="",encoding="utf-8") as f:
@@ -146,4 +175,5 @@ if __name__=="__main__":
     p.add_argument("--national-csv",type=Path,required=True)
     p.add_argument("--zone-triage",type=Path,required=True)
     p.add_argument("--out",type=Path,required=True)
-    a=p.parse_args();resolve(a.revisions,a.zone_ledger,a.national_csv,a.zone_triage,a.out)
+    p.add_argument("--cover-readings",type=Path,default=Path("state/verified_original_cover_readings_20261108.json"))
+    a=p.parse_args();resolve(a.revisions,a.zone_ledger,a.national_csv,a.zone_triage,a.out,a.cover_readings)
