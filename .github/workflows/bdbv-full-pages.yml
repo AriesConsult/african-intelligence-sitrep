@@ -11,6 +11,7 @@ on:
       - 'inventory_extracted_content.py'
       - 'reconcile_inrb.py'
       - 'inrb_source_crosswalk.py'
+      - 'stage_inrb_series.py'
       - 'tests/test_inrb_reconciliation.py'
       - 'tests/test_content_inventory.py'
       - 'tests/test_full_page_extraction.py'
@@ -73,6 +74,9 @@ jobs:
       - name: Reconcile national banner cases and deaths with pinned INRB data
         run: |
           python reconcile_inrb.py --full-pages work/full_page_audit --registry state/registry.json --inrb-commit "${{ steps.inrb.outputs.sha }}" --out work/inrb_reconciliation
+      - name: Stage every pinned INRB numerical CSV without promoting it as verified
+        run: |
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.inrb.outputs.sha }}" --out work/inrb_reconciliation/staged
       - name: Cross-audit INRB PDF source inventory and missing source leads
         run: |
           python inrb_source_crosswalk.py --registry state/registry.json --inrb-commit "${{ steps.inrb.outputs.sha }}" --out work/inrb_reconciliation
