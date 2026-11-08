@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-source-to-extraction-audit-v1",
-  "generated_at": "2026-11-08T11:02:31.044998+00:00",
+  "generated_at": "2026-11-08T11:07:34.767939+00:00",
   "scope": "All catalogued report/hash identities and committed extraction artifacts",
   "status": "ARTIFACT_INVENTORY_CONSISTENT_EXTRACTION_FIDELITY_UNVERIFIED",
   "counters": {
