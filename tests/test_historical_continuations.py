@@ -26,7 +26,11 @@ def test_sitrep_174_partial_ituri_healthzone_table_not_validated():
     t=snap['tables']['table_2']
     assert t['status']=='REVIEW_REQUIRED'
     reasons={f['reason'] for f in t['flags']}
-    assert 'table2_full_coverage_cannot_be_crosschecked_with_validated_table1' in reasons
+    # Table 1 now validates after the shifted national CFR fix. Table 2 must
+    # still be quarantined when a province total is missing from the extracted
+    # health-zone coverage; the older generic crosscheck flag is obsolete.
+    assert snap['tables']['table_1']['status'] == 'MACHINE_VALIDATED'
+    assert 'table2_missing_province_total' in reasons
 
 
 def test_sitrep_175_all_zone_and_unallocated_deaths_reconcile():
