@@ -1,0 +1,52 @@
+name: Stage INRB bilingual operational narratives for source comparison
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'stage_inrb_operational_narratives.py'
+      - 'tests/test_inrb_operational_narratives.py'
+      - '.github/workflows/bdbv-operational-narratives.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install and test source-label/date integrity
+        run: |
+          python -m pip install requests pytest
+          python -m pytest -q tests/test_inrb_operational_narratives.py
+      - name: Pin upstream source version
+        id: inrb
+        run: |
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq .sha)"
+          [[ "$SHA" =~ ^[a-f0-9]{40}$ ]]
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+      - name: Preserve all 54 bilingual operational-response source CSVs and raw rows
+        run: |
+          python stage_inrb_operational_narratives.py \
+            --inrb-commit "${{ steps.inrb.outputs.sha }}" \
+            --out work/operational_narratives
+      - name: Release operational text evidence with noncertified source-pillar classifications
+        run: |
+          mkdir -p work/release
+          tar -czf work/release/inrb_operational_source_csvs.tar.gz -C work/operational_narratives original_csv
+          TAG="bdbv-inrb-narrative-source-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/operational_narratives/inrb_operational_narrative_summary.json \
+            work/operational_narratives/inrb_operational_narrative_candidates.jsonl.gz \
+            work/release/inrb_operational_source_csvs.tar.gz \
+            --title "BDBV pinned INRB bilingual response narratives ${{ github.run_id }}" \
+            --notes "French and English curated response text by date, geography and pillar with exact upstream revision and raw source preservation; source PDF wording and pillar classifications remain unverified."
