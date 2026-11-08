@@ -1,0 +1,48 @@
+name: BDBV INRB narrative-to-original PDF source comparison
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'compare_operational_narrative_sources.py'
+      - 'tests/test_operational_narrative_source_comparison.py'
+      - '.github/workflows/bdbv-narrative-source-comparison.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regression-test text matching boundaries and false certainty
+        run: python -m pip install pytest && python -m pytest -q tests/test_operational_narrative_source_comparison.py
+      - name: Retrieve immutable INRB narrative text and full original PDF page evidence
+        run: |
+          mkdir -p work/inrb_narratives work/pdf_pages
+          gh release download bdbv-inrb-narrative-source-42482757259 \
+            --pattern inrb_operational_narrative_candidates.jsonl.gz \
+            --dir work/inrb_narratives
+          gh release download bdbv-narrative-coverage-42481834054 \
+            --pattern full_narrative_page_evidence.jsonl.gz \
+            --dir work/pdf_pages
+      - name: Compare French source wording to original SitRep pages without autoapproval
+        run: |
+          python compare_operational_narrative_sources.py \
+            --inrb-narratives work/inrb_narratives/inrb_operational_narrative_candidates.jsonl.gz \
+            --pdf-pages work/pdf_pages/full_narrative_page_evidence.jsonl.gz \
+            --out work/narrative_comparison
+      - name: Preserve INRB-original narrative comparison and exception queue
+        run: |
+          TAG="bdbv-narrative-comparison-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/narrative_comparison/operational_narrative_source_comparison_summary.json \
+            work/narrative_comparison/operational_narrative_source_leads.jsonl.gz \
+            --title "BDBV 54-file INRB narrative source page comparison ${{ github.run_id }}" \
+            --notes "Direct French phrase source-page locator and English translation/nonverbatim exceptions. No full-section fidelity or semantic topic classification is certified."
