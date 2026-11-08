@@ -9,6 +9,8 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 REPO='INRB-UMIE/BDBV2026-Data'
 PREFIX='data/insp_sitrep/processed/'
 RX=re.compile(r'^'+PREFIX+r'insp_sitrep__(.+)__daily\.csv$')
@@ -32,6 +34,10 @@ def candidate_policy(metric):
 def stage(registry_path,commit,out,session=None,paths=None):
  if not re.fullmatch(r'[a-f0-9]{40}',commit):raise ValueError('Pin upstream commit SHA')
  ses=session or requests.Session()
+ if session is None:
+  retry=Retry(total=5,connect=5,read=5,backoff_factor=2,
+              status_forcelist=[429,500,502,503,504],allowed_methods=['GET'])
+  ses.mount('https://',HTTPAdapter(max_retries=retry))
  reg=json.loads(registry_path.read_text(encoding='utf-8'))
  by_date={}
  for d in reg['documents'].values():
