@@ -1,0 +1,44 @@
+{
+  "schema_version": "bdbv-scanned-source-index-v1",
+  "status": "SOURCE_ARCHIVED_PAGE_TEXT_EXTRACTION_REVIEW_REQUIRED",
+  "release_url": "https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-scanned-sources-007-009-c00b8843",
+  "source_repo": "INRB-UMIE/BDBV2026-Data",
+  "source_commit": "c00b8843e6ebae8f0cd846bc43cb564a3893bfd9",
+  "scanned_reports": 3,
+  "scanned_pages": 37,
+  "originals_zip_sha256": "3fe7a122362e3d861bf78c863ecc962aade06abc0d9e074a0518f3a478dfca21",
+  "page_renders_zip_sha256": "4e4d7741a565e2856512e5777f3e1a1e9c48dac9ada7ab368a92d4b5645aeaf7",
+  "source_records": [
+    {
+      "report_number": 7,
+      "report_date": "2026-05-21",
+      "publication_date": "2026-05-22",
+      "source_sha256": "db9a6efa6cc73d9d229409ac3009b74499f24f7c6633321d2a83f14cda4a8079",
+      "pdf_pages": 12,
+      "evidence_status": "INRB_HOSTED_COVER_VISUALLY_REVIEWED",
+      "extraction_status": "SCANNED_REQUIRES_PAGE_TABLE_REVIEW",
+      "approved_for_analysis": false
+    },
+    {
+      "report_number": 8,
+      "report_date": "2026-05-22",
+      "publication_date": "2026-05-23",
+      "source_sha256": "ac11fd6fe024375deef47e3d7070573d61db03bf2b3fe30ea5b4f207886b7d49",
+      "pdf_pages": 12,
+      "evidence_status": "INRB_HOSTED_COVER_VISUALLY_REVIEWED",
+      "extraction_status": "SCANNED_REQUIRES_PAGE_TABLE_REVIEW",
+      "approved_for_analysis": false
+    },
+    {
+      "report_number": 9,
+      "report_date": "2026-05-23",
+      "publication_date": "2026-05-24",
+      "source_sha256": "a13ff30b3cb5363fffab1197a971a71f2c205748583d3d56c9bc384a09726440",
+      "pdf_pages": 13,
+      "evidence_status": "INRB_HOSTED_COVER_VISUALLY_REVIEWED",
+      "extraction_status": "SCANNED_REQUIRES_PAGE_TABLE_REVIEW",
+      "approved_for_analysis": false
+    }
+  ],
+  "warning": "Separate provenance register; do not count as fully extracted or add to existing 158 verified-text records until all pages have been transcribed and audited."
+}
