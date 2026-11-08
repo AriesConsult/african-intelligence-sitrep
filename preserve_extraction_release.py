@@ -53,9 +53,11 @@ def main():
     if total_pages!=pdfs["extracted_pages"]:raise ValueError("Page total mismatch")
     image_digests=set()
     for img in raster["images"]:
-        path=args.raster_dir/img["asset_path"]
-        if sha(path)!=img["image_sha256"]:raise ValueError("Raster asset mismatch "+str(path))
-        image_digests.add(img["image_sha256"])
+        digest=img["image_sha256"]
+        if digest not in image_digests:
+            path=args.raster_dir/img["asset_path"]
+            if sha(path)!=digest:raise ValueError("Raster asset mismatch "+str(path))
+            image_digests.add(digest)
     if len(image_digests)!=raster["distinct_binary_image_assets"]:
         raise ValueError("Unique raster assets mismatch")
     if len(raster["images"])!=raster["image_occurrences"]:
