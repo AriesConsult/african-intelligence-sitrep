@@ -1,0 +1,47 @@
+name: BDBV two-view historical series with verified source readings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'build_two_historical_views.py'
+      - 'tests/test_two_historical_views.py'
+      - '.github/workflows/bdbv-two-historical-views.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  views:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test preservation of competing historical source values
+        run: python -m pip install pytest && python -m pytest -q tests/test_two_historical_views.py
+      - name: Download original-source reviewed readings and frozen curated dataset
+        run: |
+          mkdir -p work/verified work/curated
+          gh release download bdbv-source-verified-readings-42495579497 \
+            --pattern verified_primary_pdf_verbatim_readings.csv --dir work/verified
+          gh release download bdbv-historical-aligned-42482026260 \
+            --pattern historical_evidence_aligned.jsonl.gz \
+            --pattern historical_evidence_alignment_summary.json \
+            --dir work/curated
+      - name: Reconcile without overwriting either historical evidence version
+        run: |
+          python build_two_historical_views.py \
+            --pdf-verified work/verified/verified_primary_pdf_verbatim_readings.csv \
+            --curated work/curated/historical_evidence_aligned.jsonl.gz \
+            --curated-summary work/curated/historical_evidence_alignment_summary.json \
+            --out work/two_views
+      - name: Publish versioned historical evidence and competing observations
+        run: |
+          TAG="bdbv-two-historical-evidence-views-${{ github.run_id }}"
+          gh release create "$TAG" work/two_views/* \
+            --title "BDBV historic PDF-as-reported and pinned INRB views ${{ github.run_id }}" \
+            --notes "Source-verified original PDF transcription and a separate complete INRB curated historical candidate view; no retrospective values silently redistributed. Research-grade time-series acceptance remains gated."
