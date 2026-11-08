@@ -50,12 +50,20 @@ def run(registry_path,commit,out):
     with pymupdf.open(stream=raw,filetype='pdf') as doc:
      if doc.is_encrypted or doc.page_count<1:raise ValueError('encrypted/empty PDF')
      cover=doc[0].get_text(sort=True)
+     if not cover.strip():
+      # Scanned/graphic cover: render for human inspection, do NOT guess identity.
+      previews=out/'source_lead_cover_previews'
+      previews.mkdir(parents=True,exist_ok=True)
+      preview_name=f'SitRep_{n:03d}_page_01.png'
+      doc[0].get_pixmap(matrix=pymupdf.Matrix(1.35,1.35),alpha=False).save(previews/preview_name)
+      state['cover_preview_path']='source_lead_cover_previews/'+preview_name
+      state['cover_requires_visual_review']=True
      epidemic=bool(re.search(r'17\s*(?:eme|ème|e)|MVE.?17|MVE.?BDBV|Bundibugyo',cover,re.I))
      numbers={int(x) for x in re.findall(r'SitRep\s*(?:MVE\s*)?N?\s*[°ºo.]?\s*(\d{1,3})',cover,re.I)}
      state.update({'source_pdf_sha256':hashlib.sha256(raw).hexdigest(),'pdf_bytes':len(raw),
        'pdf_pages':doc.page_count,'cover_excerpt':cover[:1100],
        'cover_epidemic_identity':epidemic,'cover_report_numbers':sorted(numbers),
-       'status':'SOURCE_LEAD_COVER_CONFIRMED_REQUIRES_HUMAN_ACCEPTANCE' if epidemic and n in numbers else 'SOURCE_LEAD_COVER_INCONCLUSIVE'})
+       'status':'SOURCE_LEAD_COVER_CONFIRMED_REQUIRES_HUMAN_ACCEPTANCE' if epidemic and n in numbers else 'SOURCE_LEAD_SCANNED_COVER_VISUAL_REVIEW_REQUIRED' if not cover.strip() else 'SOURCE_LEAD_COVER_INCONCLUSIVE'})
    except Exception as exc:state.update({'status':'SOURCE_LEAD_DOWNLOAD_OR_PDF_ERROR','error':str(exc)[:190]})
    evidence.append(state)
  crosswalk=[]
