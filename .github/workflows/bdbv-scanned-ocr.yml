@@ -1,0 +1,52 @@
+name: BDBV historical scanned 007-009 OCR recovery (review only)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'recover_scanned_sitreps_ocr.py'
+      - 'tests/test_scanned_ocr.py'
+      - '.github/workflows/bdbv-scanned-ocr.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install French/English OCR and PDF libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-fra tesseract-ocr-eng
+          python -m pip install pymupdf pytest
+      - name: Test non-approving OCR evidence extraction
+        run: python -m pytest -q tests/test_scanned_ocr.py
+      - name: Retrieve immutable scanned source original PDF ZIP
+        run: |
+          mkdir -p work/scans
+          gh release download bdbv-scanned-sources-007-009-c00b8843 \
+             --pattern scanned_sitrep_originals.zip --dir work/scans
+      - name: OCR 37 pages preserving original PDF hash and word coordinates
+        run: |
+          python recover_scanned_sitreps_ocr.py \
+            --index published/scanned_source_index.json \
+            --archive work/scans/scanned_sitrep_originals.zip \
+            --out work/scanned_ocr
+      - name: Archive OCR page evidence for visual review
+        run: |
+          TAG="bdbv-scanned-ocr-${{ github.run_id }}"
+          gh release create "$TAG" \
+            work/scanned_ocr/scanned_ocr_summary.json \
+            work/scanned_ocr/scanned_page_ocr_candidates.jsonl.gz \
+            --title "BDBV scanned SitReps 007–009 OCR candidates — ${{ github.run_id }}" \
+            --notes "All 37 pages were OCR-processed with French+English, retaining word boxes and confidence scores. Every page remains UNVERIFIED; numerical extraction and source visual adjudication are required before analysis."
