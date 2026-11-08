@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-ingestion-audit-v1",
-  "generated_at": "2026-11-08T11:07:34.560803+00:00",
+  "generated_at": "2026-11-08T11:08:42.742749+00:00",
   "assessment": "PARTIAL_VALIDATION",
   "collected": {
     "registry_documents": 158,
