@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      GH_TOKEN: \${{ github.token }}
-      GH_REPO: \${{ github.repository }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,7 +43,7 @@ jobs:
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
       - name: Stage current INRB source candidates
         run: |
-          python stage_inrb_series.py --registry state/registry.json --inrb-commit "\${{ steps.upstream.outputs.sha }}" --out work/current_stage
+          python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.upstream.outputs.sha }}" --out work/current_stage
       - name: Back-create historical and current bilingual editions
         run: |
           python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --out work/output
@@ -69,10 +69,10 @@ jobs:
           zip -qr ../BDBV_BULLETINS_SITE_UPLOAD.zip bdvd2026
       - name: Preserve archive linked to source and generator revisions
         env:
-          UPSTREAM_SHA: \${{ steps.upstream.outputs.sha }}
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
         run: |
           GEN_HASH="$(sha256sum generate_bdbv_bulletins.py | cut -c1-12)"
-          TAG="bdbv-rulebased-bulletins-\${UPSTREAM_SHA:0:12}-\${GEN_HASH}"
+          TAG="bdbv-rulebased-bulletins-${UPSTREAM_SHA:0:12}-${GEN_HASH}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
           else
@@ -80,18 +80,18 @@ jobs:
           fi
       - uses: actions/upload-artifact@v4
         with:
-          name: bdbv-bulletins-site-\${{ github.run_id }}
+          name: bdbv-bulletins-site-${{ github.run_id }}
           path: |
             work/BDBV_BULLETINS_SITE_UPLOAD.zip
             work/output/BULLETIN_BUILD_REPORT.json
           retention-days: 90
       - name: Optional One.com FTPS synchronization
         env:
-          ENABLED: \${{ vars.BDBV_BULLETIN_DEPLOY_ENABLED }}
-          HOST: \${{ secrets.BDBV_FTPS_HOST }}
-          USER: \${{ secrets.BDBV_FTPS_USER }}
-          PASS: \${{ secrets.BDBV_FTPS_PASSWORD }}
-          REMOTE: \${{ vars.BDBV_FTPS_PUBLIC_HTML }}
+          ENABLED: ${{ vars.BDBV_BULLETIN_DEPLOY_ENABLED }}
+          HOST: ${{ secrets.BDBV_FTPS_HOST }}
+          USER: ${{ secrets.BDBV_FTPS_USER }}
+          PASS: ${{ secrets.BDBV_FTPS_PASSWORD }}
+          REMOTE: ${{ vars.BDBV_FTPS_PUBLIC_HTML }}
         run: |
           if [ "$ENABLED" != 'true' ]; then
             echo 'Site auto-sync disabled; ZIP available in GitHub release.'
@@ -104,6 +104,6 @@ jobs:
             set ftp:ssl-protect-data true;
             set ssl:verify-certificate true;
             open ftps://$HOST;
-            mirror -R --only-newer work/output/bdvd2026/bulletins \${REMOTE:-public_html}/bdvd2026/bulletins;
-            mirror -R --only-newer work/output/bdvd2026/assets/data \${REMOTE:-public_html}/bdvd2026/assets/data;
+            mirror -R --only-newer work/output/bdvd2026/bulletins ${REMOTE:-public_html}/bdvd2026/bulletins;
+            mirror -R --only-newer work/output/bdvd2026/assets/data ${REMOTE:-public_html}/bdvd2026/assets/data;
             bye"
