@@ -132,3 +132,7 @@ This project preserves and indexes publicly available third-party SitReps for re
 ## Bulletin delivery
 
 The bilingual daily, weekly and monthly bulletin build is documented in [docs/BULLETINS.md](docs/BULLETINS.md), including complete-source-paragraph display and the optional GitHub Actions → One.com FTPS deployment. The deployment is disabled by default until hosting credentials and the remote root are configured. A GitHub Release ZIP remains available for manual upload and rollback.
+
+## BDBV weekly/monthly AI assessment drafts and SFTP publication
+
+The source bulletins now produce [daily evidence → ISO-weekly/monthly review packs](docs/BULLETINS.md), with an optional **private, editorial-review-required** AI draft workflow. There is no automatic AI publication. The approved site delivery route is One.com SFTP on port 22 with pinned SSH host key, not FTP; configuration and operational safeguards are documented in [docs/BULLETINS.md](docs/BULLETINS.md).

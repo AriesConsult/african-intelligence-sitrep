@@ -98,3 +98,35 @@ The FTPS step uploads only `bdvd2026/bulletins` and `bdvd2026/assets/data`, does
 **Alternative One.com pull:** A scheduled server-side pull can be considered only if the hosting plan provides suitable cron and secure server-side credential management. It would need a pinned, checksum-verified GitHub Release, atomic staging and extraction, restricted target paths and failure logging. This is deliberately *not implemented*: exposing an unauthenticated PHP fetch/extraction endpoint would be riskier than the existing FTPS job, and current One.com cron support has not been verified.
 
 **Deployment integrity:** The workflow checks that the generated HTML pages and JSON assets exist, checks the new full-passage layout, and validates ZIP structure before releasing. A successful Release does not prove that One.com has been updated; the configured FTPS step or manual upload must complete separately. GitHub's scheduled Actions may start late; the upstream source date is always displayed separately from bulletin publication time.
+
+## 9 November — Hierarchical AI-assisted analyses (review-gated)
+
+The bulletin system now exports `BULLETIN_ANALYTICAL_EVIDENCE.json` **outside** the public `bdvd2026/` upload directory. It includes day-level cumulative cases/deaths, qualification class, source revision, linked original report details, validated Table 4 contact follow-up where available, and labelled `REVIEW_REQUIRED` narrative reference metadata (not unreviewed narrative text, which could contain personal information). The `build_bdbv_assessments.py` module creates reproducible weekly and monthly evidence packs in a **private GitHub Actions artifact**, with data-date coverage and explicit missing dates.
+
+- **Daily**: factual source digest, not automatically model-interpreted. Source evidence is preserved.
+- **Weekly**: groups actual daily observations into completed ISO Monday–Sunday weeks, compares qualified cumulative snapshots only where comparable, exposes missing days and provisional sources.
+- **Monthly**: groups the daily evidence into **calendar-month subsets of ISO weeks**, recording partial weeks at month boundaries and comparing source endpoints only when qualified and comparable. These week summaries are numeric evidence packs, **not previously approved weekly prose**.
+- **AI draft**: optionally requests a structured English headline, analytical assessment, cited signals, uncertainties and editorial checks using the OpenAI API. This stage is disabled by default, and **the generated drafts never enter the public website ZIP**.
+- **Editorial acceptance (not yet implemented)**: a future explicit, auditable approval mechanism is required before publishing AI interpretations as part of daily/weekly/monthly pages. The model draft is not an accepted analytical publication and the pipeline must not pass it off as such. French AI translation is also not part of this initial draft stage.
+
+For the optional AI workflow, configure a GitHub Actions secret `OPENAI_API_KEY` and Actions variable `BDBV_AI_MODEL` (an API model supporting structured JSON Schema outputs), then set `BDBV_AI_ASSESSMENTS_ENABLED=true`. The latest completed weekly and monthly periods are drafted each run; older evidence packs remain available for future review/backfill. The model only receives aggregate, previously published source observations, not individual case records. See <https://developers.openai.com/api/docs/guides/structured-outputs> for compatible schema models. The current structural checks ensure evidence dates exist and flags require review; numerical and narrative truth checks remain an **editorial responsibility**. Do not enable automatic public AI publication without an independent claim verification and acceptance gate.
+
+### One.com secure SFTP rather than FTPS
+
+The website operator confirmed One.com's SSH/SFTP service:
+- Host: `ssh.africa-research.eu`
+- Username: `africa-research.eu`
+- Port: `22`
+
+The GitHub workflow now uses **SFTP, not FTP/FTPS**. Configure GitHub Actions:
+- **Secret** `BDBV_SFTP_PASSWORD`: the SSH/SFTP password established through One.com's official password-setting email. Never include it in repository files or messages.
+- **Secret** `BDBV_SFTP_KNOWN_HOSTS`: independently verified SSH public host-key record for `ssh.africa-research.eu`. Do **not** blindly trust `ssh-keyscan` output obtained over an unauthenticated network: confirm the actual fingerprint against One.com support/console out-of-band.
+- **Variable** `BDBV_SFTP_HOST=ssh.africa-research.eu` and `BDBV_SFTP_USER=africa-research.eu` (the workflow also has these defaults).
+- **Variable** `BDBV_SFTP_WEB_ROOT`: the exact remote path **as visible from SFTP login** that corresponds to the live website's public HTML directory. This might be `public_html` or another directory; verify in the One.com file manager/SFTP listing rather than assuming.
+- Finally **variable** `BDBV_BULLETIN_DEPLOY_ENABLED=true` to enable the step only after path and credentials are checked.
+
+The step validates that the pinned host key exists in the supplied known_hosts file and uses strict SSH host-key checking. It uploads only bulletin HTML and their supporting public JSON assets, without deletion. It never modifies the website's main `dashboard.php` or global CSS. Test the first enabled run manually and inspect the One.com pages afterward. A successful GitHub build or Release is not proof of live website deployment.
+
+**Operational note:** The new analytical draft process is **not** a live AI assessment service until credentials/model configuration are provided. The first deployment can proceed with AI disabled; the existing source bulletins continue as before.
+
+> **Superseded configuration:** Earlier sections of this historical changelog mention optional FTPS variables. These are no longer used. Follow the **One.com secure SFTP rather than FTPS** section above; deployment remains disabled until the new SFTP credentials, verified host key and correct remote path are configured.
