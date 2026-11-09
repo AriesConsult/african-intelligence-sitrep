@@ -403,7 +403,7 @@ def build(accepted,output,stage=None,published=None):
     if len(nat)<2:raise ValueError('Insufficient paired national source snapshots')
     dates=sorted(nat);output=Path(output)
     public=output/'bdvd2026';(public/'assets/data').mkdir(parents=True,exist_ok=True)
-    items=[];weekly=[];counts=Counter()
+    items=[];weekly=[];counts=Counter();daily_evidence=[]
     for freq,start,end in periods(dates):
         covered=[d for d in dates if start<=d<=end]
         if not covered:continue
@@ -426,6 +426,23 @@ def build(accepted,output,stage=None,published=None):
                     contact=contacts.get(day,{}),table4=period_table4,
                     narrative=period_narratives(narratives,start,day,max_reports=2 if freq=='daily' else 4),
                     original_report=current_original,prior_report=previous_original,changes=delta)
+        if freq=='daily':
+            # Machine-readable, source-linked input for the separate analytical layer.
+            # Published source observations and draft interpretations remain distinct.
+            daily_evidence.append({
+                'date':day,'cases':v['cases'],'deaths':v['deaths'],
+                'source_quality':v['source'],'source_commit':detail['source_commit'],
+                'original_sitrep_number':current_original.get('report_number') if current_original else None,
+                'original_sitrep_date':current_original.get('date') if current_original else None,
+                'original_source_url':current_original.get('source_url') if current_original else None,
+                'machine_validated_tables':sorted(k for k,t in (current_original or {}).get('tables',{}).items()
+                    if t.get('status')=='MACHINE_VALIDATED'),
+                'follow_up_pct':(table4.get(day) or {}).get('national',{}).get('follow_up_pct'),
+                'follow_up_source_report':(table4.get(day) or {}).get('source_report'),
+                'narrative_source_excerpts':[{'topic':x['topic'],'text':x['excerpt'],
+                    'status':x['status'],'report':x['report'],'page':x['page'],
+                    'source_url':x.get('source_url')} for x in detail['narrative']]
+            })
         target=public/'bulletins'/freq;target.mkdir(parents=True,exist_ok=True)
         langs=[]
         for lang in ('en','fr'):
@@ -437,6 +454,11 @@ def build(accepted,output,stage=None,published=None):
               'languages':langs,'automation':'rule_based_unreviewed'})
         if freq=='weekly':weekly.append({'period_start':start,'period_end':end,'source_date':day,'cases':v['cases'],'deaths':v['deaths'],'changes':delta})
         counts[freq]+=1
+    (output/'BULLETIN_ANALYTICAL_EVIDENCE.json').write_text(json.dumps({
+        'schema_version':'ai-bdbv-analytical-evidence-v1',
+        'source_classification':'mixed_qualified_historical_and_unverified_new_inrb',
+        'interpretation_status':'NOT_REVIEWED',
+        'days':daily_evidence},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (public/'assets/data/bulletins_public.json').write_text(json.dumps({'schema_version':'ai-bdbv-published-bulletins-v1','publication_mode':'automated_unreviewed_no_ai','historical_git_commit':FROZEN,'new_git_commit':commit,'bulletins':items},ensure_ascii=False),encoding='utf-8')
     (public/'assets/data/weekly_national_public.json').write_text(json.dumps({'schema_version':'ai-bdbv-weekly-national-v1','weeks':weekly,
       'note':'Net cumulative differences, not epi onset incidence; revised or negative intervals suppressed.'},ensure_ascii=False),encoding='utf-8')
