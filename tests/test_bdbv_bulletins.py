@@ -86,3 +86,29 @@ def test_source_excerpt_digest_retains_review_flag_and_page_reference(tmp_path):
     page=source_digest_html(doc,'en')
     assert 'https://insp.cd/example.pdf' in page and 'p. 7' in page
     assert 'verification pending' in page
+
+
+def test_annex_delta_markup_renders_in_both_languages_without_double_escaping():
+    """Regression: trusted <small> markup must render, while values stay escaped."""
+    from generate_bdbv_bulletins import numeric_annex_html
+    current={'date':'2026-11-05','report_number':175,
+      'source_sha256':'test-sha','source_url':'https://example.org/report.pdf',
+      'tables':{'table_1':{'status':'MACHINE_VALIDATED',
+        'original_table_number':1,
+        'national':{'cumulative_cases':10803,'reported_cfr_pct':48.8},
+        'rows':[{'scope':'Ituri','cumulative_cases':7543,'reported_cfr_pct':47.3}]}}}
+    previous={'date':'2026-11-01','report_number':171,
+      'tables':{'table_1':{'status':'MACHINE_VALIDATED',
+        'national':{'cumulative_cases':10532,'reported_cfr_pct':48.7},
+        'rows':[{'scope':'Ituri','cumulative_cases':7431,'reported_cfr_pct':47.0}]}}}
+    for lang in ('en','fr'):
+        page=numeric_annex_html(current,previous,lang)
+        assert '10,803 <small>(+271)</small>' in page
+        assert '7,543 <small>(+112)</small>' in page
+        assert '48.8 <small>(+0.1 pp)</small>' in page
+        assert '<div class="annex-scroll"><table>' in page
+        assert '&lt;small&gt;' not in page
+        # Values without a matching prior observation must remain plain text.
+        page_unmatched=numeric_annex_html(current,None,lang)
+        assert '10,803</td>' in page_unmatched
+        assert '<small>(+271)</small>' not in page_unmatched

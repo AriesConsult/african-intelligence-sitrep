@@ -71,3 +71,10 @@ The bulletin generator now publishes all successfully parsed numeric fields in *
 Verified successful workflow run: https://github.com/AriesConsult/african-intelligence-sitrep/actions/runs/42580268382. This run produced 162 EN/FR editions, read **130 original table snapshots** and still found only **five eligible machine-validated Table 4 contact-report dates**. Most historical contact monitoring still needs original-PDF layout-specific extraction and reconciliation; a wider source table catalogue does not certify complete longitudinal Table 4 coverage. For the newest source archive, SitReps 176/177 also require completed source custody before the separate main ingestion gate can pass.
 
 Latest bilingual source bulletin bundle: https://github.com/AriesConsult/african-intelligence-sitrep/releases/tag/bdbv-rulebased-bulletins-c00b8843e6eb-1df597269eeb. The production website is not automatically updated until FTPS is explicitly configured or the ZIP is manually uploaded.
+
+
+## 9 November — Annex HTML delta-rendering correction
+
+The original five-table annex renderer appended trusted `<small>(+change)</small>` markup to a numeric string and then HTML-escaped the *entire* cell. Browsers therefore displayed the literal tag text, for example `10,803 <small>(+271)</small>`, instead of a styled change indicator. The generator now HTML-escapes the numeric value and the delta text separately, while retaining the trusted `<small>` element. The change applies to English and French daily, weekly and monthly pages, including percentage-point deltas, without changing any source value, acceptance tier, date, or table validation status.
+
+A regression test checks markup, percentage-point labels and the existing `annex-scroll` container. **Previously uploaded static bulletin HTML pages do not change automatically.** The bulletin workflow must generate a new GitHub Release ZIP, and that ZIP must be deployed through the configured FTPS sync or manually uploaded to One.com. The workflow's release hash includes the generator, so this code correction changes the release identity even when upstream source observations are unchanged.
