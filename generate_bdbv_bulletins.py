@@ -171,7 +171,7 @@ def period_narratives(narratives,start,end,max_reports=3,max_items=8):
             # rather than implying that repeated classification is separate evidence.
             for c in candidates:
                 excerpt=short_excerpt(c['excerpt'])
-                passage_key=re.sub(r'\\s+',' ',excerpt).strip().casefold()
+                passage_key=' '.join(excerpt.split()).casefold()
                 if not passage_key or passage_key in used_passages:continue
                 found.append({'topic':topic,'excerpt':excerpt,'date':snap['date'],
                    'report':snap['report_number'],'page':c['page'],
