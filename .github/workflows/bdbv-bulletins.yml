@@ -28,7 +28,7 @@ jobs:
           python-version: '3.12'
       - name: Test deterministic generator
         run: |
-          python -m pip install requests pytest
+          python -m pip install -r requirements.txt pytest
           python -m pytest -q tests/test_bdbv_bulletins.py tests/test_inrb_staging.py
       - name: Fetch accepted historical evidence
         run: |
