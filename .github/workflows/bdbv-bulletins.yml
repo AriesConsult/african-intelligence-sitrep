@@ -46,7 +46,7 @@ jobs:
           python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.upstream.outputs.sha }}" --out work/current_stage
       - name: Back-create historical and current bilingual editions
         run: |
-          python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --out work/output
+          python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --published published --out work/output
       - name: Validate publication links and source data
         run: |
           python - <<'PY'
