@@ -29,3 +29,19 @@ def test_real_sitrep_175_five_tables_and_arithmetic():
     assert national["reports_received"]==111
     assert national["reports_expected"]==132
     assert national["poe_suspects_investigated_24h_denominator"]==4
+
+def test_original_october_poe_is_table_4_not_contacts():
+    """21 October SitRep 160 labels PoE/PoC as Table 4; this must not be contact data."""
+    path=next((ROOT/"review_queue").glob("report_160_*.json"))
+    doc=json.loads(path.read_text(encoding="utf8"))
+    parsed=mod.extract_five_tables(doc)
+    t=parsed["tables"]
+    assert "table_4" not in t or t["table_4"].get("national") is None
+    poe=t["table_5"]
+    assert poe["original_table_number"]==4
+    assert poe["status"]=="MACHINE_VALIDATED",poe.get("flags")
+    national=next(r for r in poe["rows"] if r["scope"]=="DRC")
+    assert national["travellers_passed"]==306973
+    assert national["reports_received"]==112
+    assert national["reports_expected"]==120
+    assert national["poe_alerts_notified"]==7
