@@ -132,11 +132,15 @@ TOPIC_NAMES={
  'service_continuity':('Service continuity','Continuité des services'),
  'security':('Security','Sécurité')
 }
-def short_excerpt(text,maximum_words=19):
-    """Source text, not generated interpretation; truncate to a short attributable fragment."""
-    words=re.sub(r'\s+',' ',str(text)).strip().split(' ')
-    if len(words)<5:return ''
-    return ' '.join(words[:maximum_words])+('…' if len(words)>maximum_words else '')
+def short_excerpt(text,maximum_words=None):
+    """Preserve complete source-extracted paragraphs; never cut at an arbitrary word count.
+
+    The original extraction's excerpt_truncated flag is checked by the caller.
+    The optional parameter is retained for backward compatibility, but ignored:
+    a hard cap would silently discard evidence in published bulletins.
+    """
+    passage=' '.join(str(text).split())
+    return passage if len(passage.split())>=5 else ''
 
 def load_narratives(published):
     if not published:return []
@@ -183,21 +187,36 @@ def period_narratives(narratives,start,end,max_reports=3,max_items=8):
     return found
 
 def source_digest_html(r,lang):
+    """Display unabridged archived passages with explicit source and review status."""
     fr=lang=='fr';items=r.get('narrative',[])
     heading='Extraits du SitRep par thème (vérification en attente)' if fr else 'SitRep source-text digest by theme (verification pending)'
     if not items:
-        return '<h2>'+heading+'</h2><p>'+('Aucun extrait complet sélectionnable pour cette période.' if fr else 'No complete source-text excerpts selected for this period.')+'</p>'
+        return '<section class="digest" aria-labelledby="digest-heading"><h2 id="digest-heading">'+html.escape(heading)+'</h2><p>'+('Aucun extrait complet sélectionnable pour cette période.' if fr else 'No complete source-text excerpts selected for this period.')+'</p></section>'
     chunks=[]
     for item in items:
-        t=TOPIC_NAMES.get(item['topic'],(item['topic'],item['topic']))[int(fr)]
-        src=html.escape(str(item.get('source_url') or ''),quote=True)
-        label=('SitRep'+' '+str(item['report'])+', p. '+str(item['page']))
-        link='<a href="'+src+'" rel="noopener noreferrer" target="_blank">'+html.escape(label)+'</a>' if src.startswith('https://') else html.escape(label)
-        chunks.append('<li><strong>'+html.escape(t)+'</strong>: <span lang="fr">'+html.escape(item['excerpt'])+'</span> <small>('+link+' · '+item['date']+')</small></li>')
-    note=('Ces extraits courts reproduisent la langue originale des rapports. Leur classement par thème est automatique, sans validation du sens, de la complétude ou des changements.'
-       if fr else 'Short passages remain in their original French. Topic assignment is rule-based and not yet verified for meaning, completeness or change over time.')
-    return '<section><h2>'+heading+'</h2><p>'+html.escape(note)+'</p><ul class="source-digest">'+''.join(chunks)+'</ul></section>'
-
+        topic=TOPIC_NAMES.get(item['topic'],(item['topic'],item['topic']))[int(fr)]
+        url=str(item.get('source_url') or '')
+        source='SitRep '+html.escape(str(item['report']))+', p. '+html.escape(str(item['page']))
+        link=('<a href="'+html.escape(url,quote=True)+'" rel="noopener noreferrer" target="_blank">'+source+'</a>'
+            if url.startswith('https://') else source)
+        passage=html.escape(item['excerpt'])
+        # Every complete archived paragraph remains available in the HTML.
+        # Long ones are collapsed by default for legibility, never truncated.
+        long=len(item['excerpt'].split())>110
+        if long:
+            reading=('<details class="passage"><summary>'+
+                ('Lire le paragraphe source complet' if fr else 'Read complete source paragraph')+
+                '</summary><p lang="fr">'+passage+'</p></details>')
+        else:
+            reading='<p class="source-passage" lang="fr">'+passage+'</p>'
+        chunks.append('<li class="digest-item"><h3>'+html.escape(topic)+'</h3>'+reading+
+            '<p class="citation">'+link+' · '+html.escape(str(item['date']))+
+            ' · <span class="review-flag">REVIEW_REQUIRED</span></p></li>')
+    note=('Les paragraphes reproduisent le texte français archivé, sans coupure arbitraire. La classification thématique automatique et la complétude de l’extraction restent à vérifier.'
+       if fr else 'Full archived French-language source passages are reproduced without an arbitrary word limit. Automatic topic assignment and extraction completeness remain subject to verification.')
+    return ('<section class="digest" aria-labelledby="digest-heading"><h2 id="digest-heading">'+
+        html.escape(heading)+'</h2><p class="section-note">'+html.escape(note)+
+        '</p><ul class="source-digest">'+''.join(chunks)+'</ul></section>')
 
 # Reported source data, never invented incidence. All original SitRep tables
 # are covered when the corresponding table has passed machine reconciliation.
@@ -338,7 +357,42 @@ def render_html(r,lang):
     else:
         contact_rows='<tr><td colspan=\"3\">'+('Aucun tableau 4 validé pour la date de référence.' if fr else 'No machine-validated Table 4 for the reference date.')+'</td></tr>'
     delta='; '.join(k+': '+str(v) for k,v in r['changes'].items()) or '—'
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — African Intelligence</title><link rel="stylesheet" href="/assets/css/african-intelligence.css"><style>main{{max-width:920px;margin:24px auto;padding:0 18px;color:#244953}}header{{border-radius:15px;background:linear-gradient(115deg,#02475a,#097392);padding:28px;color:white}}header h1{{color:white}}.cards{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}}.cards article{{border-radius:12px;background:#f0f7f8;padding:16px}}.cards strong{{display:block;color:#02475a;font-size:29px}}table{{width:100%;border-collapse:collapse}}.annex-scroll{{max-width:100%;overflow:auto}}.annex-scroll table{{min-width:760px;font-size:12px}}.annex-scroll td{{white-space:nowrap}}.source-table{{margin:12px 0;padding:8px;border:1px solid #dde9ec;border-radius:8px}}.source-table summary{{cursor:pointer;font-weight:700;color:#02516a}}td,th{{padding:10px;border-bottom:1px solid #dce9ec;text-align:left}}footer{{color:#627d85;font-size:12px;line-height:1.6;margin:20px 0}}@media(max-width:600px){{.cards{{grid-template-columns:1fr}}}}</style></head><body><main><p><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a></p><header><small>AFRICAN INTELLIGENCE · BDBV 2026</small><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><h2>{labels[3]}</h2><p>{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])) if t4 else ''}</p><table><thead><tr><th>Indicator</th><th>Value</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table>{source_digest_html(r,lang)}{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}<footer>INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — African Intelligence</title><link rel="stylesheet" href="/assets/css/african-intelligence.css"><style>
+:root{{--bulletin-blue:#097392;--bulletin-dark:#02475a;--bulletin-muted:#526a73;--bulletin-line:#dce9ec;--bulletin-paper:#fff}}
+*{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:#f6f9fa;color:#244953;line-height:1.6}}
+main.bulletin-page{{max-width:1120px;margin:0 auto;padding:24px clamp(14px,3vw,34px) 56px}}
+.bulletin-nav{{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px;font-size:.92rem}}
+.bulletin-nav a{{color:#086a84;text-decoration:underline;text-underline-offset:3px}}
+.bulletin-hero{{border-radius:16px;background:linear-gradient(115deg,#02475a,#097392);padding:clamp(22px,4vw,42px);color:white}}
+.bulletin-hero h1{{color:white;margin:.3em 0;font-size:clamp(1.7rem,3.2vw,2.7rem);line-height:1.22}}
+.bulletin-hero p{{color:#f4fbfc;margin:0}}.eyebrow{{letter-spacing:.09em;font-size:.78rem;font-weight:700;text-transform:uppercase}}
+.bulletin-section{{margin:26px 0}}.bulletin-section>h2,.digest>h2,.annex>h2{{font-size:clamp(1.25rem,2vw,1.65rem);color:#02475a;margin:0 0 12px}}
+.cards{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}}
+.cards article{{min-width:0;border:1px solid #dce9ec;border-radius:12px;background:#fff;padding:16px}}
+.cards strong{{display:block;color:#02475a;font-size:clamp(1.5rem,3vw,2rem);line-height:1.3;font-variant-numeric:tabular-nums}}
+.source-meta,.section-note{{color:var(--bulletin-muted);font-size:.94rem}}
+.data-table-scroll,.annex-scroll{{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid var(--bulletin-line);border-radius:9px}}
+table{{width:100%;border-collapse:collapse;background:white}}.annex-scroll table{{min-width:760px;font-size:.82rem}}
+td,th{{padding:10px 12px;border-bottom:1px solid var(--bulletin-line);text-align:left;vertical-align:top}}
+thead th{{background:#ecf5f6;color:#02475a;font-weight:700;white-space:normal}}
+tbody tr:nth-child(even){{background:#f8fbfb}}
+.annex-scroll td{{white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}}
+.annex-scroll thead th:not(:first-child){{text-align:right}}
+.annex-scroll tbody th{{position:sticky;left:0;background:#fff;min-width:145px;z-index:1}}
+.annex-scroll tbody tr:nth-child(even) th{{background:#f8fbfb}}
+.annex-scroll td small{{display:inline-block;color:#526a73;font-size:.82em;white-space:nowrap}}
+.source-table{{margin:12px 0;padding:10px;border:1px solid #dde9ec;border-radius:10px;background:#fff}}
+.source-table summary{{cursor:pointer;font-weight:700;color:#02516a;padding:5px}}
+.digest{{margin:30px 0}}.source-digest{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));list-style:none;padding:0;gap:14px;margin:16px 0}}
+.digest-item{{min-width:0;border-left:4px solid #83b4b3;background:#fff;border-radius:8px;padding:16px;border-top:1px solid #e4edef;border-right:1px solid #e4edef;border-bottom:1px solid #e4edef}}
+.digest-item h3{{font-size:1.04rem;color:#02475a;margin:0 0 8px}}.digest-item p{{overflow-wrap:anywhere}}
+.source-passage,.passage p{{margin:10px 0;white-space:normal;line-height:1.7}}
+.passage summary{{cursor:pointer;color:#086a84;font-weight:600;text-decoration:underline;text-underline-offset:3px}}
+.citation{{font-size:.82rem;color:#526a73;margin-top:14px}}.review-flag{{font-size:.7rem;letter-spacing:.04em;font-weight:700}}
+.bulletin-footer{{color:#526a73;font-size:.8rem;line-height:1.65;margin:28px 0;overflow-wrap:anywhere;border-top:1px solid #dce9ec;padding-top:16px}}
+@media(max-width:760px){{.cards{{grid-template-columns:1fr}}.source-digest{{grid-template-columns:1fr}}}}
+@media print{{body{{background:white}}.bulletin-page{{max-width:none}}.source-digest{{display:block}}.digest-item{{break-inside:avoid;margin:10px 0}}.passage p{{display:block}}}}
+</style></head><body><main class="bulletin-page"><nav class="bulletin-nav" aria-label="Bulletin navigation"><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a><a href="#annex">{"Annexe numérique" if fr else "Numerical annex"} ↓</a></nav><header class="bulletin-hero"><div class="eyebrow">AFRICAN INTELLIGENCE · BDBV 2026</div><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p class="source-meta"><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><section class="bulletin-section"><h2>{labels[3]}</h2><p>{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])) if t4 else ''}</p><div class="data-table-scroll"><table><thead><tr><th>{"Indicateur" if fr else "Indicator"}</th><th>{"Valeur" if fr else "Value"}</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table></div></section>{source_digest_html(r,lang)}<div id="annex">{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}</div><footer class="bulletin-footer">INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
 
 def build(accepted,output,stage=None,published=None):
     rows,commit=read_evidence(accepted,stage);nat,contacts=aggregate(rows)
