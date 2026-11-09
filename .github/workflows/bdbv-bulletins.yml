@@ -33,7 +33,13 @@ jobs:
       - name: Fetch accepted historical evidence
         run: |
           mkdir -p work/evidence
-          curl -fLsS --retry 3 --max-time 180 https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-qualified-historical-42498372593/historical_qualified_release.csv -o work/evidence/historical_qualified_release.csv
+          if ! gh release download bdbv-qualified-historical-42498372593 \
+              --pattern historical_qualified_release.csv --dir work/evidence; then
+              echo 'GitHub authenticated release retrieval failed; trying public endpoint.'
+              curl -fLsS --retry 8 --retry-all-errors --retry-delay 4 --max-time 300 \
+                https://github.com/AriesConsult/african-intelligence-sitrep/releases/download/bdbv-qualified-historical-42498372593/historical_qualified_release.csv \
+                -o work/evidence/historical_qualified_release.csv
+          fi
           test "$(wc -c < work/evidence/historical_qualified_release.csv)" -gt 4000000
       - name: Pin latest INRB source revision
         id: upstream
