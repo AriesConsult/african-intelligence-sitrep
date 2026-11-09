@@ -73,10 +73,33 @@ jobs:
           assert (root/'assets/data/weekly_national_public.json').is_file()
           print('Validated',len(c['bulletins']),'bilingual source editions')
           PY
-      - name: Package upload to One.com
+      - name: Package and validate upload to One.com
         run: |
           cd work/output
           zip -qr ../BDBV_BULLETINS_SITE_UPLOAD.zip bdvd2026
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import json
+          archive=Path('../BDBV_BULLETINS_SITE_UPLOAD.zip')
+          with ZipFile(archive) as z:
+              assert z.testzip() is None, 'ZIP CRC verification failed'
+              files=set(z.namelist())
+              expected={'bdvd2026/assets/data/bulletins_public.json',
+                        'bdvd2026/assets/data/weekly_national_public.json',
+                        'bdvd2026/assets/data/contact_tracing_public.json'}
+              assert expected<=files, 'Missing dashboard data assets'
+              catalog=json.loads(z.read('bdvd2026/assets/data/bulletins_public.json'))
+              for bulletin in catalog['bulletins']:
+                  for language in bulletin['languages']:
+                      path=language['url'].lstrip('/')
+                      assert path in files, path
+                      page=z.read(path).decode('utf-8')
+                      assert '/assets/css/african-intelligence.css' in page
+                      assert 'class="bulletin-page"' in page
+                      assert 'id="annex"' in page
+              print('Validated ZIP:', len(catalog['bulletins']), 'bilingual bulletin periods')
+          PY
       - name: Preserve archive linked to source and generator revisions
         env:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
@@ -110,6 +133,8 @@ jobs:
           test -n "$HOST" && test -n "$USER" && test -n "$PASS" || { echo 'Incomplete FTPS configuration'; exit 1; }
           sudo apt-get update -qq && sudo apt-get install -y -qq lftp
           lftp -u "$USER","$PASS" -e "
+            set cmd:fail-exit true;
+            set net:max-retries 3;
             set ftp:ssl-force true;
             set ftp:ssl-protect-data true;
             set ssl:verify-certificate true;
