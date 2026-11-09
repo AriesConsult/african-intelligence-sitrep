@@ -101,7 +101,7 @@ The FTPS step uploads only `bdvd2026/bulletins` and `bdvd2026/assets/data`, does
 
 ## 9 November — Hierarchical AI-assisted analyses (review-gated)
 
-The bulletin system now exports `BULLETIN_ANALYTICAL_EVIDENCE.json` **outside** the public `bdvd2026/` upload directory. It includes day-level cumulative cases/deaths, qualification class, source revision, linked original report details, validated Table 4 contact follow-up where available, and labelled `REVIEW_REQUIRED` narrative leads. The `build_bdbv_assessments.py` module creates reproducible weekly and monthly evidence packs in a **private GitHub Actions artifact**, with data-date coverage and explicit missing dates.
+The bulletin system now exports `BULLETIN_ANALYTICAL_EVIDENCE.json` **outside** the public `bdvd2026/` upload directory. It includes day-level cumulative cases/deaths, qualification class, source revision, linked original report details, validated Table 4 contact follow-up where available, and labelled `REVIEW_REQUIRED` narrative reference metadata (not unreviewed narrative text, which could contain personal information). The `build_bdbv_assessments.py` module creates reproducible weekly and monthly evidence packs in a **private GitHub Actions artifact**, with data-date coverage and explicit missing dates.
 
 - **Daily**: factual source digest, not automatically model-interpreted. Source evidence is preserved.
 - **Weekly**: groups actual daily observations into completed ISO Monday–Sunday weeks, compares qualified cumulative snapshots only where comparable, exposes missing days and provisional sources.
@@ -128,3 +128,5 @@ The GitHub workflow now uses **SFTP, not FTP/FTPS**. Configure GitHub Actions:
 The step validates that the pinned host key exists in the supplied known_hosts file and uses strict SSH host-key checking. It uploads only bulletin HTML and their supporting public JSON assets, without deletion. It never modifies the website's main `dashboard.php` or global CSS. Test the first enabled run manually and inspect the One.com pages afterward. A successful GitHub build or Release is not proof of live website deployment.
 
 **Operational note:** The new analytical draft process is **not** a live AI assessment service until credentials/model configuration are provided. The first deployment can proceed with AI disabled; the existing source bulletins continue as before.
+
+> **Superseded configuration:** Earlier sections of this historical changelog mention optional FTPS variables. These are no longer used. Follow the **One.com secure SFTP rather than FTPS** section above; deployment remains disabled until the new SFTP credentials, verified host key and correct remote path are configured.
