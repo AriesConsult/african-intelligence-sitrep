@@ -157,7 +157,7 @@ def period_narratives(narratives,start,end,max_reports=3,max_items=8):
     """Sample dated, page-linked, unverified source-text excerpts without claiming events."""
     reports=sorted((s for s in narratives if start<=s.get('date','')<=end),
                    key=lambda x:(x['date'],x['report_number']),reverse=True)[:max_reports]
-    found=[];used=set()
+    found=[];used=set();used_passages=set()
     for snap in reports:
         for topic in TOPIC_NAMES:
             if topic in used:continue
@@ -167,14 +167,18 @@ def period_narratives(narratives,start,end,max_reports=3,max_items=8):
                   and len(c.get('excerpt','').split())>=8]
             candidates=sorted(candidates,key=lambda c:(
                 bool(c.get('event_type_candidates')),len(c.get('excerpt',''))),reverse=True)
-            if not candidates:continue
-            c=candidates[0];excerpt=short_excerpt(c['excerpt'])
-            if not excerpt:continue
-            found.append({'topic':topic,'excerpt':excerpt,'date':snap['date'],
-               'report':snap['report_number'],'page':c['page'],
-               'source_url':snap.get('source_url'),'candidate_id':c['candidate_id'],
-               'status':'REVIEW_REQUIRED','language':'fr_original'})
-            used.add(topic)
+            # A source paragraph can match several rule-based topics. Publish it once
+            # rather than implying that repeated classification is separate evidence.
+            for c in candidates:
+                excerpt=short_excerpt(c['excerpt'])
+                passage_key=re.sub(r'\\s+',' ',excerpt).strip().casefold()
+                if not passage_key or passage_key in used_passages:continue
+                found.append({'topic':topic,'excerpt':excerpt,'date':snap['date'],
+                   'report':snap['report_number'],'page':c['page'],
+                   'source_url':snap.get('source_url'),'candidate_id':c['candidate_id'],
+                   'status':'REVIEW_REQUIRED','language':'fr_original'})
+                used.add(topic);used_passages.add(passage_key)
+                break
             if len(found)>=max_items:return found
     return found
 
