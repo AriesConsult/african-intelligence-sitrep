@@ -128,3 +128,7 @@ The acceptance report and restrictions are in the [release catalogue](docs/DATA_
 This project preserves and indexes publicly available third-party SitReps for research. Original reports remain attributable to their publishing organisations; no INSP/INRB endorsement is implied. GitHub Releases are durable versioned preservation assets, not immutable against repository deletion or changes in external hosting; maintain an independent backup if long-term custody is essential. Public raw narratives can include named people and contact details; use access-controlled review workflows where appropriate.
 
 **Current operating priority:** keep **daily discovery → original-PDF archival → revision checks** functioning. Improve historical cells and narrative completeness through distinct, versioned evidence updates without destabilising the scraper or replacing original source measurements.
+
+## Bulletin delivery
+
+The bilingual daily, weekly and monthly bulletin build is documented in [docs/BULLETINS.md](docs/BULLETINS.md), including complete-source-paragraph display and the optional GitHub Actions → One.com FTPS deployment. The deployment is disabled by default until hosting credentials and the remote root are configured. A GitHub Release ZIP remains available for manual upload and rollback.
