@@ -112,3 +112,24 @@ def test_annex_delta_markup_renders_in_both_languages_without_double_escaping():
         page_unmatched=numeric_annex_html(current,None,lang)
         assert '10,803</td>' in page_unmatched
         assert '<small>(+271)</small>' not in page_unmatched
+
+
+def test_digest_never_reuses_same_source_passage_across_topics():
+    from generate_bdbv_bulletins import period_narratives
+    shared='En Ituri, la rupture de stock de sang persiste, 37 malades sont critiques et les équipes signalent des difficultés.'
+    distinct='Les équipes ont fourni de nouveaux équipements aux structures de santé pour soutenir les interventions quotidiennes.'
+    snap={'date':'2026-11-05','report_number':175,'source_url':'https://example.org/sitrep.pdf',
+      'candidates':[
+        {'candidate_id':'c1','page':7,'excerpt':shared,'topic_tags':['treatment_capacity','logistics','service_continuity'],
+         'review_status':'REVIEW_REQUIRED','excerpt_truncated':False,'event_type_candidates':['challenge']},
+        {'candidate_id':'c2','page':8,'excerpt':distinct,'topic_tags':['logistics'],
+         'review_status':'REVIEW_REQUIRED','excerpt_truncated':False,'event_type_candidates':[]}]}
+    result=period_narratives([snap],'2026-11-05','2026-11-05')
+    assert [x['topic'] for x in result]==['treatment_capacity','logistics']
+    assert [x['candidate_id'] for x in result]==['c1','c2']
+    assert len({x['excerpt'].casefold() for x in result})==len(result)
+    assert all(x['status']=='REVIEW_REQUIRED' for x in result)
+    # If only one paragraph supports multiple topics, omit the duplicate topic.
+    result=period_narratives([{**snap,'candidates':snap['candidates'][:1]}],
+                             '2026-11-05','2026-11-05')
+    assert len(result)==1
