@@ -133,3 +133,43 @@ def test_digest_never_reuses_same_source_passage_across_topics():
     result=period_narratives([{**snap,'candidates':snap['candidates'][:1]}],
                              '2026-11-05','2026-11-05')
     assert len(result)==1
+
+
+def test_full_source_paragraph_is_preserved_and_long_passages_are_expandable():
+    from generate_bdbv_bulletins import period_narratives, source_digest_html, render_html
+    original=' '.join(['Un paragraphe source décrit les activités de surveillance et la situation dans les zones affectées.']*15)
+    snap={'date':'2026-11-05','report_number':175,'source_url':'https://example.org/175.pdf',
+      'candidates':[{'candidate_id':'p7-a','page':7,'excerpt':original,
+        'topic_tags':['surveillance_and_alerts'],'review_status':'REVIEW_REQUIRED',
+        'excerpt_truncated':False,'event_type_candidates':[]}]}
+    selected=period_narratives([snap],'2026-11-05','2026-11-05')
+    assert len(selected)==1 and selected[0]['excerpt']==original
+    for language in ('en','fr'):
+        markup=source_digest_html({'narrative':selected},language)
+        assert original in markup
+        assert 'REVIEW_REQUIRED' in markup
+        assert '<details class="passage">' in markup
+        assert 'https://example.org/175.pdf' in markup
+        assert not markup.count('…')
+    # Unverified truncated archived fragments cannot be silently promoted to full paragraphs.
+    snap['candidates'][0]['excerpt_truncated']=True
+    assert period_narratives([snap],'2026-11-05','2026-11-05')==[]
+
+
+def test_bilingual_bulletin_layout_keeps_site_stylesheet_and_responsive_tables():
+    from generate_bdbv_bulletins import render_html
+    report={'frequency':'daily','period_start':'2026-11-05','period_end':'2026-11-05',
+      'cases':10803,'deaths':5267,'source_date':'2026-11-05',
+      'source_quality':'historical_qualified','source_commit':'abc123',
+      'changes':{},'table4':None,'narrative':[],
+      'original_report':None,'prior_report':None}
+    for language in ('en','fr'):
+        page=render_html(report,language)
+        assert 'lang="'+language+'"' in page
+        assert '/assets/css/african-intelligence.css' in page
+        assert 'class="bulletin-page"' in page
+        assert 'class="source-digest"' not in page
+        assert 'class="data-table-scroll"' in page
+        assert 'id="annex"' in page
+        assert '@media(max-width:760px)' in page
+        assert '<table>' in page
