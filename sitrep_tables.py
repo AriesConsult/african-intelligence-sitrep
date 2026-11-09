@@ -266,6 +266,11 @@ def table_4(doc,output):
     """
     t=table(doc,4)
     if not t:return None
+    # Earlier SitReps used Table 4 for PoE/PoC, not contact follow-up.
+    # Distinguish by original source heading; never decode cross-border columns as contacts.
+    source_heading=norm(t.get('title_context') or '')
+    if 'poe/poc' in source_heading or 'poc/poe' in source_heading:
+        return None
     labels={'province':('province','dps'),
             'contacts_to_follow':('contacts sous suivi','contacts a suivre'),
             'contacts_seen':('contacts vus','contacts suivis'),
@@ -347,6 +352,15 @@ def table_4(doc,output):
 
 def table_5(doc,output):
     t=table(doc,5)
+    original_number=5
+    # SitRep table numbers changed over time: before November, Table 4 is
+    # often the PoE/PoC grid. Identify it by heading AND province-column header.
+    if not t:
+        earlier=table(doc,4)
+        title=norm((earlier or {}).get('title_context') or '')
+        if earlier and ('poe/poc' in title or 'poc/poe' in title):
+            t=earlier
+            original_number=4
     if not t:return None
     h=next((r for r in t['rows'] if r and norm(r[0])=='indicateurs'),None)
     if not h or len(h)<7:return {'status':'REVIEW_REQUIRED','rows':[],'flags':[{'reason':'table5_no_header'}]}
@@ -358,11 +372,15 @@ def table_5(doc,output):
         return {'status':'REVIEW_REQUIRED','rows':[],'flags':[{'reason':'table5_bad_province_columns'}]}
     records={x:{} for x in headings};flags=[]
     metrics={'completude des rapports':'reporting_completeness','poc/poe strategiques':'strategic_poe_count',
-             'nombre des voyageurs passes':'travellers_passed','proportion des voyageurs screenes':'travellers_screened_pct',
+             'nombre des voyageurs passes':'travellers_passed',
+             'nombre de personnes passees aux poe/poc':'travellers_passed',
+             '% des poe/poc strategiques fonctionnels':'strategic_poe_functional_pct',
+             'nombre de corps sans vie interceptes ce jour':'poe_bodies_intercepted',
+             'nombre d alertes notifiees':'poe_alerts_notified','proportion des voyageurs screenes':'travellers_screened_pct',
              '% des voyageurs ayant lave les mains':'handwashing_pct',
              '% des voyageurs sensibilises':'travellers_sensitized_pct',
              'nombre d\'alertes notifiees':'poe_alerts_notified'}
-    percentage_names={'travellers_screened_pct','handwashing_pct','travellers_sensitized_pct'}
+    percentage_names={'travellers_screened_pct','handwashing_pct','travellers_sensitized_pct','strategic_poe_functional_pct'}
     for i,r in enumerate(t['rows']):
         label=norm(r[0]) if r else ''
         key=metrics.get(label)
@@ -429,6 +447,7 @@ def table_5(doc,output):
                 flags.append({'reason':'table5_province_national_disagreement','field':metric})
     return {'status':'MACHINE_VALIDATED' if not flags else 'REVIEW_REQUIRED',
             'rows':[{'scope':p,**v} for p,v in records.items()], 'flags':flags,
+            'original_table_number':original_number,
             'note':'Percentages without denominator remain reported percentages only; zero-event success rates are undefined. Page 6 continuation included when extractable.'}
 
 def extract_five_tables(doc):
