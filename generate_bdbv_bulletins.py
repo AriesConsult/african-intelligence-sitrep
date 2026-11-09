@@ -210,7 +210,7 @@ def render_html(r,lang):
         contact_rows+='<tr><td>'+('Contacts vus' if fr else 'Contacts seen')+'</td><td>'+fmt(n.get('contacts_seen'))+'</td><td>National</td></tr>'
         contact_rows+='<tr><td>'+('Suivi des contacts' if fr else 'Follow-up coverage')+'</td><td>'+('—' if follow is None else f'{follow:.1f}%')+'</td><td>National</td></tr>'
         for p in t4.get('provinces',[]):
-            rate='—' if p['follow_up_pct'] is None else f\"{p['follow_up_pct']:.1f}%\"
+            rate='—' if p['follow_up_pct'] is None else f"{p['follow_up_pct']:.1f}%"
             contact_rows+='<tr><td>'+html.escape(p['province'])+'</td><td>'+fmt(p['contacts_seen'])+' / '+fmt(p['contacts_to_follow'])+'</td><td>'+rate+'</td></tr>'
         if t4.get('reporting_gaps'):
             contact_rows+='<tr><td colspan=\"3\">'+('Lacunes de rapportage: ' if fr else 'Reporting gaps: ')+html.escape(', '.join(p['scope'] for p in t4['reporting_gaps']))+'</td></tr>'
