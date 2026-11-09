@@ -194,6 +194,121 @@ def source_digest_html(r,lang):
        if fr else 'Short passages remain in their original French. Topic assignment is rule-based and not yet verified for meaning, completeness or change over time.')
     return '<section><h2>'+heading+'</h2><p>'+html.escape(note)+'</p><ul class="source-digest">'+''.join(chunks)+'</ul></section>'
 
+
+# Reported source data, never invented incidence. All original SitRep tables
+# are covered when the corresponding table has passed machine reconciliation.
+TABLE_NAMES={
+ 'table_1':('Epidemic overview','Situation épidémiologique'),
+ 'table_2':('Health-zone case/death reports','Cas et décès par zone de santé'),
+ 'table_3':('Surveillance and alerts','Surveillance et alertes'),
+ 'table_4':('Contact follow-up','Suivi des contacts'),
+ 'table_5':('PoE / PoC border monitoring','Surveillance aux points d’entrée et de contrôle')
+}
+PERCENT_FIELDS={'contact_follow_up_rate','reported_cfr_pct','reporting_completeness',
+    'travellers_screened_pct','travellers_sensitized_pct','handwashing_pct',
+    'poe_suspects_transferred_pct','poe_suspects_investigated_24h_pct',
+    'poe_bodies_swabbed_pct'}
+RATE_SUFFIXES=('_pct','_rate')
+def load_original_table_snapshots(published):
+    if not published:return {}
+    root=Path(published);idx=root/'table_index.json'
+    if not idx.is_file():return {}
+    out={}
+    for ref in json.loads(idx.read_text(encoding='utf-8')).get('reports',[]):
+        rel=ref.get('snapshot_path') or ''
+        if not rel.startswith('tables/') or '..' in rel:continue
+        try:
+            snap=json.loads((root/rel).read_text(encoding='utf-8'))
+            if (snap.get('source_sha256')!=ref.get('sha256') or
+                snap.get('date')!=ref.get('date') or
+                snap.get('report_number')!=ref.get('report_number')):continue
+            # Indexed latest revision per source report, no implicit reconciliation.
+            out[snap['date']]=snap
+        except (OSError,ValueError,TypeError,KeyError):continue
+    return out
+
+def numeric_fields(row):
+    return {k:v for k,v in row.items() if k not in
+        ('scope','source','province','health_zone','source_row','table_id') and
+        type(v) in (int,float) and v>=0}
+
+def annex_rows(tab,key):
+    rows=[]
+    if isinstance(tab.get('national'),dict):rows.append(('DRC',tab['national']))
+    for row in tab.get('rows',[]):
+        if not isinstance(row,dict):continue
+        ident=row.get('health_zone') or row.get('scope') or row.get('province')
+        if key=='table_2' and row.get('health_zone'):
+            ident=(row.get('province') or '')+' / '+row['health_zone']
+        if ident:rows.append((str(ident),row))
+    if key=='table_2':
+        for row in tab.get('province_totals',[]):
+            if isinstance(row,dict) and row.get('province'):
+                rows.append(('Province: '+row['province'],row))
+    return rows
+
+def numeric_annex_html(report,prior,lang):
+    fr=lang=='fr'
+    heading='Annexe numérique des cinq tableaux du SitRep' if fr else 'Numerical annex from all five SitRep tables'
+    if not report:
+        return '<section class="annex"><h2>'+heading+'</h2><p>'+(
+          'Aucun SitRep original apparié à cette date.' if fr else
+          'No original SitRep matched to this bulletin date.')+'</p></section>'
+    prior=prior or {}
+    start=['<section class="annex"><h2>'+heading+'</h2><p>'+
+       ('Les tableaux non validés restent non publiés. Une variation reflète la différence entre deux observations publiées, pas nécessairement une incidence.' if fr else
+       'Unvalidated source tables remain unpublished. A change compares two reported snapshots, not necessarily event-date incidence.')+
+       ' SitRep '+str(report['report_number'])+' · '+html.escape(report['date'])+
+       (' · Comparaison avec ' if fr else ' · Compared with ')+
+       html.escape(prior.get('date') or '—')+'</p>']
+    for key,names in TABLE_NAMES.items():
+        tab=report.get('tables',{}).get(key) or {}
+        status=tab.get('status','NOT_EXTRACTED')
+        start.append('<details class="source-table" '+('open' if key in ('table_1','table_3','table_4','table_5') else '')+'><summary>Table '+key[-1]+' — '+html.escape(names[int(fr)])+' · '+html.escape(status)+'</summary>')
+        if status!='MACHINE_VALIDATED':
+            start.append('<p>'+('Non publié : extraction absente ou reconciliation requise' if fr else
+                'Not published: extraction missing or source reconciliation pending')+'</p></details>')
+            continue
+        rows=annex_rows(tab,key)
+        fields=sorted(set().union(*(numeric_fields(r).keys() for _,r in rows))) if rows else []
+        if not fields:
+            start.append('<p>'+('Aucune valeur numérique récupérée' if fr else 'No recovered numeric values')+'</p></details>')
+            continue
+        oldtab=prior.get('tables',{}).get(key) or {}
+        oldrows=dict(annex_rows(oldtab,key)) if oldtab.get('status')=='MACHINE_VALIDATED' else {}
+        start.append('<div class="annex-scroll"><table><thead><tr><th>'+
+            ('Lieu' if fr else 'Geography')+'</th>'+
+            ''.join('<th>'+html.escape(k.replace('_',' '))+'</th>' for k in fields)+
+            '</tr></thead><tbody>')
+        for place,row in rows:
+            old=numeric_fields(oldrows.get(place,{}))
+            nums=numeric_fields(row)
+            start.append('<tr><th>'+html.escape(place)+'</th>')
+            for metric in fields:
+                value=nums.get(metric)
+                if value is None:start.append('<td>—</td>');continue
+                v=f'{value:,.1f}' if isinstance(value,float) else f'{value:,}'
+                prev=old.get(metric)
+                if type(prev) in (int,float):
+                    delta=value-prev
+                    suffix=' pp' if metric in PERCENT_FIELDS or metric.endswith(RATE_SUFFIXES) else ''
+                    change=('+' if delta>0 else '')+f'{delta:,.1f}' if suffix or isinstance(delta,float) else ('+' if delta>0 else '')+f'{delta:,}'
+                    v+=' <small>('+change+suffix+')</small>'
+                start.append('<td>'+html.escape(v)+'</td>')
+            start.append('</tr>')
+        start.append('</tbody></table></div>')
+        missing=tab.get('reporting_gaps',[])
+        if missing:
+            names=', '.join(str(x.get('scope','')) for x in missing if isinstance(x,dict))
+            start.append('<p>'+('Absence de rapportage : ' if fr else 'Reporting gaps: ')+html.escape(names)+'</p>')
+        start.append('</details>')
+    url=report.get('source_url') or ''
+    if url.startswith('https://'):
+        start.append('<p><a href="'+html.escape(url,quote=True)+'" rel="noopener" target="_blank">'+
+           ('PDF original du SitRep' if fr else 'Original SitRep PDF')+'</a> · SHA-256: <code>'+report['source_sha256']+'</code></p>')
+    start.append('</section>')
+    return ''.join(start)
+
 def render_html(r,lang):
     fr=lang=='fr'
     mode={'daily':('Daily','Quotidien'),'weekly':('Weekly','Hebdomadaire'),'monthly':('Monthly','Mensuel')}[r['frequency']][int(fr)]
@@ -217,11 +332,12 @@ def render_html(r,lang):
     else:
         contact_rows='<tr><td colspan=\"3\">'+('Aucun tableau 4 validé pour la date de référence.' if fr else 'No machine-validated Table 4 for the reference date.')+'</td></tr>'
     delta='; '.join(k+': '+str(v) for k,v in r['changes'].items()) or '—'
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — African Intelligence</title><link rel="stylesheet" href="/assets/css/african-intelligence.css"><style>main{{max-width:920px;margin:24px auto;padding:0 18px;color:#244953}}header{{border-radius:15px;background:linear-gradient(115deg,#02475a,#097392);padding:28px;color:white}}header h1{{color:white}}.cards{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}}.cards article{{border-radius:12px;background:#f0f7f8;padding:16px}}.cards strong{{display:block;color:#02475a;font-size:29px}}table{{width:100%;border-collapse:collapse}}td,th{{padding:10px;border-bottom:1px solid #dce9ec;text-align:left}}footer{{color:#627d85;font-size:12px;line-height:1.6;margin:20px 0}}@media(max-width:600px){{.cards{{grid-template-columns:1fr}}}}</style></head><body><main><p><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a></p><header><small>AFRICAN INTELLIGENCE · BDBV 2026</small><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><h2>{labels[3]}</h2><p>{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])) if t4 else ''}</p><table><thead><tr><th>Indicator</th><th>Value</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table>{source_digest_html(r,lang)}<footer>INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} — African Intelligence</title><link rel="stylesheet" href="/assets/css/african-intelligence.css"><style>main{{max-width:920px;margin:24px auto;padding:0 18px;color:#244953}}header{{border-radius:15px;background:linear-gradient(115deg,#02475a,#097392);padding:28px;color:white}}header h1{{color:white}}.cards{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}}.cards article{{border-radius:12px;background:#f0f7f8;padding:16px}}.cards strong{{display:block;color:#02475a;font-size:29px}}table{{width:100%;border-collapse:collapse}}.annex-scroll{{max-width:100%;overflow:auto}}.annex-scroll table{{min-width:760px;font-size:12px}}.annex-scroll td{{white-space:nowrap}}.source-table{{margin:12px 0;padding:8px;border:1px solid #dde9ec;border-radius:8px}}.source-table summary{{cursor:pointer;font-weight:700;color:#02516a}}td,th{{padding:10px;border-bottom:1px solid #dce9ec;text-align:left}}footer{{color:#627d85;font-size:12px;line-height:1.6;margin:20px 0}}@media(max-width:600px){{.cards{{grid-template-columns:1fr}}}}</style></head><body><main><p><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a></p><header><small>AFRICAN INTELLIGENCE · BDBV 2026</small><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><h2>{labels[3]}</h2><p>{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])) if t4 else ''}</p><table><thead><tr><th>Indicator</th><th>Value</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table>{source_digest_html(r,lang)}{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}<footer>INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
 
 def build(accepted,output,stage=None,published=None):
     rows,commit=read_evidence(accepted,stage);nat,contacts=aggregate(rows)
     table4=load_table4(published);narratives=load_narratives(published)
+    original_reports=load_original_table_snapshots(published)
     for date,record in table4.items():
         contacts.setdefault(date,{})['table4']=record
     if len(nat)<2:raise ValueError('Insufficient paired national source snapshots')
@@ -238,10 +354,18 @@ def build(accepted,output,stage=None,published=None):
                 diff=v[metric]-old[metric]
                 if diff>=0:delta[metric+' net cumulative change']=diff
         period_table4=table4.get(max((d for d in table4 if start<=d<=day),default=''))
+        # For the full numerical annex, the latest original SitRep WITHIN the
+        # relevant day/week/month; never carry another period's values forward.
+        period_reports=[d for d in original_reports if start<=d<=day]
+        original_day=max(period_reports) if period_reports else None
+        current_original=original_reports.get(original_day)
+        earlier_reports=[d for d in original_reports if original_day and d<start]
+        previous_original=original_reports.get(max(earlier_reports)) if earlier_reports else None
         detail=dict(frequency=freq,period_start=start,period_end=end,source_date=day,cases=v['cases'],deaths=v['deaths'],
                     source_quality=v['source'],source_commit=commit if v['source']!='historical_qualified' else FROZEN,
                     contact=contacts.get(day,{}),table4=period_table4,
-                    narrative=period_narratives(narratives,start,day,max_reports=2 if freq=='daily' else 4),changes=delta)
+                    narrative=period_narratives(narratives,start,day,max_reports=2 if freq=='daily' else 4),
+                    original_report=current_original,prior_report=previous_original,changes=delta)
         target=public/'bulletins'/freq;target.mkdir(parents=True,exist_ok=True)
         langs=[]
         for lang in ('en','fr'):
@@ -260,7 +384,7 @@ def build(accepted,output,stage=None,published=None):
       'days':contacts,'note':'Sums of reporting zones only; missing is not zero; no denominator-based follow-up rate calculated.'},ensure_ascii=False),encoding='utf-8')
     summary={'schema_version':'ai-bdbv-bulletin-build-v1','edition_counts':dict(counts),'earliest':dates[0],'latest':dates[-1],
        'historical_commit':FROZEN,'new_commit':commit,'qualified_sources':True,
-       'no_ai_generated_content':True,'not_event_date_incidence':True,'machine_validated_table4_dates':len(table4),'narrative_source_reports':len(narratives),
+       'no_ai_generated_content':True,'not_event_date_incidence':True,'machine_validated_table4_dates':len(table4),'narrative_source_reports':len(narratives),'original_sitrep_table_reports':len(original_reports),
        'site_deployment_requires_explicit_configuration':True}
     (output/'BULLETIN_BUILD_REPORT.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(summary,indent=2))
