@@ -264,7 +264,7 @@ def numeric_annex_html(report,prior,lang):
     for key,names in TABLE_NAMES.items():
         tab=report.get('tables',{}).get(key) or {}
         status=tab.get('status','NOT_EXTRACTED')
-        start.append('<details class="source-table" '+('open' if key in ('table_1','table_3','table_4','table_5') else '')+'><summary>Table '+key[-1]+' — '+html.escape(names[int(fr)])+' · '+html.escape(status)+'</summary>')
+        start.append('<details class="source-table" '+('open' if key in ('table_1','table_3','table_4','table_5') else '')+'><summary>Table '+str(tab.get('original_table_number',key[-1]))+' — '+html.escape(names[int(fr)])+' · '+html.escape(status)+'</summary>')
         if status!='MACHINE_VALIDATED':
             start.append('<p>'+('Non publié : extraction absente ou reconciliation requise' if fr else
                 'Not published: extraction missing or source reconciliation pending')+'</p></details>')
@@ -283,7 +283,7 @@ def numeric_annex_html(report,prior,lang):
         for place,row in rows:
             old=numeric_fields(oldrows.get(place,{}))
             nums=numeric_fields(row)
-            start.append('<tr><th>'+html.escape(place)+'</th>')
+            start.append('<tr><th>'+html.escape(place)+((' <small>p. '+str(row['source']['page'])+'</small>') if isinstance(row.get('source'),dict) and row['source'].get('page') else '')+'</th>')
             for metric in fields:
                 value=nums.get(metric)
                 if value is None:start.append('<td>—</td>');continue
