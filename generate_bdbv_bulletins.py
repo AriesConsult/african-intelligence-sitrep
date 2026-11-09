@@ -439,7 +439,9 @@ def build(accepted,output,stage=None,published=None):
                     if t.get('status')=='MACHINE_VALIDATED'),
                 'follow_up_pct':(table4.get(day) or {}).get('national',{}).get('follow_up_pct'),
                 'follow_up_source_report':(table4.get(day) or {}).get('source_report'),
-                'narrative_source_excerpts':[{'topic':x['topic'],'text':x['excerpt'],
+                # Metadata only: raw source narratives can contain names/contact data.
+                # Do not send unreviewed source-text bodies to an external model.
+                'narrative_source_leads':[{'topic':x['topic'],
                     'status':x['status'],'report':x['report'],'page':x['page'],
                     'source_url':x.get('source_url')} for x in detail['narrative']]
             })
