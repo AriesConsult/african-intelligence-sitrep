@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'generate_bdbv_bulletins.py'
+      - 'build_bdbv_assessments.py'
+      - 'tests/test_bdbv_assessments.py'
       - 'tests/test_bdbv_bulletins.py'
       - '.github/workflows/bdbv-bulletins.yml'
   schedule:
@@ -29,7 +31,7 @@ jobs:
       - name: Test deterministic generator
         run: |
           python -m pip install -r requirements.txt pytest
-          python -m pytest -q tests/test_bdbv_bulletins.py tests/test_inrb_staging.py
+          python -m pytest -q tests/test_bdbv_bulletins.py tests/test_bdbv_assessments.py tests/test_inrb_staging.py
       - name: Fetch accepted historical evidence
         run: |
           mkdir -p work/evidence
@@ -57,6 +59,27 @@ jobs:
       - name: Back-create historical and current bilingual editions
         run: |
           python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --published published --out work/output
+      - name: Build weekly and monthly analytical evidence packs
+        run: |
+          python build_bdbv_assessments.py \
+            --evidence work/output/BULLETIN_ANALYTICAL_EVIDENCE.json \
+            --out work/assessments
+      - name: Generate optional editorial AI assessment drafts
+        if: ${{ vars.BDBV_AI_ASSESSMENTS_ENABLED == 'true' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BDBV_AI_MODEL: ${{ vars.BDBV_AI_MODEL }}
+        run: |
+          python build_bdbv_assessments.py \
+            --evidence work/output/BULLETIN_ANALYTICAL_EVIDENCE.json \
+            --out work/assessments \
+            --draft-ai
+      - name: Archive private analytical evidence and drafts
+        uses: actions/upload-artifact@v4
+        with:
+          name: bdbv-assessment-review-${{ github.run_id }}
+          path: work/assessments/
+          retention-days: 90
       - name: Validate publication links and source data
         run: |
           python - <<'PY'
@@ -104,7 +127,7 @@ jobs:
         env:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
         run: |
-          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py sitrep_tables.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
+          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py build_bdbv_assessments.py sitrep_tables.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
           TAG="bdbv-rulebased-bulletins-${UPSTREAM_SHA:0:12}-${GEN_HASH}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
