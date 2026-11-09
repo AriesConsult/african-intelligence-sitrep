@@ -118,27 +118,42 @@ jobs:
             work/BDBV_BULLETINS_SITE_UPLOAD.zip
             work/output/BULLETIN_BUILD_REPORT.json
           retention-days: 90
-      - name: Optional One.com FTPS synchronization
+      - name: Optional One.com SFTP synchronization
         env:
           ENABLED: ${{ vars.BDBV_BULLETIN_DEPLOY_ENABLED }}
-          HOST: ${{ secrets.BDBV_FTPS_HOST }}
-          USER: ${{ secrets.BDBV_FTPS_USER }}
-          PASS: ${{ secrets.BDBV_FTPS_PASSWORD }}
-          REMOTE: ${{ vars.BDBV_FTPS_PUBLIC_HTML }}
+          HOST: ${{ vars.BDBV_SFTP_HOST }}
+          USER: ${{ vars.BDBV_SFTP_USER }}
+          PASS: ${{ secrets.BDBV_SFTP_PASSWORD }}
+          HOST_KEYS: ${{ secrets.BDBV_SFTP_KNOWN_HOSTS }}
+          REMOTE: ${{ vars.BDBV_SFTP_WEB_ROOT }}
         run: |
           if [ "$ENABLED" != 'true' ]; then
-            echo 'Site auto-sync disabled; ZIP available in GitHub release.'
+            echo 'SFTP deployment disabled. Versioned ZIP remains available in GitHub Releases.'
             exit 0
           fi
-          test -n "$HOST" && test -n "$USER" && test -n "$PASS" || { echo 'Incomplete FTPS configuration'; exit 1; }
-          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-          lftp -u "$USER","$PASS" -e "
+          : "${HOST:=ssh.africa-research.eu}"
+          : "${USER:=africa-research.eu}"
+          test -n "$HOST" && test -n "$USER" && test -n "$PASS" && test -n "$HOST_KEYS" && test -n "$REMOTE" || {
+            echo 'SFTP setup incomplete: provide verified host key, password and explicit remote website root.'
+            exit 1
+          }
+          # Never accept an SSH key learned over an unverified network connection.
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$HOST_KEYS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+          ssh-keygen -F "$HOST" -f ~/.ssh/known_hosts >/dev/null || {
+            echo 'Pinned SSH known_hosts does not contain the SFTP hostname.'
+            exit 1
+          }
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq lftp
+          # No --delete. Scope is limited to bulletin pages and their three JSON feeds.
+          # Quoted SFTP URL and lftp's ssh connect-program ensure port 22 + host-key validation.
+          lftp -u "$USER","$PASS" "sftp://$HOST:22" -e "
             set cmd:fail-exit true;
             set net:max-retries 3;
-            set ftp:ssl-force true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate true;
-            open ftps://$HOST;
-            mirror -R --only-newer work/output/bdvd2026/bulletins ${REMOTE:-public_html}/bdvd2026/bulletins;
-            mirror -R --only-newer work/output/bdvd2026/assets/data ${REMOTE:-public_html}/bdvd2026/assets/data;
+            set sftp:connect-program \"ssh -a -x -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts\";
+            mirror -R --only-newer work/output/bdvd2026/bulletins $REMOTE/bdvd2026/bulletins;
+            mirror -R --only-newer work/output/bdvd2026/assets/data $REMOTE/bdvd2026/assets/data;
             bye"
