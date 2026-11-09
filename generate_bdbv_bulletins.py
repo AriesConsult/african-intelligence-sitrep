@@ -91,7 +91,7 @@ def load_table4(published):
     root=Path(published);index=root/'table_index.json'
     if not index.is_file():return result
     for ref in json.loads(index.read_text(encoding='utf-8')).get('reports',[]):
-        rel=ref.get('snapshot_path','')
+        rel=ref.get('snapshot_path') or ''
         if not rel.startswith('tables/') or '..' in rel:continue
         try:
             snap=json.loads((root/rel).read_text(encoding='utf-8'))
@@ -144,7 +144,7 @@ def load_narratives(published):
     if not idx.exists():return []
     out=[]
     for ref in json.loads(idx.read_text(encoding='utf-8')).get('reports',[]):
-        rel=ref.get('snapshot_path','')
+        rel=ref.get('snapshot_path') or ''
         if not rel.startswith('narrative_candidates/') or '..' in rel:continue
         try:
             snap=json.loads((root/rel).read_text(encoding='utf-8'))
