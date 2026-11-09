@@ -288,13 +288,15 @@ def numeric_annex_html(report,prior,lang):
                 value=nums.get(metric)
                 if value is None:start.append('<td>—</td>');continue
                 v=f'{value:,.1f}' if isinstance(value,float) else f'{value:,}'
+                # Escape numeric text first; trusted delta markup must not be escaped.
+                cell=html.escape(v)
                 prev=old.get(metric)
                 if type(prev) in (int,float):
                     delta=value-prev
                     suffix=' pp' if metric in PERCENT_FIELDS or metric.endswith(RATE_SUFFIXES) else ''
                     change=('+' if delta>0 else '')+f'{delta:,.1f}' if suffix or isinstance(delta,float) else ('+' if delta>0 else '')+f'{delta:,}'
-                    v+=' <small>('+change+suffix+')</small>'
-                start.append('<td>'+html.escape(v)+'</td>')
+                    cell+=' <small>('+html.escape(change+suffix)+')</small>'
+                start.append('<td>'+cell+'</td>')
             start.append('</tr>')
         start.append('</tbody></table></div>')
         missing=tab.get('reporting_gaps',[])
