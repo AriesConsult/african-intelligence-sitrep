@@ -71,7 +71,7 @@ jobs:
         env:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
         run: |
-          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py | cut -c1-12)"
+          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
           TAG="bdbv-rulebased-bulletins-${UPSTREAM_SHA:0:12}-${GEN_HASH}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
