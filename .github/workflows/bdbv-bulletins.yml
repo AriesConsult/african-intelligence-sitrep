@@ -44,6 +44,10 @@ jobs:
       - name: Stage current INRB source candidates
         run: |
           python stage_inrb_series.py --registry state/registry.json --inrb-commit "${{ steps.upstream.outputs.sha }}" --out work/current_stage
+      - name: Reprocess archived original SitRep table grids using latest semantics
+        run: |
+          # Local working-copy reprocessing only; does NOT publish or rewrite the operational feed.
+          python reprocess_tables.py --queue review_queue --published published --registry state/registry.json --feed work/bulletin_source_feed.json
       - name: Back-create historical and current bilingual editions
         run: |
           python generate_bdbv_bulletins.py --accepted work/evidence/historical_qualified_release.csv --stage work/current_stage --published published --out work/output
@@ -71,7 +75,7 @@ jobs:
         env:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
         run: |
-          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
+          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py sitrep_tables.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
           TAG="bdbv-rulebased-bulletins-${UPSTREAM_SHA:0:12}-${GEN_HASH}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
