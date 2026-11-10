@@ -120,12 +120,12 @@ def test_digest_never_reuses_same_source_passage_across_topics():
     distinct='Les équipes ont fourni de nouveaux équipements aux structures de santé pour soutenir les interventions quotidiennes.'
     snap={'date':'2026-11-05','report_number':175,'source_url':'https://example.org/sitrep.pdf',
       'candidates':[
-        {'candidate_id':'c1','page':7,'excerpt':shared,'topic_tags':['treatment_capacity','logistics','service_continuity'],
+        {'candidate_id':'c1','page':7,'excerpt':shared,'topic_tags':['treatment_capacity','logistics_and_supplies','service_continuity'],
          'review_status':'REVIEW_REQUIRED','excerpt_truncated':False,'event_type_candidates':['challenge']},
-        {'candidate_id':'c2','page':8,'excerpt':distinct,'topic_tags':['logistics'],
+        {'candidate_id':'c2','page':8,'excerpt':distinct,'topic_tags':['logistics_and_supplies'],
          'review_status':'REVIEW_REQUIRED','excerpt_truncated':False,'event_type_candidates':[]}]}
     result=period_narratives([snap],'2026-11-05','2026-11-05')
-    assert [x['topic'] for x in result]==['treatment_capacity','logistics']
+    assert [x['topic'] for x in result]==['treatment_capacity','logistics_and_supplies']
     assert [x['candidate_id'] for x in result]==['c1','c2']
     assert len({x['excerpt'].casefold() for x in result})==len(result)
     assert all(x['status']=='REVIEW_REQUIRED' for x in result)
@@ -173,3 +173,9 @@ def test_bilingual_bulletin_layout_keeps_site_stylesheet_and_responsive_tables()
         assert 'id="annex"' in page
         assert '@media(max-width:760px)' in page
         assert '<table>' in page
+
+
+def test_narrative_fixture_topic_tags_align_with_real_registry():
+    from generate_bdbv_bulletins import TOPIC_NAMES
+    assert 'logistics_and_supplies' in TOPIC_NAMES
+    assert 'logistics' not in TOPIC_NAMES
