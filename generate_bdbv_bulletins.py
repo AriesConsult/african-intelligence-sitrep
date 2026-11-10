@@ -392,7 +392,7 @@ tbody tr:nth-child(even){{background:#f8fbfb}}
 .bulletin-footer{{color:#526a73;font-size:.8rem;line-height:1.65;margin:28px 0;overflow-wrap:anywhere;border-top:1px solid #dce9ec;padding-top:16px}}
 @media(max-width:760px){{.cards{{grid-template-columns:1fr}}.source-digest{{grid-template-columns:1fr}}}}
 @media print{{body{{background:white}}.bulletin-page{{max-width:none}}.source-digest{{display:block}}.digest-item{{break-inside:avoid;margin:10px 0}}.passage p{{display:block}}}}
-</style></head><body><main class="bulletin-page"><nav class="bulletin-nav" aria-label="Bulletin navigation"><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a><a href="#annex">{"Annexe numérique" if fr else "Numerical annex"} ↓</a></nav><header class="bulletin-hero"><div class="eyebrow">AFRICAN INTELLIGENCE · BDBV 2026</div><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p class="source-meta"><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><section class="bulletin-section"><h2>{labels[3]}</h2><p>{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])) if t4 else ''}</p><div class="data-table-scroll"><table><thead><tr><th>{"Indicateur" if fr else "Indicator"}</th><th>{"Valeur" if fr else "Value"}</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table></div></section>{source_digest_html(r,lang)}<div id="annex">{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}</div><footer class="bulletin-footer">INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
+</style></head><body><main class="bulletin-page"><nav class="bulletin-nav" aria-label="Bulletin navigation"><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a><a href="#annex">{"Annexe numérique" if fr else "Numerical annex"} ↓</a></nav><header class="bulletin-hero"><div class="eyebrow">AFRICAN INTELLIGENCE · BDBV 2026</div><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p class="source-meta"><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><section class="bulletin-section"><h2>{labels[3]}</h2><p class="source-meta">{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])+' · '+('Date des contacts : ' if fr else 'Contact reference date: ')+html.escape(str(r.get('table4_source_date') or '—'))) if t4 else ''}</p><div class="data-table-scroll"><table><thead><tr><th>{"Indicateur" if fr else "Indicator"}</th><th>{"Valeur" if fr else "Value"}</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table></div></section>{source_digest_html(r,lang)}<div id="annex">{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}</div><footer class="bulletin-footer">INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
 
 def build(accepted,output,stage=None,published=None):
     rows,commit=read_evidence(accepted,stage);nat,contacts=aggregate(rows)
@@ -404,7 +404,12 @@ def build(accepted,output,stage=None,published=None):
     dates=sorted(nat);output=Path(output)
     public=output/'bdvd2026';(public/'assets/data').mkdir(parents=True,exist_ok=True)
     items=[];weekly=[];counts=Counter();daily_evidence=[]
+    # Publish only completed calendar reporting periods. A new observation in
+    # November must not create a November 30 monthly edition on November 10.
+    today_eat=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))).date().isoformat()
     for freq,start,end in periods(dates):
+        if end>today_eat:
+            continue
         covered=[d for d in dates if start<=d<=end]
         if not covered:continue
         day=covered[-1];v=nat[day];previous=[d for d in dates if d<start];delta={}
@@ -421,7 +426,9 @@ def build(accepted,output,stage=None,published=None):
         current_original=original_reports.get(original_day)
         earlier_reports=[d for d in original_reports if original_day and d<start]
         previous_original=original_reports.get(max(earlier_reports)) if earlier_reports else None
-        detail=dict(frequency=freq,period_start=start,period_end=end,source_date=day,cases=v['cases'],deaths=v['deaths'],
+        detail=dict(frequency=freq,period_start=start,period_end=end,source_date=day,
+                    table4_source_date=max((d for d in table4 if start<=d<=day),default=None),
+                    cases=v['cases'],deaths=v['deaths'],
                     source_quality=v['source'],source_commit=commit if v['source']!='historical_qualified' else FROZEN,
                     contact=contacts.get(day,{}),table4=period_table4,
                     narrative=period_narratives(narratives,start,day,max_reports=2 if freq=='daily' else 4),
