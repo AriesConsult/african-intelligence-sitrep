@@ -136,3 +136,7 @@ The bilingual daily, weekly and monthly bulletin build is documented in [docs/BU
 ## BDBV weekly/monthly AI assessment drafts and SFTP publication
 
 The source bulletins now produce [daily evidence → ISO-weekly/monthly review packs](docs/BULLETINS.md), with an optional **private, editorial-review-required** AI draft workflow. There is no automatic AI publication. The approved site delivery route is One.com SFTP on port 22 with pinned SSH host key, not FTP; configuration and operational safeguards are documented in [docs/BULLETINS.md](docs/BULLETINS.md).
+
+## Current BDBV publication architecture (10 November 2026)
+
+**GitHub generates versioned source-only bulletins and analytical evidence JSON; One.com performs HTTPS pulls and runs the existing website AI protocols.** There is no GitHub AI call and no SFTP/FTPS deployment in the active bulletin workflow. The GitHub ZIP contains a per-file SHA-256 manifest, daily evidence, ISO-week and monthly evidence packs. The website-side synchronizer/editorial approval integration is pending; use manual ZIP upload until implemented. See [docs/BULLETINS.md](docs/BULLETINS.md) (10 November section). Earlier references to SFTP and GitHub AI in this README describe superseded architecture.
