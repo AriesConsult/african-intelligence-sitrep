@@ -1,15 +1,15 @@
 {
   "schema_version": "bdbv-publication-gate-v1",
-  "generated_at": "2026-11-10T21:46:05.606678+00:00",
+  "generated_at": "2026-11-10T22:46:29.213096+00:00",
   "pass": true,
   "numerical_archive_completeness": "PARTIAL_VALIDATION",
   "narrative_coverage": "ALL_CATALOGUED_REPORTS_CLASSIFIED",
   "original_pdf_archive_coverage": "PARTIAL",
   "counters": {
-    "observations_checked": 33,
-    "machine_observations_reconciled": 33,
-    "narrative_reports_checked": 161,
-    "narrative_candidate_blocks_checked": 4656
+    "observations_checked": 36,
+    "machine_observations_reconciled": 36,
+    "narrative_reports_checked": 162,
+    "narrative_candidate_blocks_checked": 4681
   },
   "errors": [],
   "interpretation": "PASS certifies published-record consistency, not historical completeness or independent source verification."
