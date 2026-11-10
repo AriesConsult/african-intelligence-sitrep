@@ -179,3 +179,15 @@ def test_narrative_fixture_topic_tags_align_with_real_registry():
     from generate_bdbv_bulletins import TOPIC_NAMES
     assert 'logistics_and_supplies' in TOPIC_NAMES
     assert 'logistics' not in TOPIC_NAMES
+
+
+def test_unfinished_reporting_periods_are_not_published():
+    from generate_bdbv_bulletins import completed_periods
+    observations=['2026-10-30','2026-11-03','2026-11-06']
+    periods=list(completed_periods(observations,'2026-11-10'))
+    assert ('weekly','2026-11-02','2026-11-08') in periods
+    assert ('monthly','2026-10-01','2026-10-31') in periods
+    assert ('monthly','2026-11-01','2026-11-30') not in periods
+    # No incomplete active week before its Sunday closing date.
+    earlier=list(completed_periods(observations,'2026-11-06'))
+    assert ('weekly','2026-11-02','2026-11-08') not in earlier
