@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4569,
+  "candidate_blocks_checked": 4656,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -10518,88 +10518,364 @@
       "date": "2026-11-05",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 12,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 9,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 18,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "unclassified"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-06",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 10,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "unclassified"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-07",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 6,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 6,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 9,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "unclassified"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-08",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 249,
+      "candidate_passages": 255,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 74,
+      "distinct_reporting_sitreps": 75,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
           "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "176-p07-b007-36d9f379eb",
+            "date": "2026-11-06",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
           "excerpt": "Au Haut-Uélé, 3 000 doses d’Ervebo ont été réceptionnées à l’antenne PEV d’Isiro et des députés et officiers de l’armée ont été sensibilisés au site de vaccination de l’HGR d’Isiro. Au Bas-Uélé, l’équ",
           "source": {
-            "candidate_id": "175-p08-b001-9ec1eb7adf",
-            "date": "2026-11-05",
+            "candidate_id": "176-p08-b005-9ec1eb7adf",
+            "date": "2026-11-06",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 252,
+      "candidate_passages": 262,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 89,
+      "distinct_reporting_sitreps": 92,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Nord-Kivu : 54 EDS et 56 corps swabés pour 68 alertes, 28 reports. Un échec à Musienene (résistance communautaire). Ces données datent du 05/11. Tshopo : sur 14 alertes, seulement 1 corps swabé et 1 E",
+          "source": {
+            "candidate_id": "178-p07-b004-f6938afb54",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "2.3.2. Haut-Uélé : faible complétude des rapports : 4 ZS sur 7 (57,1 %) ont envoyé leurs données ; manque de kits PCI pour les ESS ; activation des équipes EDS formées par FHI 360 dans les différentes",
+          "source": {
+            "candidate_id": "177-p06-b024-6cfde31bb2",
+            "date": "2026-11-07",
+            "page": 6,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
+          "excerpt": "Sur les 24 derniers cas confirmés, 17 (70,8 %) (À l’équipe : paragraphe relevant de la SMSPS ; le Nord-Kivu compte 12 nouveaux cas le 7 novembre et non 24 ; le déplacer dans la rubrique SMSPS et l’act",
+          "source": {
+            "candidate_id": "177-p07-b001-4221785f19",
+            "date": "2026-11-07",
+            "page": 7,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 490,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 151,
+      "event_type_candidate": "activity_or_delivery",
+      "first_report_date": "2026-05-19",
+      "last_report_date": "2026-11-08",
+      "province_mention": "Ituri",
+      "recent_examples": [
+        {
+          "excerpt": "Nord-Kivu : 54 EDS et 56 corps swabés pour 68 alertes, 28 reports. Un échec à Musienene (résistance communautaire). Ces données datent du 05/11. Tshopo : sur 14 alertes, seulement 1 corps swabé et 1 E",
+          "source": {
+            "candidate_id": "178-p07-b004-f6938afb54",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "2.3.2. Haut-Uélé : faible complétude des rapports : 4 ZS sur 7 (57,1 %) ont envoyé leurs données ; manque de kits PCI pour les ESS ; activation des équipes EDS formées par FHI 360 dans les différentes",
+          "source": {
+            "candidate_id": "177-p06-b024-6cfde31bb2",
+            "date": "2026-11-07",
+            "page": 6,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
           "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "176-p07-b007-36d9f379eb",
+            "date": "2026-11-06",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "Au Haut-Uélé, 3 000 doses d’Ervebo ont été réceptionnées à l’antenne PEV d’Isiro et des députés et officiers de l’armée ont été sensibilisés au site de vaccination de l’HGR d’Isiro. Au Bas-Uélé, l’équ",
-          "source": {
-            "candidate_id": "175-p08-b001-9ec1eb7adf",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
@@ -10608,124 +10884,82 @@
     {
       "candidate_passages": 484,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 148,
-      "event_type_candidate": "activity_or_delivery",
-      "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-05",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "2.3. Prévention et Contrôle de l'Infection (PCI/EDS) 2.3.1. Principales actions Ituri : 15 rings ouverts sur 29 (51,7 %), 42 ménages décontaminés sur 52 (80,8 %) et 5 FOSA sur 8 (62,5 %) ; 69 EDS réal",
-          "source": {
-            "candidate_id": "175-p06-b020-0c42a2de9d",
-            "date": "2026-11-05",
-            "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
-          "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 474,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 138,
+      "distinct_reporting_sitreps": 141,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu : 9 rings ouverts sur 16 (56,3 %), 7 ménages décontaminés sur 19 (36,8 %), aucun n’ayant été doté en kits, et 16 ESS sur 19 (84,2 %) ; formation et renforcement des capacités : 3e jour de la",
+          "excerpt": "Nord-Kivu : 54 EDS et 56 corps swabés pour 68 alertes, 28 reports. Un échec à Musienene (résistance communautaire). Ces données datent du 05/11. Tshopo : sur 14 alertes, seulement 1 corps swabé et 1 E",
           "source": {
-            "candidate_id": "175-p06-b021-8f43e1016d",
-            "date": "2026-11-05",
+            "candidate_id": "178-p07-b004-f6938afb54",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : évaluation de l’hôpital de Manguredjipa. Pas de triage, équipement de protection insuffisant, 0 % de prestataires formés en soins obstétricaux d’urgence, 55 agents exposés et 13 en quarant",
+          "source": {
+            "candidate_id": "178-p07-b011-354f15818a",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "2.3. Prévention et Contrôle de l'Infection (PCI/EDS) 2.3.1. Principales actions Nord Kivu : Les activités PCI-WASH présentent des résultats encore insuffisants, avec 5 rings ouverts sur 6 et un gap si",
+          "source": {
+            "candidate_id": "177-p06-b022-6ab9cb2127",
+            "date": "2026-11-07",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
-          "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 16,
+      "candidate_passages": 20,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 7,
+      "distinct_reporting_sitreps": 8,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
           "excerpt": "Au Haut-Uélé, 3 000 doses d’Ervebo ont été réceptionnées à l’antenne PEV d’Isiro et des députés et officiers de l’armée ont été sensibilisés au site de vaccination de l’HGR d’Isiro. Au Bas-Uélé, l’équ",
           "source": {
-            "candidate_id": "175-p08-b001-9ec1eb7adf",
-            "date": "2026-11-05",
+            "candidate_id": "176-p08-b005-9ec1eb7adf",
+            "date": "2026-11-06",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
-          "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
             "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
+        {
+          "excerpt": "À la Tshopo, 210 visites à domicile ont touché 3 645 personnes, 4 causeries éducatives 421 personnes et 10 sensibilisations de masse 5 508 personnes (Lubunga, Kabondo, Makiso, Bafwasende et Tshopo) ; ",
+          "source": {
+            "candidate_id": "176-p10-b001-588a2b5381",
+            "date": "2026-11-06",
+            "page": 10,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
@@ -10774,14 +11008,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 20,
+      "candidate_passages": 21,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 14,
+      "distinct_reporting_sitreps": 15,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
+          "source": {
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
           "source": {
@@ -10801,307 +11045,297 @@
             "report_number": 174,
             "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
           }
-        },
-        {
-          "excerpt": "persiste ; au Bas-Uélé, la mise en marche des UCC n’est toujours pas effective, la prise en charge des acteurs de terrain accuse du retard et la ZS de Bili ne compte encore aucun vacciné (0/1 067). 2.",
-          "source": {
-            "candidate_id": "173-p09-b000-73242928e2",
-            "date": "2026-11-03",
-            "page": 9,
-            "report_number": 173,
-            "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 339,
+      "candidate_passages": 349,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 102,
+      "distinct_reporting_sitreps": 105,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Tshopo : 1 ring ouvert (Makiso-Kisangani) et décontamination d’un ménage autour du 94e cas (Kabondo) et d’un ESS autour du 95e cas (Makiso-Kisangani), ainsi que du bureau d’inspection et de la grande ",
+          "excerpt": "Nord-Kivu : 54 EDS et 56 corps swabés pour 68 alertes, 28 reports. Un échec à Musienene (résistance communautaire). Ces données datent du 05/11. Tshopo : sur 14 alertes, seulement 1 corps swabé et 1 E",
           "source": {
-            "candidate_id": "175-p06-b022-5ec5e20946",
-            "date": "2026-11-05",
-            "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p07-b004-f6938afb54",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "Tshopo : évaluation de 3 ESS. Aucun prestataire formé, pas de triage ni d’incinérateur, baisse de fréquentation des services curatifs, de la consultation prénatale et de la vaccination, et grève des a",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
+            "candidate_id": "178-p07-b012-bd8fa52d0b",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "Tshopo : 100 % des cas suspects et confirmés suivis, 2 résistances notifiées (1 levée, à Bethsaïda). Besoin de former les APS de Wanierukula et de moyens de déplacement.",
+          "source": {
+            "candidate_id": "178-p08-b005-7f1a89c1d3",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "À la Tshopo, 210 visites à domicile ont touché 3 645 personnes, 4 causeries éducatives 421 personnes et 10 sensibilisations de masse 5 508 personnes (Lubunga, Kabondo, Makiso, Bafwasende et Tshopo) ; ",
-          "source": {
-            "candidate_id": "175-p09-b003-53ee0568fb",
-            "date": "2026-11-05",
-            "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 332,
+      "candidate_passages": 336,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 150,
+      "distinct_reporting_sitreps": 153,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-14",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
         {
           "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
           "source": {
-            "candidate_id": "175-p04-b046-78fce29d6a",
-            "date": "2026-11-05",
-            "page": 4,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "capacités : 11 infirmiers briefés à Wamba sur la fonctionnalité des DLM, l’injection sécurisée et les précautions standards, avec dotation en kits PCI et triage fonctionnel dans les 4 ESS visités de l",
-          "source": {
-            "candidate_id": "175-p07-b000-705f4e8322",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p05-b000-78fce29d6a",
+            "date": "2026-11-08",
+            "page": 5,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
           "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
           "source": {
-            "candidate_id": "174-p05-b000-78fce29d6a",
-            "date": "2026-11-04",
+            "candidate_id": "177-p04-b038-78fce29d6a",
+            "date": "2026-11-07",
+            "page": 4,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
+          "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
+          "source": {
+            "candidate_id": "176-p05-b006-78fce29d6a",
+            "date": "2026-11-06",
             "page": 5,
-            "report_number": 174,
-            "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 218,
+      "candidate_passages": 224,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 77,
+      "distinct_reporting_sitreps": 79,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-07",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
+          "excerpt": "2.11.2. Défis La couverture des zones touchées reste faible : seuls l’Ituri, le Nord-Kivu, le Haut-Uélé et le Bas-Uélé ont rapporté leurs activités PSEA pour la journée (4 DPS sur 8 ; 50,0 %) ; au Bas",
+          "source": {
+            "candidate_id": "177-p09-b003-e7c960b29e",
+            "date": "2026-11-07",
+            "page": 9,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
           "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "176-p07-b007-36d9f379eb",
+            "date": "2026-11-06",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 241,
+      "candidate_passages": 251,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 91,
+      "distinct_reporting_sitreps": 94,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
+          "excerpt": "Nord-Kivu : 23 nouveaux cas confirmés (17 vivants et 6 décès) ; les laboratoires de Beni et de Butembo ont reçu 279 échantillons et en ont analysé 276 (positivité : 4,3 %) .Tshopo : 11 prélèvements (8",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "178-p06-b038-99786f7d3b",
+            "date": "2026-11-08",
+            "page": 6,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "Haut-Uele : 1/1 ring ouvert et 7/7 ménages décontaminés, 0 ESS décontaminé. Manque de kits PCI. Les superviseurs de Rungu, Dungu, Boma Mangbetu et Gombari ne sont pas actifs.",
+          "source": {
+            "candidate_id": "178-p07-b001-a1009cf60c",
+            "date": "2026-11-08",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 409,
+      "candidate_passages": 417,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 124,
+      "distinct_reporting_sitreps": 127,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.3. Prévention et Contrôle de l'Infection (PCI/EDS) 2.3.1. Principales actions Ituri : 15 rings ouverts sur 29 (51,7 %), 42 ménages décontaminés sur 52 (80,8 %) et 5 FOSA sur 8 (62,5 %) ; 69 EDS réal",
+          "excerpt": "2.3. Prévention et Contrôle de l'Infection (PCI/EDS) 2.3.1. Principales actions Ituri : 11/12 FOSA et 80/82 ménages décontaminés, mais 19 anneaux (rings) ouverts sur 35. Manque",
           "source": {
-            "candidate_id": "175-p06-b020-0c42a2de9d",
-            "date": "2026-11-05",
+            "candidate_id": "178-p06-b040-4ad062d891",
+            "date": "2026-11-08",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
+          "excerpt": "Ituri : seules 15/36 ZS (41,7 %) connaissent le mécanisme de signalement. Manque de supports de sensibilisation, de kits informatiques et de cartographie des intervenants.",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p08-b009-1822c81c6e",
+            "date": "2026-11-08",
+            "page": 8,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.4.2. Défis En Ituri, la rupture de stock de sang persiste, 37 malades sont critiques, 7 patients n’ont pas bénéficié d’alimentation à Mandima, la capacité d’accueil reste faible à Mambasa, Kilo, Lol",
+          "excerpt": "2.3.2. Haut-Uélé : faible complétude des rapports : 4 ZS sur 7 (57,1 %) ont envoyé leurs données ; manque de kits PCI pour les ESS ; activation des équipes EDS formées par FHI 360 dans les différentes",
           "source": {
-            "candidate_id": "175-p07-b006-f1f2e2199c",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "177-p06-b024-6cfde31bb2",
+            "date": "2026-11-07",
+            "page": 6,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 339,
+      "candidate_passages": 348,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 128,
+      "distinct_reporting_sitreps": 131,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Nord-Kivu : 23 nouveaux cas confirmés (17 vivants et 6 décès) ; les laboratoires de Beni et de Butembo ont reçu 279 échantillons et en ont analysé 276 (positivité : 4,3 %) .Tshopo : 11 prélèvements (8",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p06-b038-99786f7d3b",
+            "date": "2026-11-08",
+            "page": 6,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "Nord-Kivu : évaluation de l’hôpital de Manguredjipa. Pas de triage, équipement de protection insuffisant, 0 % de prestataires formés en soins obstétricaux d’urgence, 55 agents exposés et 13 en quarant",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p07-b011-354f15818a",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
+          "excerpt": "Nord-Kivu : 17/24 cas couverts (70,8 %), 104 annonces de résultats (52 positives), 28/36 enfants suivis en communauté. Couverture faible dans 9 ZS, pas de crèches dans 10 ZS, manque de logistique.",
           "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p08-b004-f6f6c55e8b",
+            "date": "2026-11-08",
+            "page": 8,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 13,
+      "candidate_passages": 15,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 7,
+      "distinct_reporting_sitreps": 8,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
+          "source": {
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
+        {
+          "excerpt": "Au Bas-Uélé, la ZS de Bondo a été approvisionnée en tubes EDTA et en intrants PCI, le colisage des intrants PCI et de PEC pour les ZS est en préparation, la réhabilitation de la salle de réunion et de",
+          "source": {
+            "candidate_id": "176-p11-b003-356ba0b3c2",
+            "date": "2026-11-06",
+            "page": 11,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
           "source": {
             "candidate_id": "175-p08-b000-dd8a4cafc1",
             "date": "2026-11-05",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
-          "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
             "report_number": 175,
             "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
           }
@@ -11152,14 +11386,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 16,
+      "candidate_passages": 17,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 13,
+      "distinct_reporting_sitreps": 14,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
+          "source": {
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
           "source": {
@@ -11179,71 +11423,81 @@
             "report_number": 174,
             "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
           }
-        },
-        {
-          "excerpt": "persiste ; au Bas-Uélé, la mise en marche des UCC n’est toujours pas effective, la prise en charge des acteurs de terrain accuse du retard et la ZS de Bili ne compte encore aucun vacciné (0/1 067). 2.",
-          "source": {
-            "candidate_id": "173-p09-b000-73242928e2",
-            "date": "2026-11-03",
-            "page": 9,
-            "report_number": 173,
-            "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 298,
+      "candidate_passages": 305,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 100,
+      "distinct_reporting_sitreps": 102,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Nord-Kivu : 23 nouveaux cas confirmés (17 vivants et 6 décès) ; les laboratoires de Beni et de Butembo ont reçu 279 échantillons et en ont analysé 276 (positivité : 4,3 %) .Tshopo : 11 prélèvements (8",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p06-b038-99786f7d3b",
+            "date": "2026-11-08",
+            "page": 6,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "Tshopo : 100 % des cas suspects et confirmés suivis, 2 résistances notifiées (1 levée, à Bethsaïda). Besoin de former les APS de Wanierukula et de moyens de déplacement.",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
+            "candidate_id": "178-p08-b005-7f1a89c1d3",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.8.2. Défis 2.9. En Ituri, seules 15 ZS affectées sur 28 (53,6 %) sont couvertes, 5 des 30 derniers cas confirmés (16,7 %) et 23 des 91 confirmés en cours de suivi n’ont pas été pris en charge et seu",
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
           "source": {
-            "candidate_id": "175-p10-b002-cd69de6a0f",
-            "date": "2026-11-05",
-            "page": 10,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
+            "page": 8,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 180,
+      "candidate_passages": 182,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 89,
+      "distinct_reporting_sitreps": 91,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-14",
-      "last_report_date": "2026-11-04",
+      "last_report_date": "2026-11-08",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "Occupation des lits 34 %. Repas chauds pour 96 % des patients, mais 15 patients de Mandima n’ont pas été nourris. Défi : Rupture de sang. Grève du personnel du CTE Kasenyi (impaiement).",
+          "source": {
+            "candidate_id": "178-p07-b005-d658ba92e6",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "Faible couverture des interventions SMSPS autour des derniers cas confirmés dans les zones de santés Biena, Manguredjipa, Kayina , Lubero, Masereka , Kalunguta, Mabalako, Mutwanga, Vuhovi ; Absence de",
+          "source": {
+            "candidate_id": "176-p08-b001-41cc073ec6",
+            "date": "2026-11-06",
+            "page": 8,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "transport et l’hébergement des participants à la revue intra-action ont été assurés ; les 3 ambulances disponibles ont été mobilisées (100 %) pour 2 courses réussies sur 2 ; pour les PSM, le laboratoi",
           "source": {
@@ -11253,193 +11507,173 @@
             "report_number": 174,
             "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
           }
-        },
-        {
-          "excerpt": "réceptionnés à Boma Mangbetu, 2 véhicules et 1 groupe électrogène ont été approvisionnés en carburant (FHI 360), l’ambulance de la ZS d’Isiro a été réparée et le PoC PK10 Route Poko doté en matériel ;",
-          "source": {
-            "candidate_id": "173-p11-b000-3b174f9f30",
-            "date": "2026-11-03",
-            "page": 11,
-            "report_number": 173,
-            "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
-          }
-        },
-        {
-          "excerpt": "d’Ervebo ont été reçues pour la ZS de Beni (cumul : 2 600 doses reçues, 1 409 restantes, aucune perdue) et les équipes de vaccination expriment un besoin de 4 véhicules et de 6 tentes.",
-          "source": {
-            "candidate_id": "171-p10-b000-32645bd513",
-            "date": "2026-11-01",
-            "page": 10,
-            "report_number": 171,
-            "source_sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 54,
+      "candidate_passages": 57,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 31,
+      "distinct_reporting_sitreps": 33,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-08-19",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-07",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
-            "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         },
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
           "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p11-b001-381bb7c7b3",
-            "date": "2026-11-05",
+            "candidate_id": "176-p11-b004-381bb7c7b3",
+            "date": "2026-11-06",
             "page": 11,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 76,
+      "candidate_passages": 82,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 52,
+      "distinct_reporting_sitreps": 55,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
           "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
+            "candidate_id": "178-p06-b001-26b401019b",
+            "date": "2026-11-08",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p11-b001-381bb7c7b3",
-            "date": "2026-11-05",
-            "page": 11,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 122,
+      "candidate_passages": 125,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 77,
+      "event_type_candidate": "security_incident",
+      "first_report_date": "2026-05-24",
+      "last_report_date": "2026-11-07",
+      "province_mention": "Ituri",
+      "recent_examples": [
+        {
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "source": {
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "source": {
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
+        {
+          "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "source": {
+            "candidate_id": "176-p11-b004-381bb7c7b3",
+            "date": "2026-11-06",
+            "page": 11,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 115,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
       "distinct_reporting_sitreps": 75,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-05",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
-          "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
-            "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
-          "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
-          "source": {
-            "candidate_id": "175-p11-b001-381bb7c7b3",
-            "date": "2026-11-05",
-            "page": 11,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 112,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 73,
-      "event_type_candidate": "security_incident",
-      "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-07",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "source": {
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
           "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p11-b001-381bb7c7b3",
-            "date": "2026-11-05",
+            "candidate_id": "176-p11-b004-381bb7c7b3",
+            "date": "2026-11-06",
             "page": 11,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.12. Sécurité 2.12.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, les équipes EDS ont été accompagnées et sécurisées pour l’enterrem",
-          "source": {
-            "candidate_id": "174-p11-b003-a44c12ba47",
-            "date": "2026-11-04",
-            "page": 11,
-            "report_number": 174,
-            "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
@@ -11530,14 +11764,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 8,
+      "candidate_passages": 9,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 7,
+      "distinct_reporting_sitreps": 8,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-28",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "source": {
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
@@ -11557,57 +11801,47 @@
             "report_number": 173,
             "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
           }
-        },
-        {
-          "excerpt": "Au 1er novembre 2026, 2 758 alertes ont été notifiées dans les six provinces ayant transmis leurs données (Bas-Uélé, Haut-Uélé, Ituri, Nord-Kivu, Sud-Ubangi et Tshopo), dont 2 653 alertes de personnes",
-          "source": {
-            "candidate_id": "171-p05-b011-51f0e6ba82",
-            "date": "2026-11-01",
-            "page": 5,
-            "report_number": 171,
-            "source_sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 79,
+      "candidate_passages": 84,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 51,
+      "distinct_reporting_sitreps": 54,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-14",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "178-p06-b001-26b401019b",
+            "date": "2026-11-08",
+            "page": 6,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
+          "source": {
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p11-b001-381bb7c7b3",
-            "date": "2026-11-05",
-            "page": 11,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.12. Sécurité 2.12.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, les équipes EDS ont été accompagnées et sécurisées pour l’enterrem",
-          "source": {
-            "candidate_id": "174-p11-b003-a44c12ba47",
-            "date": "2026-11-04",
-            "page": 11,
-            "report_number": 174,
-            "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         }
       ],
@@ -11656,182 +11890,192 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 101,
+      "candidate_passages": 106,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 49,
+      "distinct_reporting_sitreps": 51,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-07",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "source": {
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
           "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
           "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "176-p07-b007-36d9f379eb",
+            "date": "2026-11-06",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
-          "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 101,
+      "candidate_passages": 108,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 60,
+      "distinct_reporting_sitreps": 63,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
           "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
+            "candidate_id": "178-p06-b001-26b401019b",
+            "date": "2026-11-08",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
-          "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
+        {
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "source": {
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 166,
+      "candidate_passages": 171,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 96,
+      "distinct_reporting_sitreps": 98,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-07",
       "province_mention": "Ituri",
       "recent_examples": [
         {
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
+          "source": {
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
+            "page": 8,
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+          }
+        },
+        {
           "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
-            "candidate_id": "175-p06-b016-b6b52dc1e0",
-            "date": "2026-11-05",
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
             "page": 6,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         },
         {
           "excerpt": "2.3.2. Bas-Uélé : suivi et accompagnement de 11 ESS sur 11 dans les ZS de Buta (7) et de Ganga (4) ; formation et renforcement des capacités : briefing de 22 prestataires sur 22 et de 2 hygiénistes su",
           "source": {
-            "candidate_id": "175-p07-b001-9a32ada3ad",
-            "date": "2026-11-05",
+            "candidate_id": "176-p07-b007-36d9f379eb",
+            "date": "2026-11-06",
             "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.4.2. Défis En Ituri, la rupture de stock de sang persiste, 37 malades sont critiques, 7 patients n’ont pas bénéficié d’alimentation à Mandima, la capacité d’accueil reste faible à Mambasa, Kilo, Lol",
-          "source": {
-            "candidate_id": "175-p07-b006-f1f2e2199c",
-            "date": "2026-11-05",
-            "page": 7,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 104,
+      "candidate_passages": 109,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 64,
+      "distinct_reporting_sitreps": 67,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Nord-Kivu : 18 704 visites à domicile (60 201 personnes) et 534 causeries éducatives. Une réunion d’urgence a porté sur les massacres de l’ADF à Aloya, qui ont entraîné la perte de vue de suspects et ",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
+            "candidate_id": "178-p08-b000-e7e76702cf",
+            "date": "2026-11-08",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
+            "candidate_id": "177-p08-b004-0cc88dbb1a",
+            "date": "2026-11-07",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "report_number": 177,
+            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
         },
         {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 9,
+      "candidate_passages": 10,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 4,
+      "distinct_reporting_sitreps": 5,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
+          "source": {
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
           "source": {
@@ -11848,16 +12092,6 @@
             "candidate_id": "175-p08-b002-3ddb260055",
             "date": "2026-11-05",
             "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
-          "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
             "report_number": 175,
             "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
           }
@@ -11908,14 +12142,34 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 12,
+      "candidate_passages": 14,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 7,
+      "distinct_reporting_sitreps": 8,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-06",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
+          "source": {
+            "candidate_id": "176-p06-b038-ed1bfeea31",
+            "date": "2026-11-06",
+            "page": 6,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
+        {
+          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
+          "source": {
+            "candidate_id": "176-p09-b000-5245f4dfcb",
+            "date": "2026-11-06",
+            "page": 9,
+            "report_number": 176,
+            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+          }
+        },
         {
           "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
           "source": {
@@ -11925,81 +12179,71 @@
             "report_number": 175,
             "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
           }
-        },
-        {
-          "excerpt": "des services curatifs, de la PCIME, de la CPN, de la maternité et de la vaccination ; au Nord-Kivu, la fermeture des urgences de l’HGR de Mambowa et la quarantaine de 18 agents sans plan de maintien d",
-          "source": {
-            "candidate_id": "175-p09-b000-63243a7a05",
-            "date": "2026-11-05",
-            "page": 9,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "n’est utilisé dans aucune des deux structures et des séances de vaccination ont été annulées en raison de la grève ; les plans de redressement des CM St Luc, Jéhovah Jiré, Odile et La Source ont été é",
-          "source": {
-            "candidate_id": "174-p09-b000-c88d6a3289",
-            "date": "2026-11-04",
-            "page": 9,
-            "report_number": 174,
-            "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 127,
+      "candidate_passages": 135,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 70,
+      "distinct_reporting_sitreps": 73,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-05",
+      "last_report_date": "2026-11-08",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
+          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
           "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p06-b001-26b401019b",
+            "date": "2026-11-08",
+            "page": 6,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
+          "excerpt": "Tshopo : évaluation de 3 ESS. Aucun prestataire formé, pas de triage ni d’incinérateur, baisse de fréquentation des services curatifs, de la consultation prénatale et de la vaccination, et grève des a",
           "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p07-b012-bd8fa52d0b",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         },
         {
-          "excerpt": "À la Tshopo, le site du Cinquantenaire a été aménagé pour la PEP (érection des tentes), une salle de l’HGR de Makiso a été aménagée pour l’isolement des prestataires exposés lors de la césarienne post",
+          "excerpt": "Tshopo : construction de l’isolement de Makiso et extension du CTE Météo. Il manque 115 motos pour les ZS. 2.9. Sécurité 2.9.1. Principales actions Insécurité : ADF à Mabalako (44 corps recensés, tent",
           "source": {
-            "candidate_id": "175-p10-b004-324d9db37e",
-            "date": "2026-11-05",
-            "page": 10,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+            "candidate_id": "178-p08-b008-1a73459eed",
+            "date": "2026-11-08",
+            "page": 8,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 25,
+      "candidate_passages": 26,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 22,
+      "distinct_reporting_sitreps": 23,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-04",
+      "last_report_date": "2026-11-08",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "Occupation des lits 34 %. Repas chauds pour 96 % des patients, mais 15 patients de Mandima n’ont pas été nourris. Défi : Rupture de sang. Grève du personnel du CTE Kasenyi (impaiement).",
+          "source": {
+            "candidate_id": "178-p07-b005-d658ba92e6",
+            "date": "2026-11-08",
+            "page": 7,
+            "report_number": 178,
+            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+          }
+        },
         {
           "excerpt": "transport et l’hébergement des participants à la revue intra-action ont été assurés ; les 3 ambulances disponibles ont été mobilisées (100 %) pour 2 courses réussies sur 2 ; pour les PSM, le laboratoi",
           "source": {
@@ -12018,16 +12262,6 @@
             "page": 8,
             "report_number": 126,
             "source_sha256": "fb0c4707f3a1ab45787cfdfd146352e6724e637f67739141e9cb2644914a0155"
-          }
-        },
-        {
-          "excerpt": "Réticence aux prélèvements postmortem (EDS/swabs), résistance communautaire et insécurité visant les équipes EDS (attaque au pont Muchanga, paralysie des activités à Nyankunde)",
-          "source": {
-            "candidate_id": "082-p13-b010-44040053ef",
-            "date": "2026-08-04",
-            "page": 13,
-            "report_number": 82,
-            "source_sha256": "f9060cb391e4b74569ad017fed2dae655909f1415d5ff0abd5a91f00376901d9"
           }
         }
       ],
@@ -12052,16 +12286,16 @@
       ]
     },
     {
-      "distinct_sitreps": 49,
+      "distinct_sitreps": 50,
       "example_source": {
-        "candidate_id": "175-p04-b000-f4b5f38a48",
-        "date": "2026-11-05",
+        "candidate_id": "176-p04-b016-f4b5f38a48",
+        "date": "2026-11-06",
         "page": 4,
-        "report_number": 175,
-        "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
       },
       "first_date": "2026-09-11",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-06",
       "source_text_sha256": "f4b5f38a484966f87b79e6df8bd9fbf8c62f774eca537cc93652c3ebd0cc8707",
       "topic_candidates": [
         "treatment_capacity"
@@ -12602,6 +12836,22 @@
     {
       "distinct_sitreps": 5,
       "example_source": {
+        "candidate_id": "178-p05-b000-78fce29d6a",
+        "date": "2026-11-08",
+        "page": 5,
+        "report_number": 178,
+        "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+      },
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-08",
+      "source_text_sha256": "78fce29d6a7b0cc3437057f57461001dd26e879aa8bf1efce55711fe97cdbcca",
+      "topic_candidates": [
+        "unclassified"
+      ]
+    },
+    {
+      "distinct_sitreps": 5,
+      "example_source": {
         "candidate_id": "082-p13-b017-81d24e6664",
         "date": "2026-08-04",
         "page": 13,
@@ -13047,6 +13297,22 @@
     {
       "distinct_sitreps": 3,
       "example_source": {
+        "candidate_id": "178-p05-b014-ce2ca9a236",
+        "date": "2026-11-08",
+        "page": 5,
+        "report_number": 178,
+        "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+      },
+      "first_date": "2026-10-12",
+      "last_date": "2026-11-08",
+      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
+      "topic_candidates": [
+        "border_screening"
+      ]
+    },
+    {
+      "distinct_sitreps": 3,
+      "example_source": {
         "candidate_id": "081-p12-b021-d119d1fe7d",
         "date": "2026-08-03",
         "page": 12,
@@ -13412,6 +13678,62 @@
     {
       "distinct_sitreps": 2,
       "example_source": {
+        "candidate_id": "176-p10-b002-316cf5b2e4",
+        "date": "2026-11-06",
+        "page": 10,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "316cf5b2e4a36bd732bb511a8ea27685538a44c9ce905b7d146d47d1ffc30506",
+      "topic_candidates": [
+        "community_engagement",
+        "psychosocial_support",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p11-b001-324d9db37e",
+        "date": "2026-11-06",
+        "page": 11,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "324d9db37ee22621b4afc68f6ee897888c3c96c4c055410aa0b6b5fe0b1bf208",
+      "topic_candidates": [
+        "laboratory",
+        "logistics_and_supplies",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p11-b004-381bb7c7b3",
+        "date": "2026-11-06",
+        "page": 11,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "381bb7c7b3401766995c0657c9148eaeaec5df099c73c5b2976cf84bd5a9036e",
+      "topic_candidates": [
+        "border_screening",
+        "community_engagement",
+        "ipc_and_burials",
+        "security"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
         "candidate_id": "078-p10-b003-3e168d9aa3",
         "date": "2026-07-31",
         "page": 10,
@@ -13720,6 +14042,22 @@
     {
       "distinct_sitreps": 2,
       "example_source": {
+        "candidate_id": "176-p07-b005-5ec5e20946",
+        "date": "2026-11-06",
+        "page": 7,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "5ec5e20946bd8b05d0e4cafadaa77aaf1479b717a22a7604a7e4bde03f402703",
+      "topic_candidates": [
+        "ipc_and_burials"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
         "candidate_id": "028-p05-b018-60536fff7e",
         "date": "2026-06-11",
         "page": 5,
@@ -13767,6 +14105,24 @@
         "community_engagement",
         "psychosocial_support",
         "surveillance_and_alerts"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p11-b002-6e16817f4e",
+        "date": "2026-11-06",
+        "page": 11,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "6e16817f4ece7a969e7ca5b251c3d9546082813234163e8bc850bf4b23f9c2e9",
+      "topic_candidates": [
+        "logistics_and_supplies",
+        "treatment_capacity",
+        "vaccination"
       ]
     },
     {
@@ -13873,22 +14229,6 @@
       "topic_candidates": [
         "surveillance_and_alerts",
         "treatment_capacity"
-      ]
-    },
-    {
-      "distinct_sitreps": 2,
-      "example_source": {
-        "candidate_id": "175-p04-b046-78fce29d6a",
-        "date": "2026-11-05",
-        "page": 4,
-        "report_number": 175,
-        "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-      },
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-05",
-      "source_text_sha256": "78fce29d6a7b0cc3437057f57461001dd26e879aa8bf1efce55711fe97cdbcca",
-      "topic_candidates": [
-        "unclassified"
       ]
     },
     {
@@ -14057,6 +14397,24 @@
     {
       "distinct_sitreps": 2,
       "example_source": {
+        "candidate_id": "176-p11-b000-9ae4f0d80f",
+        "date": "2026-11-06",
+        "page": 11,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "9ae4f0d80ff26a291df2b029a4d16525322f5798afa5dc6a0fa26ad0525c27c3",
+      "topic_candidates": [
+        "border_screening",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
         "candidate_id": "023-p03-b000-9b198e3bc0",
         "date": "2026-06-06",
         "page": 3,
@@ -14068,6 +14426,22 @@
       "source_text_sha256": "9b198e3bc025578d37914cd0f95e86c2943c22408d0674acd9c461052633d46c",
       "topic_candidates": [
         "unclassified"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p08-b005-9ec1eb7adf",
+        "date": "2026-11-06",
+        "page": 8,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "9ec1eb7adfb2d8f5329a2bf23d18c355610640ecdebae830228dffcd058548ae",
+      "topic_candidates": [
+        "vaccination"
       ]
     },
     {
@@ -14100,6 +14474,22 @@
       "source_text_sha256": "a04213c7d3b26cae49a135c91f3639b6dbd81282d5cb888cb1fc877828d8bb6d",
       "topic_candidates": [
         "psychosocial_support"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p12-b000-a107852a57",
+        "date": "2026-11-06",
+        "page": 12,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "a107852a57355830ccc132e7cdd33b0602a1480c3dac96b886f309e65a136c24",
+      "topic_candidates": [
+        "logistics_and_supplies"
       ]
     },
     {
@@ -14432,17 +14822,20 @@
     {
       "distinct_sitreps": 2,
       "example_source": {
-        "candidate_id": "160-p05-b015-ce2ca9a236",
-        "date": "2026-10-21",
-        "page": 5,
-        "report_number": 160,
-        "source_sha256": "6b0f352ce038017d4ffb8dfbee3d0a804630c900c0e68f46d995474a0ca513c5"
+        "candidate_id": "176-p10-b003-cd69de6a0f",
+        "date": "2026-11-06",
+        "page": 10,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
       },
-      "first_date": "2026-10-12",
-      "last_date": "2026-10-21",
-      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "cd69de6a0f0ccbfc627f3cd2ab6ba88bb765f38ed31f8ccfebb8fe638451ace2",
       "topic_candidates": [
-        "border_screening"
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "psychosocial_support",
+        "treatment_capacity"
       ]
     },
     {
@@ -14494,6 +14887,25 @@
       "source_text_sha256": "d2f363562a0de68adc0276b49241ed50ce49e5546fa4c9742f92226f4ec70ffa",
       "topic_candidates": [
         "contact_tracing"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "177-p05-b013-daa33d0784",
+        "date": "2026-11-07",
+        "page": 5,
+        "report_number": 177,
+        "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
+      },
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-07",
+      "source_text_sha256": "daa33d07846da61e6fda3eebd6f96456d143d202f934a31b3ecf4dad080a69cb",
+      "topic_candidates": [
+        "border_screening",
+        "ipc_and_burials",
+        "surveillance_and_alerts",
+        "treatment_capacity"
       ]
     },
     {
@@ -14599,6 +15011,25 @@
     {
       "distinct_sitreps": 2,
       "example_source": {
+        "candidate_id": "176-p09-b001-ea99056a2a",
+        "date": "2026-11-06",
+        "page": 9,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "ea99056a2a5d3ebc956ab5c117a4c615c04b84b66acd6e88f38df8f6a5a8a791",
+      "topic_candidates": [
+        "community_engagement",
+        "contact_tracing",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
         "candidate_id": "033-p08-b009-eb57b69141",
         "date": "2026-06-16",
         "page": 8,
@@ -14624,6 +15055,22 @@
       "first_date": "2026-08-17",
       "last_date": "2026-08-22",
       "source_text_sha256": "ec826decad38601f5e39e67f9acc51c37512bf539ef730cf6539948128000c92",
+      "topic_candidates": [
+        "unclassified"
+      ]
+    },
+    {
+      "distinct_sitreps": 2,
+      "example_source": {
+        "candidate_id": "176-p11-b005-ed80e2c520",
+        "date": "2026-11-06",
+        "page": 11,
+        "report_number": 176,
+        "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
+      },
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-06",
+      "source_text_sha256": "ed80e2c52037f994a02cc5ef3be5c315668e71bd1341e001eb238ae2663db767",
       "topic_candidates": [
         "unclassified"
       ]
@@ -14762,10 +15209,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-08T12:01:24.238663+00:00",
+  "generated_at": "2026-11-10T21:45:53.817544+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 158,
+  "reports_classified": 161,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }

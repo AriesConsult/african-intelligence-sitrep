@@ -1895,6 +1895,42 @@
       "status": "REVIEW_REQUIRED",
       "tables": 21,
       "validation_flags": []
+    },
+    "176:50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604": {
+      "checked_at": "2026-11-10T21:44:39.299440+00:00",
+      "pages": 13,
+      "provider": "INSP-official",
+      "report_date": "2026-11-06",
+      "report_number": 176,
+      "sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N176_06-11-2026_vf.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 22,
+      "validation_flags": []
+    },
+    "177:f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39": {
+      "checked_at": "2026-11-10T21:44:39.299440+00:00",
+      "pages": 10,
+      "provider": "INSP-official",
+      "report_date": "2026-11-07",
+      "report_number": 177,
+      "sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N177_07-11-2026_final_corrige.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 19,
+      "validation_flags": []
+    },
+    "178:d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580": {
+      "checked_at": "2026-11-10T21:44:39.299440+00:00",
+      "pages": 10,
+      "provider": "INSP-official",
+      "report_date": "2026-11-08",
+      "report_number": 178,
+      "sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N178_08-11-2026_corrige.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 18,
+      "validation_flags": []
     }
   },
   "latest_by_report": {
@@ -1980,6 +2016,9 @@
     "173": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02",
     "174": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3",
     "175": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5",
+    "176": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604",
+    "177": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39",
+    "178": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
     "18": "14833f7e1a65b61b5222cc46b2f9531d7a57e4e8f0724009447b9319c86614c8",
     "19": "347720b747a917db84122dcc5689957a2483cf01223a7ef356f648893ec5df73",
     "2": "f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a",

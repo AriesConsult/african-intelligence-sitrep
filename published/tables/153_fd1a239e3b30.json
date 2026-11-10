@@ -62,11 +62,7 @@
       "table": 3
     },
     {
-      "reason": "table4_ambiguous_or_missing_header",
-      "table": 4
-    },
-    {
-      "number": 5,
+      "number": 4,
       "reason": "table_missing"
     }
   ],
@@ -760,16 +756,116 @@
       "rows": [],
       "status": "REVIEW_REQUIRED"
     },
-    "table_4": {
-      "flags": [
+    "table_5": {
+      "flags": [],
+      "note": "Percentages without denominator remain reported percentages only; zero-event success rates are undefined. Page 6 continuation included when extractable.",
+      "original_table_number": 4,
+      "rows": [
         {
-          "reason": "table4_ambiguous_or_missing_header"
+          "handwashing_pct": 97.0,
+          "poe_alerts_notified": 0,
+          "poe_bodies_intercepted": 0,
+          "reporting_completeness": 96.7,
+          "reports_expected": 61,
+          "reports_received": 59,
+          "scope": "Ituri",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "strategic_poe_functional_pct": 100.0,
+          "travellers_passed": 139818,
+          "travellers_sensitized_pct": 99.3
+        },
+        {
+          "handwashing_pct": 98.2,
+          "poe_alerts_notified": 2,
+          "poe_bodies_intercepted": 2,
+          "reporting_completeness": 95.2,
+          "reports_expected": 21,
+          "reports_received": 20,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "strategic_poe_functional_pct": 100.0,
+          "travellers_passed": 92616,
+          "travellers_sensitized_pct": 98.2
+        },
+        {
+          "handwashing_pct": 98.7,
+          "poe_alerts_notified": 0,
+          "poe_bodies_intercepted": 0,
+          "reporting_completeness": 55.6,
+          "reports_expected": 9,
+          "reports_received": 5,
+          "scope": "Sud-Kivu",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "travellers_passed": 8211,
+          "travellers_sensitized_pct": 100.0
+        },
+        {
+          "handwashing_pct": 98.3,
+          "poe_alerts_notified": 0,
+          "poe_bodies_intercepted": 0,
+          "reporting_completeness": 100.0,
+          "reports_expected": 18,
+          "reports_received": 18,
+          "scope": "Tshopo",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "strategic_poe_functional_pct": 100.0,
+          "travellers_passed": 21275,
+          "travellers_sensitized_pct": 100.0
+        },
+        {
+          "handwashing_pct": 99.4,
+          "poe_alerts_notified": 0,
+          "poe_bodies_intercepted": 0,
+          "reporting_completeness": 90.0,
+          "reports_expected": 10,
+          "reports_received": 9,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "strategic_poe_functional_pct": 90.0,
+          "travellers_passed": 22237,
+          "travellers_sensitized_pct": 100.0
+        },
+        {
+          "continuation_extract_status": "not_extracted_or_not_present",
+          "handwashing_pct": 97.7,
+          "poe_alerts_notified": 2,
+          "poe_bodies_intercepted": 2,
+          "reporting_completeness": 93.3,
+          "reports_expected": 119,
+          "reports_received": 111,
+          "scope": "DRC",
+          "source": {
+            "page": 5,
+            "source_row": 1,
+            "table_id": "p5-t11"
+          },
+          "travellers_passed": 284157,
+          "travellers_sensitized_pct": 99.1
         }
       ],
-      "rows": [],
-      "status": "REVIEW_REQUIRED"
+      "status": "MACHINE_VALIDATED"
     }
   },
   "tables_available": 4,
-  "tables_machine_validated": 0
+  "tables_machine_validated": 1
 }

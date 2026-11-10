@@ -1063,6 +1063,7 @@
     "table_5": {
       "flags": [],
       "note": "Percentages without denominator remain reported percentages only; zero-event success rates are undefined. Page 6 continuation included when extractable.",
+      "original_table_number": 5,
       "rows": [
         {
           "poe_bodies_intercepted": 1,

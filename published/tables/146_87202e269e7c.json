@@ -68,12 +68,12 @@
       "table": 3
     },
     {
-      "reason": "table4_ambiguous_or_missing_header",
-      "table": 4
+      "number": 4,
+      "reason": "table_missing"
     },
     {
-      "number": 5,
-      "reason": "table_missing"
+      "reason": "table5_no_header",
+      "table": 5
     }
   ],
   "report_number": 146,
@@ -761,10 +761,10 @@
       "rows": [],
       "status": "REVIEW_REQUIRED"
     },
-    "table_4": {
+    "table_5": {
       "flags": [
         {
-          "reason": "table4_ambiguous_or_missing_header"
+          "reason": "table5_no_header"
         }
       ],
       "rows": [],
