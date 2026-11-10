@@ -84,6 +84,14 @@ def periods(dates):
         current=nxt
 
 
+
+def completed_periods(dates,as_of):
+    """Exclude future/incomplete reporting periods based on a supplied local date."""
+    for frequency,start,end in periods(dates):
+        if end<=as_of:
+            yield frequency,start,end
+
+
 def load_table4(published):
     """Use original hash-pinned SitRep Table 4, never obsolete May-only CSVs."""
     result={}
@@ -407,9 +415,7 @@ def build(accepted,output,stage=None,published=None):
     # Publish only completed calendar reporting periods. A new observation in
     # November must not create a November 30 monthly edition on November 10.
     today_eat=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))).date().isoformat()
-    for freq,start,end in periods(dates):
-        if end>today_eat:
-            continue
+    for freq,start,end in completed_periods(dates,today_eat):
         covered=[d for d in dates if start<=d<=end]
         if not covered:continue
         day=covered[-1];v=nat[day];previous=[d for d in dates if d<start];delta={}
