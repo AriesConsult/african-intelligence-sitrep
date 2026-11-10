@@ -318,9 +318,22 @@ def table_4(doc,output):
         flags.append({'reason':'table4_ambiguous_page_continuation'})
     for i,r,coords,source_table in source_rows:
         if max(coords.values())>=len(r):continue
-        label=str(r[coords['province']]).strip()
+        label=str(r[coords['province']] or '').strip()
         prov=scope_of(label)
         is_total=norm(label) in ('total','total general')
+        # pdfplumber may place the printed Province header in a merged,
+        # centered cell one grid column to the right of the body labels.
+        # Accept only a directly adjacent, unequivocal province/Total label
+        # when the nominal province cell is empty. Numeric columns still come
+        # exclusively from the uniquely identified printed header.
+        if not prov and not is_total and coords['province'] > 0 and not norm(label):
+            alternate=str(r[coords['province']-1] or '').strip()
+            alternate_province=scope_of(alternate)
+            alternate_total=norm(alternate) in ('total','total general')
+            if alternate_province or alternate_total:
+                label=alternate
+                prov=alternate_province
+                is_total=alternate_total
         if not prov and not is_total:continue
         d_raw=r[coords['contacts_to_follow']]
         n_raw=r[coords['contacts_seen']]
