@@ -8,6 +8,7 @@ on:
       - 'build_bdbv_assessments.py'
       - 'tests/test_bdbv_assessments.py'
       - 'tests/test_bdbv_bulletins.py'
+      - 'create_bulletin_manifest.py'
       - '.github/workflows/bdbv-bulletins.yml'
   schedule:
     - cron: '25 7 * * *' # 10:25 Nairobi after regular source ingestion
@@ -64,22 +65,12 @@ jobs:
           python build_bdbv_assessments.py \
             --evidence work/output/BULLETIN_ANALYTICAL_EVIDENCE.json \
             --out work/assessments
-      - name: Generate optional editorial AI assessment drafts
-        if: ${{ vars.BDBV_AI_ASSESSMENTS_ENABLED == 'true' }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          BDBV_AI_MODEL: ${{ vars.BDBV_AI_MODEL }}
+      - name: Stage source-only analytical evidence for One.com
         run: |
-          python build_bdbv_assessments.py \
-            --evidence work/output/BULLETIN_ANALYTICAL_EVIDENCE.json \
-            --out work/assessments \
-            --draft-ai
-      - name: Archive private analytical evidence and drafts
-        uses: actions/upload-artifact@v4
-        with:
-          name: bdbv-assessment-review-${{ github.run_id }}
-          path: work/assessments/
-          retention-days: 90
+          mkdir -p work/output/bdvd2026/assets/data/analysis_inputs
+          cp work/output/BULLETIN_ANALYTICAL_EVIDENCE.json work/output/bdvd2026/assets/data/analysis_inputs/daily_evidence.json
+          cp work/assessments/weekly_evidence_packs.json work/output/bdvd2026/assets/data/analysis_inputs/weekly_evidence_packs.json
+          cp work/assessments/monthly_evidence_packs.json work/output/bdvd2026/assets/data/analysis_inputs/monthly_evidence_packs.json
       - name: Validate publication links and source data
         run: |
           python - <<'PY'
@@ -96,6 +87,9 @@ jobs:
           assert (root/'assets/data/weekly_national_public.json').is_file()
           print('Validated',len(c['bulletins']),'bilingual source editions')
           PY
+      - name: Write integrity manifest for HTTPS publication
+        run: |
+          python create_bulletin_manifest.py --root work/output/bdvd2026 --output work/output/bdvd2026/release_manifest.json
       - name: Package and validate upload to One.com
         run: |
           cd work/output
@@ -111,7 +105,11 @@ jobs:
               expected={'bdvd2026/assets/data/bulletins_public.json',
                         'bdvd2026/assets/data/weekly_national_public.json',
                         'bdvd2026/assets/data/contact_tracing_public.json'}
-              assert expected<=files, 'Missing dashboard data assets'
+              expected |= {'bdvd2026/release_manifest.json',
+                           'bdvd2026/assets/data/analysis_inputs/daily_evidence.json',
+                           'bdvd2026/assets/data/analysis_inputs/weekly_evidence_packs.json',
+                           'bdvd2026/assets/data/analysis_inputs/monthly_evidence_packs.json'}
+              assert expected<=files, 'Missing public evidence inputs or dashboard assets'
               catalog=json.loads(z.read('bdvd2026/assets/data/bulletins_public.json'))
               for bulletin in catalog['bulletins']:
                   for language in bulletin['languages']:
@@ -127,12 +125,12 @@ jobs:
         env:
           UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
         run: |
-          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py build_bdbv_assessments.py sitrep_tables.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
+          GEN_HASH="$(sha256sum generate_bdbv_bulletins.py build_bdbv_assessments.py create_bulletin_manifest.py sitrep_tables.py published/table_index.json published/narrative_index.json | sha256sum | cut -c1-12)"
           TAG="bdbv-rulebased-bulletins-${UPSTREAM_SHA:0:12}-${GEN_HASH}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
           else
-            gh release create "$TAG" work/BDBV_BULLETINS_SITE_UPLOAD.zip work/output/BULLETIN_BUILD_REPORT.json --title 'BDBV deterministic bilingual daily weekly monthly bulletins' --notes 'Generated from GitHub-extracted qualified historical INRB data and subsequent pinned INRB candidate records. No AI-generated narrative, no fabricated incidence, limited zone-sum contact reporting.'
+            gh release create "$TAG" work/BDBV_BULLETINS_SITE_UPLOAD.zip work/output/BULLETIN_BUILD_REPORT.json --title 'BDBV deterministic bilingual daily weekly monthly bulletins' --notes 'Generated from GitHub-extracted qualified historical INRB data and subsequent pinned INRB candidate records. One.com HTTPS-pull input. No AI-generated interpretations; all analysis runs locally on One.com after separate review.'
           fi
       - uses: actions/upload-artifact@v4
         with:
@@ -141,42 +139,3 @@ jobs:
             work/BDBV_BULLETINS_SITE_UPLOAD.zip
             work/output/BULLETIN_BUILD_REPORT.json
           retention-days: 90
-      - name: Optional One.com SFTP synchronization
-        env:
-          ENABLED: ${{ vars.BDBV_BULLETIN_DEPLOY_ENABLED }}
-          HOST: ${{ vars.BDBV_SFTP_HOST }}
-          USER: ${{ vars.BDBV_SFTP_USER }}
-          PASS: ${{ secrets.BDBV_SFTP_PASSWORD }}
-          HOST_KEYS: ${{ secrets.BDBV_SFTP_KNOWN_HOSTS }}
-          REMOTE: ${{ vars.BDBV_SFTP_WEB_ROOT }}
-        run: |
-          if [ "$ENABLED" != 'true' ]; then
-            echo 'SFTP deployment disabled. Versioned ZIP remains available in GitHub Releases.'
-            exit 0
-          fi
-          : "${HOST:=ssh.africa-research.eu}"
-          : "${USER:=africa-research.eu}"
-          test -n "$HOST" && test -n "$USER" && test -n "$PASS" && test -n "$HOST_KEYS" && test -n "$REMOTE" || {
-            echo 'SFTP setup incomplete: provide verified host key, password and explicit remote website root.'
-            exit 1
-          }
-          # Never accept an SSH key learned over an unverified network connection.
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          printf '%s\n' "$HOST_KEYS" > ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/known_hosts
-          ssh-keygen -F "$HOST" -f ~/.ssh/known_hosts >/dev/null || {
-            echo 'Pinned SSH known_hosts does not contain the SFTP hostname.'
-            exit 1
-          }
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq lftp
-          # No --delete. Scope is limited to bulletin pages and their three JSON feeds.
-          # Quoted SFTP URL and lftp's ssh connect-program ensure port 22 + host-key validation.
-          lftp -u "$USER","$PASS" "sftp://$HOST:22" -e "
-            set cmd:fail-exit true;
-            set net:max-retries 3;
-            set sftp:connect-program \"ssh -a -x -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts\";
-            mirror -R --only-newer work/output/bdvd2026/bulletins $REMOTE/bdvd2026/bulletins;
-            mirror -R --only-newer work/output/bdvd2026/assets/data $REMOTE/bdvd2026/assets/data;
-            bye"
