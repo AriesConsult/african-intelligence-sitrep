@@ -130,3 +130,33 @@ The step validates that the pinned host key exists in the supplied known_hosts f
 **Operational note:** The new analytical draft process is **not** a live AI assessment service until credentials/model configuration are provided. The first deployment can proceed with AI disabled; the existing source bulletins continue as before.
 
 > **Superseded configuration:** Earlier sections of this historical changelog mention optional FTPS variables. These are no longer used. Follow the **One.com secure SFTP rather than FTPS** section above; deployment remains disabled until the new SFTP credentials, verified host key and correct remote path are configured.
+
+## 10 November — Confirmed architecture: One.com HTTPS pull + site-native AI
+
+**This section supersedes the previous SFTP/FTPS deployment recommendation and the optional GitHub-hosted AI draft workflow.** The GitHub bulletin workflow now creates deterministic source bulletins, public aggregated evidence inputs, and a SHA-256 file manifest. It **does not call any AI provider** and **does not transfer files to One.com**. The site itself is responsible for pulling a verified GitHub Release over HTTPS and running the site's existing AI analysis protocols. No access credentials for One.com are needed in GitHub.
+
+### Release contents
+
+The versioned `BDBV_BULLETINS_SITE_UPLOAD.zip` contains:
+- `bdvd2026/bulletins/{daily,weekly,monthly}/*-{en,fr}.html`: deterministic source bulletins (not AI interpretations);
+- `bdvd2026/assets/data/{bulletins_public,contact_tracing_public,weekly_national_public}.json`: dashboard feeds;
+- `bdvd2026/assets/data/analysis_inputs/daily_evidence.json`: structured daily evidence and source references;
+- `bdvd2026/assets/data/analysis_inputs/weekly_evidence_packs.json`: full ISO-week evidence comparisons, missing-day metadata;
+- `bdvd2026/assets/data/analysis_inputs/monthly_evidence_packs.json`: calendar month / ISO-week comparisons;
+- `bdvd2026/release_manifest.json`: individual file SHA-256 hashes and lengths, source-only classification. The GitHub Release asset record provides an additional SHA-256 digest of the ZIP.
+
+### One.com integration contract (implementation pending inspection of existing PHP AI modules)
+
+1. A site-private PHP synchronizer checks the official GitHub API release endpoint over HTTPS, identifies the intended source-only bulletin ZIP, checks the ZIP's SHA-256 against GitHub's release asset digest, and validates each extracted file against `release_manifest.json`.
+2. Enforce a strict allowlist: `bdvd2026/bulletins/...`, `bdvd2026/assets/data/*.json`, and `bdvd2026/release_manifest.json`; reject symlinks, path traversal, oversized archives, executable files and unexpected entries. **Never allow GitHub archive content to overwrite the site's AI engine, PHP controllers, global stylesheet or existing human-edited analyses.**
+3. Import into an isolated staging directory, then atomically promote the verified source-only material with rollback/version history. Track applied release tag and digest; repeated checks of the same digest must be no-ops. Log success and errors.
+4. After successful import, invoke the **existing** African Intelligence server-side AI protocol through its normal PHP entry point, using only the available evidence inputs. Weekly analyses should synthesize daily evidence, and monthly analyses should synthesize completed weekly assessments while independently checking the underlying daily data. Distinguish qualified and provisional observations, missing days, revisions and no inference of true incidence from cumulative changes.
+5. Store AI drafts separately from GitHub-owned files. Require factual checks and editorial acceptance before marking an analytical assessment published. Source-only bulletins remain available when analysis fails. A separate EN/FR workflow is required for interpreted text.
+6. Execution: prefer an authenticated/signed trigger or native One.com scheduler, depending on confirmed hosting capabilities. If no cron is available, a signed GitHub Actions notification can request a pull without allowing arbitrary release URLs or public-triggered updates. Do not expose a publicly callable destructive PHP updater.
+7. Do not send SSH/SFTP passwords or website-side AI API keys to GitHub. The GitHub release and manifests provide input integrity; no GitHub-side AI generation or SFTP configuration is required.
+
+**Important:** The PHP synchronizer and connection to the established One.com analytical protocols are *not included in this GitHub commit*, since the existing One.com PHP modules have not yet been examined. The current production site must continue using manual ZIP uploads until a tested site-side importer exists. GitHub Releases contain public aggregated evidence; raw narratives containing personal details remain excluded from analytical inputs.
+
+### Historical note
+
+All earlier SFTP/FTPS and GitHub AI draft instructions elsewhere in this chronological document are superseded by this architecture; they describe prior versions only.
