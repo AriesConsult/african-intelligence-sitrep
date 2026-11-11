@@ -5,7 +5,7 @@
     "reports_checked": 162,
     "reports_with_all_five_validated": 1
   },
-  "generated_at": "2026-11-10T22:46:21.701367+00:00",
+  "generated_at": "2026-11-11T08:09:08.610443+00:00",
   "latest_by_metric": {
     "alerts_received": "2026-11-05",
     "alerts_validated": "2026-11-05",
@@ -510,6 +510,51 @@
       "verification": "table_by_table_national_provincial_reconciliation"
     },
     {
+      "date": "2026-11-08",
+      "evidence_status": "machine_validated",
+      "metric_id": "contact_follow_up_rate",
+      "page": 5,
+      "report_number": 178,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N178_08-11-2026_corrige.pdf",
+      "table_id": "p5-t11",
+      "unit": "percent",
+      "value": 79.2,
+      "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
+      "date": "2026-11-08",
+      "evidence_status": "machine_validated",
+      "metric_id": "contacts_seen",
+      "page": 5,
+      "report_number": 178,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N178_08-11-2026_corrige.pdf",
+      "table_id": "p5-t11",
+      "unit": "count",
+      "value": 30444,
+      "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
+      "date": "2026-11-08",
+      "evidence_status": "machine_validated",
+      "metric_id": "contacts_to_follow",
+      "page": 5,
+      "report_number": 178,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_MVE_RDC_N178_08-11-2026_corrige.pdf",
+      "table_id": "p5-t11",
+      "unit": "count",
+      "value": 38453,
+      "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
       "date": "2026-11-09",
       "evidence_status": "machine_validated",
       "metric_id": "contact_follow_up_rate",
@@ -555,7 +600,7 @@
       "verification": "table_by_table_national_provincial_reconciliation"
     }
   ],
-  "observations_count": 36,
+  "observations_count": 39,
   "pending_review_count": 162,
   "publication_status": "VALIDATED_OBSERVATIONS",
   "schema_version": "bdbv-sitrep-feed-v1",

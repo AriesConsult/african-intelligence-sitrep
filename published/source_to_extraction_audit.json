@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-source-to-extraction-audit-v1",
-  "generated_at": "2026-11-10T22:46:29.137644+00:00",
+  "generated_at": "2026-11-11T08:09:10.173115+00:00",
   "scope": "All catalogued report/hash identities and committed extraction artifacts",
   "status": "ARTIFACT_INVENTORY_CONSISTENT_EXTRACTION_FIDELITY_UNVERIFIED",
   "counters": {
@@ -2942,7 +2942,7 @@
       "candidate_blocks": 31,
       "examined_narrative_blocks": 33,
       "truncated_candidate_excerpts": 6,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },

@@ -20,20 +20,20 @@
     },
     {
       "date": "2026-11-08",
-      "quality_flags_count": 14,
+      "quality_flags_count": 12,
       "report_number": 178,
       "rows_by_table": {
         "table_1": 0,
         "table_2": 38,
         "table_3": 0,
-        "table_4": 0,
+        "table_4": 7,
         "table_5": 6
       },
       "sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580",
       "snapshot_path": "tables/178_d58582670841.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-07",
