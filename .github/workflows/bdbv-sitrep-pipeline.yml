@@ -152,6 +152,7 @@ jobs:
           if ! git merge-base --is-ancestor "origin/$GITHUB_REF_NAME" HEAD; then
             echo "Remote branch advanced during extraction; this stale run will not publish." >&2
             echo "The newest scheduled or dispatched run can recompute from the updated tip."
+            echo "No evidence ledger is overwritten by this stale run; retry from the current main commit."
             exit 0
           fi
           if git push origin "HEAD:$GITHUB_REF_NAME"; then
