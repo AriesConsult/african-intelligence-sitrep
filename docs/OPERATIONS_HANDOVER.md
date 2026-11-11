@@ -1,5 +1,39 @@
 # AFRICAN INTELLIGENCE — BDBV SITREP INGESTION OPERATIONS
 
+## CURRENT PRODUCTION RUNBOOK — 11 NOVEMBER 2026
+
+**Analytical methods, calculations and exact prompt-inventory status:** [current methodology and prompts](ANALYTICAL_METHODS_AND_PROMPTS_20261111.md).
+
+### Current automated chain (11 November 2026)
+
+1. **08:27 Africa/Nairobi (05:27 UTC)** — `.github/workflows/bdbv-sitrep-pipeline.yml` discovers original INSP/INRB SitReps, maintains source identities, SHA-256 and release custody, reprocesses archived extraction grids, and runs numerical/narrative publication checks. Sunday 07:41 EAT invokes full backfill. Do not equate a green workflow with full independent cell verification.
+2. **10:25 EAT (07:25 UTC)** — `.github/workflows/bdbv-bulletins.yml` builds the source-only bilingual HTML/JSON bundle. It is also triggered by changes to `published/table_index.json` or `published/feed.json` on main. GitHub scheduling may be delayed; each release remains hash- and version-addressable.
+3. **Every six hours** — cron-job.org uses `0 */6 * * *` in **Africa/Nairobi** (00:00, 06:00, 12:00, 18:00 EAT) to call the existing One.com authenticated `webcron_task=bdbv_source_sync` route. The website validates the GitHub Release asset and per-file manifest, imports allowlisted source-only assets, records backups, and skips unchanged releases. **Never commit or reproduce the webcron token.**
+4. **Public observatory** — `/bdvd2026/dashboard.php` reads the imported evidence files. The contact tab only displays source-identical, internally reconciled `MACHINE_VALIDATED` Table 4 rows; SitReps 178 (8 Nov; 30,444/38,453 = 79.2%) and 179 (9 Nov; 27,012/33,900 = 79.7%) are validated in the repository. Missing/rejected dates are not inferred or silently zero-filled.
+5. **Separate editorial layer** — One.com, not GitHub, holds the active prompts and the daily/weekly/monthly AI-draft, historical backfill, assessment QA, approval and publication mechanisms. Source synchronization **does not** imply automatic AI publication. Approved narratives are versioned and evidence-fingerprint-bound; mismatches require a fresh review.
+
+**Scientific interpretation:** differences of cumulative reported cases/deaths are net reporting changes, **not** onset-date incidence. Source extracts marked `REVIEW_REQUIRED` remain unverified narrative leads. Exploratory dashboard apparent Rₜ must not be presented as validated reproduction number or used as a scientific model result without dedicated validation.
+
+### Routine checks and failures
+
+- Confirm last successful [ingestion Actions run](https://github.com/AriesConsult/african-intelligence-sitrep/actions/workflows/bdbv-sitrep-pipeline.yml) and [source-bulletin build](https://github.com/AriesConsult/african-intelligence-sitrep/actions/workflows/bdbv-bulletins.yml); compare actual completion timestamps, not scheduled start times.
+- Verify `published/table_index.json`, `published/publication_qa.json`, and report-level `published/tables/<report>_<sha>.json` before interpreting a skipped Table 4 date. Reconcile the original PDF's printed table, including shifted/split rows, with the exact hash-pinned extraction.
+- Confirm the **latest new GitHub source-bulletin release** and whether cron-job.org reported `imported` or `unchanged`. `unchanged` means the site has already seen the latest selected release, **not** that a new upstream SitRep was necessarily validated.
+- On GitHub concurrency: an ingestion run can report success while safely declining to push stale results after main advances. Check the logs for `Remote branch advanced during extraction; this stale run will not publish`. Re-run cleanly from current main if needed; never force-push.
+- If a source changes SHA or fails reconciliation, preserve earlier revisions and withhold affected indicators. If import fails, retain the previous site bundle and check the manifest/allowlist and importer logs; never overwrite PHP controllers or prompt storage with source releases.
+- Cron cadence is controlled in **cron-job.org**, not GitHub. Rotate and update the webcron token in both the website configuration and each configured job; never log or paste its value publicly.
+
+### Active One.com paths (not part of the GitHub source bundle)
+
+`public_html/index.php` webcron dispatcher; `cron/bdbv_source_sync.php`; `includes/bdbv_github_sync.php`; `admin_bdbv_sync.php`; `admin_bdbv_assessments.php`; `admin_bdbv_backfill.php`; `admin_bdbv_bulk_approve.php`; `admin_ai_prompts.php`; `bdvd2026/dashboard.php`; `bdvd2026/assessment.php`; `bdvd2026/assessment_pdf.php`. These path names describe the live site architecture, not files mirrored or editable by this repository.
+
+### Prompts and authoritative copies
+
+The live One.com prompt manager stores the active daily/weekly/monthly FR/EN text. The GitHub `build_bdbv_assessments.py` contains an **older, optional GitHub-side English review draft SYSTEM prompt**, not the current production prompt. Do not substitute it for a One.com prompt. For prompt change-control export from `admin_ai_prompts.php` (including IDs, language, model, version, effective date and exact text), retain the previous version, and run historical EN/FR regression samples before activation. Known active IDs include `bdbv_daily_v1` and `bdbv_monthly_v1`; the reported default model is `gemini-2.5-flash-lite`, subject to verification against live configuration. Prompt text is **not available from the GitHub source repository**.
+
+---
+
+
 **System:** `AriesConsult/african-intelligence-sitrep`  
 **Revision:** 8 November 2026 (qualified historical acceptance and routine daily source collection)  
 **Boundary:** GitHub acquisition, numerical and narrative classification, source verification and release archiving. The existing One.com observatory, forecasting models and literature portal are *not* modified.

@@ -1,6 +1,21 @@
 # African Intelligence — BDBV 2026 SitRep evidence pipeline
 
-**Status (8 November 2026): operational scheduled discovery, original-PDF archiving, review-controlled extraction and qualified historical evidence release.** This repository is a reproducible research evidence pipeline; it is **not** a claim that every historical provincial/health-zone table, narrative section or epidemiological estimate has been independently verified.
+## Current production implementation — 11 November 2026
+
+**Analytical methods, calculations and exact prompt-inventory status:** [current methodology and prompts](docs/ANALYTICAL_METHODS_AND_PROMPTS_20261111.md).
+
+### Current automated chain (11 November 2026)
+
+1. **08:27 Africa/Nairobi (05:27 UTC)** — `.github/workflows/bdbv-sitrep-pipeline.yml` discovers original INSP/INRB SitReps, maintains source identities, SHA-256 and release custody, reprocesses archived extraction grids, and runs numerical/narrative publication checks. Sunday 07:41 EAT invokes full backfill. Do not equate a green workflow with full independent cell verification.
+2. **10:25 EAT (07:25 UTC)** — `.github/workflows/bdbv-bulletins.yml` builds the source-only bilingual HTML/JSON bundle. It is also triggered by changes to `published/table_index.json` or `published/feed.json` on main. GitHub scheduling may be delayed; each release remains hash- and version-addressable.
+3. **Every six hours** — cron-job.org uses `0 */6 * * *` in **Africa/Nairobi** (00:00, 06:00, 12:00, 18:00 EAT) to call the existing One.com authenticated `webcron_task=bdbv_source_sync` route. The website validates the GitHub Release asset and per-file manifest, imports allowlisted source-only assets, records backups, and skips unchanged releases. **Never commit or reproduce the webcron token.**
+4. **Public observatory** — `/bdvd2026/dashboard.php` reads the imported evidence files. The contact tab only displays source-identical, internally reconciled `MACHINE_VALIDATED` Table 4 rows; SitReps 178 (8 Nov; 30,444/38,453 = 79.2%) and 179 (9 Nov; 27,012/33,900 = 79.7%) are validated in the repository. Missing/rejected dates are not inferred or silently zero-filled.
+5. **Separate editorial layer** — One.com, not GitHub, holds the active prompts and the daily/weekly/monthly AI-draft, historical backfill, assessment QA, approval and publication mechanisms. Source synchronization **does not** imply automatic AI publication. Approved narratives are versioned and evidence-fingerprint-bound; mismatches require a fresh review.
+
+**Scientific interpretation:** differences of cumulative reported cases/deaths are net reporting changes, **not** onset-date incidence. Source extracts marked `REVIEW_REQUIRED` remain unverified narrative leads. Exploratory dashboard apparent Rₜ must not be presented as validated reproduction number or used as a scientific model result without dedicated validation.
+
+
+**Historical checkpoint (8 November 2026): operational scheduled discovery, original-PDF archiving, review-controlled extraction and qualified historical evidence release.** This repository is a reproducible research evidence pipeline; it is **not** a claim that every historical provincial/health-zone table, narrative section or epidemiological estimate has been independently verified.
 
 The principal operational objective is to **keep collecting new INSP SitReps reliably**, preserve source PDF bytes and hashes, and detect revisions without replacing the historical evidence. Historical numerical and narrative fidelity can be improved incrementally through explicit versioned review.
 

@@ -1,5 +1,14 @@
 # BDBV SITREP INGESTION — QUALITY GATES (v2, 8 November 2026)
 
+> **CURRENT OPERATIONS NOTICE — 11 NOVEMBER 2026.** The live African Intelligence BDBV source pipeline is **GitHub Actions → versioned source-only GitHub Release → authenticated One.com HTTPS pull** via cron-job.org. GitHub does **not** push files over SFTP/FTPS, perform site-native AI generation, or approve AI narratives. This notice supersedes any older instructions below referring to pending importer implementation, manual ZIP installation, FTPS, SFTP, or disabled site synchronization. Historical sections are retained to document architecture decisions, **not** as active deployment instructions. See [current runbook](OPERATIONS_HANDOVER.md) and [bulletin operations](BULLETINS.md).
+
+## G. PRODUCTION EVIDENCE-TO-PUBLICATION BOUNDARY (11 NOVEMBER 2026)
+
+Source-only automated publication and editorial AI publication are different certification tracks. The importer accepts only GitHub-manifested source artifacts, not model output. Current original-PDF Table 4 extractor uses independently verified label/number reconciliation including adjacent split-row layouts (SitRep 178), while the final source table must still reconcile numerators, denominators, rates and provincial sums. Source QA passing is not independent epidemiological validation. One.com assessment prompts, bibliographic DOIs, inferred rates and literature citations require dedicated editorial/scientific review. The full original One.com prompts are not stored in GitHub.
+
+---
+
+
 The ingestion status **must not be described as fully verified** solely because
 a GitHub Actions job finished successfully.
 

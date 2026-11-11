@@ -1,5 +1,35 @@
 # BDBV SitRep-derived automated bulletins
 
+## ACTIVE DELIVERY AND EDITORIAL ARCHITECTURE (11 NOVEMBER 2026)
+
+**Analytical methods, calculations and exact prompt-inventory status:** [current methodology and prompts](ANALYTICAL_METHODS_AND_PROMPTS_20261111.md).
+
+### Current automated chain (11 November 2026)
+
+1. **08:27 Africa/Nairobi (05:27 UTC)** — `.github/workflows/bdbv-sitrep-pipeline.yml` discovers original INSP/INRB SitReps, maintains source identities, SHA-256 and release custody, reprocesses archived extraction grids, and runs numerical/narrative publication checks. Sunday 07:41 EAT invokes full backfill. Do not equate a green workflow with full independent cell verification.
+2. **10:25 EAT (07:25 UTC)** — `.github/workflows/bdbv-bulletins.yml` builds the source-only bilingual HTML/JSON bundle. It is also triggered by changes to `published/table_index.json` or `published/feed.json` on main. GitHub scheduling may be delayed; each release remains hash- and version-addressable.
+3. **Every six hours** — cron-job.org uses `0 */6 * * *` in **Africa/Nairobi** (00:00, 06:00, 12:00, 18:00 EAT) to call the existing One.com authenticated `webcron_task=bdbv_source_sync` route. The website validates the GitHub Release asset and per-file manifest, imports allowlisted source-only assets, records backups, and skips unchanged releases. **Never commit or reproduce the webcron token.**
+4. **Public observatory** — `/bdvd2026/dashboard.php` reads the imported evidence files. The contact tab only displays source-identical, internally reconciled `MACHINE_VALIDATED` Table 4 rows; SitReps 178 (8 Nov; 30,444/38,453 = 79.2%) and 179 (9 Nov; 27,012/33,900 = 79.7%) are validated in the repository. Missing/rejected dates are not inferred or silently zero-filled.
+5. **Separate editorial layer** — One.com, not GitHub, holds the active prompts and the daily/weekly/monthly AI-draft, historical backfill, assessment QA, approval and publication mechanisms. Source synchronization **does not** imply automatic AI publication. Approved narratives are versioned and evidence-fingerprint-bound; mismatches require a fresh review.
+
+**Scientific interpretation:** differences of cumulative reported cases/deaths are net reporting changes, **not** onset-date incidence. Source extracts marked `REVIEW_REQUIRED` remain unverified narrative leads. Exploratory dashboard apparent Rₜ must not be presented as validated reproduction number or used as a scientific model result without dedicated validation.
+
+### Source bundle and integrity contract
+
+The release asset `BDBV_BULLETINS_SITE_UPLOAD.zip` contains deterministic EN/FR source bulletins and: `bdvd2026/assets/data/bulletins_public.json`, `contact_tracing_public.json`, `weekly_national_public.json`, `analysis_inputs/{daily_evidence.json,weekly_evidence_packs.json,monthly_evidence_packs.json}`, and `bdvd2026/release_manifest.json`. The manifest records expected paths, SHA-256 and byte sizes. The One.com importer checks and backs up site-owned source assets; the release may **not** overwrite PHP files, global CSS, site AI prompts or human-approved assessments.
+
+Historical `REVIEW_REQUIRED` theme excerpts are source leads, not independently verified claims. Daily, weekly, and monthly analytical drafts live in One.com assessment storage, not this GitHub release; publication requires the website's explicit editorial gate and freshness/fingerprint checks. The optional `--draft-ai` path in `build_bdbv_assessments.py` is **not the active production AI route**.
+
+### Maintenance checkpoints
+
+- Archive/ingest → source table index → source-bulletin release → cron importer → dashboard JSON should be checked as **five distinct stages**, especially when the contact selector is stale.
+- Source date, issue/publication date and browser fetch time differ. Date selectors show the latest eligible validated source **present in the imported release**, not necessarily the latest SitRep discovered.
+- A long-run change to the table parser requires regression tests against archived PDF extraction structures and a clean ingestion commit; the bulletin workflow then rebuilds via ledger-change trigger or the scheduled job.
+- The site's analytical publication archive is distinct from the deterministic GitHub source-bulletin catalogue.
+
+---
+
+
 **Operational as of 9 November 2026.** The initial generator workflow [run 42530772370](https://github.com/AriesConsult/african-intelligence-sitrep/actions/runs/42530772370) completed successfully, generating **129 daily**, **26 ISO-weekly** and **7 calendar-monthly** bulletins, each in English and French (**324 HTML pages for 162 reporting periods**).
 
 ## Source and research controls
