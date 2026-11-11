@@ -2,6 +2,8 @@
 
 ## ACTIVE DELIVERY AND EDITORIAL ARCHITECTURE (11 NOVEMBER 2026)
 
+**Analytical methods, calculations and exact prompt-inventory status:** [current methodology and prompts](ANALYTICAL_METHODS_AND_PROMPTS_20261111.md).
+
 ### Current automated chain (11 November 2026)
 
 1. **08:27 Africa/Nairobi (05:27 UTC)** — `.github/workflows/bdbv-sitrep-pipeline.yml` discovers original INSP/INRB SitReps, maintains source identities, SHA-256 and release custody, reprocesses archived extraction grids, and runs numerical/narrative publication checks. Sunday 07:41 EAT invokes full backfill. Do not equate a green workflow with full independent cell verification.
