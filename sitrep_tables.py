@@ -338,6 +338,25 @@ def table_4(doc,output):
         d_raw=r[coords['contacts_to_follow']]
         n_raw=r[coords['contacts_seen']]
         pct_raw=r[coords['contact_follow_up_rate']]
+        # SitRep 178: the line-grid extractor places numerical cells on the
+        # preceding row and the province name on the following row, with the
+        # intermediary cells genuinely blank. Combine only adjacent rows from
+        # the SAME source table, and only when the preceding row has no label
+        # and supplies an arithmetically valid complete numerical tuple.
+        # This never guesses missing numbers or bypasses national sum checks.
+        if (not any(norm(x) for x in (d_raw,n_raw,pct_raw)) and i>0):
+            previous=source_table['rows'][i-1]
+            if (max(coords.values())<len(previous)
+                and not norm(previous[coords['province']])
+                and (coords['province']==0 or not norm(previous[coords['province']-1]))):
+                pd=previous[coords['contacts_to_follow']]
+                pn=previous[coords['contacts_seen']]
+                pp=previous[coords['contact_follow_up_rate']]
+                nd=count(pd);nn=count(pn);pr=percent(pp)
+                if ((nd is not None and nn is not None)
+                    and ((nd>0 and ok_rate(nn,nd,pr))
+                         or (nd==0 and nn==0 and norm(pp) in ('na','nd','n/a','')))):
+                    d_raw,n_raw,pct_raw=pd,pn,pp
         d=count(d_raw);n=count(n_raw);pct=percent(pct_raw)
         if prov and d is None and n is None and all(norm(x) in ('na','nd','n/a','') for x in (d_raw,n_raw,pct_raw)):
             gaps.append({'scope':prov,'reason':'contact_reporting_missing','source':cell_prov(source_table,i)})
