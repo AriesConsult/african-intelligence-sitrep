@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
     paths:
+      # Build a new public source bundle whenever the accepted source ledger advances.
+      - 'published/table_index.json'
+      - 'published/feed.json'
       - 'generate_bdbv_bulletins.py'
       - 'build_bdbv_assessments.py'
       - 'tests/test_bdbv_assessments.py'
