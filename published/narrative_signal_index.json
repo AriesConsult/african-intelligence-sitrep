@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4706,
+  "candidate_blocks_checked": 4725,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -10908,212 +10908,290 @@
       "date": "2026-11-10",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "unclassified"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-11",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 264,
+      "candidate_passages": 269,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 77,
+      "distinct_reporting_sitreps": 78,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uélé : 54 échantillons au total réceptionnés et analysés par les laboratoires d'Isiro et Wamba (dont 49 du Haut-Uélé et 5 du Bas-Uélé). Sur les 32 nouveaux prélèvements analysés, on dénombre 3 po",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p07-b002-4498accdb8",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
+          "excerpt": "Ituri : 79 alertes d'EDS reçues, 61 réalisées (77 %), 58 corps swabés, avec 9 échecs et 14 reports. Nord-Kivu : 84 alertes reçues, 66 EDS réalisés (avec 72 corps pris en charge, 7 corps swabés et des ",
           "source": {
-            "candidate_id": "180-p07-b004-b7d0bda23c",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b002-b98a099794",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions Ituri : 7 % de taux d'occupation global dans les structures (50 % pour les suspects et 24 % pour les confirmés), 376 patients au total (128 c",
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
           "source": {
-            "candidate_id": "180-p08-b000-02ef8019bd",
-            "date": "2026-11-10",
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
             "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 271,
+      "candidate_passages": 276,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 94,
+      "distinct_reporting_sitreps": 95,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p06-b000-7318016812",
-            "date": "2026-11-10",
-            "page": 6,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Haut-Uélé : 54 échantillons au total réceptionnés et analysés par les laboratoires d'Isiro et Wamba (dont 49 du Haut-Uélé et 5 du Bas-Uélé). Sur les 32 nouveaux prélèvements analysés, on dénombre 3 po",
-          "source": {
-            "candidate_id": "180-p07-b002-4498accdb8",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions Ituri : 7 % de taux d'occupation global dans les structures (50 % pour les suspects et 24 % pour les confirmés), 376 patients au total (128 c",
+          "excerpt": "Ituri : 79 alertes d'EDS reçues, 61 réalisées (77 %), 58 corps swabés, avec 9 échecs et 14 reports. Nord-Kivu : 84 alertes reçues, 66 EDS réalisés (avec 72 corps pris en charge, 7 corps swabés et des ",
           "source": {
-            "candidate_id": "180-p08-b000-02ef8019bd",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b002-b98a099794",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
             "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 501,
+      "candidate_passages": 506,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 153,
+      "distinct_reporting_sitreps": 154,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : 149 994 voyageurs enregistrés aux différents points de contrôle. Plusieurs alertes d",
+          "excerpt": "Ituri : 308 échantillons reçus et testés au total pour la journée, avec une positivité globale de 12,2 % (relevés et nouveaux échantillons confondus). Nord-Kivu : 311 échantillons reçus au total, dont",
           "source": {
-            "candidate_id": "180-p05-b015-0340c1ef0b",
-            "date": "2026-11-10",
-            "page": 5,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "candidate_id": "181-p06-b030-f661c927d4",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p07-b004-b7d0bda23c",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Ituri : 102 alertes EDS reçues, 75 réalisées (74 %), permettant la sécurisation et le prélèvement (swab) de 16 corps. Nord-Kivu : 77 EDS réalisés au total, dont 67 corps swabés. Tshopo : Début de la f",
+          "excerpt": "Ituri : 79 alertes d'EDS reçues, 61 réalisées (77 %), 58 corps swabés, avec 9 échecs et 14 reports. Nord-Kivu : 84 alertes reçues, 66 EDS réalisés (avec 72 corps pris en charge, 7 corps swabés et des ",
           "source": {
-            "candidate_id": "180-p07-b008-71b0295a34",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b002-b98a099794",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 492,
+      "candidate_passages": 498,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 143,
+      "distinct_reporting_sitreps": 144,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : 149 994 voyageurs enregistrés aux différents points de contrôle. Plusieurs alertes d",
+          "excerpt": "Ituri : 308 échantillons reçus et testés au total pour la journée, avec une positivité globale de 12,2 % (relevés et nouveaux échantillons confondus). Nord-Kivu : 311 échantillons reçus au total, dont",
           "source": {
-            "candidate_id": "180-p05-b015-0340c1ef0b",
-            "date": "2026-11-10",
-            "page": 5,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "candidate_id": "181-p06-b030-f661c927d4",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Ituri : 102 alertes EDS reçues, 75 réalisées (74 %), permettant la sécurisation et le prélèvement (swab) de 16 corps. Nord-Kivu : 77 EDS réalisés au total, dont 67 corps swabés. Tshopo : Début de la f",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p07-b008-71b0295a34",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions Ituri : 7 % de taux d'occupation global dans les structures (50 % pour les suspects et 24 % pour les confirmés), 376 patients au total (128 c",
+          "excerpt": "Ituri : 79 alertes d'EDS reçues, 61 réalisées (77 %), 58 corps swabés, avec 9 échecs et 14 reports. Nord-Kivu : 84 alertes reçues, 66 EDS réalisés (avec 72 corps pris en charge, 7 corps swabés et des ",
           "source": {
-            "candidate_id": "180-p08-b000-02ef8019bd",
-            "date": "2026-11-10",
-            "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "candidate_id": "181-p07-b002-b98a099794",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 23,
+      "candidate_passages": 25,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 9,
+      "distinct_reporting_sitreps": 10,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
           "source": {
             "candidate_id": "180-p07-b004-b7d0bda23c",
             "date": "2026-11-10",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions Ituri : 7 % de taux d'occupation global dans les structures (50 % pour les suspects et 24 % pour les confirmés), 376 patients au total (128 c",
-          "source": {
-            "candidate_id": "180-p08-b000-02ef8019bd",
-            "date": "2026-11-10",
-            "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
-          "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
-            "page": 9,
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
@@ -11164,14 +11242,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 24,
+      "candidate_passages": 25,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 17,
+      "distinct_reporting_sitreps": 18,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
           "source": {
@@ -11191,71 +11279,71 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : Cinq zones de santé ont rapporté des interventions autour des cas, permettant l'ouverture de 100 % des rings",
-          "source": {
-            "candidate_id": "179-p07-b003-5df82f859e",
-            "date": "2026-11-09",
-            "page": 7,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 360,
+      "candidate_passages": 365,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 107,
+      "distinct_reporting_sitreps": 108,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
+          "excerpt": "Ituri : 308 échantillons reçus et testés au total pour la journée, avec une positivité globale de 12,2 % (relevés et nouveaux échantillons confondus). Nord-Kivu : 311 échantillons reçus au total, dont",
           "source": {
-            "candidate_id": "180-p06-b000-7318016812",
-            "date": "2026-11-10",
+            "candidate_id": "181-p06-b030-f661c927d4",
+            "date": "2026-11-11",
             "page": 6,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Ituri : 102 alertes EDS reçues, 75 réalisées (74 %), permettant la sécurisation et le prélèvement (swab) de 16 corps. Nord-Kivu : 77 EDS réalisés au total, dont 67 corps swabés. Tshopo : Début de la f",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p07-b008-71b0295a34",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.5. Prise en charge holistique 2.5.1. Principales actions Ituri : 7 % de taux d'occupation global dans les structures (50 % pour les suspects et 24 % pour les confirmés), 376 patients au total (128 c",
+          "excerpt": "Ituri : 79 alertes d'EDS reçues, 61 réalisées (77 %), 58 corps swabés, avec 9 échecs et 14 reports. Nord-Kivu : 84 alertes reçues, 66 EDS réalisés (avec 72 corps pris en charge, 7 corps swabés et des ",
           "source": {
-            "candidate_id": "180-p08-b000-02ef8019bd",
-            "date": "2026-11-10",
-            "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "candidate_id": "181-p07-b002-b98a099794",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 339,
+      "candidate_passages": 340,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 155,
+      "distinct_reporting_sitreps": 156,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-14",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
+          "source": {
+            "candidate_id": "181-p05-b000-78fce29d6a",
+            "date": "2026-11-11",
+            "page": 5,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
           "source": {
@@ -11275,114 +11363,124 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
-          "source": {
-            "candidate_id": "179-p05-b000-78fce29d6a",
-            "date": "2026-11-09",
-            "page": 5,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 230,
+      "candidate_passages": 234,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 81,
+      "distinct_reporting_sitreps": 82,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
+          "excerpt": "Défis : Rupture de réactif (Tampon MVE) et pré-rupture de gasoil pour le fonctionnement de l'incinérateur et du générateur Haut-Uélé : 19 nouveaux prélèvements analysés : 5 positifs et 14 négatifs, 5 ",
           "source": {
-            "candidate_id": "180-p07-b004-b7d0bda23c",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b000-ea3830448c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
             "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
-          "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 255,
+      "candidate_passages": 259,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 95,
+      "distinct_reporting_sitreps": 96,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
+          "excerpt": "Défis : Rupture de réactif (Tampon MVE) et pré-rupture de gasoil pour le fonctionnement de l'incinérateur et du générateur Haut-Uélé : 19 nouveaux prélèvements analysés : 5 positifs et 14 négatifs, 5 ",
           "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : Cinq zones de santé ont rapporté des interventions autour des cas, permettant l'ouverture de 100 % des rings",
-          "source": {
-            "candidate_id": "179-p07-b003-5df82f859e",
-            "date": "2026-11-09",
+            "candidate_id": "181-p07-b000-ea3830448c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "Ituri : 125 alertes. Seulement 82 EDS réalisés (66 %), contre 83 % la veille. 78/108 corps swabés, avec 23 échecs (18 %, contre 5 %), et 20 reports. Bunia a 28 alertes, 14 EDS et 13 reports. Rwampara ",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "179-p08-b003-d79322175a",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 424,
+      "candidate_passages": 426,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 129,
+      "distinct_reporting_sitreps": 130,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Ituri",
       "recent_examples": [
         {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
           "source": {
             "candidate_id": "180-p07-b004-b7d0bda23c",
@@ -11391,81 +11489,81 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "Santé Bachenze (ZS de Pawa) a mis en lumière une baisse sensible de la fréquentation due à la peur et aux rumeurs liées à l'Ebola, ainsi qu'un manque d'infrastructures sanitaires adéquates. Le suivi p",
-          "source": {
-            "candidate_id": "180-p09-b000-2556314c8f",
-            "date": "2026-11-10",
-            "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
-          "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
-            "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 354,
+      "candidate_passages": 358,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 133,
+      "distinct_reporting_sitreps": 134,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "2.7. Continuité des Soins 2.7.1. Principales actions Nord-Kivu : L'évaluation de base du centre de santé Tulizeni a mis en évidence l'absence de zone de triage normée, le manque d'EPI et de protection",
           "source": {
-            "candidate_id": "180-p08-b002-46ab48f4f6",
-            "date": "2026-11-10",
-            "page": 8,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
-          "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
+            "candidate_id": "181-p09-b001-46ab48f4f6",
+            "date": "2026-11-11",
             "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : Cinq zones de santé ont rapporté des interventions autour des cas, permettant l'ouverture de 100 % des rings",
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
           "source": {
-            "candidate_id": "179-p07-b003-5df82f859e",
-            "date": "2026-11-09",
-            "page": 7,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 17,
+      "candidate_passages": 19,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 9,
+      "distinct_reporting_sitreps": 10,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Sud Ubangi : Activités de préparation et cartographie : Identification des structures sanitaires et des PPL dans les zones frontalières avec le Nord-Ubangi (4 zones de santé sur 6 ayant remonté leurs ",
+          "source": {
+            "candidate_id": "181-p08-b004-f79d281419",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
           "source": {
@@ -11475,39 +11573,29 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
-          "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
-            "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
-          "source": {
-            "candidate_id": "176-p09-b000-5245f4dfcb",
-            "date": "2026-11-06",
-            "page": 9,
-            "report_number": 176,
-            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 60,
+      "candidate_passages": 61,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 55,
+      "distinct_reporting_sitreps": 56,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-06-04",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
+          "source": {
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
           "source": {
@@ -11527,29 +11615,39 @@
             "report_number": 170,
             "source_sha256": "5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156"
           }
-        },
-        {
-          "excerpt": "2.1.1. Principales Actions Au cours de la journée du 19 octobre 2026, 3 184 alertes ont été notifiées dans les six provinces ayant transmis leurs données. Toutes ont été vérifiées et classifiées (100,",
-          "source": {
-            "candidate_id": "158-p05-b016-2c0707a8e2",
-            "date": "2026-10-19",
-            "page": 5,
-            "report_number": 158,
-            "source_sha256": "b286783875da3eee02a8d7d53f7162794303c69a79948e1f5a3d16ac8e1c647a"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 20,
+      "candidate_passages": 22,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 16,
+      "distinct_reporting_sitreps": 17,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Sud Ubangi : Activités de préparation et cartographie : Identification des structures sanitaires et des PPL dans les zones frontalières avec le Nord-Ubangi (4 zones de santé sur 6 ayant remonté leurs ",
+          "source": {
+            "candidate_id": "181-p08-b004-f79d281419",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Bas-Uélé : Suivi et accompagnement des prestataires de soins dans 9/9 ESS à Buta, 4 ESS à Ganga et 2 ESS à Viadana. Briefing de 45 prestataires et 8 hygiénistes (100 %) sur les EPI, la gestion des déc",
           "source": {
@@ -11559,67 +11657,47 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
-          "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : Cinq zones de santé ont rapporté des interventions autour des cas, permettant l'ouverture de 100 % des rings",
-          "source": {
-            "candidate_id": "179-p07-b003-5df82f859e",
-            "date": "2026-11-09",
-            "page": 7,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 313,
+      "candidate_passages": 318,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 104,
+      "distinct_reporting_sitreps": 105,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Bas-Uélé : Sensibilisation menée à travers des visites à domicile, des causeries éducatives (ex. avec les taximen à Ganga et des femmes enceintes en CPN à Bondo/Yakpa) et des séances en milieu scolair",
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
           "source": {
-            "candidate_id": "180-p09-b004-5f61a6b84f",
-            "date": "2026-11-10",
-            "page": 9,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
-          "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
             "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         },
         {
-          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : Cinq zones de santé ont rapporté des interventions autour des cas, permettant l'ouverture de 100 % des rings",
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
           "source": {
-            "candidate_id": "179-p07-b003-5df82f859e",
-            "date": "2026-11-09",
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
             "page": 7,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Sud Ubangi : Activités de préparation et cartographie : Identification des structures sanitaires et des PPL dans les zones frontalières avec le Nord-Ubangi (4 zones de santé sur 6 ayant remonté leurs ",
+          "source": {
+            "candidate_id": "181-p08-b004-f79d281419",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
@@ -11668,14 +11746,34 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 57,
+      "candidate_passages": 59,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 33,
+      "distinct_reporting_sitreps": 34,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-08-19",
-      "last_report_date": "2026-11-07",
+      "last_report_date": "2026-11-11",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Bas-Uélé : Colisage des intrants PCI et PEC en cours. Travaux de réhabilitation en cours à la DPS (salle de réunion, bureaux hygiène et enseignement appuyés par l'OMS). Expression de besoins majeurs e",
+          "source": {
+            "candidate_id": "181-p10-b000-b6cc7d7901",
+            "date": "2026-11-11",
+            "page": 10,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
           "source": {
@@ -11685,39 +11783,39 @@
             "report_number": 177,
             "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
           }
-        },
-        {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
-          "source": {
-            "candidate_id": "176-p06-b038-ed1bfeea31",
-            "date": "2026-11-06",
-            "page": 6,
-            "report_number": 176,
-            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
-          }
-        },
-        {
-          "excerpt": "2.11. Sécurité 2.11.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
-          "source": {
-            "candidate_id": "176-p11-b004-381bb7c7b3",
-            "date": "2026-11-06",
-            "page": 11,
-            "report_number": 176,
-            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 84,
+      "candidate_passages": 86,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 56,
+      "distinct_reporting_sitreps": 57,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Bas-Uélé : Colisage des intrants PCI et PEC en cours. Travaux de réhabilitation en cours à la DPS (salle de réunion, bureaux hygiène et enseignement appuyés par l'OMS). Expression de besoins majeurs e",
+          "source": {
+            "candidate_id": "181-p10-b000-b6cc7d7901",
+            "date": "2026-11-11",
+            "page": 10,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Paiements : salaires de septembre impayés (Ituri, Haut-Uélé), 3 mois de retard au Nord-Kivu, grève à Viadana. Sécurité : menaces contre les prestataires sur l’axe Butembo (Nord-Kivu) et l’axe Bolebole",
           "source": {
@@ -11727,39 +11825,29 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "Ituri : 18 prestataires formés en soins obstétricaux et néonatals d’urgence dans 4 ESS de Lita. Supervision de la vaccination de routine dans les 36 ZS. Prévu : formation en VIH/TB, formation à Gety e",
-          "source": {
-            "candidate_id": "179-p09-b005-d477916924",
-            "date": "2026-11-09",
-            "page": 9,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
-          "source": {
-            "candidate_id": "178-p06-b001-26b401019b",
-            "date": "2026-11-08",
-            "page": 6,
-            "report_number": 178,
-            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 128,
+      "candidate_passages": 129,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 78,
+      "distinct_reporting_sitreps": 79,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Ituri",
       "recent_examples": [
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : le refus du screening est concentré à Mongbwalu, où il atteint 43 % à Nzebi et à Fri",
           "source": {
@@ -11779,29 +11867,39 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "Ituri : 18 prestataires formés en soins obstétricaux et néonatals d’urgence dans 4 ESS de Lita. Supervision de la vaccination de routine dans les 36 ZS. Prévu : formation en VIH/TB, formation à Gety e",
-          "source": {
-            "candidate_id": "179-p09-b005-d477916924",
-            "date": "2026-11-09",
-            "page": 9,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 118,
+      "candidate_passages": 120,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 77,
+      "distinct_reporting_sitreps": 78,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Bas-Uélé : Colisage des intrants PCI et PEC en cours. Travaux de réhabilitation en cours à la DPS (salle de réunion, bureaux hygiène et enseignement appuyés par l'OMS). Expression de besoins majeurs e",
+          "source": {
+            "candidate_id": "181-p10-b000-b6cc7d7901",
+            "date": "2026-11-11",
+            "page": 10,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Tshopo : Insécurité et menaces persistantes contre les équipes de riposte dans certaines zones (notamment à Bafwasende, Kabondo et Mangobo). 2.12. PSEA (Prévention de l'Exploitation et Abus Sexuels) 2",
           "source": {
@@ -11810,26 +11908,6 @@
             "page": 10,
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : le refus du screening est concentré à Mongbwalu, où il atteint 43 % à Nzebi et à Fri",
-          "source": {
-            "candidate_id": "179-p05-b015-677a874a65",
-            "date": "2026-11-09",
-            "page": 5,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Paiements : salaires de septembre impayés (Ituri, Haut-Uélé), 3 mois de retard au Nord-Kivu, grève à Viadana. Sécurité : menaces contre les prestataires sur l’axe Butembo (Nord-Kivu) et l’axe Bolebole",
-          "source": {
-            "candidate_id": "179-p06-b003-5d8ced967e",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
         }
       ],
@@ -11878,14 +11956,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 32,
+      "candidate_passages": 33,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 30,
+      "distinct_reporting_sitreps": 31,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-04",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
+          "source": {
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 55 % (12/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 5 n’ont pas rapporté faute de connectivité ",
           "source": {
@@ -11904,16 +11992,6 @@
             "page": 6,
             "report_number": 173,
             "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
-          }
-        },
-        {
-          "excerpt": "2.2.2. Défis En Ituri, les prestataires des PoC de Mongbwalu et de Mandima restent à former, la mobilité manque pour la supervision à Bunia et à Rwampara, les salaires de septembre ne sont pas payés e",
-          "source": {
-            "candidate_id": "170-p06-b021-10ef98dcf1",
-            "date": "2026-10-31",
-            "page": 6,
-            "report_number": 170,
-            "source_sha256": "5a578aaf36248ea1f24df6cd35618a9e2c0ad751b194bf3f1a55f7bf275ef156"
           }
         }
       ],
@@ -11962,42 +12040,42 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 86,
+      "candidate_passages": 89,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 56,
+      "distinct_reporting_sitreps": 57,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-14",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Tshopo : Insécurité et menaces persistantes contre les équipes de riposte dans certaines zones (notamment à Bafwasende, Kabondo et Mangobo). 2.12. PSEA (Prévention de l'Exploitation et Abus Sexuels) 2",
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
           "source": {
-            "candidate_id": "180-p10-b000-6471ef0dbe",
-            "date": "2026-11-10",
-            "page": 10,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Tshopo : 83 alertes communautaires notifiées et toutes résolues, surtout à Kabondo. 1 feedback traité sur 1. 962 sites à domicile et 2 sensibilisations de masse (106 personnes). Appui à la surveillanc",
-          "source": {
-            "candidate_id": "179-p10-b001-98d9d6ab02",
-            "date": "2026-11-09",
-            "page": 10,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Tshopo : 13 295 voyageurs, 99,4 % screenés, 0 alerte. Complétude 55,6 % (10/18). Plusieurs ports privés sont fermés le dimanche à cause des taxes. Haut-Uele : 17 293 voyageurs sur 10/13 PoC, 98 % scre",
-          "source": {
-            "candidate_id": "178-p06-b001-26b401019b",
-            "date": "2026-11-08",
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
             "page": 6,
-            "report_number": 178,
-            "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Cumul de 68 cas confirmés pris en charge, dont 3 traités au MPB134 et 58 au Remdesivir. 614 personnes ont bénéficié de la Prophylaxie Post-Expositionnelle (PEP) et 48 PPL et des patients hosp",
+          "source": {
+            "candidate_id": "181-p09-b002-555ef796b2",
+            "date": "2026-11-11",
+            "page": 9,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "Bas-Uélé : Colisage des intrants PCI et PEC en cours. Travaux de réhabilitation en cours à la DPS (salle de réunion, bureaux hygiène et enseignement appuyés par l'OMS). Expression de besoins majeurs e",
+          "source": {
+            "candidate_id": "181-p10-b000-b6cc7d7901",
+            "date": "2026-11-11",
+            "page": 10,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
           }
         }
       ],
@@ -12046,14 +12124,34 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 108,
+      "candidate_passages": 110,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 52,
+      "distinct_reporting_sitreps": 53,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
           "source": {
@@ -12063,39 +12161,39 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "Ituri : 125 alertes. Seulement 82 EDS réalisés (66 %), contre 83 % la veille. 78/108 corps swabés, avec 23 échecs (18 %, contre 5 %), et 20 reports. Bunia a 28 alertes, 14 EDS et 13 reports. Rwampara ",
-          "source": {
-            "candidate_id": "179-p08-b003-d79322175a",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "2.10. Sécurité 2.10.1. Principales actions En Ituri, le PoC d’Avakubi reste non fonctionnel en raison de l’insécurité ; au Nord-Kivu, une grenade a été découverte devant l’entrée du bureau de la ZS de",
-          "source": {
-            "candidate_id": "177-p08-b004-0cc88dbb1a",
-            "date": "2026-11-07",
-            "page": 8,
-            "report_number": 177,
-            "source_sha256": "f56726240e052241f19de5d68b4afd6d8b33033d8b532cb39ae651a178fd5c39"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 112,
+      "candidate_passages": 114,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 65,
+      "distinct_reporting_sitreps": 66,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
           "source": {
@@ -12105,40 +12203,40 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
-          "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Paiements : salaires de septembre impayés (Ituri, Haut-Uélé), 3 mois de retard au Nord-Kivu, grève à Viadana. Sécurité : menaces contre les prestataires sur l’axe Butembo (Nord-Kivu) et l’axe Bolebole",
-          "source": {
-            "candidate_id": "179-p06-b003-5d8ced967e",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 174,
+      "candidate_passages": 176,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 99,
+      "distinct_reporting_sitreps": 100,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Ituri",
       "recent_examples": [
         {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : le refus du screening est concentré à Mongbwalu, où il atteint 43 % à Nzebi et à Fri",
           "source": {
             "candidate_id": "179-p05-b015-677a874a65",
@@ -12147,40 +12245,40 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "Paiements : salaires de septembre impayés (Ituri, Haut-Uélé), 3 mois de retard au Nord-Kivu, grève à Viadana. Sécurité : menaces contre les prestataires sur l’axe Butembo (Nord-Kivu) et l’axe Bolebole",
-          "source": {
-            "candidate_id": "179-p06-b003-5d8ced967e",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Ituri : 125 alertes. Seulement 82 EDS réalisés (66 %), contre 83 % la veille. 78/108 corps swabés, avec 23 échecs (18 %, contre 5 %), et 20 reports. Bunia a 28 alertes, 14 EDS et 13 reports. Rwampara ",
-          "source": {
-            "candidate_id": "179-p08-b003-d79322175a",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 112,
+      "candidate_passages": 114,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 68,
+      "distinct_reporting_sitreps": 69,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-09",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : le refus du screening est concentré à Mongbwalu, où il atteint 43 % à Nzebi et à Fri",
           "source": {
             "candidate_id": "179-p05-b015-677a874a65",
@@ -12189,39 +12287,39 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "Paiements : salaires de septembre impayés (Ituri, Haut-Uélé), 3 mois de retard au Nord-Kivu, grève à Viadana. Sécurité : menaces contre les prestataires sur l’axe Butembo (Nord-Kivu) et l’axe Bolebole",
-          "source": {
-            "candidate_id": "179-p06-b003-5d8ced967e",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Ituri : 125 alertes. Seulement 82 EDS réalisés (66 %), contre 83 % la veille. 78/108 corps swabés, avec 23 échecs (18 %, contre 5 %), et 20 reports. Bunia a 28 alertes, 14 EDS et 13 reports. Rwampara ",
-          "source": {
-            "candidate_id": "179-p08-b003-d79322175a",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 10,
+      "candidate_passages": 12,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 5,
+      "distinct_reporting_sitreps": 6,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-06",
+      "last_report_date": "2026-11-11",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "structures. Et 366 patients sur 380 (96 %) ont bénéficié d'un repas chaud, et un suivi particulier est assuré pour les nourrissons sous régimes spécifiques (LNPE/SLM) et les cas de malnutrition (MAS/M",
+          "source": {
+            "candidate_id": "181-p08-b000-c81f7b4420",
+            "date": "2026-11-11",
+            "page": 8,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "2.6. Continuité des Soins 2.6.1. Principales actions Au Nord-Kivu, l’évaluation de la continuité des services de santé essentiels à l’HGR de Mambowa (Biena) a relevé la fermeture du service des urgenc",
           "source": {
@@ -12231,40 +12329,30 @@
             "report_number": 176,
             "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
-        },
-        {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
-          "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "2.5.2. Défis En Ituri, la cible TPL/PPL reste à redéfinir et 5 MAPI graves ont été notifiées au cumul ; au NordKivu, la vaccination reste concentrée dans la ZS de Beni (79,0 % des vaccinés), la couver",
-          "source": {
-            "candidate_id": "175-p08-b002-3ddb260055",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 42,
+      "candidate_passages": 43,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 41,
+      "distinct_reporting_sitreps": 42,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-11",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
         {
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
+          "source": {
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
           "source": {
             "candidate_id": "180-p06-b000-7318016812",
@@ -12283,30 +12371,30 @@
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Pour la journée du 4 novembre 2026, neuf (9) alertes ont été notifiées aux PoE/PoC, dont qua",
-          "source": {
-            "candidate_id": "174-p05-b022-b849ee3e6d",
-            "date": "2026-11-04",
-            "page": 5,
-            "report_number": 174,
-            "source_sha256": "a5fbce42535e9ab4b5348aa61f69a3c541d041353d293d44bc1df263383e7ec3"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 16,
+      "candidate_passages": 17,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 10,
+      "distinct_reporting_sitreps": 11,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
           "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
           "source": {
             "candidate_id": "180-p06-b000-7318016812",
@@ -12324,30 +12412,40 @@
             "page": 6,
             "report_number": 179,
             "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "2.2.2. Défis Au Bas-Uélé, la complétude n’est que de 50 % (11/22) : 5 PoC de la ZS de Viadana n’ont pas fonctionné en raison de la grève des prestataires et 6 n’ont pas rapporté faute de connectivité ",
-          "source": {
-            "candidate_id": "176-p06-b038-ed1bfeea31",
-            "date": "2026-11-06",
-            "page": 6,
-            "report_number": 176,
-            "source_sha256": "50ffae3d64b8963994fc46d0ecaf01708ced6748e8152ff85eb0393f5fdde604"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 140,
+      "candidate_passages": 142,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 75,
+      "distinct_reporting_sitreps": 76,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-11",
       "province_mention": "Tshopo",
       "recent_examples": [
+        {
+          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
+          "source": {
+            "candidate_id": "181-p06-b001-bb756abf93",
+            "date": "2026-11-11",
+            "page": 6,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
+        {
+          "excerpt": "2.4. Prévention et Contrôle de l'Infection (PCI/EDS) 2.4.1. Principales actions Haut-Uélé : 100 % des rings ouverts autour des cas confirmés du jour, 100 % des ménages identifiés décontaminés (2/2 à P",
+          "source": {
+            "candidate_id": "181-p07-b001-ad3085368c",
+            "date": "2026-11-11",
+            "page": 7,
+            "report_number": 181,
+            "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+          }
+        },
         {
           "excerpt": "intercepté au PoC Mukulia). Le PoC de Butuhe reste fermé depuis l'incident sécuritaire de septembre 2026. Tshopo : Interception de 3 corps sans vie au PoC PK 15 (axe Banalia) transportés à moto sans r",
           "source": {
@@ -12356,26 +12454,6 @@
             "page": 6,
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Tshopo : tous les PoC ont rapporté, ports privés compris. Les refus sont faibles (1,2 % pour le screening, 1 % pour le lavage), avec un maximum de 4,2 % à PK23 RN4. Haut-Uélé : 3 PoC (Gossamu, Mutowam",
-          "source": {
-            "candidate_id": "179-p06-b000-0d0adc3128",
-            "date": "2026-11-09",
-            "page": 6,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
-        },
-        {
-          "excerpt": "Ituri : 125 alertes. Seulement 82 EDS réalisés (66 %), contre 83 % la veille. 78/108 corps swabés, avec 23 échecs (18 %, contre 5 %), et 20 reports. Bunia a 28 alertes, 14 EDS et 13 reports. Rwampara ",
-          "source": {
-            "candidate_id": "179-p08-b003-d79322175a",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
           }
         }
       ],
@@ -12808,6 +12886,22 @@
     {
       "distinct_sitreps": 8,
       "example_source": {
+        "candidate_id": "181-p05-b000-78fce29d6a",
+        "date": "2026-11-11",
+        "page": 5,
+        "report_number": 181,
+        "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+      },
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-11",
+      "source_text_sha256": "78fce29d6a7b0cc3437057f57461001dd26e879aa8bf1efce55711fe97cdbcca",
+      "topic_candidates": [
+        "unclassified"
+      ]
+    },
+    {
+      "distinct_sitreps": 8,
+      "example_source": {
         "candidate_id": "044-p10-b013-a6283ae72f",
         "date": "2026-06-27",
         "page": 10,
@@ -12849,22 +12943,6 @@
       "first_date": "2026-10-25",
       "last_date": "2026-11-01",
       "source_text_sha256": "fa724f6a6fb1ec51af98b965b98f2f40f849ecfc7816cd9bc4d4e531d749428c",
-      "topic_candidates": [
-        "unclassified"
-      ]
-    },
-    {
-      "distinct_sitreps": 7,
-      "example_source": {
-        "candidate_id": "180-p05-b000-78fce29d6a",
-        "date": "2026-11-10",
-        "page": 5,
-        "report_number": 180,
-        "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-      },
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-10",
-      "source_text_sha256": "78fce29d6a7b0cc3437057f57461001dd26e879aa8bf1efce55711fe97cdbcca",
       "topic_candidates": [
         "unclassified"
       ]
@@ -13215,6 +13293,22 @@
       "source_text_sha256": "37b3db4cdf9c535dd5e335784180d2b821629ee3097615409d5489210399021b",
       "topic_candidates": [
         "vaccination"
+      ]
+    },
+    {
+      "distinct_sitreps": 3,
+      "example_source": {
+        "candidate_id": "181-p09-b001-46ab48f4f6",
+        "date": "2026-11-11",
+        "page": 9,
+        "report_number": 181,
+        "source_sha256": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97"
+      },
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-11",
+      "source_text_sha256": "46ab48f4f6bf2b5df1a46a11b8df3e19e3f60657b26aeab065f1ef85bc8ed67f",
+      "topic_candidates": [
+        "service_continuity"
       ]
     },
     {
@@ -13970,22 +14064,6 @@
       "topic_candidates": [
         "community_engagement",
         "surveillance_and_alerts"
-      ]
-    },
-    {
-      "distinct_sitreps": 2,
-      "example_source": {
-        "candidate_id": "180-p08-b002-46ab48f4f6",
-        "date": "2026-11-10",
-        "page": 8,
-        "report_number": 180,
-        "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-      },
-      "first_date": "2026-11-09",
-      "last_date": "2026-11-10",
-      "source_text_sha256": "46ab48f4f6bf2b5df1a46a11b8df3e19e3f60657b26aeab065f1ef85bc8ed67f",
-      "topic_candidates": [
-        "service_continuity"
       ]
     },
     {
@@ -15414,10 +15492,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-12T13:53:05.451209+00:00",
+  "generated_at": "2026-11-13T13:16:27.044125+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 163,
+  "reports_classified": 164,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }
