@@ -15492,7 +15492,7 @@
       ]
     }
   ],
-  "generated_at": "2026-11-13T13:16:27.044125+00:00",
+  "generated_at": "2026-11-14T12:21:03.260836+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
   "reports_classified": 164,
