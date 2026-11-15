@@ -1,12 +1,12 @@
 {
   "schema_version": "bdbv-ingestion-audit-v1",
-  "generated_at": "2026-11-14T12:21:03.565094+00:00",
+  "generated_at": "2026-11-15T12:24:25.048307+00:00",
   "assessment": "PARTIAL_VALIDATION",
   "collected": {
-    "registry_documents": 164,
-    "queue_documents_verified": 164,
-    "unique_report_numbers": 164,
-    "highest_report_number": 181,
+    "registry_documents": 165,
+    "queue_documents_verified": 165,
+    "unique_report_numbers": 165,
+    "highest_report_number": 182,
     "numbering_gaps_not_equivalent_to_missing_publications": [
       3,
       7,
@@ -28,9 +28,9 @@
     ]
   },
   "tables": {
-    "indexed_reports": 164,
+    "indexed_reports": 165,
     "validation_distribution": {
-      "0": 140,
+      "0": 141,
       "1": 14,
       "2": 5,
       "3": 1,
@@ -50,7 +50,7 @@
         "status_unavailable_from_index": true
       },
       "table_2": {
-        "records_with_rows": 74,
+        "records_with_rows": 75,
         "status_unavailable_from_index": true
       },
       "table_3": {
@@ -67,7 +67,7 @@
       }
     },
     "status_distribution": {
-      "PARTIAL_REVIEW_REQUIRED": 163,
+      "PARTIAL_REVIEW_REQUIRED": 164,
       "VALIDATED_WHERE_RECONCILED": 1
     }
   },
@@ -97,18 +97,20 @@
   ],
   "narratives": {
     "status": "ALL_CATALOGUED_REPORTS_CLASSIFIED",
-    "reports_with_candidates": 164,
-    "candidate_blocks_for_review": 4725,
+    "reports_with_candidates": 165,
+    "candidate_blocks_for_review": 4746,
     "unclassified_report_numbers": [],
     "last_run_failures": [],
     "all_candidates_require_review": true
   },
   "original_pdf_archives": {
-    "status": "ALL_CATALOGUED_ORIGINALS_ARCHIVED",
+    "status": "PARTIAL",
     "archived_document_hashes": 164,
-    "latest_report_hashes": 164,
-    "remaining_latest_hashes": 0,
-    "unarchived_report_keys": [],
+    "latest_report_hashes": 165,
+    "remaining_latest_hashes": 1,
+    "unarchived_report_keys": [
+      "182:f743f91496d8fc9781a2d70fb984d22c93ebb55c8cf43f16368b70a6a3f3c879"
+    ],
     "malformed_archive_index_keys": [],
     "release_count": 5,
     "note": "Immutable GitHub Release inventory; archive asset checksums are in embedded manifests."
