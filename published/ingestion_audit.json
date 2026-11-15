@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-ingestion-audit-v1",
-  "generated_at": "2026-11-15T12:24:25.048307+00:00",
+  "generated_at": "2026-11-15T12:51:42.208829+00:00",
   "assessment": "PARTIAL_VALIDATION",
   "collected": {
     "registry_documents": 165,
@@ -104,15 +104,13 @@
     "all_candidates_require_review": true
   },
   "original_pdf_archives": {
-    "status": "PARTIAL",
-    "archived_document_hashes": 164,
+    "status": "ALL_CATALOGUED_ORIGINALS_ARCHIVED",
+    "archived_document_hashes": 165,
     "latest_report_hashes": 165,
-    "remaining_latest_hashes": 1,
-    "unarchived_report_keys": [
-      "182:f743f91496d8fc9781a2d70fb984d22c93ebb55c8cf43f16368b70a6a3f3c879"
-    ],
+    "remaining_latest_hashes": 0,
+    "unarchived_report_keys": [],
     "malformed_archive_index_keys": [],
-    "release_count": 5,
+    "release_count": 6,
     "note": "Immutable GitHub Release inventory; archive asset checksums are in embedded manifests."
   }
 }
