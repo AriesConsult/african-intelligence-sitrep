@@ -1979,6 +1979,30 @@
       "status": "REVIEW_REQUIRED",
       "tables": 23,
       "validation_flags": []
+    },
+    "183:2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed": {
+      "checked_at": "2026-11-16T13:49:15.345335+00:00",
+      "pages": 11,
+      "provider": "INSP-official",
+      "report_date": "2026-11-13",
+      "report_number": 183,
+      "sha256": "2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_N183_13-11-2026_corrige-VF.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 22,
+      "validation_flags": []
+    },
+    "184:543cd14b68e56ea4be0ffdf9aea3be56be66cd586d5042119b8e222c5303e8ed": {
+      "checked_at": "2026-11-16T13:49:15.345335+00:00",
+      "pages": 11,
+      "provider": "INSP-official",
+      "report_date": "2026-11-14",
+      "report_number": 184,
+      "sha256": "543cd14b68e56ea4be0ffdf9aea3be56be66cd586d5042119b8e222c5303e8ed",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_N184_14-11-2026_VF.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 21,
+      "validation_flags": []
     }
   },
   "latest_by_report": {
@@ -2072,6 +2096,8 @@
     "180": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04",
     "181": "bdeaeb2dd14abe8ef9026f1f1904b630e8c18d2f456658de1f1f658123a6df97",
     "182": "f743f91496d8fc9781a2d70fb984d22c93ebb55c8cf43f16368b70a6a3f3c879",
+    "183": "2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed",
+    "184": "543cd14b68e56ea4be0ffdf9aea3be56be66cd586d5042119b8e222c5303e8ed",
     "19": "347720b747a917db84122dcc5689957a2483cf01223a7ef356f648893ec5df73",
     "2": "f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a",
     "20": "6f1c2cf12404cf5d3d6ed04dc01767a5688fab2efee5b4715764c25bd9b7d1ac",
