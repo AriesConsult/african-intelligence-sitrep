@@ -1,12 +1,12 @@
 {
   "schema_version": "bdbv-ingestion-audit-v1",
-  "generated_at": "2026-11-16T13:50:28.047945+00:00",
+  "generated_at": "2026-11-17T14:42:57.817485+00:00",
   "assessment": "PARTIAL_VALIDATION",
   "collected": {
-    "registry_documents": 167,
-    "queue_documents_verified": 167,
-    "unique_report_numbers": 167,
-    "highest_report_number": 184,
+    "registry_documents": 168,
+    "queue_documents_verified": 168,
+    "unique_report_numbers": 168,
+    "highest_report_number": 185,
     "numbering_gaps_not_equivalent_to_missing_publications": [
       3,
       7,
@@ -28,9 +28,9 @@
     ]
   },
   "tables": {
-    "indexed_reports": 167,
+    "indexed_reports": 168,
     "validation_distribution": {
-      "0": 141,
+      "0": 142,
       "1": 16,
       "2": 5,
       "3": 1,
@@ -50,7 +50,7 @@
         "status_unavailable_from_index": true
       },
       "table_2": {
-        "records_with_rows": 77,
+        "records_with_rows": 78,
         "status_unavailable_from_index": true
       },
       "table_3": {
@@ -58,7 +58,7 @@
         "status_unavailable_from_index": true
       },
       "table_4": {
-        "records_with_rows": 14,
+        "records_with_rows": 15,
         "status_unavailable_from_index": true
       },
       "table_5": {
@@ -67,7 +67,7 @@
       }
     },
     "status_distribution": {
-      "PARTIAL_REVIEW_REQUIRED": 166,
+      "PARTIAL_REVIEW_REQUIRED": 167,
       "VALIDATED_WHERE_RECONCILED": 1
     }
   },
@@ -97,23 +97,22 @@
   ],
   "narratives": {
     "status": "ALL_CATALOGUED_REPORTS_CLASSIFIED",
-    "reports_with_candidates": 167,
-    "candidate_blocks_for_review": 4779,
+    "reports_with_candidates": 168,
+    "candidate_blocks_for_review": 4792,
     "unclassified_report_numbers": [],
     "last_run_failures": [],
     "all_candidates_require_review": true
   },
   "original_pdf_archives": {
     "status": "PARTIAL",
-    "archived_document_hashes": 165,
-    "latest_report_hashes": 167,
-    "remaining_latest_hashes": 2,
+    "archived_document_hashes": 167,
+    "latest_report_hashes": 168,
+    "remaining_latest_hashes": 1,
     "unarchived_report_keys": [
-      "183:2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed",
-      "184:543cd14b68e56ea4be0ffdf9aea3be56be66cd586d5042119b8e222c5303e8ed"
+      "185:3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
     ],
     "malformed_archive_index_keys": [],
-    "release_count": 6,
+    "release_count": 7,
     "note": "Immutable GitHub Release inventory; archive asset checksums are in embedded manifests."
   }
 }

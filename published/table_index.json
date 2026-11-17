@@ -3,6 +3,22 @@
   "methodology": "Parsed SitRep tables 1–5; validation status per table; unvalidated cells remain in review_queue.",
   "reports": [
     {
+      "date": "2026-11-15",
+      "quality_flags_count": 14,
+      "report_number": 185,
+      "rows_by_table": {
+        "table_1": 0,
+        "table_2": 37,
+        "table_3": 0,
+        "table_4": 5
+      },
+      "sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705",
+      "snapshot_path": "tables/185_3c01d15294cf.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 0
+    },
+    {
       "date": "2026-11-14",
       "quality_flags_count": 13,
       "report_number": 184,
@@ -2398,8 +2414,8 @@
       "tables_machine_validated": 0
     }
   ],
-  "reports_processed": 167,
+  "reports_processed": 168,
   "schema_version": "bdbv-sitrep-tables-v1",
   "source_repository": "https://github.com/INRB-UMIE/BDBV2026-Data",
-  "unique_reports": 167
+  "unique_reports": 168
 }
