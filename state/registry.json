@@ -2015,6 +2015,18 @@
       "status": "REVIEW_REQUIRED",
       "tables": 23,
       "validation_flags": []
+    },
+    "186:319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc": {
+      "checked_at": "2026-11-18T14:37:25.133294+00:00",
+      "pages": 12,
+      "provider": "INSP-official",
+      "report_date": "2026-11-16",
+      "report_number": 186,
+      "sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc",
+      "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_N186_16-11-2026_VF-1.pdf",
+      "status": "REVIEW_REQUIRED",
+      "tables": 22,
+      "validation_flags": []
     }
   },
   "latest_by_report": {
@@ -2111,6 +2123,7 @@
     "183": "2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed",
     "184": "543cd14b68e56ea4be0ffdf9aea3be56be66cd586d5042119b8e222c5303e8ed",
     "185": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705",
+    "186": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc",
     "19": "347720b747a917db84122dcc5689957a2483cf01223a7ef356f648893ec5df73",
     "2": "f44578a42496e5f7daa4afb206865e93fcefbe5ba108f1acf60aa2cf36074d3a",
     "20": "6f1c2cf12404cf5d3d6ed04dc01767a5688fab2efee5b4715764c25bd9b7d1ac",
