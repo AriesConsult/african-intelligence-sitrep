@@ -107,11 +107,61 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           TAG="bdbv-sitrep-originals-${{ github.run_id }}"
-          gh release create "$TAG" \
-            work/source_archive/original_sitreps.zip \
-            work/source_archive/archive_manifest.json \
-            --title "BDBV official SitRep original PDFs — SHA-verified archive ${{ github.run_id }}" \
-            --notes "Unmodified original PDFs, SHA-256 verified against the discovered registry. Publication of extracted data remains subject to downstream integrity checks."
+          # Re-running the same GitHub run keeps github.run_id, hence the same tag.
+          # Published original PDFs are immutable: verify and reuse an existing
+          # release, never overwrite its assets or create a second conflicting tag.
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; validating immutable archive before reuse."
+            mkdir -p work/source_archive/release_existing
+            gh release download "$TAG" \
+              --dir work/source_archive/release_existing \
+              --pattern 'original_sitreps.zip' \
+              --pattern 'archive_manifest.json'
+            python - <<'PY'
+          import hashlib
+          import json
+          import shutil
+          import zipfile
+          from pathlib import Path
+
+          root = Path('work/source_archive')
+          existing = root / 'release_existing'
+          def records(path):
+              meta = json.loads(path.read_text(encoding='utf-8'))
+              files = meta.get('files', [])
+              if not files or meta.get('source_count') != len(files):
+                  raise SystemExit(f'Invalid original SitRep manifest: {path}')
+              keys = [(r['report_number'], r['source_sha256'],
+                       r['archive_member'], r['pdf_bytes']) for r in files]
+              if len(keys) != len(set(keys)):
+                  raise SystemExit(f'Duplicate source records in {path}')
+              return set(keys), files
+          expected, _ = records(root / 'archive_manifest.json')
+          actual, files = records(existing / 'archive_manifest.json')
+          if expected != actual:
+              raise SystemExit('Existing immutable release differs from current verified batch; '
+                               'do not overwrite or register it. Investigate changed sources.')
+          with zipfile.ZipFile(existing / 'original_sitreps.zip') as z:
+              bundled = json.loads(z.read('archive_manifest.json'))
+              if bundled.get('files') != json.loads(
+                  (existing / 'archive_manifest.json').read_text(encoding='utf-8')
+              ).get('files'):
+                  raise SystemExit('Release ZIP and release manifest disagree')
+              for record in files:
+                  blob = z.read(record['archive_member'])
+                  if len(blob) != record['pdf_bytes'] or hashlib.sha256(blob).hexdigest() != record['source_sha256']:
+                      raise SystemExit('Released original PDF failed SHA-256 verification')
+          for name in ('original_sitreps.zip', 'archive_manifest.json'):
+              shutil.copy2(existing / name, root / name)
+          print(f'Reused existing SHA-verified SitRep release: {len(files)} PDFs')
+          PY
+          else
+            gh release create "$TAG" \
+              work/source_archive/original_sitreps.zip \
+              work/source_archive/archive_manifest.json \
+              --title "BDBV official SitRep original PDFs — SHA-verified archive ${{ github.run_id }}" \
+              --notes "Unmodified original PDFs, SHA-256 verified against the discovered registry. Publication of extracted data remains subject to downstream integrity checks."
+          fi
       - name: Register verified original archive in current evidence working copy
         if: steps.new_originals.outputs.needed == 'true'
         run: |
