@@ -499,7 +499,7 @@ def table_4(doc,output):
         if len(follow)==1:
             first=str(follow[0].get('text') or '').splitlines()
             first=first[0] if first else ''
-            match=re.fullmatch(r'[ \\t]*Total[ \\t]{2,}(\\d{1,3}(?: \\d{3})*)[ \\t]{2,}(\\d{1,3}(?: \\d{3})*)[ \\t]{2,}(\\d+(?:[.,]\\d+)?)\\s*%',first,re.I)
+            match=re.fullmatch(r'[ \t]*Total[ \t]{2,}(\d{1,3}(?: \d{3})*)[ \t]{2,}(\d{1,3}(?: \d{3})*)[ \t]{2,}(\d+(?:[.,]\d+)?)\s*%',first,re.I)
             if match:
                 d=count(match.group(1));n=count(match.group(2));pct=percent(match.group(3)+'%')
                 if ok_rate(n,d,pct):
