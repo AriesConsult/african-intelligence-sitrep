@@ -1,0 +1,60 @@
+name: BDBV SitRep parser regression (read only)
+
+on:
+  pull_request:
+    paths:
+      - 'sitrep_tables.py'
+      - 'tests/test_sitrep_189_regression.py'
+      - '.github/workflows/bdbv-parser-regression.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parser-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install extraction dependencies
+        run: python -m pip install -r requirements.txt pytest
+      - name: Run historical and new parser regression tests
+        run: python -m pytest -q tests/test_sitrep_189_regression.py tests/test_five_table_archive.py tests/test_table4_sitrep178.py tests/test_table4_split_rows_178.py
+
+      - name: Rebuild complete machine-validated feed in a temporary workspace
+        run: |
+          mkdir -p "$RUNNER_TEMP/bdbv-parser-smoke/published"
+          python reprocess_tables.py \
+            --queue review_queue \
+            --published "$RUNNER_TEMP/bdbv-parser-smoke/published" \
+            --registry state/registry.json \
+            --feed "$RUNNER_TEMP/bdbv-parser-smoke/published/feed.json"
+          python - <<'PY'
+          import json,os,pathlib
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'bdbv-parser-smoke/published'
+          feed=json.loads((root/'feed.json').read_text())
+          rows=[x for x in feed['observations'] if x['date']=='2026-11-19']
+          got={x['metric_id']:x['value'] for x in rows}
+          expected={'alerts_received':4565,'alerts_validated':518,
+                    'contacts_seen':25501,'contacts_to_follow':29891,
+                    'contact_follow_up_rate':85.3}
+          assert all(got.get(k)==v for k,v in expected.items()),(got,expected)
+          index=json.loads((root/'table_index.json').read_text())
+          newer=next(x for x in index['reports'] if x['report_number']==189)
+          assert newer['tables_machine_validated']>=3,newer
+          print('19 Nov verified observations:',got)
+          print('Archived reports processed:',index['reports_processed'])
+          # The patch must never silently change a previously accepted value.
+          baseline=json.loads(pathlib.Path('published/feed.json').read_text())
+          key=lambda o:(o['date'],o['metric_id'],o.get('scope','DRC'))
+          old_values={key(o):o['value'] for o in baseline['observations']}
+          new_values={key(o):o['value'] for o in feed['observations']}
+          changed={k:(v,new_values.get(k)) for k,v in old_values.items()
+                   if k not in new_values or new_values[k]!=v}
+          assert not changed,changed
+          print('Historical validated observations unchanged:',len(old_values))
+          PY
