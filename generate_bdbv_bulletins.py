@@ -402,6 +402,62 @@ tbody tr:nth-child(even){{background:#f8fbfb}}
 @media print{{body{{background:white}}.bulletin-page{{max-width:none}}.source-digest{{display:block}}.digest-item{{break-inside:avoid;margin:10px 0}}.passage p{{display:block}}}}
 </style></head><body><main class="bulletin-page"><nav class="bulletin-nav" aria-label="Bulletin navigation"><a href="/bdvd2026/dashboard.php#bulletins">{"Retour au tableau de bord" if fr else "Back to dashboard"}</a><a href="#annex">{"Annexe numérique" if fr else "Numerical annex"} ↓</a></nav><header class="bulletin-hero"><div class="eyebrow">AFRICAN INTELLIGENCE · BDBV 2026</div><h1>{html.escape(title)}</h1><p>{"Synthèse automatisée sans analyse générée par IA" if fr else "Deterministic source digest without AI-generated interpretation"}</p></header><div class="cards"><article>{labels[0]}<strong>{nums(r['cases'])}</strong></article><article>{labels[1]}<strong>{nums(r['deaths'])}</strong></article><article>{labels[2]}<strong>{(r['deaths']/r['cases']*100):.1f}%</strong></article></div><p class="source-meta"><strong>{"Date des données" if fr else "Source date"}:</strong> {r['source_date']} · {r['source_quality']}</p><p>{labels[5]}: {html.escape(delta)}</p><section class="bulletin-section"><h2>{labels[3]}</h2><p class="source-meta">{(('Tableau 4 · SitRep ' if fr else 'Table 4 · SitRep ')+str(t4['source_report'])+' · '+('Date des contacts : ' if fr else 'Contact reference date: ')+html.escape(str(r.get('table4_source_date') or '—'))) if t4 else ''}</p><div class="data-table-scroll"><table><thead><tr><th>{"Indicateur" if fr else "Indicator"}</th><th>{"Valeur" if fr else "Value"}</th><th>{labels[4]}</th></tr></thead><tbody>{contact_rows}</tbody></table></div></section>{source_digest_html(r,lang)}<div id="annex">{numeric_annex_html(r.get('original_report'),r.get('prior_report'),lang)}</div><footer class="bulletin-footer">INRB Git SHA: {r['source_commit']} · {"Les totaux ne couvrent que les zones qui ont déclaré une valeur; aucune donnée ND n'est convertie en zéro." if fr else "Zone sums include only numeric reporting; missing entries are not zero."} {"Différences des cumuls ≠ incidence réelle." if fr else "Differences in cumulative values are not event-date incidence."}</footer></main></body></html>'''
 
+# Publish only source-reconciled aggregate cells in the AI evidence package.
+# The printed INSP SitRep is the SAME source as the INRB transcriptions: these
+# are not independent corroborating observations or human-reviewed numbers.
+AI_TABLE_FIELDS = {
+    'table_1': ('cumulative_cases', 'cumulative_deaths', 'new_cases_24h', 'reported_cfr_pct'),
+    'table_3': ('alerts_received', 'received_alive', 'received_deceased',
+                'suspected_alerts', 'suspects_investigated', 'suspects_transferred',
+                'alerts_not_yet_verified'),
+    'table_4': ('contacts_to_follow', 'contacts_seen', 'contact_follow_up_rate'),
+}
+
+
+def original_table_evidence(snapshot, date):
+    """Return only validated, date-matched original-SitRep aggregate numbers."""
+    if not isinstance(snapshot, dict) or snapshot.get('date') != date:
+        return None
+    tables = {}
+    for table_id, fields in AI_TABLE_FIELDS.items():
+        original = (snapshot.get('tables') or {}).get(table_id) or {}
+        if original.get('status') != 'MACHINE_VALIDATED':
+            continue
+        national = original.get('national') or {}
+        if not isinstance(national, dict):
+            continue
+        national_values = {k: national[k] for k in fields
+                           if type(national.get(k)) in (int, float)}
+        if not national_values:
+            continue
+        provinces = []
+        for row in original.get('rows') or []:
+            if not isinstance(row, dict) or not isinstance(row.get('scope'), str):
+                continue
+            scope = row['scope']
+            if not scope or scope == 'DRC':
+                continue
+            metrics = {k: row[k] for k in fields if type(row.get(k)) in (int, float)}
+            if metrics:
+                provinces.append({'province': scope, **metrics})
+        tables[table_id] = {
+            'national': national_values, 'provinces': provinces,
+            'national_source_cell': national.get('source'),
+            'reporting_gaps': original.get('reporting_gaps') or [],
+        }
+    if not tables:
+        return None
+    return {
+        'source_report': snapshot.get('report_number'),
+        'reporting_date': date,
+        'source_pdf_sha256': snapshot.get('source_sha256'),
+        'source_url': snapshot.get('source_url'),
+        'validation_method': 'deterministic original PDF table/province reconciliation; not human audit',
+        'lineage_notice': 'These original INSP SitRep metrics and INRB transcriptions are the same reporting system, not independent evidence.',
+        'validated_tables': tables,
+    }
+
+
 def build(accepted,output,stage=None,published=None):
     rows,commit=read_evidence(accepted,stage);nat,contacts=aggregate(rows)
     table4=load_table4(published);narratives=load_narratives(published)
@@ -450,6 +506,7 @@ def build(accepted,output,stage=None,published=None):
                 'original_source_url':current_original.get('source_url') if current_original else None,
                 'machine_validated_tables':sorted(k for k,t in (current_original or {}).get('tables',{}).items()
                     if t.get('status')=='MACHINE_VALIDATED'),
+                'reconciled_original_sitrep_indicators':original_table_evidence(current_original,day),
                 'follow_up_pct':(table4.get(day) or {}).get('national',{}).get('follow_up_pct'),
                 'follow_up_source_report':(table4.get(day) or {}).get('source_report'),
                 # Metadata only: raw source narratives can contain names/contact data.
