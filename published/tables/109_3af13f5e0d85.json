@@ -2,42 +2,6 @@
   "date": "2026-08-31",
   "quality_flags": [
     {
-      "province": "Ituri",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 6,
-      "table": 1
-    },
-    {
-      "province": "Nord-Kivu",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 7,
-      "table": 1
-    },
-    {
-      "province": "Haut-Uélé",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 8,
-      "table": 1
-    },
-    {
-      "province": "Tshopo",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 9,
-      "table": 1
-    },
-    {
-      "province": "Sud-Kivu",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 10,
-      "table": 1
-    },
-    {
-      "province": "Bas-Uélé",
-      "reason": "table1_invalid_case_death_rate",
-      "row": 11,
-      "table": 1
-    },
-    {
       "province": null,
       "reason": "table1_invalid_case_death_rate",
       "row": 13,
@@ -74,36 +38,6 @@
     "table_1": {
       "flags": [
         {
-          "province": "Ituri",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 6
-        },
-        {
-          "province": "Nord-Kivu",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 7
-        },
-        {
-          "province": "Haut-Uélé",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 8
-        },
-        {
-          "province": "Tshopo",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 9
-        },
-        {
-          "province": "Sud-Kivu",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 10
-        },
-        {
-          "province": "Bas-Uélé",
-          "reason": "table1_invalid_case_death_rate",
-          "row": 11
-        },
-        {
           "province": null,
           "reason": "table1_invalid_case_death_rate",
           "row": 13
@@ -112,7 +46,92 @@
           "reason": "table1_missing_provincial_or_national_totals"
         }
       ],
-      "rows": [],
+      "rows": [
+        {
+          "cumulative_cases": 5065,
+          "cumulative_deaths": 2305,
+          "health_zones_affected": 28,
+          "health_zones_total": 36,
+          "new_cases_24h": 49,
+          "reported_cfr_pct": 45.5,
+          "scope": "Ituri",
+          "source": {
+            "page": 2,
+            "source_row": 6,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 868,
+          "cumulative_deaths": 589,
+          "health_zones_affected": 15,
+          "health_zones_total": 34,
+          "new_cases_24h": 32,
+          "reported_cfr_pct": 67.9,
+          "scope": "Nord-Kivu",
+          "source": {
+            "page": 2,
+            "source_row": 7,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 227,
+          "cumulative_deaths": 100,
+          "health_zones_affected": 6,
+          "health_zones_total": 13,
+          "new_cases_24h": 5,
+          "reported_cfr_pct": 44.1,
+          "scope": "Haut-Uélé",
+          "source": {
+            "page": 2,
+            "source_row": 8,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 19,
+          "cumulative_deaths": 9,
+          "health_zones_affected": 7,
+          "health_zones_total": 23,
+          "new_cases_24h": 0,
+          "reported_cfr_pct": 47.4,
+          "scope": "Tshopo",
+          "source": {
+            "page": 2,
+            "source_row": 9,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 3,
+          "cumulative_deaths": 1,
+          "health_zones_affected": 1,
+          "health_zones_total": 34,
+          "new_cases_24h": 0,
+          "reported_cfr_pct": 33.3,
+          "scope": "Sud-Kivu",
+          "source": {
+            "page": 2,
+            "source_row": 10,
+            "table_id": "p2-t3"
+          }
+        },
+        {
+          "cumulative_cases": 4,
+          "cumulative_deaths": 3,
+          "health_zones_affected": 3,
+          "health_zones_total": 11,
+          "new_cases_24h": 0,
+          "reported_cfr_pct": 75.0,
+          "scope": "Bas-Uélé",
+          "source": {
+            "page": 2,
+            "source_row": 11,
+            "table_id": "p2-t3"
+          }
+        }
+      ],
       "status": "REVIEW_REQUIRED"
     },
     "table_2": {
@@ -172,19 +191,6 @@
           "source": {
             "page": 3,
             "source_row": 52,
-            "table_id": "p3-t7"
-          }
-        },
-        {
-          "cumulative_cases": 1,
-          "cumulative_deaths": 0,
-          "health_zone": null,
-          "province": "Tshopo",
-          "reported_cfr_pct": 0.0,
-          "scope": "province",
-          "source": {
-            "page": 3,
-            "source_row": 65,
             "table_id": "p3-t7"
           }
         },
@@ -910,6 +916,19 @@
           "source": {
             "page": 3,
             "source_row": 63,
+            "table_id": "p3-t7"
+          }
+        },
+        {
+          "cumulative_cases": 1,
+          "cumulative_deaths": 0,
+          "health_zone": "Tshopo",
+          "province": "Tshopo",
+          "reported_cfr_pct": 0.0,
+          "scope": "health_zone",
+          "source": {
+            "page": 3,
+            "source_row": 65,
             "table_id": "p3-t7"
           }
         },

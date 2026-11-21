@@ -50,6 +50,8 @@
         {
           "cumulative_cases": 4845,
           "cumulative_deaths": 2185,
+          "health_zones_affected": 28,
+          "health_zones_total": 36,
           "new_cases_24h": 43,
           "reported_cfr_pct": 45.1,
           "scope": "Ituri",
@@ -62,6 +64,8 @@
         {
           "cumulative_cases": 788,
           "cumulative_deaths": 538,
+          "health_zones_affected": 15,
+          "health_zones_total": 34,
           "new_cases_24h": 13,
           "reported_cfr_pct": 68.3,
           "scope": "Nord-Kivu",
@@ -74,6 +78,8 @@
         {
           "cumulative_cases": 205,
           "cumulative_deaths": 91,
+          "health_zones_affected": 6,
+          "health_zones_total": 13,
           "new_cases_24h": 11,
           "reported_cfr_pct": 44.4,
           "scope": "Haut-Uélé",
@@ -86,6 +92,8 @@
         {
           "cumulative_cases": 19,
           "cumulative_deaths": 8,
+          "health_zones_affected": 7,
+          "health_zones_total": 23,
           "new_cases_24h": 2,
           "reported_cfr_pct": 42.1,
           "scope": "Tshopo",
@@ -98,6 +106,8 @@
         {
           "cumulative_cases": 3,
           "cumulative_deaths": 1,
+          "health_zones_affected": 1,
+          "health_zones_total": 34,
           "new_cases_24h": 0,
           "reported_cfr_pct": 33.3,
           "scope": "Sud-Kivu",
@@ -110,6 +120,8 @@
         {
           "cumulative_cases": 3,
           "cumulative_deaths": 1,
+          "health_zones_affected": 3,
+          "health_zones_total": 11,
           "new_cases_24h": 0,
           "reported_cfr_pct": 33.3,
           "scope": "Bas-Uélé",

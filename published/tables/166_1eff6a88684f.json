@@ -42,12 +42,6 @@
       "unallocated": 0
     },
     {
-      "parsed": 37,
-      "reason": "table2_affected_healthzone_count_mismatch",
-      "reported": 66,
-      "table": 2
-    },
-    {
       "reason": "table3_national_total_missing",
       "table": 3
     },
@@ -72,14 +66,12 @@
       "national": {
         "cumulative_cases": 10193,
         "cumulative_deaths": 4960,
-        "health_zones_affected": 66,
-        "health_zones_total": 178,
         "new_cases_24h": 52,
         "reported_cfr_pct": 48.7,
         "scope": "DRC",
         "source": {
           "page": 2,
-          "source_row": 15,
+          "source_row": 16,
           "table_id": "p2-t3"
         }
       },
@@ -231,11 +223,6 @@
           "reported": 27,
           "sum": 5,
           "unallocated": 0
-        },
-        {
-          "parsed": 37,
-          "reason": "table2_affected_healthzone_count_mismatch",
-          "reported": 66
         }
       ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",

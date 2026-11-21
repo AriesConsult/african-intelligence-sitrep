@@ -4,12 +4,12 @@
   "reports": [
     {
       "date": "2026-11-19",
-      "quality_flags_count": 14,
+      "quality_flags_count": 10,
       "report_number": 189,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
-        "table_3": 0,
+        "table_1": 8,
+        "table_2": 39,
+        "table_3": 6,
         "table_4": 7,
         "table_5": 0
       },
@@ -17,16 +17,16 @@
       "snapshot_path": "tables/189_276b1b002a47.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-11-18",
-      "quality_flags_count": 13,
+      "quality_flags_count": 10,
       "report_number": 188,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
-        "table_3": 0,
+        "table_1": 8,
+        "table_2": 39,
+        "table_3": 7,
         "table_4": 7,
         "table_5": 0
       },
@@ -34,16 +34,16 @@
       "snapshot_path": "tables/188_48fb7865870d.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-11-17",
-      "quality_flags_count": 13,
+      "quality_flags_count": 11,
       "report_number": 187,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
-        "table_3": 0,
+        "table_1": 8,
+        "table_2": 39,
+        "table_3": 1,
         "table_4": 6,
         "table_5": 0
       },
@@ -51,16 +51,16 @@
       "snapshot_path": "tables/187_07d1847e942f.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-16",
-      "quality_flags_count": 13,
+      "quality_flags_count": 10,
       "report_number": 186,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
-        "table_3": 0,
+        "table_1": 8,
+        "table_2": 39,
+        "table_3": 6,
         "table_4": 6,
         "table_5": 0
       },
@@ -68,15 +68,15 @@
       "snapshot_path": "tables/186_319157738c73.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-11-15",
-      "quality_flags_count": 14,
+      "quality_flags_count": 12,
       "report_number": 185,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 8,
+        "table_2": 38,
         "table_3": 0,
         "table_4": 5
       },
@@ -84,15 +84,15 @@
       "snapshot_path": "tables/185_3c01d15294cf.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-11-14",
-      "quality_flags_count": 13,
+      "quality_flags_count": 11,
       "report_number": 184,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 6,
         "table_5": 0
@@ -101,15 +101,15 @@
       "snapshot_path": "tables/184_543cd14b68e5.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-13",
-      "quality_flags_count": 13,
+      "quality_flags_count": 10,
       "report_number": 183,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 39,
+        "table_1": 8,
+        "table_2": 40,
         "table_3": 0,
         "table_4": 7,
         "table_5": 0
@@ -118,15 +118,15 @@
       "snapshot_path": "tables/183_2892cee9d8f9.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-12",
-      "quality_flags_count": 15,
+      "quality_flags_count": 13,
       "report_number": 182,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 0,
         "table_5": 0
@@ -135,15 +135,15 @@
       "snapshot_path": "tables/182_f743f91496d8.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-11-11",
-      "quality_flags_count": 13,
+      "quality_flags_count": 11,
       "report_number": 181,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 6,
         "table_5": 0
@@ -152,15 +152,15 @@
       "snapshot_path": "tables/181_bdeaeb2dd14a.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-10",
-      "quality_flags_count": 13,
+      "quality_flags_count": 9,
       "report_number": 180,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 7,
         "table_5": 0
@@ -169,15 +169,15 @@
       "snapshot_path": "tables/180_93943776b57b.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-09",
-      "quality_flags_count": 13,
+      "quality_flags_count": 9,
       "report_number": 179,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 7
       },
@@ -185,15 +185,15 @@
       "snapshot_path": "tables/179_2d97dc6fe282.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-11-08",
-      "quality_flags_count": 12,
+      "quality_flags_count": 8,
       "report_number": 178,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 7,
         "table_5": 6
@@ -202,15 +202,15 @@
       "snapshot_path": "tables/178_d58582670841.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 2
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-11-07",
-      "quality_flags_count": 12,
+      "quality_flags_count": 7,
       "report_number": 177,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_4": 6,
         "table_5": 6
@@ -219,14 +219,14 @@
       "snapshot_path": "tables/177_f56726240e05.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 5,
-      "tables_machine_validated": 2
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-11-06",
-      "quality_flags_count": 17,
+      "quality_flags_count": 9,
       "report_number": 176,
       "rows_by_table": {
-        "table_1": 0,
+        "table_1": 8,
         "table_2": 37,
         "table_3": 1,
         "table_4": 6,
@@ -274,7 +274,7 @@
     },
     {
       "date": "2026-11-03",
-      "quality_flags_count": 7,
+      "quality_flags_count": 8,
       "report_number": 173,
       "rows_by_table": {
         "table_1": 8,
@@ -291,7 +291,7 @@
     },
     {
       "date": "2026-11-01",
-      "quality_flags_count": 8,
+      "quality_flags_count": 9,
       "report_number": 171,
       "rows_by_table": {
         "table_1": 8,
@@ -342,11 +342,11 @@
     },
     {
       "date": "2026-10-29",
-      "quality_flags_count": 15,
+      "quality_flags_count": 8,
       "report_number": 168,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 41,
+        "table_1": 8,
+        "table_2": 42,
         "table_3": 0,
         "table_5": 0
       },
@@ -358,7 +358,7 @@
     },
     {
       "date": "2026-10-28",
-      "quality_flags_count": 10,
+      "quality_flags_count": 12,
       "report_number": 167,
       "rows_by_table": {
         "table_1": 8,
@@ -374,7 +374,7 @@
     },
     {
       "date": "2026-10-27",
-      "quality_flags_count": 11,
+      "quality_flags_count": 10,
       "report_number": 166,
       "rows_by_table": {
         "table_1": 8,
@@ -390,11 +390,11 @@
     },
     {
       "date": "2026-10-26",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 165,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 42,
+        "table_1": 8,
+        "table_2": 43,
         "table_3": 0,
         "table_5": 0
       },
@@ -402,15 +402,15 @@
       "snapshot_path": "tables/165_7073b31d199e.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-10-25",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 164,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 8,
+        "table_2": 39,
         "table_3": 0,
         "table_5": 0
       },
@@ -418,15 +418,15 @@
       "snapshot_path": "tables/164_d1a8fc1287cf.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-10-24",
-      "quality_flags_count": 14,
+      "quality_flags_count": 6,
       "report_number": 163,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 35,
+        "table_1": 8,
+        "table_2": 36,
         "table_3": 0,
         "table_5": 0
       },
@@ -438,11 +438,11 @@
     },
     {
       "date": "2026-10-22",
-      "quality_flags_count": 14,
+      "quality_flags_count": 6,
       "report_number": 161,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 8,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -454,10 +454,10 @@
     },
     {
       "date": "2026-10-21",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 160,
       "rows_by_table": {
-        "table_1": 0,
+        "table_1": 8,
         "table_2": 37,
         "table_3": 0,
         "table_5": 6
@@ -470,11 +470,11 @@
     },
     {
       "date": "2026-10-20",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 159,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 8,
+        "table_2": 38,
         "table_3": 0,
         "table_5": 6
       },
@@ -486,11 +486,11 @@
     },
     {
       "date": "2026-10-19",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 158,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 8,
+        "table_2": 38,
         "table_3": 0,
         "table_5": 6
       },
@@ -498,15 +498,15 @@
       "snapshot_path": "tables/158_b286783875da.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-10-18",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 157,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 8,
+        "table_2": 38,
         "table_3": 0,
         "table_5": 6
       },
@@ -514,15 +514,15 @@
       "snapshot_path": "tables/157_ef6e21d04dea.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-10-17",
-      "quality_flags_count": 13,
+      "quality_flags_count": 2,
       "report_number": 156,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 65,
+        "table_1": 8,
+        "table_2": 66,
         "table_3": 0,
         "table_5": 6
       },
@@ -530,15 +530,15 @@
       "snapshot_path": "tables/156_059742c1bcd6.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 3
     },
     {
       "date": "2026-10-16",
-      "quality_flags_count": 13,
+      "quality_flags_count": 8,
       "report_number": 155,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 8,
+        "table_2": 38,
         "table_3": 0,
         "table_5": 6
       },
@@ -546,15 +546,15 @@
       "snapshot_path": "tables/155_2733667c29c9.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-10-15",
-      "quality_flags_count": 12,
+      "quality_flags_count": 7,
       "report_number": 154,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 6
       },
@@ -562,15 +562,15 @@
       "snapshot_path": "tables/154_74418034a9c4.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-10-14",
-      "quality_flags_count": 12,
+      "quality_flags_count": 7,
       "report_number": 153,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 6
       },
@@ -578,7 +578,7 @@
       "snapshot_path": "tables/153_fd1a239e3b30.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 1
+      "tables_machine_validated": 2
     },
     {
       "date": "2026-10-13",
@@ -598,11 +598,11 @@
     },
     {
       "date": "2026-10-12",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 151,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 7,
+        "table_2": 39,
         "table_3": 0,
         "table_5": 6
       },
@@ -614,11 +614,11 @@
     },
     {
       "date": "2026-10-11",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 150,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 7,
+        "table_2": 39,
         "table_3": 0,
         "table_5": 0
       },
@@ -626,15 +626,15 @@
       "snapshot_path": "tables/150_24000145be4b.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-10-10",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 149,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 38,
+        "table_1": 7,
+        "table_2": 39,
         "table_3": 0,
         "table_5": 0
       },
@@ -646,11 +646,11 @@
     },
     {
       "date": "2026-10-09",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 148,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -662,11 +662,11 @@
     },
     {
       "date": "2026-10-08",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 147,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 39,
+        "table_1": 7,
+        "table_2": 40,
         "table_3": 0,
         "table_5": 0
       },
@@ -678,11 +678,11 @@
     },
     {
       "date": "2026-10-07",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 146,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -694,11 +694,11 @@
     },
     {
       "date": "2026-10-06",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 145,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -710,11 +710,11 @@
     },
     {
       "date": "2026-10-05",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 144,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 63,
+        "table_1": 7,
+        "table_2": 64,
         "table_3": 0,
         "table_5": 0
       },
@@ -726,11 +726,11 @@
     },
     {
       "date": "2026-10-04",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 143,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -742,10 +742,10 @@
     },
     {
       "date": "2026-10-03",
-      "quality_flags_count": 13,
+      "quality_flags_count": 11,
       "report_number": 142,
       "rows_by_table": {
-        "table_1": 0,
+        "table_1": 7,
         "table_2": 36,
         "table_3": 0,
         "table_4": 0
@@ -754,15 +754,15 @@
       "snapshot_path": "tables/142_9e3abc061ed6.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-10-01",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 141,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -774,11 +774,11 @@
     },
     {
       "date": "2026-10-01",
-      "quality_flags_count": 14,
+      "quality_flags_count": 7,
       "report_number": 140,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 37,
+        "table_1": 7,
+        "table_2": 38,
         "table_3": 0,
         "table_5": 0
       },
@@ -790,11 +790,11 @@
     },
     {
       "date": "2026-09-30",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 139,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0,
         "table_5": 0
       },
@@ -802,15 +802,15 @@
       "snapshot_path": "tables/139_b611aa1c7b2b.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-29",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 138,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0,
         "table_5": 0
       },
@@ -818,15 +818,15 @@
       "snapshot_path": "tables/138_b32fd5301634.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-28",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 137,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0,
         "table_5": 0
       },
@@ -834,15 +834,15 @@
       "snapshot_path": "tables/137_004f1f1048e4.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-27",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 136,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0,
         "table_5": 0
       },
@@ -850,15 +850,15 @@
       "snapshot_path": "tables/136_5a905d8fcff3.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-26",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 135,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0,
         "table_5": 0
       },
@@ -866,15 +866,15 @@
       "snapshot_path": "tables/135_e70dce5c4963.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-25",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 134,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -882,15 +882,15 @@
       "snapshot_path": "tables/134_b11171d33723.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-24",
-      "quality_flags_count": 13,
+      "quality_flags_count": 5,
       "report_number": 133,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 18,
+        "table_1": 7,
+        "table_2": 19,
         "table_3": 0,
         "table_5": 0
       },
@@ -898,15 +898,15 @@
       "snapshot_path": "tables/133_b9c2fec259f7.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-23",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 132,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0,
         "table_5": 0
       },
@@ -914,135 +914,135 @@
       "snapshot_path": "tables/132_d9d7d42202ef.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-22",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 131,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 36,
+        "table_1": 7,
+        "table_2": 37,
         "table_3": 0
       },
       "sha256": "9e1103987171c058e1e48f5b2fa0008de62f2acdb485b1e54b88fa82662f6b64",
       "snapshot_path": "tables/131_9e1103987171.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-21",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 130,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "0232c6c6d45e6aeb3ae9c1717c28995ee99ffc0c8d7c09c0a7389c03aeb9aa1e",
       "snapshot_path": "tables/130_0232c6c6d45e.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-20",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 129,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "d35e136a8f833c2bc20d1c63ad3f45fb1cfcdb59cd44d1b95c1a74713ff7c3cb",
       "snapshot_path": "tables/129_d35e136a8f83.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-19",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 128,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "6c7bf6004826c3f4809ee9384dbfe52938ab65d6aa56bd56e89d6db8f397ba8d",
       "snapshot_path": "tables/128_6c7bf6004826.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-18",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 127,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 7,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "904dcfe25e5607e945d95e6ea649f5143125a458a1fe90fae61828cd48f4c86d",
       "snapshot_path": "tables/127_904dcfe25e56.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-17",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 126,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "fb0c4707f3a1ab45787cfdfd146352e6724e637f67739141e9cb2644914a0155",
       "snapshot_path": "tables/126_fb0c4707f3a1.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-16",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 125,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "8caccf0c4545baf9307b32b14fbef1a08631dd5850f6a5105c3566b08ccf28a2",
       "snapshot_path": "tables/125_8caccf0c4545.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-15",
-      "quality_flags_count": 13,
+      "quality_flags_count": 4,
       "report_number": 124,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "8f9826d0aa896ab554e696ed678c8e3204df9a9c9561720d49717dac5149f099",
       "snapshot_path": "tables/124_8f9826d0aa89.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-14",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 123,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "0061a89439c2334b2e18547a53f1e1a739b417faeecf9f65892e01ce3d92ff72",
@@ -1053,11 +1053,11 @@
     },
     {
       "date": "2026-09-13",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 122,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0,
         "table_5": 0
       },
@@ -1069,11 +1069,11 @@
     },
     {
       "date": "2026-09-12",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 121,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0,
         "table_5": 0
       },
@@ -1085,11 +1085,11 @@
     },
     {
       "date": "2026-09-11",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 120,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0,
         "table_5": 0
       },
@@ -1101,11 +1101,11 @@
     },
     {
       "date": "2026-09-10",
-      "quality_flags_count": 13,
+      "quality_flags_count": 6,
       "report_number": 119,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 7,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "95f3f89bc0edafcef82e94eea7b5b3444dec0d87367295dda64b858074d6524d",
@@ -1116,11 +1116,11 @@
     },
     {
       "date": "2026-09-10",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 118,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 32,
+        "table_1": 6,
+        "table_2": 33,
         "table_3": 0
       },
       "sha256": "1dac67e6e3400670f3fa35bef7d83d7e10462a86e67fc3ea093df9885f8416f6",
@@ -1131,11 +1131,11 @@
     },
     {
       "date": "2026-09-08",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 117,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 32,
+        "table_1": 6,
+        "table_2": 33,
         "table_3": 0
       },
       "sha256": "de24c2198a5cfcb89ff023b713d03a29b7c931bc0b535fc3b2e2b04507b1c09b",
@@ -1146,11 +1146,11 @@
     },
     {
       "date": "2026-09-08",
-      "quality_flags_count": 12,
+      "quality_flags_count": 7,
       "report_number": 116,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 31,
+        "table_1": 6,
+        "table_2": 32,
         "table_3": 0,
         "table_5": 0
       },
@@ -1158,15 +1158,15 @@
       "snapshot_path": "tables/116_d1bcadacaadf.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 4,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-07",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 115,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 6,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "6c7d619cc3a6de4a69eafe089327efca696ade5d40e38eb950987d2687fbff50",
@@ -1177,11 +1177,11 @@
     },
     {
       "date": "2026-09-06",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 114,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 6,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "88e08915ce28dcdeab9640925db0459504062df1dc0fb164194a1d97340aca96",
@@ -1192,26 +1192,26 @@
     },
     {
       "date": "2026-09-04",
-      "quality_flags_count": 12,
+      "quality_flags_count": 4,
       "report_number": 113,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 34,
+        "table_1": 6,
+        "table_2": 35,
         "table_3": 0
       },
       "sha256": "13f6c4a73a1662f93906d9dea52e2ceb5f100e32453cc6218ad1e1fa3cd719b2",
       "snapshot_path": "tables/113_13f6c4a73a16.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-03",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 112,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 31,
+        "table_1": 6,
+        "table_2": 32,
         "table_3": 0
       },
       "sha256": "ec86710418daa22079fac4092bd69b605db239176dcae6526b0284c681d2b602",
@@ -1222,26 +1222,26 @@
     },
     {
       "date": "2026-09-02",
-      "quality_flags_count": 12,
+      "quality_flags_count": 5,
       "report_number": 111,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 32,
+        "table_1": 6,
+        "table_2": 33,
         "table_3": 0
       },
       "sha256": "f823d88886c4ceb156cfb98186f305cb59525afe8a246da673f8b33d7c485e65",
       "snapshot_path": "tables/111_f823d88886c4.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
       "tables_available": 3,
-      "tables_machine_validated": 0
+      "tables_machine_validated": 1
     },
     {
       "date": "2026-09-01",
-      "quality_flags_count": 13,
+      "quality_flags_count": 7,
       "report_number": 110,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 33,
+        "table_1": 6,
+        "table_2": 34,
         "table_3": 0
       },
       "sha256": "8ae39ce0eff696464f0db0c29b3525017fbd1a9c444e9848bca2102dd76bdd54",
@@ -1252,11 +1252,11 @@
     },
     {
       "date": "2026-08-31",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 109,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 58,
+        "table_1": 6,
+        "table_2": 59,
         "table_3": 0,
         "table_5": 0
       },
@@ -1268,11 +1268,11 @@
     },
     {
       "date": "2026-08-30",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 108,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 58,
+        "table_1": 6,
+        "table_2": 59,
         "table_3": 0,
         "table_5": 0
       },
@@ -1284,11 +1284,11 @@
     },
     {
       "date": "2026-08-29",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 107,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 58,
+        "table_1": 6,
+        "table_2": 59,
         "table_3": 0,
         "table_5": 0
       },
@@ -1300,11 +1300,11 @@
     },
     {
       "date": "2026-08-28",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 106,
       "rows_by_table": {
-        "table_1": 0,
-        "table_2": 58,
+        "table_1": 6,
+        "table_2": 59,
         "table_3": 0
       },
       "sha256": "c6ea02bbacd48f13acc695dc13b9ec48e4a7e25a608256fafae61e1938da5dbd",
@@ -1328,10 +1328,10 @@
     },
     {
       "date": "2026-08-26",
-      "quality_flags_count": 12,
+      "quality_flags_count": 6,
       "report_number": 104,
       "rows_by_table": {
-        "table_1": 0
+        "table_1": 6
       },
       "sha256": "1505d6174f01a62b88b50d1ed825504a681c0aed3752ee0ceb474a817d755ad2",
       "snapshot_path": "tables/104_1505d6174f01.json",

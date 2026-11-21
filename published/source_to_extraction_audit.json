@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-source-to-extraction-audit-v1",
-  "generated_at": "2026-11-21T13:36:53.727105+00:00",
+  "generated_at": "2026-11-21T20:58:06.289167+00:00",
   "scope": "All catalogued report/hash identities and committed extraction artifacts",
   "status": "ARTIFACT_INVENTORY_CONSISTENT_EXTRACTION_FIDELITY_UNVERIFIED",
   "counters": {
@@ -16,7 +16,7 @@
     "reports": 172,
     "reports_with_narrative_candidate_page_gaps": 172,
     "reports_with_truncated_excerpts": 170,
-    "reports_with_zero_machine_validated_tables": 143,
+    "reports_with_zero_machine_validated_tables": 117,
     "reports_with_artifact_errors": 0
   },
   "numbering_gaps_unconfirmed_publications": [
@@ -1772,7 +1772,7 @@
       "candidate_blocks": 26,
       "examined_narrative_blocks": 29,
       "truncated_candidate_excerpts": 15,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -1808,7 +1808,7 @@
       "candidate_blocks": 30,
       "examined_narrative_blocks": 32,
       "truncated_candidate_excerpts": 18,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -1862,7 +1862,7 @@
       "candidate_blocks": 37,
       "examined_narrative_blocks": 39,
       "truncated_candidate_excerpts": 22,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2006,7 +2006,7 @@
       "candidate_blocks": 39,
       "examined_narrative_blocks": 48,
       "truncated_candidate_excerpts": 28,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2024,7 +2024,7 @@
       "candidate_blocks": 33,
       "examined_narrative_blocks": 41,
       "truncated_candidate_excerpts": 20,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2042,7 +2042,7 @@
       "candidate_blocks": 37,
       "examined_narrative_blocks": 42,
       "truncated_candidate_excerpts": 24,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2060,7 +2060,7 @@
       "candidate_blocks": 39,
       "examined_narrative_blocks": 44,
       "truncated_candidate_excerpts": 27,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2078,7 +2078,7 @@
       "candidate_blocks": 35,
       "examined_narrative_blocks": 40,
       "truncated_candidate_excerpts": 19,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2096,7 +2096,7 @@
       "candidate_blocks": 34,
       "examined_narrative_blocks": 35,
       "truncated_candidate_excerpts": 21,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2114,7 +2114,7 @@
       "candidate_blocks": 34,
       "examined_narrative_blocks": 38,
       "truncated_candidate_excerpts": 20,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2132,7 +2132,7 @@
       "candidate_blocks": 30,
       "examined_narrative_blocks": 33,
       "truncated_candidate_excerpts": 23,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2150,7 +2150,7 @@
       "candidate_blocks": 33,
       "examined_narrative_blocks": 36,
       "truncated_candidate_excerpts": 23,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2168,7 +2168,7 @@
       "candidate_blocks": 33,
       "examined_narrative_blocks": 35,
       "truncated_candidate_excerpts": 23,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2186,7 +2186,7 @@
       "candidate_blocks": 34,
       "examined_narrative_blocks": 41,
       "truncated_candidate_excerpts": 17,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2204,7 +2204,7 @@
       "candidate_blocks": 35,
       "examined_narrative_blocks": 37,
       "truncated_candidate_excerpts": 21,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2222,7 +2222,7 @@
       "candidate_blocks": 33,
       "examined_narrative_blocks": 37,
       "truncated_candidate_excerpts": 14,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2240,7 +2240,7 @@
       "candidate_blocks": 27,
       "examined_narrative_blocks": 31,
       "truncated_candidate_excerpts": 14,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2258,7 +2258,7 @@
       "candidate_blocks": 26,
       "examined_narrative_blocks": 29,
       "truncated_candidate_excerpts": 14,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2276,7 +2276,7 @@
       "candidate_blocks": 33,
       "examined_narrative_blocks": 36,
       "truncated_candidate_excerpts": 17,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2330,7 +2330,7 @@
       "candidate_blocks": 19,
       "examined_narrative_blocks": 20,
       "truncated_candidate_excerpts": 15,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2474,7 +2474,7 @@
       "candidate_blocks": 38,
       "examined_narrative_blocks": 44,
       "truncated_candidate_excerpts": 25,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2528,7 +2528,7 @@
       "candidate_blocks": 47,
       "examined_narrative_blocks": 50,
       "truncated_candidate_excerpts": 28,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2546,7 +2546,7 @@
       "candidate_blocks": 46,
       "examined_narrative_blocks": 47,
       "truncated_candidate_excerpts": 26,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2564,7 +2564,7 @@
       "candidate_blocks": 54,
       "examined_narrative_blocks": 56,
       "truncated_candidate_excerpts": 35,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2582,7 +2582,7 @@
       "candidate_blocks": 37,
       "examined_narrative_blocks": 38,
       "truncated_candidate_excerpts": 25,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2600,7 +2600,7 @@
       "candidate_blocks": 10,
       "examined_narrative_blocks": 10,
       "truncated_candidate_excerpts": 8,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2618,7 +2618,7 @@
       "candidate_blocks": 14,
       "examined_narrative_blocks": 14,
       "truncated_candidate_excerpts": 12,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2708,7 +2708,7 @@
       "candidate_blocks": 25,
       "examined_narrative_blocks": 29,
       "truncated_candidate_excerpts": 13,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2726,7 +2726,7 @@
       "candidate_blocks": 26,
       "examined_narrative_blocks": 29,
       "truncated_candidate_excerpts": 12,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2924,7 +2924,7 @@
       "candidate_blocks": 23,
       "examined_narrative_blocks": 24,
       "truncated_candidate_excerpts": 17,
-      "tables_machine_validated": 2,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2942,7 +2942,7 @@
       "candidate_blocks": 31,
       "examined_narrative_blocks": 33,
       "truncated_candidate_excerpts": 6,
-      "tables_machine_validated": 2,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2960,7 +2960,7 @@
       "candidate_blocks": 25,
       "examined_narrative_blocks": 26,
       "truncated_candidate_excerpts": 17,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2978,7 +2978,7 @@
       "candidate_blocks": 25,
       "examined_narrative_blocks": 25,
       "truncated_candidate_excerpts": 15,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -2996,7 +2996,7 @@
       "candidate_blocks": 19,
       "examined_narrative_blocks": 21,
       "truncated_candidate_excerpts": 12,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3014,7 +3014,7 @@
       "candidate_blocks": 21,
       "examined_narrative_blocks": 21,
       "truncated_candidate_excerpts": 12,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3032,7 +3032,7 @@
       "candidate_blocks": 19,
       "examined_narrative_blocks": 20,
       "truncated_candidate_excerpts": 7,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3050,7 +3050,7 @@
       "candidate_blocks": 14,
       "examined_narrative_blocks": 14,
       "truncated_candidate_excerpts": 9,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3068,7 +3068,7 @@
       "candidate_blocks": 13,
       "examined_narrative_blocks": 13,
       "truncated_candidate_excerpts": 10,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 1,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3086,7 +3086,7 @@
       "candidate_blocks": 12,
       "examined_narrative_blocks": 12,
       "truncated_candidate_excerpts": 10,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3104,7 +3104,7 @@
       "candidate_blocks": 14,
       "examined_narrative_blocks": 14,
       "truncated_candidate_excerpts": 11,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 2,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3122,7 +3122,7 @@
       "candidate_blocks": 10,
       "examined_narrative_blocks": 11,
       "truncated_candidate_excerpts": 8,
-      "tables_machine_validated": 1,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     },
@@ -3140,7 +3140,7 @@
       "candidate_blocks": 10,
       "examined_narrative_blocks": 11,
       "truncated_candidate_excerpts": 7,
-      "tables_machine_validated": 0,
+      "tables_machine_validated": 3,
       "errors": [],
       "status": "ARTIFACTS_CROSS_REFERENCED_NOT_FIDELITY_VERIFIED"
     }

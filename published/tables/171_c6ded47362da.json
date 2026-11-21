@@ -42,6 +42,12 @@
       "unallocated": 0
     },
     {
+      "parsed": 37,
+      "reason": "table2_affected_healthzone_count_mismatch",
+      "reported": 67,
+      "table": 2
+    },
+    {
       "reason": "table4_missing_national_or_provinces",
       "table": 4
     }
@@ -58,6 +64,8 @@
       "national": {
         "cumulative_cases": 10532,
         "cumulative_deaths": 5126,
+        "health_zones_affected": 67,
+        "health_zones_total": 178,
         "new_cases_24h": 65,
         "reported_cfr_pct": 48.7,
         "scope": "DRC",
@@ -72,6 +80,8 @@
         {
           "cumulative_cases": 7431,
           "cumulative_deaths": 3492,
+          "health_zones_affected": 28,
+          "health_zones_total": 36,
           "new_cases_24h": 19,
           "reported_cfr_pct": 47.0,
           "scope": "Ituri",
@@ -84,6 +94,8 @@
         {
           "cumulative_cases": 2518,
           "cumulative_deaths": 1395,
+          "health_zones_affected": 17,
+          "health_zones_total": 34,
           "new_cases_24h": 39,
           "reported_cfr_pct": 55.4,
           "scope": "Nord-Kivu",
@@ -96,6 +108,8 @@
         {
           "cumulative_cases": 467,
           "cumulative_deaths": 205,
+          "health_zones_affected": 7,
+          "health_zones_total": 13,
           "new_cases_24h": 7,
           "reported_cfr_pct": 43.9,
           "scope": "Haut-Uélé",
@@ -108,6 +122,8 @@
         {
           "cumulative_cases": 92,
           "cumulative_deaths": 27,
+          "health_zones_affected": 7,
+          "health_zones_total": 23,
           "new_cases_24h": 0,
           "reported_cfr_pct": 29.3,
           "scope": "Tshopo",
@@ -120,6 +136,8 @@
         {
           "cumulative_cases": 3,
           "cumulative_deaths": 1,
+          "health_zones_affected": 1,
+          "health_zones_total": 34,
           "new_cases_24h": 0,
           "reported_cfr_pct": 33.3,
           "scope": "Sud-Kivu",
@@ -132,6 +150,8 @@
         {
           "cumulative_cases": 13,
           "cumulative_deaths": 4,
+          "health_zones_affected": 4,
+          "health_zones_total": 11,
           "new_cases_24h": 0,
           "reported_cfr_pct": 30.8,
           "scope": "Bas-Uélé",
@@ -203,6 +223,11 @@
           "reported": 27,
           "sum": 19,
           "unallocated": 0
+        },
+        {
+          "parsed": 37,
+          "reason": "table2_affected_healthzone_count_mismatch",
+          "reported": 67
         }
       ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",

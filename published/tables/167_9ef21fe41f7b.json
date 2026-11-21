@@ -42,7 +42,17 @@
       "unallocated": 0
     },
     {
-      "reason": "table3_national_total_missing",
+      "parsed": 37,
+      "reason": "table2_affected_healthzone_count_mismatch",
+      "reported": 67,
+      "table": 2
+    },
+    {
+      "reason": "table3_incomplete_printed_total",
+      "table": 3
+    },
+    {
+      "reason": "table3_national_total_missing_or_insufficient_provinces",
       "table": 3
     },
     {
@@ -66,6 +76,8 @@
       "national": {
         "cumulative_cases": 10274,
         "cumulative_deaths": 4992,
+        "health_zones_affected": 67,
+        "health_zones_total": 178,
         "new_cases_24h": 78,
         "reported_cfr_pct": 48.6,
         "scope": "DRC",
@@ -80,6 +92,8 @@
         {
           "cumulative_cases": 7318,
           "cumulative_deaths": 3418,
+          "health_zones_affected": 28,
+          "health_zones_total": 36,
           "new_cases_24h": 40,
           "reported_cfr_pct": 46.7,
           "scope": "Ituri",
@@ -92,6 +106,8 @@
         {
           "cumulative_cases": 2391,
           "cumulative_deaths": 1341,
+          "health_zones_affected": 17,
+          "health_zones_total": 34,
           "new_cases_24h": 30,
           "reported_cfr_pct": 56.1,
           "scope": "Nord-Kivu",
@@ -104,6 +120,8 @@
         {
           "cumulative_cases": 450,
           "cumulative_deaths": 199,
+          "health_zones_affected": 7,
+          "health_zones_total": 13,
           "new_cases_24h": 6,
           "reported_cfr_pct": 44.2,
           "scope": "Haut-Uélé",
@@ -116,6 +134,8 @@
         {
           "cumulative_cases": 91,
           "cumulative_deaths": 27,
+          "health_zones_affected": 7,
+          "health_zones_total": 23,
           "new_cases_24h": 2,
           "reported_cfr_pct": 29.7,
           "scope": "Tshopo",
@@ -128,6 +148,8 @@
         {
           "cumulative_cases": 3,
           "cumulative_deaths": 1,
+          "health_zones_affected": 1,
+          "health_zones_total": 34,
           "new_cases_24h": 0,
           "reported_cfr_pct": 33.3,
           "scope": "Sud-Kivu",
@@ -140,6 +162,8 @@
         {
           "cumulative_cases": 13,
           "cumulative_deaths": 4,
+          "health_zones_affected": 4,
+          "health_zones_total": 11,
           "new_cases_24h": 0,
           "reported_cfr_pct": 30.8,
           "scope": "Bas-Uélé",
@@ -211,6 +235,11 @@
           "reported": 27,
           "sum": 5,
           "unallocated": 0
+        },
+        {
+          "parsed": 37,
+          "reason": "table2_affected_healthzone_count_mismatch",
+          "reported": 67
         }
       ],
       "note": "Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.",
@@ -766,12 +795,65 @@
     "table_3": {
       "flags": [
         {
-          "reason": "table3_national_total_missing"
+          "reason": "table3_incomplete_printed_total"
+        },
+        {
+          "reason": "table3_national_total_missing_or_insufficient_provinces"
         }
       ],
       "national": null,
-      "note": "Only reporting provinces are summed; ND is never zero.",
-      "reporting_gaps": [],
+      "note": "Printed 11-column alerts grid; no missing values were converted to zeros; provincial totals reconciled.",
+      "reporting_gaps": [
+        {
+          "province": "Haut-Uélé",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            11
+          ]
+        },
+        {
+          "province": "Bas-Uélé",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            12
+          ]
+        },
+        {
+          "province": "Ituri",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            13
+          ]
+        },
+        {
+          "province": "Nord-Kivu",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            14
+          ]
+        },
+        {
+          "province": "Sud-Ubangi",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            15
+          ]
+        },
+        {
+          "province": "Nord-Ubangi",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            16
+          ]
+        },
+        {
+          "province": "Tshopo",
+          "reason": "table3_partial_province_row",
+          "source_rows": [
+            17
+          ]
+        }
+      ],
       "rows": [],
       "status": "REVIEW_REQUIRED"
     },

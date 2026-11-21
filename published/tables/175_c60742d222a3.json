@@ -13,14 +13,12 @@
       "national": {
         "cumulative_cases": 10803,
         "cumulative_deaths": 5267,
-        "health_zones_affected": 67,
-        "health_zones_total": 178,
         "new_cases_24h": 62,
         "reported_cfr_pct": 48.8,
         "scope": "DRC",
         "source": {
           "page": 2,
-          "source_row": 15,
+          "source_row": 16,
           "table_id": "p2-t3"
         }
       },
