@@ -57,8 +57,8 @@ def test_189_tampered_alerts_cannot_validate():
 
 def test_189_tampered_next_page_contact_total_cannot_validate():
     doc=_doc()
-    p=next(p for p in doc['pages'] if p['page']==6)
-    assert '25 501' in p['text']
-    p['text']=p['text'].replace('25 501','25 500',1)
+    p=next(p for p in doc['tables'] if p['page']==6 and p['extractor']=='pdfplumber-text' and p.get('title_context','').startswith('Total'))
+    assert '25 501' in p['title_context']
+    p['title_context']=p['title_context'].replace('25 501','25 500',1)
     t=extract_five_tables(doc)['tables']['table_4']
     assert t['status']=='REVIEW_REQUIRED'
