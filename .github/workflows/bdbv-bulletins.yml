@@ -58,7 +58,13 @@ jobs:
       - name: Pin latest INRB source revision
         id: upstream
         run: |
-          SHA="$(curl -fLsS --retry 3 https://api.github.com/repos/INRB-UMIE/BDBV2026-Data/commits/main | python -c 'import sys,json; print(json.load(sys.stdin)["sha"])')"
+          # Authenticate the upstream metadata request: anonymous API access
+          # may be rate limited (HTTP 403) on shared GitHub runners.
+          SHA="$(gh api repos/INRB-UMIE/BDBV2026-Data/commits/main --jq '.sha' 2>/dev/null || true)"
+          if [[ ! "$SHA" =~ ^[a-f0-9]{40}$ ]]; then
+            echo 'Authenticated GitHub API metadata request failed; trying git remote ref.'
+            SHA="$(git ls-remote https://github.com/INRB-UMIE/BDBV2026-Data.git refs/heads/main | cut -f1)"
+          fi
           [[ "$SHA" =~ ^[a-f0-9]{40}$ ]]
           echo "sha=$SHA" >> "$GITHUB_OUTPUT"
       - name: Stage current INRB source candidates
