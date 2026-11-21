@@ -48,4 +48,13 @@ jobs:
           assert newer['tables_machine_validated']>=3,newer
           print('19 Nov verified observations:',got)
           print('Archived reports processed:',index['reports_processed'])
+          # The patch must never silently change a previously accepted value.
+          baseline=json.loads(pathlib.Path('published/feed.json').read_text())
+          key=lambda o:(o['date'],o['metric_id'],o.get('scope','DRC'))
+          old_values={key(o):o['value'] for o in baseline['observations']}
+          new_values={key(o):o['value'] for o in feed['observations']}
+          changed={k:(v,new_values.get(k)) for k,v in old_values.items()
+                   if k not in new_values or new_values[k]!=v}
+          assert not changed,changed
+          print('Historical validated observations unchanged:',len(old_values))
           PY
