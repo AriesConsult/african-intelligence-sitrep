@@ -1,11 +1,11 @@
 {
-  "documents_catalogued": 171,
+  "documents_catalogued": 172,
   "five_table_catalogue": {
-    "latest_report": 188,
-    "reports_checked": 171,
+    "latest_report": 189,
+    "reports_checked": 172,
     "reports_with_all_five_validated": 1
   },
-  "generated_at": "2026-11-20T14:11:42.590589+00:00",
+  "generated_at": "2026-11-21T13:36:46.601753+00:00",
   "latest_by_metric": {
     "alerts_received": "2026-11-05",
     "alerts_validated": "2026-11-05",
@@ -916,7 +916,7 @@
     }
   ],
   "observations_count": 60,
-  "pending_review_count": 171,
+  "pending_review_count": 172,
   "publication_status": "VALIDATED_OBSERVATIONS",
   "schema_version": "bdbv-sitrep-feed-v1",
   "source_catalogue": "https://insp.cd/sitrep/",

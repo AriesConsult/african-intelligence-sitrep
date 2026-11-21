@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4828,
+  "candidate_blocks_checked": 4838,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -11514,229 +11514,305 @@
       "date": "2026-11-18",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 8,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-19",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 297,
+      "candidate_passages": 301,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 85,
+      "distinct_reporting_sitreps": 86,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
+            "page": 6,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
+          "excerpt": "global des lits est rapporté à 25 % (22 % pour les lits de suspects et 27 % pour les lits de confirmés). Sur le plan nutritionnel, 54 patients, 83 personnels de première ligne (PPL) et 47 accompagnant",
           "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "candidate_id": "189-p09-b000-b7d3c80435",
+            "date": "2026-11-19",
+            "page": 9,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 311,
+      "candidate_passages": 316,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 102,
+      "distinct_reporting_sitreps": 103,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
+            "page": 6,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 545,
+      "candidate_passages": 550,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 161,
+      "distinct_reporting_sitreps": 162,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
+            "page": 6,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
-          "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 534,
+      "candidate_passages": 540,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 151,
+      "distinct_reporting_sitreps": 152,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
+            "page": 6,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
-          "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 51,
+      "candidate_passages": 55,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 17,
+      "distinct_reporting_sitreps": 18,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "global des lits est rapporté à 25 % (22 % pour les lits de suspects et 27 % pour les lits de confirmés). Sur le plan nutritionnel, 54 patients, 83 personnels de première ligne (PPL) et 47 accompagnant",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "candidate_id": "189-p09-b000-b7d3c80435",
+            "date": "2026-11-19",
+            "page": 9,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 60,
+      "candidate_passages": 61,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 51,
+      "distinct_reporting_sitreps": 52,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
         {
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "source": {
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
+            "page": 6,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
           "source": {
             "candidate_id": "188-p10-b000-aa3c89d41c",
@@ -11755,30 +11831,40 @@
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
-        },
-        {
-          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS ayant notifié. Prise en charge de 4/6 derniers cas confirmés (67 %), 29/33 cas confirmés en cours de suivi (88 %), 15/18 nouveaux suspects (83 %), 21/26 suspects en co",
-          "source": {
-            "candidate_id": "187-p12-b000-0e9d0b22ef",
-            "date": "2026-11-17",
-            "page": 12,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 45,
+      "candidate_passages": 47,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 25,
+      "distinct_reporting_sitreps": 26,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "source": {
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
+            "page": 8,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
           "source": {
             "candidate_id": "188-p07-b002-69dcb91878",
@@ -11786,68 +11872,48 @@
             "page": 7,
             "report_number": 188,
             "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Aucun cas confirmé n'est actuellement hospitalisé. On dénombre 3 patients suspects aux lits (1 à Gemena et 2 à Mbaya), représentant un taux d'occupation de 5 %. Haut-Uélé : 2 nouveaux pat",
-          "source": {
-            "candidate_id": "188-p08-b002-4196cdd673",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "(Mambasa) et un homme de 27 ans venant de Kampala au PoC Dele (Rwampara), acheminé à la morgue SaintJoseph. Nord-Kivu : Poursuite des travaux des cabanes et du circuit des voyageurs à l'aéroport de Be",
-          "source": {
-            "candidate_id": "187-p06-b000-2aa1706512",
-            "date": "2026-11-17",
-            "page": 6,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 398,
+      "candidate_passages": 404,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 115,
+      "distinct_reporting_sitreps": 116,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
-            "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "(Mambasa) et un homme de 27 ans venant de Kampala au PoC Dele (Rwampara), acheminé à la morgue SaintJoseph. Nord-Kivu : Poursuite des travaux des cabanes et du circuit des voyageurs à l'aéroport de Be",
-          "source": {
-            "candidate_id": "187-p06-b000-2aa1706512",
-            "date": "2026-11-17",
+            "candidate_id": "189-p06-b002-205a632c53",
+            "date": "2026-11-19",
             "page": 6,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
+            "page": 7,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "source": {
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
+            "page": 8,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
@@ -11896,15 +11962,35 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 251,
+      "candidate_passages": 253,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 89,
+      "distinct_reporting_sitreps": 90,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "source": {
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
+            "page": 7,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
           "source": {
             "candidate_id": "188-p10-b000-aa3c89d41c",
@@ -11913,193 +11999,173 @@
             "report_number": 188,
             "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
           }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 279,
+      "candidate_passages": 282,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 103,
+      "distinct_reporting_sitreps": 104,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 447,
+      "candidate_passages": 450,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 137,
+      "distinct_reporting_sitreps": 138,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
+            "page": 7,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu : La journée compte 638 patients hospitalisés (139 confirmés et 499 suspects, dont 68 enfants de moins de 5 ans et 26 malades",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b001-57bb63aa23",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
             "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 379,
+      "candidate_passages": 382,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 141,
+      "distinct_reporting_sitreps": 142,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
+            "page": 7,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu : La journée compte 638 patients hospitalisés (139 confirmés et 499 suspects, dont 68 enfants de moins de 5 ans et 26 malades",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "188-p08-b001-57bb63aa23",
-            "date": "2026-11-18",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
             "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 34,
+      "candidate_passages": 37,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 17,
+      "distinct_reporting_sitreps": 18,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         },
         {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
           "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
             "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
@@ -12148,14 +12214,34 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 30,
+      "candidate_passages": 32,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 21,
+      "distinct_reporting_sitreps": 22,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-19",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "source": {
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
+            "page": 8,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
         {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
@@ -12164,68 +12250,48 @@
             "page": 7,
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : La structure enregistre actuellement 3 cas suspects hospitalisés (1 à Gemena et 2 à Mbaya, pour aucun cas confirmé hospitalisé), soit un taux d'occupation global des lits de 5 % (3 lits o",
-          "source": {
-            "candidate_id": "187-p09-b001-595e523f77",
-            "date": "2026-11-17",
-            "page": 9,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 341,
+      "candidate_passages": 344,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 112,
+      "distinct_reporting_sitreps": 113,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-19",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu : La journée compte 638 patients hospitalisés (139 confirmés et 499 suspects, dont 68 enfants de moins de 5 ans et 26 malades",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
           "source": {
-            "candidate_id": "188-p08-b001-57bb63aa23",
-            "date": "2026-11-18",
-            "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
+            "candidate_id": "189-p07-b040-d0f9a9ec85",
+            "date": "2026-11-19",
             "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "source": {
+            "candidate_id": "189-p08-b000-852ec477a2",
+            "date": "2026-11-19",
+            "page": 8,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
         }
       ],
@@ -12274,15 +12340,25 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 63,
+      "candidate_passages": 64,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 37,
+      "distinct_reporting_sitreps": 38,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-08-19",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-19",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
             "candidate_id": "186-p05-b014-7858123064",
@@ -12301,30 +12377,30 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "2.6. Vaccination 2.6.1. Principales actions Nord-Kivu : 3 352 personnes vaccinées au total (97 % d'adultes), dont 3 235 PPL et 117 contacts répartis dans 5 ZS déclarantes (Beni, Oicha, Mabalako, Kalun",
-          "source": {
-            "candidate_id": "185-p10-b000-9eebbaf358",
-            "date": "2026-11-15",
-            "page": 10,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 91,
+      "candidate_passages": 92,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 61,
+      "distinct_reporting_sitreps": 62,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-19",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
             "candidate_id": "186-p05-b014-7858123064",
@@ -12343,72 +12419,72 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 136,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 85,
+      "event_type_candidate": "security_incident",
+      "first_report_date": "2026-05-24",
+      "last_report_date": "2026-11-19",
+      "province_mention": "Ituri",
+      "recent_examples": [
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
         },
         {
-          "excerpt": "2.6. Vaccination 2.6.1. Principales actions Nord-Kivu : 3 352 personnes vaccinées au total (97 % d'adultes), dont 3 235 PPL et 117 contacts répartis dans 5 ZS déclarantes (Beni, Oicha, Mabalako, Kalun",
+          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
           "source": {
-            "candidate_id": "185-p10-b000-9eebbaf358",
-            "date": "2026-11-15",
-            "page": 10,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
+            "candidate_id": "187-p09-b000-ceb6d50d8a",
+            "date": "2026-11-17",
+            "page": 9,
+            "report_number": 187,
+            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+          }
+        },
+        {
+          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
+          "source": {
+            "candidate_id": "186-p05-b014-7858123064",
+            "date": "2026-11-16",
+            "page": 5,
+            "report_number": 186,
+            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 135,
+      "candidate_passages": 127,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
       "distinct_reporting_sitreps": 84,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-17",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
-          "source": {
-            "candidate_id": "187-p09-b000-ceb6d50d8a",
-            "date": "2026-11-17",
-            "page": 9,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "2.6. Vaccination 2.6.1. Principales actions Nord-Kivu : 3 352 personnes vaccinées au total (97 % d'adultes), dont 3 235 PPL et 117 contacts répartis dans 5 ZS déclarantes (Beni, Oicha, Mabalako, Kalun",
-          "source": {
-            "candidate_id": "185-p10-b000-9eebbaf358",
-            "date": "2026-11-15",
-            "page": 10,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 126,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 83,
-      "event_type_candidate": "security_incident",
-      "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
+        {
           "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
           "source": {
             "candidate_id": "187-p09-b000-ceb6d50d8a",
@@ -12427,29 +12503,29 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 4,
+      "candidate_passages": 5,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 4,
+      "distinct_reporting_sitreps": 5,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-19",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
         {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
@@ -12468,16 +12544,6 @@
             "page": 8,
             "report_number": 175,
             "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
-        },
-        {
-          "excerpt": "persiste ; au Bas-Uélé, la mise en marche des UCC n’est toujours pas effective, la prise en charge des acteurs de terrain accuse du retard et la ZS de Bili ne compte encore aucun vacciné (0/1 067). 2.",
-          "source": {
-            "candidate_id": "173-p09-b000-73242928e2",
-            "date": "2026-11-03",
-            "page": 9,
-            "report_number": 173,
-            "source_sha256": "7027c7bfd3d63cb8c08ae8317a9fd979c390eec63b2f1c2e0fcdc9ba4916dd02"
           }
         }
       ],
@@ -12526,14 +12592,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 12,
+      "candidate_passages": 13,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 10,
+      "distinct_reporting_sitreps": 11,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-28",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-19",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
         {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
@@ -12553,29 +12629,29 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "2.6. Vaccination 2.6.1. Principales actions Nord-Kivu : 3 352 personnes vaccinées au total (97 % d'adultes), dont 3 235 PPL et 117 contacts répartis dans 5 ZS déclarantes (Beni, Oicha, Mabalako, Kalun",
-          "source": {
-            "candidate_id": "185-p10-b000-9eebbaf358",
-            "date": "2026-11-15",
-            "page": 10,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 97,
+      "candidate_passages": 98,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 62,
+      "distinct_reporting_sitreps": 63,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-14",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-19",
       "province_mention": "Tshopo",
       "recent_examples": [
+        {
+          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "source": {
+            "candidate_id": "189-p10-b000-4139d974c6",
+            "date": "2026-11-19",
+            "page": 10,
+            "report_number": 189,
+            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+          }
+        },
         {
           "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
           "source": {
@@ -12592,16 +12668,6 @@
             "candidate_id": "186-p05-b014-7858123064",
             "date": "2026-11-16",
             "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
@@ -16038,10 +16104,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-20T14:11:44.782316+00:00",
+  "generated_at": "2026-11-21T13:36:48.835476+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 171,
+  "reports_classified": 172,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }

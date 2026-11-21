@@ -1,6 +1,6 @@
 {
   "schema_version": "bdbv-publication-gate-v1",
-  "generated_at": "2026-11-20T14:11:51.381476+00:00",
+  "generated_at": "2026-11-21T13:36:53.792809+00:00",
   "pass": true,
   "numerical_archive_completeness": "PARTIAL_VALIDATION",
   "narrative_coverage": "ALL_CATALOGUED_REPORTS_CLASSIFIED",
@@ -8,8 +8,8 @@
   "counters": {
     "observations_checked": 60,
     "machine_observations_reconciled": 60,
-    "narrative_reports_checked": 171,
-    "narrative_candidate_blocks_checked": 4828
+    "narrative_reports_checked": 172,
+    "narrative_candidate_blocks_checked": 4838
   },
   "errors": [],
   "interpretation": "PASS certifies published-record consistency, not historical completeness or independent source verification."
