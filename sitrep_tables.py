@@ -70,6 +70,37 @@ def report_base(doc):
             'source_role':'INSP original SitRep; corroborated by INRB archive',
             'status':'VALIDATED_WHERE_RECONCILED','tables':{},'quality_flags':[]}
 
+
+def _table1_grid_values(row):
+    """Decode visually ordered case/death cells when PDF grid adds empty columns.
+    Require exactly three count cells and one unambiguous CFR before the zone fraction.
+    """
+    values=[str(v or '').strip() for v in row[1:]]
+    pct_positions=[(i,percent(v)) for i,v in enumerate(values) if percent(v) is not None]
+    if len(pct_positions)!=1:return None
+    position,cfr=pct_positions[0]
+    raw=[v for v in values[:position] if v]
+    if len(raw)!=3:return None
+    figures=[count(v) for v in raw]
+    if any(v is None for v in figures):return None
+    return figures[0],figures[1],figures[2],cfr
+
+def _table1_split_total(rows,i):
+    """Combine adjacent non-overlapping printed total cells, never arbitrary rows."""
+    if i<1 or norm(rows[i][0]) not in ('total','total general'):
+        return None
+    above=rows[i-1]
+    if not above or norm(above[0]):return None
+    width=max(len(above),len(rows[i]))
+    combined=['']*width
+    combined[0]=rows[i][0]
+    for j in range(1,width):
+        a=str(above[j] or '').strip() if j<len(above) else ''
+        b=str(rows[i][j] or '').strip() if j<len(rows[i]) else ''
+        if a and b and a!=b:return None
+        combined[j]=a or b
+    return combined
+
 def table_1(doc,output):
     t=table(doc,1)
     if not t:return None
@@ -84,6 +115,18 @@ def table_1(doc,output):
         # Restrict this fallback to an already identified unlabeled total.
         if is_total and not p and pct is None and len(r)>5 and not norm(r[4]):
             pct=percent(r[5])
+        # Some official PDFs print extra blank grid columns, and the national
+        # total may be split across adjacent rows. Only promote a unique
+        # visually ordered tuple after the published CFR independently matches.
+        if None in (nc,c,d,pct) or d>c or not ok_rate(d,c,pct):
+            logical=_table1_grid_values(r)
+            if logical is None and is_total:
+                combined=_table1_split_total(t['rows'],i)
+                if combined is not None:logical=_table1_grid_values(combined)
+            if logical is not None:
+                ln,lc,ld,lp=logical
+                if ld<=lc and ok_rate(ld,lc,lp):
+                    nc,c,d,pct=logical
         if None in (nc,c,d,pct) or d>c or not ok_rate(d,c,pct):
             # The national Total caption can occupy a line below the numeric row.
             if is_total and national is not None:continue
@@ -91,8 +134,9 @@ def table_1(doc,output):
         row={'scope':p or 'DRC','new_cases_24h':nc,'cumulative_cases':c,'cumulative_deaths':d,
              'reported_cfr_pct':pct,'source':cell_prov(t,i)}
         # Cell can contain split/misaligned zone totals; only accept unambiguous fractions.
-        zone=fraction(r[5]) if len(r)>5 else None
-        if zone and len(re.findall(r'\d+\s*/\s*\d+',r[5]))==1:
+        zone_cells=[str(v) for v in r[5:] if re.search(r'\d+\s*/\s*\d+',str(v))]
+        zone=fraction(zone_cells[0]) if len(zone_cells)==1 else None
+        if zone and len(re.findall(r'\d+\s*/\s*\d+',zone_cells[0]))==1:
             row['health_zones_affected']=zone[0]
             row['health_zones_total']=zone[1]
         if p:rows.append(row)
@@ -219,9 +263,84 @@ def table_2(doc,output):
             'coverage_reconciliation':'all affected province totals and health-zone case/death sums required',
             'note':'Health-zone cumulative fields only; daily merged PDF cells are not assigned to zones.'}
 
+
+def _table3_explicit_11_columns(t):
+    """Official 11-column alert grid, preserving the printed 19 Nov layout.
+    The published table has no separate not-investigated column; never invent one.
+    A province/total may have its label and numeric cells split over three rows.
+    """
+    cells=t.get('rows',[])
+    if not cells or max(map(len,cells))!=11:return None
+    if not any('alertes recues' in norm(' '.join(str(v or '') for v in row))
+               for row in cells[:8]):return None
+    keys={1:'received_alive',2:'received_deceased',3:'alerts_received',
+          4:'suspected_alive',5:'suspected_deceased',
+          6:'not_suspected_alive',7:'not_suspected_deceased',
+          9:'suspects_investigated',10:'suspects_transferred'}
+    records=[];national=None;flags=[];gaps=[]
+    def merge(group,label):
+        out=['']*11;out[0]=label
+        for j in range(1,11):
+            vals={str(r[j] or '').strip() for r in group if j<len(r) and str(r[j] or '').strip()}
+            if len(vals)>1:return None
+            out[j]=next(iter(vals),'')
+        return out
+    i=0
+    while i<len(cells):
+        row=cells[i];label=str(row[0] or '').strip() if row else ''
+        prov=scope_of(label);is_total=norm(label) in ('total','total general')
+        used=[i]
+        if not prov and not is_total and norm(label) in ('nord','sud','total') and i+2<len(cells):
+            middle,ending=cells[i+1],cells[i+2]
+            candidate=label+' '+str(ending[0] or '')
+            if not norm(middle[0]) and (scope_of(candidate) or norm(candidate)=='total general'):
+                joined=merge([row,middle,ending],candidate)
+                if joined is not None:
+                    row=joined;label=candidate;prov=scope_of(label)
+                    is_total=norm(label)=='total general'
+                    used=[i,i+1,i+2]
+                    i+=2
+        i+=1
+        if not prov and not is_total:continue
+        values={name:(count(row[j]) if j<len(row) else None) for j,name in keys.items()}
+        if any(v is None for v in values.values()):
+            if prov:gaps.append({'reason':'table3_partial_province_row','province':prov,'source_rows':used})
+            else:flags.append({'reason':'table3_incomplete_printed_total'})
+            continue
+        n=values['suspected_alive']+values['suspected_deceased']
+        neg=values['not_suspected_alive']+values['not_suspected_deceased']
+        if (values['received_alive']+values['received_deceased']!=values['alerts_received']
+            or n+neg!=values['alerts_received']
+            or values['suspects_investigated']!=n
+            or values['suspects_transferred']>values['suspects_investigated']):
+            flags.append({'reason':'table3_inconsistent_printed_pipeline','province':prov or 'DRC'})
+            continue
+        values['suspected_alerts']=n
+        values['not_suspected_alerts']=neg
+        values['alerts_not_yet_verified']=0
+        values['scope']=prov or 'DRC'
+        values['source']=cell_prov(t,used[0])
+        if len(used)>1:values['source']['source_rows']=used
+        if prov:
+            if any(r['scope']==prov for r in records):flags.append({'reason':'table3_duplicate_province','province':prov})
+            records.append(values)
+        elif national is None:national=values
+        else:flags.append({'reason':'table3_duplicate_national_total'})
+    if national is None or len(records)<4:
+        flags.append({'reason':'table3_national_total_missing_or_insufficient_provinces'})
+    else:
+        for name in keys.values():
+            if sum(r[name] for r in records)!=national[name]:
+                flags.append({'reason':'table3_provincial_sum_incomplete_or_disagrees','metric':name})
+    return {'status':'MACHINE_VALIDATED' if not flags else 'REVIEW_REQUIRED',
+            'rows':records,'national':national,'flags':flags,'reporting_gaps':gaps,
+            'note':'Printed 11-column alerts grid; no missing values were converted to zeros; provincial totals reconciled.'}
+
 def table_3(doc,output):
     t=table(doc,3)
     if not t:return None
+    eleven=_table3_explicit_11_columns(t)
+    if eleven is not None:return eleven
     records=[];national=None;flags=[];missing=[]
     for i,r in enumerate(t['rows']):
         if len(r)<12:continue
@@ -372,6 +491,22 @@ def table_4(doc,output):
         if prov:rows.append(rec)
         elif national is not None:flags.append({'reason':'table4_duplicate_national_total'})
         else:national=rec
+    if national is None and not any(f.get('reason')=='table4_ambiguous_page_continuation' for f in flags):
+        # A subset of SitReps prints the Total as the FIRST TEXT LINE of the
+        # following page without PDF grid lines. Read that line only, require
+        # a unique fully numerical tuple, and then enforce province summation.
+        follow=[page for page in doc.get('pages',[]) if page.get('page')==t['page']+1]
+        if len(follow)==1:
+            first=str(follow[0].get('text') or '').splitlines()
+            first=first[0] if first else ''
+            match=re.fullmatch(r'[ \\t]*Total[ \\t]{2,}(\\d{1,3}(?: \\d{3})*)[ \\t]{2,}(\\d{1,3}(?: \\d{3})*)[ \\t]{2,}(\\d+(?:[.,]\\d+)?)\\s*%',first,re.I)
+            if match:
+                d=count(match.group(1));n=count(match.group(2));pct=percent(match.group(3)+'%')
+                if ok_rate(n,d,pct):
+                    national={'scope':'DRC','contacts_to_follow':d,'contacts_seen':n,
+                              'contact_follow_up_rate':pct,
+                              'source':{'page':follow[0]['page'],
+                                        'table_id':'next-page-printed-contact-total','source_row':0}}
     if national is None or len(rows)<4:
         flags.append({'reason':'table4_missing_national_or_provinces'})
     else:
