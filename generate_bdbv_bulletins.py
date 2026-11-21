@@ -498,7 +498,7 @@ def build(accepted,output,stage=None,published=None):
         if freq=='daily':
             # Machine-readable, source-linked input for the separate analytical layer.
             # Published source observations and draft interpretations remain distinct.
-            daily_evidence.append({
+            daily_row={
                 'date':day,'cases':v['cases'],'deaths':v['deaths'],
                 'source_quality':v['source'],'source_commit':detail['source_commit'],
                 'original_sitrep_number':current_original.get('report_number') if current_original else None,
@@ -506,7 +506,6 @@ def build(accepted,output,stage=None,published=None):
                 'original_source_url':current_original.get('source_url') if current_original else None,
                 'machine_validated_tables':sorted(k for k,t in (current_original or {}).get('tables',{}).items()
                     if t.get('status')=='MACHINE_VALIDATED'),
-                'reconciled_original_sitrep_indicators':original_table_evidence(current_original,day),
                 'follow_up_pct':(table4.get(day) or {}).get('national',{}).get('follow_up_pct'),
                 'follow_up_source_report':(table4.get(day) or {}).get('source_report'),
                 # Metadata only: raw source narratives can contain names/contact data.
@@ -514,7 +513,11 @@ def build(accepted,output,stage=None,published=None):
                 'narrative_source_leads':[{'topic':x['topic'],
                     'status':x['status'],'report':x['report'],'page':x['page'],
                     'source_url':x.get('source_url')} for x in detail['narrative']]
-            })
+            }
+            # Preserve historical input structure before the new publisher cutover.
+            if day >= '2026-11-19':
+                daily_row['reconciled_original_sitrep_indicators']=original_table_evidence(current_original,day)
+            daily_evidence.append(daily_row)
         target=public/'bulletins'/freq;target.mkdir(parents=True,exist_ok=True)
         langs=[]
         for lang in ('en','fr'):
