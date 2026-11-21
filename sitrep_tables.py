@@ -290,7 +290,7 @@ def _table3_explicit_11_columns(t):
         row=cells[i];label=str(row[0] or '').strip() if row else ''
         prov=scope_of(label);is_total=norm(label) in ('total','total general')
         used=[i]
-        if not prov and not is_total and norm(label) in ('nord','sud','total') and i+2<len(cells):
+        if not prov and norm(label) in ('nord','sud','total') and i+2<len(cells):
             middle,ending=cells[i+1],cells[i+2]
             candidate=label+' '+str(ending[0] or '')
             if not norm(middle[0]) and (scope_of(candidate) or norm(candidate)=='total general'):
