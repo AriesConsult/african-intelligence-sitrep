@@ -1,6 +1,12 @@
 name: BDBV automated daily weekly monthly source bulletins
 on:
   workflow_dispatch:
+  # GITHUB_TOKEN commits made by the ingestion workflow do not fire push
+  # workflows. Listen to its successful completion explicitly.
+  workflow_run:
+    workflows:
+      - African Intelligence BDBV SitRep ingest and publication
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -23,6 +29,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
@@ -98,6 +105,9 @@ jobs:
         run: |
           cd work/output
           zip -qr ../BDBV_BULLETINS_SITE_UPLOAD.zip bdvd2026
+          # Minimal upload for the existing One.com assessment reader.
+          # Never replace historical approved bulletin JSON files.
+          zip -qr ../BDBV_ANALYSIS_INPUTS_ONLY.zip bdvd2026/assets/data/analysis_inputs
           python - <<'PY'
           from pathlib import Path
           from zipfile import ZipFile
@@ -134,12 +144,13 @@ jobs:
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo 'Identical source and generator release already exists.'
           else
-            gh release create "$TAG" work/BDBV_BULLETINS_SITE_UPLOAD.zip work/output/BULLETIN_BUILD_REPORT.json --title 'BDBV deterministic bilingual daily weekly monthly bulletins' --notes 'Generated from GitHub-extracted qualified historical INRB data and subsequent pinned INRB candidate records. One.com HTTPS-pull input. No AI-generated interpretations; all analysis runs locally on One.com after separate review.'
+            gh release create "$TAG" work/BDBV_BULLETINS_SITE_UPLOAD.zip work/BDBV_ANALYSIS_INPUTS_ONLY.zip work/output/BULLETIN_BUILD_REPORT.json --title 'BDBV deterministic bilingual daily weekly monthly bulletins' --notes 'Generated from GitHub-extracted qualified historical INRB data and subsequent pinned INRB candidate records. One.com HTTPS-pull input. No AI-generated interpretations; all analysis runs locally on One.com after separate review.'
           fi
       - uses: actions/upload-artifact@v4
         with:
           name: bdbv-bulletins-site-${{ github.run_id }}
           path: |
             work/BDBV_BULLETINS_SITE_UPLOAD.zip
+            work/BDBV_ANALYSIS_INPUTS_ONLY.zip
             work/output/BULLETIN_BUILD_REPORT.json
           retention-days: 90

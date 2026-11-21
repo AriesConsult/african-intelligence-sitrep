@@ -191,3 +191,38 @@ def test_unfinished_reporting_periods_are_not_published():
     # No incomplete active week before its Sunday closing date.
     earlier=list(completed_periods(observations,'2026-11-06'))
     assert ('weekly','2026-11-02','2026-11-08') not in earlier
+
+
+def test_machine_reconciled_original_sitrep_189_is_available_to_ai_but_unvalidated_tables_are_not():
+    from generate_bdbv_bulletins import original_table_evidence
+    import json
+    from pathlib import Path
+    snap=json.loads((Path(__file__).resolve().parents[1]/'published/tables/189_276b1b002a47.json').read_text())
+    got=original_table_evidence(snap,'2026-11-19')
+    assert set(got['validated_tables'])=={'table_1','table_3','table_4'}
+    assert got['source_report']==189
+    assert got['source_pdf_sha256']==snap['source_sha256']
+    assert got['validated_tables']['table_1']['national']['cumulative_cases']==11723
+    assert got['validated_tables']['table_1']['national']['cumulative_deaths']==5752
+    assert got['validated_tables']['table_3']['national']['alerts_received']==4565
+    assert got['validated_tables']['table_3']['national']['suspected_alerts']==518
+    assert got['validated_tables']['table_4']['national']['contacts_seen']==25501
+    assert got['validated_tables']['table_4']['national']['contacts_to_follow']==29891
+    assert got['validated_tables']['table_4']['national']['contact_follow_up_rate']==85.3
+    assert 'not human audit' in got['validation_method']
+    assert original_table_evidence(snap,'2026-11-18') is None
+
+
+def test_ambiguous_original_sitrep_tables_stay_out_of_ai_inputs():
+    from generate_bdbv_bulletins import original_table_evidence
+    snap={'date':'2026-11-19','report_number':189,'source_sha256':'abc',
+          'tables':{'table_1':{'status':'REVIEW_REQUIRED',
+                              'national':{'cumulative_cases':1234}},
+                    'table_3':{'status':'MACHINE_VALIDATED',
+                              'national':{'alerts_received':5,'suspected_alerts':2}},
+                    'table_4':{'status':'REVIEW_REQUIRED',
+                              'national':{'contacts_seen':9999}},
+                    'table_5':{'status':'MACHINE_VALIDATED','national':{'unapproved':9}}}}
+    got=original_table_evidence(snap,'2026-11-19')
+    assert set(got['validated_tables'])=={'table_3'}
+    assert got['validated_tables']['table_3']['national']=={'alerts_received':5,'suspected_alerts':2}

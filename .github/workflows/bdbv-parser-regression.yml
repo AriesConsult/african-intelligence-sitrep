@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'sitrep_tables.py'
+      - 'generate_bdbv_bulletins.py'
+      - 'tests/test_bdbv_bulletins.py'
+      - '.github/workflows/bdbv-bulletins.yml'
       - 'review_approved.py'
       - 'tests/test_review_approved_header.py'
       - 'tests/test_sitrep_189_regression.py'
