@@ -1,0 +1,26 @@
+name: BDBV SitRep parser regression (read only)
+
+on:
+  pull_request:
+    paths:
+      - 'sitrep_tables.py'
+      - 'tests/test_sitrep_189_regression.py'
+      - '.github/workflows/bdbv-parser-regression.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parser-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install extraction dependencies
+        run: python -m pip install -r requirements.txt pytest
+      - name: Run historical and new parser regression tests
+        run: python -m pytest -q tests/test_sitrep_189_regression.py tests/test_five_table_archive.py tests/test_table4_sitrep178.py tests/test_table4_split_rows_178.py
