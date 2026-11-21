@@ -23,8 +23,27 @@ def read_approvals(file:Path,queue:Path)->tuple[list[dict],list[dict]]:
     accepted=[];errors=[]
     if not file.is_file():return accepted,errors
     with file.open(encoding='utf-8-sig',newline='') as fh:
+        # Some initial templates have leading empty lines. Skip only those
+        # before the header; do not filter the remaining file, because CSV
+        # quoted review notes may legitimately span multiple lines.
+        header_line=1
+        while True:
+            pos=fh.tell()
+            line=fh.readline()
+            if not line:
+                return accepted,errors
+            if line.strip():
+                fh.seek(pos)
+                break
+            header_line+=1
         reader=csv.DictReader(fh)
-        for lineno,row in enumerate(reader,start=2):
+        expected={'report_number','source_sha256','date','page','table_id',
+                  'row_label','column_header','raw_value','metric_id','scope',
+                  'value','unit','reviewed_by'}
+        if not reader.fieldnames or not expected.issubset(reader.fieldnames):
+            return accepted,[{'line':header_line,
+                              'reason':'manual_approval_csv_header_missing_required_columns'}]
+        for lineno,row in enumerate(reader,start=header_line+1):
             if not row or not any(row.values()):continue
             try:
                 number=int(row['report_number']);sha=str(row['source_sha256']).lower();date=str(row['date'])
