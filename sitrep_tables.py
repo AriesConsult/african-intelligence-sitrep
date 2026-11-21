@@ -507,6 +507,25 @@ def table_4(doc,output):
                               'contact_follow_up_rate':pct,
                               'source':{'page':follow[0]['page'],
                                         'table_id':'next-page-printed-contact-total','source_row':0}}
+    if national is None:
+        # The archived review queue sometimes stores table candidates without
+        # doc['pages']. The next page's PDF title context retains the printed
+        # two-row "Total" / count-count-rate sequence. Require a UNIQUE match.
+        candidates=[]
+        for part in doc.get('tables',[]):
+            if part.get('page')!=t['page']+1 or part.get('extractor')!='pdfplumber-text':
+                continue
+            ctx=str(part.get('title_context') or '').splitlines()
+            if len(ctx)<2 or norm(ctx[0])!='total':continue
+            match=re.fullmatch(r'(\d{1,3}(?: \d{3})*)\s+(\d{1,3}(?: \d{3})*)\s+(\d+(?:[.,]\d+)?)%',ctx[1].strip())
+            if not match:continue
+            d=count(match.group(1));n=count(match.group(2));pct=percent(match.group(3)+'%')
+            if ok_rate(n,d,pct):
+                candidates.append({'scope':'DRC','contacts_to_follow':d,'contacts_seen':n,
+                                   'contact_follow_up_rate':pct,'source':{'page':part['page'],
+                                   'table_id':part['table_id'],'source_row':0}})
+        if len(candidates)==1:national=candidates[0]
+        elif len(candidates)>1:flags.append({'reason':'table4_ambiguous_printed_continuation'})
     if national is None or len(rows)<4:
         flags.append({'reason':'table4_missing_national_or_provinces'})
     else:
