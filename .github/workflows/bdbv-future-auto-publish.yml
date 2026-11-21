@@ -1,0 +1,49 @@
+name: BDBV future bulletin auto-publication
+on:
+  schedule:
+    # GitHub schedules use UTC; Africa/Nairobi is UTC+3 throughout the year.
+    # 09:17 and 18:17 EAT daily.
+    - cron: '17 6,15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdbv-future-auto-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BDBV_AUTO_TOKEN: ${{ secrets.BDBV_AUTO_TOKEN }}
+    steps:
+      - name: Publish eligible bulletins, one at a time
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          if [ -z "$BDBV_AUTO_TOKEN" ]; then
+            echo 'Missing GitHub Actions secret BDBV_AUTO_TOKEN'
+            exit 1
+          fi
+
+          # Up to eight EN/FR daily/weekly/monthly editions per scheduled run.
+          failures=0
+          for step in $(seq 1 8); do
+            result="$(curl --fail-with-body --silent --show-error --retry 2 --retry-delay 8 \
+              --connect-timeout 15 --max-time 115 \
+              -X POST -H 'X-BDBV-Auto-Token: '"$BDBV_AUTO_TOKEN" \
+              -H 'Content-Type: application/json' \
+              'https://africa-research.eu/bdbv_future_auto_publish.php')"
+
+            printf '%s' "$result" | python3 -c 'import json,sys; x=json.load(sys.stdin); print("status:",x.get("result"),"edition:",x.get("key",x.get("period","")),"remaining:",x.get("pending","?"));sys.exit(0 if x.get("ok") else 2)'
+            kind="$(printf '%s' "$result" | python3 -c 'import json,sys;print(json.load(sys.stdin).get("result",""))')"
+            if [ "$kind" = 'failed' ]; then failures=$((failures+1)); fi
+            if [ "$kind" = 'no_work' ] || [ "$kind" = 'busy' ]; then break; fi
+          done
+          if [ "$failures" -gt 0 ]; then
+            echo "$failures bulletin generation(s) failed; inspect server-side status for details"
+            exit 1
+          fi
