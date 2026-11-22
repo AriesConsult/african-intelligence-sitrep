@@ -1,10 +1,10 @@
 {
-  "cached_this_run": 172,
+  "cached_this_run": 173,
   "candidates_total": 4848,
   "failures_this_run": [],
-  "generated_at": "2026-11-22T13:05:24.231213+00:00",
+  "generated_at": "2026-11-22T13:10:39.195603+00:00",
   "index_read_errors": [],
-  "new_processed_this_run": 1,
+  "new_processed_this_run": 0,
   "publication_policy": "REVIEW_ONLY: lexical tags must not be treated as independently verified events or causal interpretations.",
   "registry_reports": 173,
   "reports": [
