@@ -74,7 +74,7 @@ def reprocess(queue:Path, published:Path, registry:Path,feed_path:Path):
         if r['report_number'] in seen:continue
         seen.add(r['report_number']);latest.append(r)
     idx={'schema_version':SCHEMA,'reports_processed':len(reports),'unique_reports':len(latest),
-         'reports':latest,'extract_errors':errors,
+         'reports':latest,'all_reports':reports,'extract_errors':errors,
          'source_repository':'https://github.com/INRB-UMIE/BDBV2026-Data',
          'methodology':'Parsed SitRep tables 1–5; validation status per table; unvalidated cells remain in review_queue.'}
     write_json(published/'table_index.json',idx)

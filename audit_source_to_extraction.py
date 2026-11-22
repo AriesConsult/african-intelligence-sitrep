@@ -16,12 +16,20 @@ PUBLISHED = ROOT / "published"
 def read(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
+def table_records_by_identity(index):
+    """Retain every source PDF revision for auditing, not just the dashboard latest."""
+    records = index.get("all_reports", index["reports"])
+    return {(r["report_number"], r["sha256"]): r for r in records}
+
 def main():
     registry = read(ROOT / "state/registry.json")
     archive = read(PUBLISHED / "source_archive_index.json")
     table_index = read(PUBLISHED / "table_index.json")
     narrative_index = read(PUBLISHED / "narrative_index.json")
-    table_by_id = {(r["report_number"], r["sha256"]): r for r in table_index["reports"]}
+    # The dashboard uses one entry per report number, but integrity audits must
+    # retain every distinct (SitRep number, source SHA) from the extraction queue.
+    # Earlier revisions may remain in the registry after a newer PDF is found.
+    table_by_id = table_records_by_identity(table_index)
     narrative_by_id = {(r["report_number"], r["source_sha256"]): r for r in narrative_index["reports"]}
     archive_by_id = archive.get("archived", {})
     report_rows = []
