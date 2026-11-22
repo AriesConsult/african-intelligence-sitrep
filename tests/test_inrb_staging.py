@@ -26,7 +26,7 @@ def test_tree_request_uses_github_token_only_for_api(tmp_path,monkeypatch):
  class Response:
   def __init__(self, data):
    self._data=data
-   self.content=b'nom,date,example\\nTest,2026-05-22,1\\n'
+   self.content=b'nom,date,example'+bytes([10])+b'Test,2026-05-22,1'+bytes([10])
   def raise_for_status(self):pass
   def json(self):return self._data
  class Session:
