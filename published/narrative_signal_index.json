@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4838,
+  "candidate_blocks_checked": 4848,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -11580,214 +11580,280 @@
       "date": "2026-11-19",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 6,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 8,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-20",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 301,
+      "candidate_passages": 305,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 86,
+      "distinct_reporting_sitreps": 87,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
           "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
             "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "global des lits est rapporté à 25 % (22 % pour les lits de suspects et 27 % pour les lits de confirmés). Sur le plan nutritionnel, 54 patients, 83 personnels de première ligne (PPL) et 47 accompagnant",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p09-b000-b7d3c80435",
-            "date": "2026-11-19",
-            "page": 9,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 316,
+      "candidate_passages": 320,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 103,
+      "distinct_reporting_sitreps": 104,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
           "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
             "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 550,
+      "candidate_passages": 555,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 162,
+      "distinct_reporting_sitreps": 163,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
           "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
             "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 540,
+      "candidate_passages": 545,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 152,
+      "distinct_reporting_sitreps": 153,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
           "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
             "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 55,
+      "candidate_passages": 58,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 18,
+      "distinct_reporting_sitreps": 19,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
-            "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "global des lits est rapporté à 25 % (22 % pour les lits de suspects et 27 % pour les lits de confirmés). Sur le plan nutritionnel, 54 patients, 83 personnels de première ligne (PPL) et 47 accompagnant",
-          "source": {
-            "candidate_id": "189-p09-b000-b7d3c80435",
-            "date": "2026-11-19",
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
             "page": 9,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "Bas-Uélé : Réalisation de 5 490 visites à domicile, 244 causeries éducatives, et 301 séances de sensibilisation de masse, ainsi que 830 diffusions radio. Briefing des autorités, leaders religieux et d",
+          "source": {
+            "candidate_id": "190-p10-b000-15d2217e1a",
+            "date": "2026-11-20",
+            "page": 10,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
@@ -11836,84 +11902,84 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 47,
+      "candidate_passages": 50,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 26,
+      "distinct_reporting_sitreps": 27,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
-            "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
-          "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé la totalité des 236 échantillons, révélant un taux de positivité de 10,8 % sur les nouveaux prélèvements",
-          "source": {
-            "candidate_id": "188-p07-b002-69dcb91878",
-            "date": "2026-11-18",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "source": {
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "source": {
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 404,
+      "candidate_passages": 409,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 116,
+      "distinct_reporting_sitreps": 117,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
           "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
             "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
@@ -11962,210 +12028,210 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 253,
+      "candidate_passages": 257,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 90,
+      "distinct_reporting_sitreps": 91,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
+          "excerpt": "Haut-Uélé : 71 patients aux lits (35 confirmés et 19 suspects) et 17 nouvelles admissions, 2 décès du jour. Cumul de guérisons : 231 et Global de 25 % (22 % pour les suspects, 27 % pour les confirmés)",
           "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "candidate_id": "190-p08-b001-49a53645ff",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 282,
+      "candidate_passages": 286,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 104,
+      "distinct_reporting_sitreps": 105,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Haut-Uélé : 71 patients aux lits (35 confirmés et 19 suspects) et 17 nouvelles admissions, 2 décès du jour. Cumul de guérisons : 231 et Global de 25 % (22 % pour les suspects, 27 % pour les confirmés)",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p08-b001-49a53645ff",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 450,
+      "candidate_passages": 454,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 138,
+      "distinct_reporting_sitreps": 139,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 382,
+      "candidate_passages": 386,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 142,
+      "distinct_reporting_sitreps": 143,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 37,
+      "candidate_passages": 40,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 18,
+      "distinct_reporting_sitreps": 19,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
-            "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Bas-Uélé : Réalisation de 5 490 visites à domicile, 244 causeries éducatives, et 301 séances de sensibilisation de masse, ainsi que 830 diffusions radio. Briefing des autorités, leaders religieux et d",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
+            "candidate_id": "190-p10-b000-15d2217e1a",
+            "date": "2026-11-20",
             "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
@@ -12214,84 +12280,84 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 32,
+      "candidate_passages": 35,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 22,
+      "distinct_reporting_sitreps": 23,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
-            "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
-          "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "source": {
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
+            "page": 8,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "source": {
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 344,
+      "candidate_passages": 348,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 113,
+      "distinct_reporting_sitreps": 114,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-20",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le laboratoire a réceptionné et analysé 258 nouveaux échantillons, avec un taux de positivité de 2,7 % sur les nouveaux prélèvements (3/113), de",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
-            "candidate_id": "189-p07-b040-d0f9a9ec85",
-            "date": "2026-11-19",
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
             "page": 7,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Tshopo Poursuite de la formation des équipes d’ÉCUMRS dans la ZS de Makiso-Kisangani (22 participants avec l'appui de FHI360) et décontamination du Centre Médical Shukrani dans la ZS de Kabondo. Seize",
+          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
           "source": {
-            "candidate_id": "189-p08-b000-852ec477a2",
-            "date": "2026-11-19",
+            "candidate_id": "190-p08-b000-1ad3e9fdcd",
+            "date": "2026-11-20",
             "page": 8,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "190-p09-b000-7e85e04d1f",
+            "date": "2026-11-20",
+            "page": 9,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
           }
         }
       ],
@@ -12718,15 +12784,35 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 121,
+      "candidate_passages": 123,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 58,
+      "distinct_reporting_sitreps": 59,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-20",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "source": {
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
+            "page": 6,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
             "candidate_id": "187-p07-b000-c42b6d99f3",
@@ -12735,40 +12821,40 @@
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 126,
+      "candidate_passages": 128,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 71,
+      "distinct_reporting_sitreps": 72,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-20",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "source": {
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
+            "page": 6,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
             "candidate_id": "187-p07-b000-c42b6d99f3",
@@ -12777,40 +12863,40 @@
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 191,
+      "candidate_passages": 193,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 107,
+      "distinct_reporting_sitreps": 108,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-20",
       "province_mention": "Ituri",
       "recent_examples": [
         {
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "source": {
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
+            "page": 6,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
           "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
           "source": {
             "candidate_id": "188-p08-b000-b9390700b7",
@@ -12819,40 +12905,40 @@
             "report_number": 188,
             "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
           }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 127,
+      "candidate_passages": 129,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 74,
+      "distinct_reporting_sitreps": 75,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "source": {
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
+            "page": 6,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
           "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
           "source": {
             "candidate_id": "188-p08-b000-b9390700b7",
@@ -12861,39 +12947,29 @@
             "report_number": 188,
             "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
           }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 24,
+      "candidate_passages": 25,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 12,
+      "distinct_reporting_sitreps": 13,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-20",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
         {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
@@ -12912,16 +12988,6 @@
             "page": 8,
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
         }
       ],
@@ -12970,14 +13036,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 26,
+      "candidate_passages": 27,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 16,
+      "distinct_reporting_sitreps": 17,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-20",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
         {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
@@ -12997,55 +13073,45 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 156,
+      "candidate_passages": 158,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 82,
+      "distinct_reporting_sitreps": 83,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-20",
       "province_mention": "Tshopo",
       "recent_examples": [
+        {
+          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "source": {
+            "candidate_id": "190-p06-b000-2271aafa41",
+            "date": "2026-11-20",
+            "page": 6,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "source": {
+            "candidate_id": "190-p07-b000-20e05ec0b7",
+            "date": "2026-11-20",
+            "page": 7,
+            "report_number": 190,
+            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+          }
+        },
         {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
           "source": {
             "candidate_id": "187-p07-b000-c42b6d99f3",
             "date": "2026-11-17",
             "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
-            "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
-          "source": {
-            "candidate_id": "187-p09-b000-ceb6d50d8a",
-            "date": "2026-11-17",
-            "page": 9,
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
@@ -13826,6 +13892,22 @@
       ]
     },
     {
+      "distinct_sitreps": 4,
+      "example_source": {
+        "candidate_id": "190-p05-b025-ce2ca9a236",
+        "date": "2026-11-20",
+        "page": 5,
+        "report_number": 190,
+        "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+      },
+      "first_date": "2026-10-12",
+      "last_date": "2026-11-20",
+      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
+      "topic_candidates": [
+        "border_screening"
+      ]
+    },
+    {
       "distinct_sitreps": 3,
       "example_source": {
         "candidate_id": "149-p09-b005-04227dc488",
@@ -14154,22 +14236,6 @@
       "source_text_sha256": "c749563174a07933090d43fc2d988792c3ee7a929cbff83612f64425be44aaba",
       "topic_candidates": [
         "vaccination"
-      ]
-    },
-    {
-      "distinct_sitreps": 3,
-      "example_source": {
-        "candidate_id": "178-p05-b014-ce2ca9a236",
-        "date": "2026-11-08",
-        "page": 5,
-        "report_number": 178,
-        "source_sha256": "d58582670841f28df2e9b8a00453c8f9fb3706c3efbef6a4526e74481faad580"
-      },
-      "first_date": "2026-10-12",
-      "last_date": "2026-11-08",
-      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
-      "topic_candidates": [
-        "border_screening"
       ]
     },
     {
@@ -16104,10 +16170,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-21T21:39:19.560971+00:00",
+  "generated_at": "2026-11-22T13:05:24.557020+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 172,
+  "reports_classified": 173,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }

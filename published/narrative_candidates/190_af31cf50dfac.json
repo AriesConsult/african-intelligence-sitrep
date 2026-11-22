@@ -1,0 +1,289 @@
+{
+  "candidates": [
+    {
+      "block_index": 0,
+      "candidate_id": "190-p04-b000-6fd09254ab",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "Bulu 2 1 50,0% 0 Nord Ubangi 10 1 10,0% 0 0 0 0 Wapinda 6 1 16,7% 0 Yakoma 4 0 0,0% 0 Total 11762 5775 49,1% 39 17 6 23 *Il s’agit des décès confirmés survenus dans les différents CTE de la province qui sont en cours de ventilation pour être classifiés par zone de santé.",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Nord-Ubangi"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "6fd09254ab2e33f3d303e36f86df25ded9a7b236956ccd3d4172e10f3056f3dd",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 22,
+      "candidate_id": "190-p05-b022-b88c07b95b",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "En date du 20 novembre 2026, 4 604 alertes ont été notifiées dans les six provinces ayant transmis leurs données (Bas-Uélé, Nord-Ubangi, Ituri, Nord-Kivu, Sud-Ubangi et Tshopo), dont 4 410 alertes de personnes vivantes et 194 décès ; 4 604 ont été vérifiées (100 %). Parmi elles, 573 (12,4 %) ont été validées comme cas suspects et 4031 (87…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Nord-Ubangi",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "b88c07b95b13da090eda4714f948bc625accc486b9224ac817424e6a8aa30ac6",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 25,
+      "candidate_id": "190-p05-b025-ce2ca9a236",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions",
+      "excerpt_truncated": false,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
+      "topic_tags": [
+        "border_screening"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "190-p06-b000-2271aafa41",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "service_disruption"
+      ],
+      "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du test (swab) s'est révélé positif le 19 novembre 2026 (Référence : RDC-ITU-BUN-26-3088962-MVE) Nord-Kivu : Sur 100 201 voyageurs enregistrés …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "2271aafa41f3391434ce313bd1de0a76e323aace8c6d050c36120eaef90f22d0",
+      "topic_tags": [
+        "border_screening",
+        "ipc_and_burials",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "190-p07-b000-20e05ec0b7",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint",
+        "service_disruption"
+      ],
+      "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décès avec 30 % de positivité). Tshopo : Les données de surveillance biologique et de suivi virologique de la maladie à virus Ebola (MVE) font é…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Nord-Ubangi",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "20e05ec0b75f4d5aac8ea83a9519eeda10dede457a7f043fc6e42c0a84e6a98c",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory",
+        "logistics_and_supplies",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "190-p08-b000-1ad3e9fdcd",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des ESS non formés en PCI, absence de triage et d'isolement, zone à déchets non clôturée, insuffisance de dispositifs de lavage des mains (DLM)…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "1ad3e9fdcd234a31c8b54edb88f0ae8b78e48d9a81967cb4ce4b6e2a3e82fca5",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 1,
+      "candidate_id": "190-p08-b001-49a53645ff",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "resource_constraint"
+      ],
+      "excerpt": "Haut-Uélé : 71 patients aux lits (35 confirmés et 19 suspects) et 17 nouvelles admissions, 2 décès du jour. Cumul de guérisons : 231 et Global de 25 % (22 % pour les suspects, 27 % pour les confirmés). 54 patients, 83 PPL et 47 accompagnants ont reçu 3 repas chauds dans les ZS de Boma Mangbetu, Wamba, Pawa et Isiro. Défi majeur : Besoin d…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "49a53645fff29637903ef112d3e8e3d0854cdb0a69c3881c62a33b18d5c21d05",
+      "topic_tags": [
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "190-p09-b000-7e85e04d1f",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des soins spécifiques) et 13 sorties de non-cas. 3.4. Vaccination 3.4.1. Principales actions Ituri : 1 283 personnes vaccinées à Bunia (cumul : 4…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Nord-Ubangi",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "7e85e04d1f0a48edda2449930039efdc477a90a2175ea0ad00d89d3d72e349d0",
+      "topic_tags": [
+        "border_screening",
+        "community_engagement",
+        "contact_tracing",
+        "logistics_and_supplies",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "190-p10-b000-15d2217e1a",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Bas-Uélé : Réalisation de 5 490 visites à domicile, 244 causeries éducatives, et 301 séances de sensibilisation de masse, ainsi que 830 diffusions radio. Briefing des autorités, leaders religieux et du comité de jeunes résistants « TOKOTALA » à Dingila. Ituri Faible complétude des rapports CREC (10/28 ZS rapportantes, soit 36 %). Réalisat…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 10,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Nord-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "15d2217e1aca6be686decc30f824705f01af85eb66df06bb9aec16efc450d588",
+      "topic_tags": [
+        "border_screening",
+        "community_engagement",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "psychosocial_support",
+        "surveillance_and_alerts",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 2,
+      "candidate_id": "190-p11-b002-a71c68caac",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "7. PSEA (Prévention de l'Exploitation et Abus Sexuels) 7.2.1. Principales actions Nord-Ubangi : Dix-sept (17) membres de la coordination MVE du Nord-Ubangi dont 4 femmes représentant le SGI, l'OMS, le UNHCR, AIDES, le PNHF, IMA, CIAUD et la CNR ont été briefés sur la prévention de l'exploitation et des abus sexuels (PEAS / PSEA) ainsi que…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 11,
+      "province_mentions": [
+        "Nord-Kivu",
+        "Nord-Ubangi"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "a71c68caacdc634a538a89abc19d211fcf5dfe13bc29385439d6a55c9bea58c9",
+      "topic_tags": [
+        "ipc_and_burials"
+      ]
+    }
+  ],
+  "candidates_count": 10,
+  "date": "2026-11-20",
+  "event_type_counts": {
+    "activity_or_delivery": 5,
+    "resource_constraint": 5,
+    "service_disruption": 2
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 11,
+  "pages": 12,
+  "pymupdf_version": "1.28.2",
+  "report_number": 190,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_N190_20-11-2026_corrige_VF-1.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 4,
+    "community_engagement": 3,
+    "contact_tracing": 1,
+    "ipc_and_burials": 5,
+    "laboratory": 1,
+    "logistics_and_supplies": 4,
+    "psychosocial_support": 1,
+    "service_continuity": 4,
+    "surveillance_and_alerts": 6,
+    "treatment_capacity": 8,
+    "vaccination": 2
+  }
+}
