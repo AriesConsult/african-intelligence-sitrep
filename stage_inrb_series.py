@@ -4,7 +4,7 @@
 ALL records are unverified comparison candidates, never approved epidemiological data.
 """
 from __future__ import annotations
-import argparse,csv,gzip,hashlib,io,json,re
+import argparse,csv,gzip,hashlib,io,json,os,re
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -43,7 +43,11 @@ def stage(registry_path,commit,out,session=None,paths=None):
  for d in reg['documents'].values():
   by_date.setdefault(d.get('report_date'),[]).append({'report_number':d['report_number'],'source_pdf_sha256':d['sha256']})
  if paths is None:
-  response=ses.get(f'https://api.github.com/repos/{REPO}/git/trees/{commit}?recursive=1',timeout=90)
+  # Authenticate GitHub API metadata requests to avoid anonymous runner limits.
+  # Do not attach the token to source CSV requests on raw.githubusercontent.com.
+  token=os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
+  headers={'Authorization':f'Bearer {token}','Accept':'application/vnd.github+json'} if token else {}
+  response=ses.get(f'https://api.github.com/repos/{REPO}/git/trees/{commit}?recursive=1',timeout=90,headers=headers)
   response.raise_for_status();tree=response.json()
   if tree.get('truncated'):raise ValueError('INRB tree truncated')
   paths=[f['path'] for f in tree['tree'] if f.get('type')=='blob' and RX.match(f['path'])]
