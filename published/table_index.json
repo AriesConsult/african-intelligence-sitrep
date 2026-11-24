@@ -1,6 +1,22 @@
 {
   "all_reports": [
     {
+      "date": "2026-11-21",
+      "quality_flags_count": 11,
+      "report_number": 191,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 41,
+        "table_3": 0,
+        "table_4": 6
+      },
+      "sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
+      "snapshot_path": "tables/191_58c4e49b2719.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 2
+    },
+    {
       "date": "2026-11-20",
       "quality_flags_count": 11,
       "report_number": 190,
@@ -2500,6 +2516,22 @@
   "methodology": "Parsed SitRep tables 1–5; validation status per table; unvalidated cells remain in review_queue.",
   "reports": [
     {
+      "date": "2026-11-21",
+      "quality_flags_count": 11,
+      "report_number": 191,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 41,
+        "table_3": 0,
+        "table_4": 6
+      },
+      "sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
+      "snapshot_path": "tables/191_58c4e49b2719.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 2
+    },
+    {
       "date": "2026-11-20",
       "quality_flags_count": 11,
       "report_number": 190,
@@ -4995,8 +5027,8 @@
       "tables_machine_validated": 0
     }
   ],
-  "reports_processed": 173,
+  "reports_processed": 174,
   "schema_version": "bdbv-sitrep-tables-v1",
   "source_repository": "https://github.com/INRB-UMIE/BDBV2026-Data",
-  "unique_reports": 173
+  "unique_reports": 174
 }

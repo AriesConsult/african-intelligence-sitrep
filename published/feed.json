@@ -1,17 +1,17 @@
 {
-  "documents_catalogued": 173,
+  "documents_catalogued": 174,
   "five_table_catalogue": {
-    "latest_report": 190,
-    "reports_checked": 173,
+    "latest_report": 191,
+    "reports_checked": 174,
     "reports_with_all_five_validated": 1
   },
-  "generated_at": "2026-11-23T16:13:24.288990+00:00",
+  "generated_at": "2026-11-24T16:01:19.290584+00:00",
   "latest_by_metric": {
     "alerts_received": "2026-11-19",
     "alerts_validated": "2026-11-19",
-    "contact_follow_up_rate": "2026-11-20",
-    "contacts_seen": "2026-11-20",
-    "contacts_to_follow": "2026-11-20"
+    "contact_follow_up_rate": "2026-11-21",
+    "contacts_seen": "2026-11-21",
+    "contacts_to_follow": "2026-11-21"
   },
   "observations": [
     {
@@ -1093,10 +1093,55 @@
       "unit": "count",
       "value": 35643,
       "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
+      "date": "2026-11-21",
+      "evidence_status": "machine_validated",
+      "metric_id": "contact_follow_up_rate",
+      "page": 5,
+      "report_number": 191,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_191_2026.pdf",
+      "table_id": "p5-t12",
+      "unit": "percent",
+      "value": 80.4,
+      "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
+      "date": "2026-11-21",
+      "evidence_status": "machine_validated",
+      "metric_id": "contacts_seen",
+      "page": 5,
+      "report_number": 191,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_191_2026.pdf",
+      "table_id": "p5-t12",
+      "unit": "count",
+      "value": 29200,
+      "verification": "table_by_table_national_provincial_reconciliation"
+    },
+    {
+      "date": "2026-11-21",
+      "evidence_status": "machine_validated",
+      "metric_id": "contacts_to_follow",
+      "page": 5,
+      "report_number": 191,
+      "reporting_window": "As reported in the INSP SitRep for the stated date",
+      "scope": "DRC",
+      "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
+      "source_url": "https://raw.githubusercontent.com/INRB-UMIE/BDBV2026-Data/main/data/insp_sitrep/raw/SitRep_MVE_191_2026.pdf",
+      "table_id": "p5-t12",
+      "unit": "count",
+      "value": 36324,
+      "verification": "table_by_table_national_provincial_reconciliation"
     }
   ],
-  "observations_count": 72,
-  "pending_review_count": 173,
+  "observations_count": 75,
+  "pending_review_count": 174,
   "publication_status": "VALIDATED_OBSERVATIONS",
   "schema_version": "bdbv-sitrep-feed-v1",
   "source_catalogue": "https://insp.cd/sitrep/",

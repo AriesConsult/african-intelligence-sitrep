@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4848,
+  "candidate_blocks_checked": 4866,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -11646,214 +11646,292 @@
       "date": "2026-11-20",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 8,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 9,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "unclassified"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 305,
+      "candidate_passages": 310,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 87,
+      "distinct_reporting_sitreps": 88,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
-            "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
-          "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
-          "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "source": {
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "source": {
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 320,
+      "candidate_passages": 325,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 104,
+      "distinct_reporting_sitreps": 105,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
-            "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
-          "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
-          "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "source": {
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "source": {
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 555,
+      "candidate_passages": 562,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 163,
+      "distinct_reporting_sitreps": 164,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
-            "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
-          "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "source": {
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 545,
+      "candidate_passages": 551,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 153,
+      "distinct_reporting_sitreps": 154,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
-            "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
-          "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "source": {
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 58,
+      "candidate_passages": 62,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 19,
+      "distinct_reporting_sitreps": 20,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
           "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
-            "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Réalisation de 5 490 visites à domicile, 244 causeries éducatives, et 301 séances de sensibilisation de masse, ainsi que 830 diffusions radio. Briefing des autorités, leaders religieux et d",
-          "source": {
-            "candidate_id": "190-p10-b000-15d2217e1a",
-            "date": "2026-11-20",
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
             "page": 10,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
@@ -11902,98 +11980,108 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 50,
+      "candidate_passages": 53,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 27,
+      "distinct_reporting_sitreps": 28,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
-          "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
           "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
             "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 409,
+      "candidate_passages": 416,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 117,
+      "distinct_reporting_sitreps": 118,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
-            "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
-          "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "source": {
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 346,
+      "candidate_passages": 347,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 162,
+      "distinct_reporting_sitreps": 163,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-14",
-      "last_report_date": "2026-11-17",
+      "last_report_date": "2026-11-21",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "Du 24 avril au 15 mai 2026, l'épidémie est passée de la détection des premiers cas suspects à la confirmation biologique du virus Ebola Bundibugyo, conduisant à la déclaration officielle de la 17ᵉ épi",
+          "source": {
+            "candidate_id": "191-p13-b012-fa724f6a6f",
+            "date": "2026-11-21",
+            "page": 13,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
         {
           "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
           "source": {
@@ -12013,239 +12101,239 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "1.COORDINATION 1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
-          "source": {
-            "candidate_id": "185-p05-b005-78fce29d6a",
-            "date": "2026-11-15",
-            "page": 5,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 257,
+      "candidate_passages": 263,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 91,
+      "distinct_reporting_sitreps": 92,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Haut-Uélé : 71 patients aux lits (35 confirmés et 19 suspects) et 17 nouvelles admissions, 2 décès du jour. Cumul de guérisons : 231 et Global de 25 % (22 % pour les suspects, 27 % pour les confirmés)",
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
           "source": {
-            "candidate_id": "190-p08-b001-49a53645ff",
-            "date": "2026-11-20",
-            "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 286,
+      "candidate_passages": 293,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 105,
+      "distinct_reporting_sitreps": 106,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p04-b011-66b4ca6a03",
+            "date": "2026-11-21",
+            "page": 4,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
-            "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Haut-Uélé : 71 patients aux lits (35 confirmés et 19 suspects) et 17 nouvelles admissions, 2 décès du jour. Cumul de guérisons : 231 et Global de 25 % (22 % pour les suspects, 27 % pour les confirmés)",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b001-49a53645ff",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 454,
+      "candidate_passages": 463,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 139,
+      "distinct_reporting_sitreps": 140,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p04-b011-66b4ca6a03",
+            "date": "2026-11-21",
+            "page": 4,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "source": {
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
-          "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
-            "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
-          "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
-            "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 386,
+      "candidate_passages": 394,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 143,
+      "distinct_reporting_sitreps": 144,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p04-b011-66b4ca6a03",
+            "date": "2026-11-21",
+            "page": 4,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "source": {
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
-          "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
-            "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
-          "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
-            "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 40,
+      "candidate_passages": 44,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 19,
+      "distinct_reporting_sitreps": 20,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
           "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
-            "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Réalisation de 5 490 visites à domicile, 244 causeries éducatives, et 301 séances de sensibilisation de masse, ainsi que 830 diffusions radio. Briefing des autorités, leaders religieux et d",
-          "source": {
-            "candidate_id": "190-p10-b000-15d2217e1a",
-            "date": "2026-11-20",
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
             "page": 10,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 66,
+      "candidate_passages": 67,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 61,
+      "distinct_reporting_sitreps": 62,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-06-04",
-      "last_report_date": "2026-11-18",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
         {
           "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
           "source": {
@@ -12265,113 +12353,123 @@
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 35,
+      "candidate_passages": 39,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 23,
+      "distinct_reporting_sitreps": 24,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
+          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
           "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
+            "candidate_id": "191-p09-b000-8a36c81490",
+            "date": "2026-11-21",
             "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 348,
+      "candidate_passages": 356,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 114,
+      "distinct_reporting_sitreps": 115,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "source": {
+            "candidate_id": "191-p07-b086-d70666e365",
+            "date": "2026-11-21",
             "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "Wapinda : Problème de mobilité, absence de point d'eau à l'HGR (achat quotidien), manque d'équipements et d'intrants PCI, absence de circuit/triage et de latrines/douches dédiées MVE. Yakoma : PPL des",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p08-b000-1ad3e9fdcd",
-            "date": "2026-11-20",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Nord-Ubangi :1 seul nouvel admission suspecte au CTE de Yakoma. 27 patients au lit au total (14 à Wapinda et 13 à Yakoma). Létalité intra-CTE globale de 12,5 % et 1 guérison sortie (référée pour des s",
-          "source": {
-            "candidate_id": "190-p09-b000-7e85e04d1f",
-            "date": "2026-11-20",
-            "page": 9,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 185,
+      "candidate_passages": 187,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 93,
+      "distinct_reporting_sitreps": 94,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-14",
-      "last_report_date": "2026-11-10",
+      "last_report_date": "2026-11-21",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "1.2. Défi majeur La persistance des insuffisances dans la coordination et la mise en œuvre effective des interventions prioritaires, particulièrement dans les foyers à forte transmission, aggravée par",
+          "source": {
+            "candidate_id": "191-p05-b001-b77286dc3e",
+            "date": "2026-11-21",
+            "page": 5,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "notifiée au cours de la journée, le principal défi opérationnel demeure l'insuffisance en matériels de surveillance, de prévention et contrôle des infections (PCI) ainsi que de communication sur les r",
+          "source": {
+            "candidate_id": "191-p07-b001-fc1400c353",
+            "date": "2026-11-21",
+            "page": 7,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
         {
           "excerpt": "Les principaux défis résident dans le besoin urgent de formations pour les équipes et d'un renforcement de l'appui logistique (moyens de transport).",
           "source": {
@@ -12381,208 +12479,208 @@
             "report_number": 180,
             "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
           }
-        },
-        {
-          "excerpt": "Défis : équipes insuffisantes à Mangala et Mandima, intrants manquants à Mandima et Mambasa, grève à Tchomia.",
-          "source": {
-            "candidate_id": "180-p07-b006-a0c659b00f",
-            "date": "2026-11-10",
-            "page": 7,
-            "report_number": 180,
-            "source_sha256": "93943776b57b3190f04d012c59c01b67d898852a252fbdc03625c9f100fb5c04"
-          }
-        },
-        {
-          "excerpt": "Défis : équipes insuffisantes à Mangala et Mandima, intrants manquants à Mandima et Mambasa, grève à Tchomia.",
-          "source": {
-            "candidate_id": "179-p08-b001-a0c659b00f",
-            "date": "2026-11-09",
-            "page": 8,
-            "report_number": 179,
-            "source_sha256": "2d97dc6fe282c5ec5dfc7c309f1c302d7fd23aaff7b224e4723c0074546bb044"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 64,
+      "candidate_passages": 67,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 38,
+      "distinct_reporting_sitreps": 39,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-08-19",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
+          "source": {
+            "candidate_id": "191-p12-b000-19539bf734",
+            "date": "2026-11-21",
+            "page": 12,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 92,
+      "candidate_passages": 95,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 62,
+      "distinct_reporting_sitreps": 63,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
+          "source": {
+            "candidate_id": "191-p12-b000-19539bf734",
+            "date": "2026-11-21",
+            "page": 12,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 136,
+      "candidate_passages": 140,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 86,
+      "event_type_candidate": "security_incident",
+      "first_report_date": "2026-05-24",
+      "last_report_date": "2026-11-21",
+      "province_mention": "Ituri",
+      "recent_examples": [
+        {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
+          "source": {
+            "candidate_id": "191-p12-b000-19539bf734",
+            "date": "2026-11-21",
+            "page": 12,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 130,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
       "distinct_reporting_sitreps": 85,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-19",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
-          "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
-          "source": {
-            "candidate_id": "187-p09-b000-ceb6d50d8a",
-            "date": "2026-11-17",
-            "page": 9,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 127,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 84,
-      "event_type_candidate": "security_incident",
-      "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
           "source": {
-            "candidate_id": "187-p09-b000-ceb6d50d8a",
-            "date": "2026-11-17",
-            "page": 9,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
+          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
           "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
+            "candidate_id": "191-p12-b000-19539bf734",
+            "date": "2026-11-21",
+            "page": 12,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 5,
+      "candidate_passages": 7,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 5,
+      "distinct_reporting_sitreps": 6,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.12.2. Défi majeur La persistance de l'insécurité et des menaces contre les équipes de riposte, particulièrement dans la zone de santé de Bafwasende (Tshopo), où l'ensemble des activités a été tempor",
+          "source": {
+            "candidate_id": "191-p13-b000-d95ab91499",
+            "date": "2026-11-21",
+            "page": 13,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
           "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
           "source": {
             "candidate_id": "189-p10-b000-4139d974c6",
@@ -12591,40 +12689,30 @@
             "report_number": 189,
             "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu, 184 patients sont pris en charge hors CTE/CT, les CTE/CT sont occupés à 90,8 %, 25 malades sont critiques (16 à Beni, 6 à Katwa et 3 à Oicha) et 3 décès de suspects ont été enregistrés à Be",
-          "source": {
-            "candidate_id": "175-p08-b000-dd8a4cafc1",
-            "date": "2026-11-05",
-            "page": 8,
-            "report_number": 175,
-            "source_sha256": "c60742d222a37f6e733d0240841883f219ab0c852d31aff04e70d6e5d69042e5"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 37,
+      "candidate_passages": 38,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 34,
+      "distinct_reporting_sitreps": 35,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
         {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
             "candidate_id": "186-p05-b014-7858123064",
@@ -12643,30 +12731,40 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "Défis : Non-fonctionnalité de certains PoE/PoC en raison de l'insécurité (ex. Avakubi en Tshopo ou Butuhe au NordKivu), de grèves ou de retards de paiement, et manque d'infrastructures d'isolement adé",
-          "source": {
-            "candidate_id": "183-p06-b005-bb756abf93",
-            "date": "2026-11-13",
-            "page": 6,
-            "report_number": 183,
-            "source_sha256": "2892cee9d8f994686387733db53ece1934a3330b50eb863109a1187692f332ed"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 13,
+      "candidate_passages": 15,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 11,
+      "distinct_reporting_sitreps": 12,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-28",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "source": {
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
           "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
           "source": {
             "candidate_id": "189-p10-b000-4139d974c6",
@@ -12674,68 +12772,48 @@
             "page": 10,
             "report_number": 189,
             "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 98,
+      "candidate_passages": 102,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 63,
+      "distinct_reporting_sitreps": 64,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-14",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-21",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.4. Prise en charge holistique (PEC) 2.4.1. Principales actions Nord-Kivu La province enregistre actuellement 577 patients hospitalisés dont 118 confirmés et 459 suspects, incluant 65 enfants de moin",
+          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
           "source": {
-            "candidate_id": "187-p09-b000-ceb6d50d8a",
-            "date": "2026-11-17",
-            "page": 9,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "candidate_id": "191-p11-b000-54820546b5",
+            "date": "2026-11-21",
+            "page": 11,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
+          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
           "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
+            "candidate_id": "191-p12-b000-19539bf734",
+            "date": "2026-11-21",
+            "page": 12,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
@@ -12784,224 +12862,234 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 123,
+      "candidate_passages": 126,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 59,
+      "distinct_reporting_sitreps": 60,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
           "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 128,
+      "candidate_passages": 131,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 72,
+      "distinct_reporting_sitreps": 73,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
           "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 193,
+      "candidate_passages": 197,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 108,
+      "distinct_reporting_sitreps": 109,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
-          "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "source": {
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 129,
+      "candidate_passages": 132,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 75,
+      "distinct_reporting_sitreps": 76,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "Enterrements dignes et sécurisés (EDS) Nord-Kivu : 84 alertes de décès ont été reçues, permettant de réaliser 72 EDS (dont 5 corps swabés et 22 reports au jour suivant) Incidents : Un corps positif a ",
-          "source": {
-            "candidate_id": "188-p08-b000-b9390700b7",
-            "date": "2026-11-18",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "source": {
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 25,
+      "candidate_passages": 28,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 13,
+      "distinct_reporting_sitreps": 14,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "n'a été ouvert et aucun ménage ni formation sanitaire (FOSA) n'a été décontaminé ce jour, maintenant le cumul à 2 anneaux ouverts et fermés, 16 ménages et 8 FOSA décontaminés, sans aucun prestataire d",
-          "source": {
-            "candidate_id": "187-p08-b000-30a28e77fb",
-            "date": "2026-11-17",
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
             "page": 8,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "source": {
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "2.12.2. Défi majeur La persistance de l'insécurité et des menaces contre les équipes de riposte, particulièrement dans la zone de santé de Bafwasende (Tshopo), où l'ensemble des activités a été tempor",
+          "source": {
+            "candidate_id": "191-p13-b000-d95ab91499",
+            "date": "2026-11-21",
+            "page": 13,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 49,
+      "candidate_passages": 50,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 46,
+      "distinct_reporting_sitreps": 47,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-11",
-      "last_report_date": "2026-11-16",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
         {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
           "source": {
@@ -13021,30 +13109,40 @@
             "report_number": 186,
             "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Sur les 6 provinces ayant transmis des données journalières, 123/145 points ont rapporté (84",
-          "source": {
-            "candidate_id": "185-p06-b003-c61c5f2c23",
-            "date": "2026-11-15",
-            "page": 6,
-            "report_number": 185,
-            "source_sha256": "3c01d15294cf1f5e376f450bfad38dddd855e159125b497098a75fefd574b705"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 27,
+      "candidate_passages": 29,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 17,
+      "distinct_reporting_sitreps": 18,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "source": {
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "source": {
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+          }
+        },
+        {
           "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
           "source": {
             "candidate_id": "190-p07-b000-20e05ec0b7",
@@ -13052,68 +13150,48 @@
             "page": 7,
             "report_number": 190,
             "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
-          "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 158,
+      "candidate_passages": 162,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 83,
+      "distinct_reporting_sitreps": 84,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-20",
+      "last_report_date": "2026-11-21",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "Ituri : Le pilier PoE-PoC a enregistré son 73e cas positif, correspondant à un corps sans vie intercepté le 18 novembre 2026 au PoC de Mudzi Bala (Aire de Santé de Nzere, ZS de Bunia). Le résultat du ",
+          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
-            "candidate_id": "190-p06-b000-2271aafa41",
-            "date": "2026-11-20",
+            "candidate_id": "191-p06-b000-0cbc80a5af",
+            "date": "2026-11-21",
             "page": 6,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "191-p08-b000-f43fc17b10",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Sur 284 échantillons reçus, 283 ont été analysés (1 en cours), révélant 79 échantillons positifs : 37/165 nouveaux vivants (22 % de positivité),",
+          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
           "source": {
-            "candidate_id": "187-p07-b000-c42b6d99f3",
-            "date": "2026-11-17",
-            "page": 7,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
+            "candidate_id": "191-p10-b000-7a076d2e2a",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
@@ -13543,6 +13621,22 @@
       ]
     },
     {
+      "distinct_sitreps": 9,
+      "example_source": {
+        "candidate_id": "191-p13-b012-fa724f6a6f",
+        "date": "2026-11-21",
+        "page": 13,
+        "report_number": 191,
+        "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+      },
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-21",
+      "source_text_sha256": "fa724f6a6fb1ec51af98b965b98f2f40f849ecfc7816cd9bc4d4e531d749428c",
+      "topic_candidates": [
+        "unclassified"
+      ]
+    },
+    {
       "distinct_sitreps": 8,
       "example_source": {
         "candidate_id": "033-p08-b004-4baf4f8669",
@@ -13587,22 +13681,6 @@
       "first_date": "2026-10-04",
       "last_date": "2026-10-11",
       "source_text_sha256": "e64ba0e9354534457278003d152fa3c7bd584d6ab565a31621d140e479f9397a",
-      "topic_candidates": [
-        "unclassified"
-      ]
-    },
-    {
-      "distinct_sitreps": 8,
-      "example_source": {
-        "candidate_id": "171-p10-b017-fa724f6a6f",
-        "date": "2026-11-01",
-        "page": 10,
-        "report_number": 171,
-        "source_sha256": "c6ded47362da0707fd88f0ed5d1beb2ef7858dc59e85adb8fe8b75b0c462898f"
-      },
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-01",
-      "source_text_sha256": "fa724f6a6fb1ec51af98b965b98f2f40f849ecfc7816cd9bc4d4e531d749428c",
       "topic_candidates": [
         "unclassified"
       ]
@@ -16170,10 +16248,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-23T16:13:24.880216+00:00",
+  "generated_at": "2026-11-24T16:01:21.689893+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 173,
+  "reports_classified": 174,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }
