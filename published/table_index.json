@@ -1,6 +1,54 @@
 {
   "all_reports": [
     {
+      "date": "2026-11-24",
+      "quality_flags_count": 3,
+      "report_number": 194,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 38,
+        "table_3": 7,
+        "table_4": 6
+      },
+      "sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83",
+      "snapshot_path": "tables/194_1c7b2387c102.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 2
+    },
+    {
+      "date": "2026-11-23",
+      "quality_flags_count": 4,
+      "report_number": 193,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 41,
+        "table_3": 6,
+        "table_4": 6
+      },
+      "sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719",
+      "snapshot_path": "tables/193_9273c10a5c6e.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 3
+    },
+    {
+      "date": "2026-11-22",
+      "quality_flags_count": 10,
+      "report_number": 192,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 36,
+        "table_3": 7,
+        "table_4": 6
+      },
+      "sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e",
+      "snapshot_path": "tables/192_d65ba155cf50.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 3
+    },
+    {
       "date": "2026-11-21",
       "quality_flags_count": 11,
       "report_number": 191,
@@ -13,6 +61,22 @@
       "sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8",
       "snapshot_path": "tables/191_58c4e49b2719.json",
       "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 2
+    },
+    {
+      "date": "2026-11-21",
+      "quality_flags_count": 12,
+      "report_number": 191,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 39,
+        "table_3": 0,
+        "table_4": 6
+      },
+      "sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5",
+      "snapshot_path": "tables/191_46205fc5d8e7.json",
+      "status": "REVISION_REQUIRES_REVIEW",
       "tables_available": 4,
       "tables_machine_validated": 2
     },
@@ -2516,6 +2580,54 @@
   "methodology": "Parsed SitRep tables 1–5; validation status per table; unvalidated cells remain in review_queue.",
   "reports": [
     {
+      "date": "2026-11-24",
+      "quality_flags_count": 3,
+      "report_number": 194,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 38,
+        "table_3": 7,
+        "table_4": 6
+      },
+      "sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83",
+      "snapshot_path": "tables/194_1c7b2387c102.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 2
+    },
+    {
+      "date": "2026-11-23",
+      "quality_flags_count": 4,
+      "report_number": 193,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 41,
+        "table_3": 6,
+        "table_4": 6
+      },
+      "sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719",
+      "snapshot_path": "tables/193_9273c10a5c6e.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 3
+    },
+    {
+      "date": "2026-11-22",
+      "quality_flags_count": 10,
+      "report_number": 192,
+      "rows_by_table": {
+        "table_1": 8,
+        "table_2": 36,
+        "table_3": 7,
+        "table_4": 6
+      },
+      "sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e",
+      "snapshot_path": "tables/192_d65ba155cf50.json",
+      "status": "PARTIAL_REVIEW_REQUIRED",
+      "tables_available": 4,
+      "tables_machine_validated": 3
+    },
+    {
       "date": "2026-11-21",
       "quality_flags_count": 11,
       "report_number": 191,
@@ -5027,8 +5139,8 @@
       "tables_machine_validated": 0
     }
   ],
-  "reports_processed": 174,
+  "reports_processed": 178,
   "schema_version": "bdbv-sitrep-tables-v1",
   "source_repository": "https://github.com/INRB-UMIE/BDBV2026-Data",
-  "unique_reports": 174
+  "unique_reports": 177
 }

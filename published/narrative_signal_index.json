@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4866,
+  "candidate_blocks_checked": 4908,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -11648,13 +11648,13 @@
       "topic": "vaccination"
     },
     {
-      "candidate_blocks": 2,
+      "candidate_blocks": 5,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "border_screening"
     },
     {
-      "candidate_blocks": 4,
+      "candidate_blocks": 8,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "community_engagement"
@@ -11666,49 +11666,49 @@
       "topic": "contact_tracing"
     },
     {
-      "candidate_blocks": 8,
+      "candidate_blocks": 16,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "ipc_and_burials"
     },
     {
-      "candidate_blocks": 5,
+      "candidate_blocks": 10,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "laboratory"
     },
     {
-      "candidate_blocks": 7,
+      "candidate_blocks": 13,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "logistics_and_supplies"
     },
     {
-      "candidate_blocks": 2,
+      "candidate_blocks": 4,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "psychosocial_support"
     },
     {
-      "candidate_blocks": 3,
+      "candidate_blocks": 6,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "security"
     },
     {
-      "candidate_blocks": 5,
+      "candidate_blocks": 9,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "service_continuity"
     },
     {
-      "candidate_blocks": 7,
+      "candidate_blocks": 13,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "surveillance_and_alerts"
     },
     {
-      "candidate_blocks": 9,
+      "candidate_blocks": 17,
       "date": "2026-11-21",
       "mentioning_reports": 1,
       "topic": "treatment_capacity"
@@ -11720,232 +11720,468 @@
       "topic": "unclassified"
     },
     {
-      "candidate_blocks": 2,
+      "candidate_blocks": 6,
       "date": "2026-11-21",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 6,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 7,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-22",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-23",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 4,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 11,
+      "date": "2026-11-24",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-24",
       "mentioning_reports": 1,
       "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 310,
+      "candidate_passages": 325,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 88,
+      "distinct_reporting_sitreps": 91,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
             "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 325,
+      "candidate_passages": 340,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 105,
+      "distinct_reporting_sitreps": 108,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
+            "page": 7,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "source": {
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
             "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 562,
+      "candidate_passages": 577,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 164,
+      "distinct_reporting_sitreps": 167,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
-            "page": 7,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
             "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 551,
+      "candidate_passages": 569,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 154,
+      "distinct_reporting_sitreps": 157,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
             "page": 7,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
             "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 62,
+      "candidate_passages": 70,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 20,
+      "distinct_reporting_sitreps": 21,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-22",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 232 échantillons reçus, 220 analysés et 12 en cours d'analyse et la positivité de 12 % pour les nouveaux échantillons (18/146) et de 30 % pour l",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "192-p07-b000-e17c18892a",
+            "date": "2026-11-22",
+            "page": 7,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : 67 alertes de décès reçues, donnant lieu à 58 EDS réalisées (57 corps swabés, 1 échec). 22 alertes reportées au lendemain. Nord-Ubangi :1 alerte décès notifiée et prise en charge (1/1) Hau",
+          "source": {
+            "candidate_id": "192-p08-b000-24b9e6572c",
+            "date": "2026-11-22",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         },
         {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
           "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
-          "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "192-p09-b000-653457781c",
+            "date": "2026-11-22",
+            "page": 9,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 61,
+      "candidate_passages": 63,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 52,
+      "distinct_reporting_sitreps": 54,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-19",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "source": {
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
+            "page": 9,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 75,7 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (80,4 %) mais toujours inférieur au seuil de 95 %, avec ",
+          "source": {
+            "candidate_id": "192-p06-b003-d93464d5dd",
+            "date": "2026-11-22",
+            "page": 6,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
         {
           "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
           "source": {
@@ -11955,116 +12191,96 @@
             "report_number": 189,
             "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
           }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "(Mambasa) et un homme de 27 ans venant de Kampala au PoC Dele (Rwampara), acheminé à la morgue SaintJoseph. Nord-Kivu : Poursuite des travaux des cabanes et du circuit des voyageurs à l'aéroport de Be",
-          "source": {
-            "candidate_id": "187-p06-b000-2aa1706512",
-            "date": "2026-11-17",
-            "page": 6,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 53,
+      "candidate_passages": 60,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 28,
+      "distinct_reporting_sitreps": 30,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
+            "page": 7,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "source": {
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
-            "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
-          "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 416,
+      "candidate_passages": 431,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 118,
+      "distinct_reporting_sitreps": 121,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
-            "page": 7,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
-            "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
+          "source": {
+            "candidate_id": "193-p07-b000-ce9501de5d",
+            "date": "2026-11-23",
+            "page": 7,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 347,
+      "candidate_passages": 348,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
       "distinct_reporting_sitreps": 163,
       "event_type_candidate": "activity_or_delivery",
@@ -12072,6 +12288,16 @@
       "last_report_date": "2026-11-21",
       "province_mention": "geography_not_explicit",
       "recent_examples": [
+        {
+          "excerpt": "l'appui alimentaire couvre 100 % des patients pris en charge, tandis que les activités se poursuivent avec l'opérationnalisation en cours du Centre de Traitement Ébola (CTE) de Gemena et la clôture de",
+          "source": {
+            "candidate_id": "191-p09-b000-effd2500f3",
+            "date": "2026-11-21",
+            "page": 9,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+          }
+        },
         {
           "excerpt": "Du 24 avril au 15 mai 2026, l'épidémie est passée de la détection des premiers cas suspects à la confirmation biologique du virus Ebola Bundibugyo, conduisant à la déclaration officielle de la 17ᵉ épi",
           "source": {
@@ -12091,163 +12317,247 @@
             "report_number": 187,
             "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
           }
-        },
-        {
-          "excerpt": "1.1. Principales Actions Appui aux activités de réponse dans les provinces 2. ACTIONS DE RIPOSTE PAR PILIER",
-          "source": {
-            "candidate_id": "186-p05-b000-613f3b2c63",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 263,
+      "candidate_passages": 275,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 92,
+      "distinct_reporting_sitreps": 95,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
-          "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
             "page": 9,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
+          "source": {
+            "candidate_id": "193-p07-b000-ce9501de5d",
+            "date": "2026-11-23",
+            "page": 7,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 293,
+      "candidate_passages": 305,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 106,
+      "distinct_reporting_sitreps": 109,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p04-b011-66b4ca6a03",
-            "date": "2026-11-21",
-            "page": 4,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
+            "page": 7,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "source": {
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
+            "page": 9,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 463,
+      "candidate_passages": 473,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 140,
+      "distinct_reporting_sitreps": 143,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p04-b011-66b4ca6a03",
-            "date": "2026-11-21",
-            "page": 4,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
+            "page": 9,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
+          "source": {
+            "candidate_id": "193-p07-b000-ce9501de5d",
+            "date": "2026-11-23",
             "page": 7,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 394,
+      "candidate_passages": 407,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 144,
+      "distinct_reporting_sitreps": 147,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "1. COORDINATION 1.1. Principales Actions Poursuite de la coordination stratégique et opérationnelle de la riposte contre la MVE-17 aux niveaux national, provincial et des sous-coordinations, avec un a",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p04-b011-66b4ca6a03",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
+            "page": 6,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
+          "source": {
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
+            "page": 7,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "source": {
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
+            "page": 9,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 48,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 21,
+      "event_type_candidate": "resource_constraint",
+      "first_report_date": "2026-10-19",
+      "last_report_date": "2026-11-22",
+      "province_mention": "Nord-Ubangi",
+      "recent_examples": [
+        {
+          "excerpt": "Nord-Kivu : 67 alertes de décès reçues, donnant lieu à 58 EDS réalisées (57 corps swabés, 1 échec). 22 alertes reportées au lendemain. Nord-Ubangi :1 alerte décès notifiée et prise en charge (1/1) Hau",
+          "source": {
+            "candidate_id": "192-p08-b000-24b9e6572c",
+            "date": "2026-11-22",
+            "page": 8,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
+        {
+          "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
+          "source": {
+            "candidate_id": "192-p09-b000-653457781c",
+            "date": "2026-11-22",
+            "page": 9,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
+        {
+          "excerpt": "3. Prévention et Contrôle de l'Infection (PCI/EDS) 3.2.1. Principales actions Nord-Kivu : Parallèlement à l'ouverture de 12 rings sur 21 prévus (avec un gap notable dans la zone de santé de Katwa), le",
+          "source": {
+            "candidate_id": "191-p08-b000-f3ab99fb95",
             "date": "2026-11-21",
-            "page": 4,
+            "page": 8,
             "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 69,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 63,
+      "event_type_candidate": "resource_constraint",
+      "first_report_date": "2026-06-04",
+      "last_report_date": "2026-11-24",
+      "province_mention": "Sud-Kivu",
+      "recent_examples": [
+        {
+          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "source": {
+            "candidate_id": "194-p09-b000-95f8357324",
+            "date": "2026-11-24",
+            "page": 9,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Ituri : la surveillance aux points d'entrée et de contrôle (PoE/PoC) affiche 163 792 voyageurs enregistrés, dont 157 089 screenés (soit un taux de dépistage de 96 %), pour une complétude des rapports ",
+          "source": {
+            "candidate_id": "191-p06-b000-9808eee0bf",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
         },
         {
@@ -12256,16 +12566,6 @@
             "candidate_id": "191-p06-b000-0cbc80a5af",
             "date": "2026-11-21",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
-          "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
-            "page": 7,
             "report_number": 191,
             "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
@@ -12276,166 +12576,82 @@
     {
       "candidate_passages": 44,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 20,
-      "event_type_candidate": "resource_constraint",
-      "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-21",
-      "province_mention": "Nord-Ubangi",
-      "recent_examples": [
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
-          "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 67,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 62,
-      "event_type_candidate": "resource_constraint",
-      "first_report_date": "2026-06-04",
-      "last_report_date": "2026-11-21",
-      "province_mention": "Sud-Kivu",
-      "recent_examples": [
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Bas-Uélé : Les indicateurs d'interventions SMSPS (suivi des cas, annonces de résultats, accompagnement des familles, des accompagnants et des PPL) sont rapportés à zéro pour la journée. Logistique 4.2",
-          "source": {
-            "candidate_id": "188-p10-b000-aa3c89d41c",
-            "date": "2026-11-18",
-            "page": 10,
-            "report_number": 188,
-            "source_sha256": "48fb7865870d4fda105f035df3bcd1e3e3fa4bc2cf0cc1c3a3d76d65fb4bd20f"
-          }
-        },
-        {
-          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS ayant notifié. Prise en charge de 4/6 derniers cas confirmés (67 %), 29/33 cas confirmés en cours de suivi (88 %), 15/18 nouveaux suspects (83 %), 21/26 suspects en co",
-          "source": {
-            "candidate_id": "187-p12-b000-0e9d0b22ef",
-            "date": "2026-11-17",
-            "page": 12,
-            "report_number": 187,
-            "source_sha256": "07d1847e942ffbfcd0a2ab5b1068d7040af62c0299e4c160ae84ef0a5da1b4d1"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 39,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 24,
+      "distinct_reporting_sitreps": 26,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "194-p07-b000-ea770626ad",
+            "date": "2026-11-24",
+            "page": 7,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p07-b000-ce9501de5d",
+            "date": "2026-11-23",
+            "page": 7,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         },
         {
-          "excerpt": "2.5. Enterrements dignes et sécurisés (EDS) 2.5.1. Principales actions Nord-Kivu : 84 alertes reçues, 72 EDS réalisées (dont 5 corps swabés et 67 enterrements réussis). 4 corps non swabés et non sécur",
+          "excerpt": "1.COORDINATION 1.1. Principales Actions La coordination de la riposte assure le pilotage transversal des opérations à travers plusieurs provinces affectées et exposées, en articulant la surveillance a",
           "source": {
-            "candidate_id": "191-p09-b000-8a36c81490",
+            "candidate_id": "191-p04-b014-d24b8c25ae",
             "date": "2026-11-21",
-            "page": 9,
+            "page": 4,
             "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 356,
+      "candidate_passages": 367,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 115,
+      "distinct_reporting_sitreps": 118,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.2.2. Défi majeur La persistance des insuffisances dans le contrôle sanitaire des voyageurs et des corps sans vie aux PoE/PoC, malgré des taux de dépistage globalement élevés (96 à 99 %). 2.3. Labora",
+          "excerpt": "Tshopo : 6 patients aux lits, tous suspects ; 2 nouvelles admissions et aucune sortie. Taux d'occupation global de 15 % (lits suspects 33,3 %, lits confirmés 0 %) ; CT Kongakonga occupé à 100 % (4/4).",
           "source": {
-            "candidate_id": "191-p07-b086-d70666e365",
-            "date": "2026-11-21",
+            "candidate_id": "194-p07-b005-9e6bba6121",
+            "date": "2026-11-24",
             "page": 7,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p07-b000-ce9501de5d",
+            "date": "2026-11-23",
+            "page": 7,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
@@ -12484,225 +12700,245 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 67,
+      "candidate_passages": 73,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 39,
+      "distinct_reporting_sitreps": 42,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-08-19",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         },
         {
-          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
+          "excerpt": "cumulés tout en renforçant la PSEA et l'accompagnement sécuritaire des équipes, tandis que la Tshopo (109 cas cumulés) fait face à l'insécurité et à une suspension temporaire des activités à Bafwasend",
           "source": {
-            "candidate_id": "191-p12-b000-19539bf734",
-            "date": "2026-11-21",
-            "page": 12,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "192-p05-b000-3a813d9bae",
+            "date": "2026-11-22",
+            "page": 5,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 95,
+      "candidate_passages": 100,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 63,
+      "distinct_reporting_sitreps": 65,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
-          "source": {
-            "candidate_id": "191-p12-b000-19539bf734",
-            "date": "2026-11-21",
-            "page": 12,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 140,
+      "candidate_passages": 147,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 86,
+      "distinct_reporting_sitreps": 88,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
-          "source": {
-            "candidate_id": "191-p12-b000-19539bf734",
-            "date": "2026-11-21",
-            "page": 12,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 130,
+      "candidate_passages": 138,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 85,
+      "distinct_reporting_sitreps": 88,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
-          "source": {
-            "candidate_id": "191-p12-b000-19539bf734",
-            "date": "2026-11-21",
-            "page": 12,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 7,
+      "candidate_passages": 11,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 6,
+      "distinct_reporting_sitreps": 7,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-22",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "cumulés tout en renforçant la PSEA et l'accompagnement sécuritaire des équipes, tandis que la Tshopo (109 cas cumulés) fait face à l'insécurité et à une suspension temporaire des activités à Bafwasend",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "192-p05-b000-3a813d9bae",
+            "date": "2026-11-22",
+            "page": 5,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         },
         {
-          "excerpt": "2.12.2. Défi majeur La persistance de l'insécurité et des menaces contre les équipes de riposte, particulièrement dans la zone de santé de Bafwasende (Tshopo), où l'ensemble des activités a été tempor",
+          "excerpt": "suite à l'insécurité persistante et aux menaces contre les agents et la population. 7. PSEA (Prévention de l'Exploitation et Abus Sexuels) 7.2.1. Principales actions Nord-Kivu : Formations et briefing",
           "source": {
-            "candidate_id": "191-p13-b000-d95ab91499",
-            "date": "2026-11-21",
-            "page": 13,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
-          "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
+            "candidate_id": "192-p10-b001-0bb49d72e0",
+            "date": "2026-11-22",
             "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
+        {
+          "excerpt": "Tshopo : Réalisation de 241 activités communautaires (visites à domicile, causeries éducatives, sensibilisations de masse) touchant 1 636 personnes et Des rumeurs et infodémies persistent (ex: \"le whi",
+          "source": {
+            "candidate_id": "191-p10-b000-933413e549",
+            "date": "2026-11-21",
+            "page": 10,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 38,
+      "candidate_passages": 40,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 35,
+      "distinct_reporting_sitreps": 36,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
         {
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Ituri : la surveillance aux points d'entrée et de contrôle (PoE/PoC) affiche 163 792 voyageurs enregistrés, dont 157 089 screenés (soit un taux de dépistage de 96 %), pour une complétude des rapports ",
+          "source": {
+            "candidate_id": "191-p06-b000-9808eee0bf",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+          }
+        },
+        {
           "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
             "candidate_id": "191-p06-b000-0cbc80a5af",
@@ -12711,109 +12947,89 @@
             "report_number": 191,
             "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 15,
+      "candidate_passages": 20,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 12,
+      "distinct_reporting_sitreps": 14,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-10-28",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-23",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "cumulés tout en renforçant la PSEA et l'accompagnement sécuritaire des équipes, tandis que la Tshopo (109 cas cumulés) fait face à l'insécurité et à une suspension temporaire des activités à Bafwasend",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "192-p05-b000-3a813d9bae",
+            "date": "2026-11-22",
+            "page": 5,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         },
         {
-          "excerpt": "Sud-Ubangi : Intensification de la sensibilisation de proximité avec 196 ménages visités, permettant de sensibiliser 998 personnes (441 hommes et 539 femmes) sur l'existence de la MVE et les mesures p",
+          "excerpt": "1.COORDINATION 1.1. Principales Actions La coordination de la riposte assure le pilotage transversal des opérations à travers plusieurs provinces affectées et exposées, en articulant la surveillance a",
           "source": {
-            "candidate_id": "189-p10-b000-4139d974c6",
-            "date": "2026-11-19",
-            "page": 10,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
+            "candidate_id": "191-p04-b014-d24b8c25ae",
+            "date": "2026-11-21",
+            "page": 4,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 102,
+      "candidate_passages": 109,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 64,
+      "distinct_reporting_sitreps": 67,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-14",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "La persistance des insuffisances structurelles, matérielles et organisationnelles dans les établissements de santé, particulièrement au Bas-Uélé et dans la Tshopo, marquées par la vétusté des infrastr",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p11-b000-54820546b5",
-            "date": "2026-11-21",
-            "page": 11,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "annonces de résultats réalisées (15 positifs), et appui à 165 ménages pour les actions de santé publique ; Bas-Uele : 3 annonces de résultats négatifs réalisées et 8 accompagnants soutenus au CTE ; It",
-          "source": {
-            "candidate_id": "191-p12-b000-19539bf734",
-            "date": "2026-11-21",
-            "page": 12,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
@@ -12862,183 +13078,203 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 126,
+      "candidate_passages": 134,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 60,
+      "distinct_reporting_sitreps": 63,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 131,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 73,
-      "event_type_candidate": "service_disruption",
-      "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-21",
-      "province_mention": "Haut-Uélé",
-      "recent_examples": [
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 197,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 109,
-      "event_type_candidate": "service_disruption",
-      "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-21",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 132,
+      "candidate_passages": 139,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
       "distinct_reporting_sitreps": 76,
       "event_type_candidate": "service_disruption",
+      "first_report_date": "2026-08-07",
+      "last_report_date": "2026-11-24",
+      "province_mention": "Haut-Uélé",
+      "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
+            "page": 6,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "source": {
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
+            "page": 8,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 206,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 112,
+      "event_type_candidate": "service_disruption",
+      "first_report_date": "2026-07-06",
+      "last_report_date": "2026-11-24",
+      "province_mention": "Ituri",
+      "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
+            "page": 6,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "source": {
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
+            "page": 8,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 141,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 79,
+      "event_type_candidate": "service_disruption",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 28,
+      "candidate_passages": 30,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 14,
+      "distinct_reporting_sitreps": 15,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-22",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
+          "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
+          "source": {
+            "candidate_id": "192-p09-b000-653457781c",
+            "date": "2026-11-22",
+            "page": 9,
+            "report_number": 192,
+            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+          }
+        },
+        {
+          "excerpt": "3. Prévention et Contrôle de l'Infection (PCI/EDS) 3.2.1. Principales actions Nord-Kivu : Parallèlement à l'ouverture de 12 rings sur 21 prévus (avec un gap notable dans la zone de santé de Katwa), le",
+          "source": {
+            "candidate_id": "191-p08-b000-f3ab99fb95",
+            "date": "2026-11-21",
+            "page": 8,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+          }
+        },
+        {
           "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
           "source": {
             "candidate_id": "191-p08-b000-f43fc17b10",
@@ -13047,40 +13283,40 @@
             "report_number": 191,
             "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "2.12.2. Défi majeur La persistance de l'insécurité et des menaces contre les équipes de riposte, particulièrement dans la zone de santé de Bafwasende (Tshopo), où l'ensemble des activités a été tempor",
-          "source": {
-            "candidate_id": "191-p13-b000-d95ab91499",
-            "date": "2026-11-21",
-            "page": 13,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 50,
+      "candidate_passages": 52,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 47,
+      "distinct_reporting_sitreps": 48,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-11",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
         {
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "Ituri : la surveillance aux points d'entrée et de contrôle (PoE/PoC) affiche 163 792 voyageurs enregistrés, dont 157 089 screenés (soit un taux de dépistage de 96 %), pour une complétude des rapports ",
+          "source": {
+            "candidate_id": "191-p06-b000-9808eee0bf",
+            "date": "2026-11-21",
+            "page": 6,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+          }
+        },
+        {
           "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
           "source": {
             "candidate_id": "191-p06-b000-0cbc80a5af",
@@ -13089,109 +13325,89 @@
             "report_number": 191,
             "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Au 16 novembre 2026, les activités du pilier Point d'Entrée (PoE/PoC) pour la riposte à la 1",
-          "source": {
-            "candidate_id": "186-p05-b014-7858123064",
-            "date": "2026-11-16",
-            "page": 5,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
-        },
-        {
-          "excerpt": "Pluto à Mungwalu) et 2 corps sans vie interceptés (1 corps au PoC Dele/Rwampara testé négatif ; 1 corps de 20 ans en provenance du Haut-Uélé vers Marabo immobilisé toute la journée au PoC de Mudzi Bal",
-          "source": {
-            "candidate_id": "186-p06-b000-bc5d6a84b5",
-            "date": "2026-11-16",
-            "page": 6,
-            "report_number": 186,
-            "source_sha256": "319157738c73a856179dcdfb15c608e1862c8092bdf84395a31b4a220a594dcc"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 29,
+      "candidate_passages": 34,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 18,
+      "distinct_reporting_sitreps": 20,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 208 échantillons reçus et analysés le 20/11/2026 (128 nouveaux avec une positivité de 4 %, 37 reprélèvements avec 35 % de positivité, et 43 décè",
+          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "190-p07-b000-20e05ec0b7",
-            "date": "2026-11-20",
-            "page": 7,
-            "report_number": 190,
-            "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
+            "candidate_id": "193-p05-b012-ba457aa2b0",
+            "date": "2026-11-23",
+            "page": 5,
+            "report_number": 193,
+            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+          }
+        },
+        {
+          "excerpt": "1.COORDINATION 1.1. Principales Actions La coordination de la riposte assure le pilotage transversal des opérations à travers plusieurs provinces affectées et exposées, en articulant la surveillance a",
+          "source": {
+            "candidate_id": "191-p04-b014-d24b8c25ae",
+            "date": "2026-11-21",
+            "page": 4,
+            "report_number": 191,
+            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 162,
+      "candidate_passages": 171,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 84,
+      "distinct_reporting_sitreps": 87,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-21",
+      "last_report_date": "2026-11-24",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+          }
+        },
+        {
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "source": {
+            "candidate_id": "194-p06-b000-0a37742b7a",
+            "date": "2026-11-24",
             "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         },
         {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
+          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
+            "candidate_id": "194-p08-b000-78a43b7f33",
+            "date": "2026-11-24",
             "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
-        },
-        {
-          "excerpt": "sorties déclarées non-cas après laboratoire (Buta 5, Ganga 4, Aketi 2, Poko 2, Koteli 1, Titule 1). 0 cas confirmé hospitalisé ; Nord-Ubangi : Le taux d'occupation global des Centres de Traitement Ébo",
-          "source": {
-            "candidate_id": "191-p10-b000-7a076d2e2a",
-            "date": "2026-11-21",
-            "page": 10,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
+            "report_number": 194,
+            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
         }
       ],
@@ -13840,6 +14056,22 @@
     {
       "distinct_sitreps": 5,
       "example_source": {
+        "candidate_id": "191-p05-b025-ce2ca9a236",
+        "date": "2026-11-21",
+        "page": 5,
+        "report_number": 191,
+        "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+      },
+      "first_date": "2026-10-12",
+      "last_date": "2026-11-21",
+      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
+      "topic_candidates": [
+        "border_screening"
+      ]
+    },
+    {
+      "distinct_sitreps": 5,
+      "example_source": {
         "candidate_id": "081-p13-b003-f1f072616f",
         "date": "2026-08-03",
         "page": 13,
@@ -13967,22 +14199,6 @@
       "source_text_sha256": "bea0ecd7fad1c25338dd0dfb2f3f6f518a9e4feb5d2e24a0bb68c5998a2ffee0",
       "topic_candidates": [
         "unclassified"
-      ]
-    },
-    {
-      "distinct_sitreps": 4,
-      "example_source": {
-        "candidate_id": "190-p05-b025-ce2ca9a236",
-        "date": "2026-11-20",
-        "page": 5,
-        "report_number": 190,
-        "source_sha256": "af31cf50dfacd1d26ab3a9e744b94dd24df7a0f75e7804f7c7ace1ab933fa3f2"
-      },
-      "first_date": "2026-10-12",
-      "last_date": "2026-11-20",
-      "source_text_sha256": "ce2ca9a236432e8ca754ae0c12d706aa3ce4ccbc54a7d01f8533a9a8abf01c82",
-      "topic_candidates": [
-        "border_screening"
       ]
     },
     {
@@ -16248,10 +16464,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-24T16:01:21.689893+00:00",
+  "generated_at": "2026-11-26T15:29:57.620792+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 174,
+  "reports_classified": 178,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }

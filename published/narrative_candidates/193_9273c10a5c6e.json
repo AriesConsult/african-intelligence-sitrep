@@ -1,0 +1,218 @@
+{
+  "candidates": [
+    {
+      "block_index": 30,
+      "candidate_id": "193-p04-b030-392e614a15",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "En date du 23 novembre 2026 4739 alertes ont été notifiées dans les sept provinces ayant transmis leurs données (Bas-Uélé, Nord-Ubangi, Ituri, Haut-Uélé, Nord-Kivu, Sud-Ubangi et Tshopo), dont 4579 alertes de personnes vivantes et 160 décès ; 4739 ont été vérifiées (100 %). Parmi elles, 562 (11,9 %) ont été validées comme cas suspects et …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 4,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Nord-Ubangi",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "392e614a15e2dc6f8461f904d388bccd1d2b63c4600f4f9bf73d1bf328712048",
+      "topic_tags": [
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 12,
+      "candidate_id": "193-p05-b012-ba457aa2b0",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "security_incident",
+        "service_disruption"
+      ],
+      "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec le taux le plus faible à Ituri (75,5 %). 2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 5,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ba457aa2b02d735138147632f250d2a148692c50c08ce09d5a5c2f9b72f88a76",
+      "topic_tags": [
+        "border_screening",
+        "contact_tracing",
+        "security",
+        "surveillance_and_alerts",
+        "treatment_capacity"
+      ]
+    },
+    {
+      "block_index": 44,
+      "candidate_id": "193-p06-b044-fb9675a5de",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 240 échantillons ont été reçus et 237 analysés au total, ventilés entre 136 nouveaux échantillons (14 positifs et 33 négatifs renseignés, 89 résultats non ventilés), 47 reprélèvements dont 14 positifs (29,8 %) et 54 prélèvements post-mortem dont 11 positifs (20,4 %), pour un total de…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "fb9675a5de925de96f91abf198b89f64a23366f18551a3b1936e3e87b039af00",
+      "topic_tags": [
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 45,
+      "candidate_id": "193-p06-b045-dee20f833d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": ".Haut-Uélé : 21 échantillons reçus (20 sang total et 1 swab) 3 échantillons testés positifs sur 13 (23,1 %), dont 55 positifs initiaux au total (51 vivants et 4 décédés). Sud – Ubangi : 14 échantillons reçus (11 nouveaux et 3 reprélèvements provenant des ZS de Gemena et Mbaya). 13 échantillons ont été analysés, tous s'avérant négatifs (0 …",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 6,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Nord-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "dee20f833dc91287ba9a45bfff40b72466636344503a9d52898babc47b28ab98",
+      "topic_tags": [
+        "ipc_and_burials",
+        "laboratory"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "193-p07-b000-ce9501de5d",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery",
+        "resource_constraint"
+      ],
+      "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structures de santé (CM Shukrani, Makiso-Kisangani), et décontamination de l'Hôpital Militaire et de ménages ciblés. Ituri : 13/19 rings ouverts, 40/…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 7,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Ubangi",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "ce9501de5da02b0b8ace7462743feaa205212a786d0bcb95ef3465d1d1e021db",
+      "topic_tags": [
+        "community_engagement",
+        "ipc_and_burials",
+        "service_continuity",
+        "surveillance_and_alerts",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "193-p08-b000-3de79e8437",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [
+        "activity_or_delivery"
+      ],
+      "excerpt": "4.3.1. Principales actions Nord-Kivu : 5 342 personnes vaccinées au total (2 945 hommes, 2 397 femmes) réparties dans 7 ZS déclarantes. La ZS de Beni représente à elle seule 69,4 % des vaccinations, 496 contacts vaccinés et 4 846 personnes sans contact déclaré (population spéciale / étude Bravo). Ituri : Poursuite de la vaccination (Erveb…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 8,
+      "province_mentions": [
+        "Bas-Uélé",
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Tshopo"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "3de79e843786d6376ee048d9c9f4171dfb0c56fef6fe2cd2e0ab6454f091b5ab",
+      "topic_tags": [
+        "community_engagement",
+        "contact_tracing",
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "psychosocial_support",
+        "service_continuity",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    },
+    {
+      "block_index": 0,
+      "candidate_id": "193-p09-b000-80fa71b2fc",
+      "classification_method": "lexical_rules_v1",
+      "event_type_candidates": [],
+      "excerpt": "parallèlement à la réinsertion de 16 guéris et à l'organisation de séances de psycho-éducation auprès de centaines de personnes. Ituri : 15 sur 28 ZS affectées sont couvertes. 26/28 nouveaux cas confirmés ont été pris en charge, ainsi que 43/84 nouveaux suspects, 84 enfants suivis en crèche, 10/14 ménages d'enfants séparés ou orphelins ac…",
+      "excerpt_truncated": true,
+      "geographic_status": "mentions_only_unverified",
+      "page": 9,
+      "province_mentions": [
+        "Haut-Uélé",
+        "Ituri",
+        "Nord-Kivu",
+        "Sud-Kivu"
+      ],
+      "review_status": "REVIEW_REQUIRED",
+      "source_text_sha256": "80fa71b2fc79dd63d5cc216b6dbf7f137c2684404ec527759fb288e5d1ca9909",
+      "topic_tags": [
+        "ipc_and_burials",
+        "logistics_and_supplies",
+        "psychosocial_support",
+        "treatment_capacity",
+        "vaccination"
+      ]
+    }
+  ],
+  "candidates_count": 7,
+  "date": "2026-11-23",
+  "event_type_counts": {
+    "activity_or_delivery": 3,
+    "resource_constraint": 1,
+    "security_incident": 1,
+    "service_disruption": 1
+  },
+  "interpretation_policy": "Lexical categories and place names are leads, not verified findings; original PDF required for context.",
+  "narrative_blocks_examined": 7,
+  "pages": 10,
+  "pymupdf_version": "1.28.2",
+  "report_number": 193,
+  "schema_version": "bdbv-sitrep-narratives-v1",
+  "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719",
+  "source_url": "https://insp.cd/wp-content/uploads/2026/11/SitRep_N193_23-11-2026_corrige_VF.pdf",
+  "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED",
+  "topics_counts": {
+    "border_screening": 1,
+    "community_engagement": 2,
+    "contact_tracing": 2,
+    "ipc_and_burials": 4,
+    "laboratory": 2,
+    "logistics_and_supplies": 2,
+    "psychosocial_support": 2,
+    "security": 1,
+    "service_continuity": 2,
+    "surveillance_and_alerts": 3,
+    "treatment_capacity": 5,
+    "vaccination": 3
+  }
+}

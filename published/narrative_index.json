@@ -1,13 +1,45 @@
 {
-  "cached_this_run": 11,
-  "candidates_total": 4866,
+  "cached_this_run": 8,
+  "candidates_total": 4908,
   "failures_this_run": [],
-  "generated_at": "2026-11-24T16:01:21.319477+00:00",
+  "generated_at": "2026-11-26T15:29:57.206292+00:00",
   "index_read_errors": [],
-  "new_processed_this_run": 1,
+  "new_processed_this_run": 4,
   "publication_policy": "REVIEW_ONLY: lexical tags must not be treated as independently verified events or causal interpretations.",
-  "registry_reports": 174,
+  "registry_reports": 177,
   "reports": [
+    {
+      "candidate_count": 12,
+      "date": "2026-11-24",
+      "report_number": 194,
+      "snapshot_path": "narrative_candidates/194_1c7b2387c102.json",
+      "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 7,
+      "date": "2026-11-23",
+      "report_number": 193,
+      "snapshot_path": "narrative_candidates/193_9273c10a5c6e.json",
+      "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 10,
+      "date": "2026-11-22",
+      "report_number": 192,
+      "snapshot_path": "narrative_candidates/192_d65ba155cf50.json",
+      "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_count": 13,
+      "date": "2026-11-21",
+      "report_number": 191,
+      "snapshot_path": "narrative_candidates/191_46205fc5d8e7.json",
+      "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
     {
       "candidate_count": 18,
       "date": "2026-11-21",
@@ -1401,6 +1433,6 @@
       "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
     }
   ],
-  "reports_with_narrative_candidates": 174,
+  "reports_with_narrative_candidates": 178,
   "schema_version": "bdbv-narrative-index-v1"
 }
