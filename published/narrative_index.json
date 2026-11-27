@@ -1,13 +1,21 @@
 {
-  "cached_this_run": 8,
-  "candidates_total": 4908,
+  "cached_this_run": 11,
+  "candidates_total": 4925,
   "failures_this_run": [],
-  "generated_at": "2026-11-26T15:29:57.206292+00:00",
+  "generated_at": "2026-11-27T15:20:45.783052+00:00",
   "index_read_errors": [],
-  "new_processed_this_run": 4,
+  "new_processed_this_run": 1,
   "publication_policy": "REVIEW_ONLY: lexical tags must not be treated as independently verified events or causal interpretations.",
-  "registry_reports": 177,
+  "registry_reports": 178,
   "reports": [
+    {
+      "candidate_count": 17,
+      "date": "2026-11-25",
+      "report_number": 195,
+      "snapshot_path": "narrative_candidates/195_e412d950e073.json",
+      "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d",
+      "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
+    },
     {
       "candidate_count": 12,
       "date": "2026-11-24",
@@ -1433,6 +1441,6 @@
       "status": "CANDIDATE_EXTRACTION_REVIEW_REQUIRED"
     }
   ],
-  "reports_with_narrative_candidates": 178,
+  "reports_with_narrative_candidates": 179,
   "schema_version": "bdbv-narrative-index-v1"
 }

@@ -1,5 +1,5 @@
 {
-  "candidate_blocks_checked": 4908,
+  "candidate_blocks_checked": 4925,
   "daily_topic_mentions": [
     {
       "candidate_blocks": 3,
@@ -11940,162 +11940,318 @@
       "date": "2026-11-24",
       "mentioning_reports": 1,
       "topic": "vaccination"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "border_screening"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "community_engagement"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "contact_tracing"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "ipc_and_burials"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "laboratory"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "logistics_and_supplies"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "psychosocial_support"
+    },
+    {
+      "candidate_blocks": 1,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "security"
+    },
+    {
+      "candidate_blocks": 3,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "service_continuity"
+    },
+    {
+      "candidate_blocks": 5,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "surveillance_and_alerts"
+    },
+    {
+      "candidate_blocks": 13,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "treatment_capacity"
+    },
+    {
+      "candidate_blocks": 2,
+      "date": "2026-11-25",
+      "mentioning_reports": 1,
+      "topic": "vaccination"
     }
   ],
   "event_type_province_clusters": [
     {
-      "candidate_passages": 325,
+      "candidate_passages": 328,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 91,
+      "distinct_reporting_sitreps": 92,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-07-26",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
           "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
             "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
           "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 340,
+      "candidate_passages": 345,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 108,
+      "distinct_reporting_sitreps": 109,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "194-p07-b000-ea770626ad",
-            "date": "2026-11-24",
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Nord-Kivu : 77 alertes de décès reçues, 52 EDS réalisées, et 1 corps swabé. Tshopo : 7 alertes de décès gérées au total, avec un taux de réalisation des EDS de 66 %. Ituri : 74 alertes reçues (dont 28",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
-          "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
-            "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p07-b001-9bbc8673b5",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 577,
+      "candidate_passages": 582,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 167,
+      "distinct_reporting_sitreps": 168,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-19",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
-          "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
-            "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
             "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : 77 alertes de décès reçues, 52 EDS réalisées, et 1 corps swabé. Tshopo : 7 alertes de décès gérées au total, avec un taux de réalisation des EDS de 66 %. Ituri : 74 alertes reçues (dont 28",
+          "source": {
+            "candidate_id": "195-p07-b001-9bbc8673b5",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 569,
+      "candidate_passages": 575,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 157,
+      "distinct_reporting_sitreps": 158,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-05-27",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "194-p07-b000-ea770626ad",
-            "date": "2026-11-24",
-            "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 201 échantillons ont été reçus et 193 analysés (8 en cours), ventilés entre 111 nouveaux échantillons testés (taux de positivité de 14 %, soit e",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p06-b048-a5444710b9",
+            "date": "2026-11-25",
+            "page": 6,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 73,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 22,
+      "event_type_candidate": "activity_or_delivery",
+      "first_report_date": "2026-10-19",
+      "last_report_date": "2026-11-25",
+      "province_mention": "Nord-Ubangi",
+      "recent_examples": [
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
+          "source": {
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 65,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 55,
+      "event_type_candidate": "activity_or_delivery",
+      "first_report_date": "2026-06-02",
+      "last_report_date": "2026-11-25",
+      "province_mention": "Sud-Kivu",
+      "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
@@ -12106,48 +12262,6 @@
             "page": 9,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 70,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 21,
-      "event_type_candidate": "activity_or_delivery",
-      "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-22",
-      "province_mention": "Nord-Ubangi",
-      "recent_examples": [
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 232 échantillons reçus, 220 analysés et 12 en cours d'analyse et la positivité de 12 % pour les nouveaux échantillons (18/146) et de 30 % pour l",
-          "source": {
-            "candidate_id": "192-p07-b000-e17c18892a",
-            "date": "2026-11-22",
-            "page": 7,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu : 67 alertes de décès reçues, donnant lieu à 58 EDS réalisées (57 corps swabés, 1 échec). 22 alertes reportées au lendemain. Nord-Ubangi :1 alerte décès notifiée et prise en charge (1/1) Hau",
-          "source": {
-            "candidate_id": "192-p08-b000-24b9e6572c",
-            "date": "2026-11-22",
-            "page": 8,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
-          }
-        },
-        {
-          "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
-          "source": {
-            "candidate_id": "192-p09-b000-653457781c",
-            "date": "2026-11-22",
-            "page": 9,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
           }
         }
       ],
@@ -12156,124 +12270,82 @@
     {
       "candidate_passages": 63,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 54,
-      "event_type_candidate": "activity_or_delivery",
-      "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-24",
-      "province_mention": "Sud-Kivu",
-      "recent_examples": [
-        {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
-          "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
-            "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 75,7 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (80,4 %) mais toujours inférieur au seuil de 95 %, avec ",
-          "source": {
-            "candidate_id": "192-p06-b003-d93464d5dd",
-            "date": "2026-11-22",
-            "page": 6,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
-          }
-        },
-        {
-          "excerpt": "2.2. Point sur les activités de points de contrôle et points d’entrées (PoE/PoC) 2.2.1. Principales actions Ituri : La surveillance aux points de contrôle a enregistré 154 121 voyageurs, dont 96 % ont",
-          "source": {
-            "candidate_id": "189-p06-b002-205a632c53",
-            "date": "2026-11-19",
-            "page": 6,
-            "report_number": 189,
-            "source_sha256": "276b1b002a4751aaf630f4c77b9a5775b224663ab11b9b62c3f1ceda1ecd5365"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 60,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 30,
+      "distinct_reporting_sitreps": 31,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-09-11",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p07-b000-ea770626ad",
-            "date": "2026-11-24",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Sud-Ubangi : La province comptabilise 55 jours sans cas positif confirmé. Aucun cas confirmé n'est actuellement hospitalisé, seuls 4 cas suspects étant pris en charge aux lits (2 à Zongo et 4 à Mbaya)",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
+            "candidate_id": "195-p08-b004-4f8919ecd5",
+            "date": "2026-11-25",
             "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
           "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 431,
+      "candidate_passages": 436,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 121,
+      "distinct_reporting_sitreps": 122,
       "event_type_candidate": "activity_or_delivery",
       "first_report_date": "2026-06-30",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : 201 échantillons ont été reçus et 193 analysés (8 en cours), ventilés entre 111 nouveaux échantillons testés (taux de positivité de 14 %, soit e",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p06-b048-a5444710b9",
+            "date": "2026-11-25",
+            "page": 6,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
-          }
-        },
-        {
-          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
-          "source": {
-            "candidate_id": "193-p07-b000-ce9501de5d",
-            "date": "2026-11-23",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Nord-Kivu : 77 alertes de décès reçues, 52 EDS réalisées, et 1 corps swabé. Tshopo : 7 alertes de décès gérées au total, avec un taux de réalisation des EDS de 66 %. Ituri : 74 alertes reçues (dont 28",
+          "source": {
+            "candidate_id": "195-p07-b001-9bbc8673b5",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
@@ -12322,224 +12394,234 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 275,
+      "candidate_passages": 278,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 95,
+      "distinct_reporting_sitreps": 96,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-08-12",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
-          "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
-            "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
-          "source": {
-            "candidate_id": "193-p07-b000-ce9501de5d",
-            "date": "2026-11-23",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
+          "source": {
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 305,
+      "candidate_passages": 309,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 109,
+      "distinct_reporting_sitreps": 110,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
-          "source": {
-            "candidate_id": "194-p07-b000-ea770626ad",
-            "date": "2026-11-24",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "excerpt": "Haut-Uélé : 77 patients sont hospitalisés aux lits (45 confirmés et 32 suspects), avec 19 nouvelles admissions (14 suspects et 5 confirmés), un taux d'occupation global des lits de 44 % (49 % pour les",
           "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
+            "candidate_id": "195-p08-b003-4cc2e452dd",
+            "date": "2026-11-25",
+            "page": 8,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
+          "source": {
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
             "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 473,
+      "candidate_passages": 476,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 143,
+      "distinct_reporting_sitreps": 144,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Ituri",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
-          "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
-            "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
-          "source": {
-            "candidate_id": "193-p07-b000-ce9501de5d",
-            "date": "2026-11-23",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
+          "source": {
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 407,
+      "candidate_passages": 410,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 147,
+      "distinct_reporting_sitreps": 148,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-05-20",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
-          "source": {
-            "candidate_id": "194-p07-b000-ea770626ad",
-            "date": "2026-11-24",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
             "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
           "source": {
-            "candidate_id": "194-p09-b000-95f8357324",
-            "date": "2026-11-24",
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
             "page": 9,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 48,
+      "candidate_passages": 51,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 21,
+      "distinct_reporting_sitreps": 22,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-19",
-      "last_report_date": "2026-11-22",
+      "last_report_date": "2026-11-25",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
         {
-          "excerpt": "Nord-Kivu : 67 alertes de décès reçues, donnant lieu à 58 EDS réalisées (57 corps swabés, 1 échec). 22 alertes reportées au lendemain. Nord-Ubangi :1 alerte décès notifiée et prise en charge (1/1) Hau",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "192-p08-b000-24b9e6572c",
-            "date": "2026-11-22",
-            "page": 8,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
           "source": {
-            "candidate_id": "192-p09-b000-653457781c",
-            "date": "2026-11-22",
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
             "page": 9,
-            "report_number": 192,
-            "source_sha256": "d65ba155cf508b1c756fce9bdfaf5b710ca4678ca9207fc2cd7a83a29370434e"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "3. Prévention et Contrôle de l'Infection (PCI/EDS) 3.2.1. Principales actions Nord-Kivu : Parallèlement à l'ouverture de 12 rings sur 21 prévus (avec un gap notable dans la zone de santé de Katwa), le",
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
           "source": {
-            "candidate_id": "191-p08-b000-f3ab99fb95",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 69,
+      "candidate_passages": 70,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 63,
+      "distinct_reporting_sitreps": 64,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-06-04",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
+          "source": {
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Nord-Kivu : Le soutien nutritionnel a pris en charge 171 enfants séparés en crèche, distribué des vivres (DGV) à 53 ménages de patients, et assisté des nourrissons sous substitut de lait maternel (SLM",
           "source": {
@@ -12559,29 +12641,39 @@
             "report_number": 191,
             "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
-        },
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 44,
+      "candidate_passages": 46,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 26,
+      "distinct_reporting_sitreps": 27,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-10-03",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
+          "source": {
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Haut-Uélé : Les activités comprennent l'ouverture de 4 rings (taux d'ouverture de 75 %), la décontamination de 4 ménages et d'un ESS, ainsi que la réalisation de 8 enterrements dignes et sécurisés (ED",
           "source": {
@@ -12591,67 +12683,47 @@
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
-        },
-        {
-          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
-          "source": {
-            "candidate_id": "193-p07-b000-ce9501de5d",
-            "date": "2026-11-23",
-            "page": 7,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
-          }
-        },
-        {
-          "excerpt": "1.COORDINATION 1.1. Principales Actions La coordination de la riposte assure le pilotage transversal des opérations à travers plusieurs provinces affectées et exposées, en articulant la surveillance a",
-          "source": {
-            "candidate_id": "191-p04-b014-d24b8c25ae",
-            "date": "2026-11-21",
-            "page": 4,
-            "report_number": 191,
-            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 367,
+      "candidate_passages": 370,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 118,
+      "distinct_reporting_sitreps": 119,
       "event_type_candidate": "resource_constraint",
       "first_report_date": "2026-07-02",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Tshopo",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Tshopo : 6 patients aux lits, tous suspects ; 2 nouvelles admissions et aucune sortie. Taux d'occupation global de 15 % (lits suspects 33,3 %, lits confirmés 0 %) ; CT Kongakonga occupé à 100 % (4/4).",
+          "excerpt": "Haut-Uélé : 6 100 doses reçues, 5 097 doses utilisées (couverture de 84 %), laissant un reliquat de 1 003 doses à travers les ZS éligibles. 5. Continuité des Soins 5.2.1. Principales actions Ituri : É",
           "source": {
-            "candidate_id": "194-p07-b005-9e6bba6121",
-            "date": "2026-11-24",
-            "page": 7,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p09-b000-7f10eed5f9",
+            "date": "2026-11-25",
+            "page": 9,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "Tshopo : Poursuite de la formation des équipes des Équipes Communautaires de Réponse Rapide (ÉCUMRS) dans la ZS de Tshopo, redynamisation et mise en place de comités d'hygiène dans plusieurs structure",
+          "excerpt": "Haut-Uélé : Couverture de 6/8 ZS touchées, prise en charge de 63 patients (32 confirmés et 31 suspects), annonce de 8 résultats de laboratoire et suivi de 51 accompagnants, 62 PPL et 7 membres de ména",
           "source": {
-            "candidate_id": "193-p07-b000-ce9501de5d",
-            "date": "2026-11-23",
-            "page": 7,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
+            "candidate_id": "195-p10-b000-cfa59bfb16",
+            "date": "2026-11-25",
+            "page": 10,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         }
       ],
@@ -12742,15 +12814,25 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 100,
+      "candidate_passages": 101,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 65,
+      "distinct_reporting_sitreps": 66,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-07-30",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Haut-Uélé",
       "recent_examples": [
         {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
             "candidate_id": "194-p05-b012-1bf23a78aa",
@@ -12769,30 +12851,30 @@
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 147,
+      "candidate_passages": 148,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 88,
+      "distinct_reporting_sitreps": 89,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Ituri",
       "recent_examples": [
         {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
             "candidate_id": "194-p05-b012-1bf23a78aa",
@@ -12810,30 +12892,30 @@
             "page": 6,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 138,
+      "candidate_passages": 139,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 88,
+      "distinct_reporting_sitreps": 89,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-05-24",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Nord-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
@@ -12852,16 +12934,6 @@
             "page": 6,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
           }
         }
       ],
@@ -12910,14 +12982,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 40,
+      "candidate_passages": 41,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 36,
+      "distinct_reporting_sitreps": 37,
       "event_type_candidate": "security_incident",
       "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
@@ -12936,16 +13018,6 @@
             "page": 6,
             "report_number": 191,
             "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
-          }
-        },
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
           }
         }
       ],
@@ -13078,64 +13150,32 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 134,
+      "candidate_passages": 136,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 63,
+      "distinct_reporting_sitreps": 64,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-08-20",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Bas-Uélé",
       "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Bas-Uélé : Arrivée de l'équipe conjointe PNHF et OIM. Un incident de destruction de dispositifs de lavage des mains a été enregistré au PoC PK12 Isiro lors d'une grève de motards. Sud-Ubangi : Mission",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
+            "candidate_id": "195-p06-b001-5719867381",
+            "date": "2026-11-25",
             "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 139,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 76,
-      "event_type_candidate": "service_disruption",
-      "first_report_date": "2026-08-07",
-      "last_report_date": "2026-11-24",
-      "province_mention": "Haut-Uélé",
-      "recent_examples": [
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "194-p05-b012-1bf23a78aa",
-            "date": "2026-11-24",
-            "page": 5,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
@@ -13144,58 +13184,6 @@
             "candidate_id": "194-p06-b000-0a37742b7a",
             "date": "2026-11-24",
             "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
-          "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        }
-      ],
-      "review_status": "UNVERIFIED_THEME_CLUSTER"
-    },
-    {
-      "candidate_passages": 206,
-      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 112,
-      "event_type_candidate": "service_disruption",
-      "first_report_date": "2026-07-06",
-      "last_report_date": "2026-11-24",
-      "province_mention": "Ituri",
-      "recent_examples": [
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "194-p05-b012-1bf23a78aa",
-            "date": "2026-11-24",
-            "page": 5,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
-          "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
-          "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
@@ -13206,12 +13194,32 @@
     {
       "candidate_passages": 141,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 79,
+      "distinct_reporting_sitreps": 77,
       "event_type_candidate": "service_disruption",
-      "first_report_date": "2026-06-02",
-      "last_report_date": "2026-11-24",
-      "province_mention": "Nord-Kivu",
+      "first_report_date": "2026-08-07",
+      "last_report_date": "2026-11-25",
+      "province_mention": "Haut-Uélé",
       "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
@@ -13221,23 +13229,87 @@
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
-        },
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 209,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 113,
+      "event_type_candidate": "service_disruption",
+      "first_report_date": "2026-07-06",
+      "last_report_date": "2026-11-25",
+      "province_mention": "Ituri",
+      "recent_examples": [
         {
-          "excerpt": "2.3. Laboratoire 2.3.1. Principales actions Nord-Kivu : Le réseau des laboratoires a reçu 251 échantillons, en a analysé 241 (10 en cours). La positivité globale s'établit à 13 % pour les nouveaux éch",
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
-            "candidate_id": "194-p06-b000-0a37742b7a",
-            "date": "2026-11-24",
-            "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
           }
         },
         {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
           "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 395 patients sont hospitalisés aux lits (138 confirmés et 257 suspects138 + 257), avec un taux d'occupation global des lits de 36 %, 113 nouvelles admissions (tous suspects, dont 6 en phase av",
+          "source": {
+            "candidate_id": "195-p08-b002-d1ae4fdda6",
+            "date": "2026-11-25",
             "page": 8,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        }
+      ],
+      "review_status": "UNVERIFIED_THEME_CLUSTER"
+    },
+    {
+      "candidate_passages": 143,
+      "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
+      "distinct_reporting_sitreps": 80,
+      "event_type_candidate": "service_disruption",
+      "first_report_date": "2026-06-02",
+      "last_report_date": "2026-11-25",
+      "province_mention": "Nord-Kivu",
+      "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "194-p05-b012-1bf23a78aa",
+            "date": "2026-11-24",
+            "page": 5,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
@@ -13246,14 +13318,24 @@
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 30,
+      "candidate_passages": 31,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 15,
+      "distinct_reporting_sitreps": 16,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-30",
-      "last_report_date": "2026-11-22",
+      "last_report_date": "2026-11-25",
       "province_mention": "Nord-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "de couverture de 86,7 % réparti dans 7 zones de santé (ZS) : Isiro, Pawa, Wamba, Boma Mangbetu, Rungu, Watsa et Gombari ; par ailleurs, la gestion des stocks affiche un bilan exact sans aucune perte s",
           "source": {
@@ -13273,29 +13355,29 @@
             "report_number": 191,
             "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
-        },
-        {
-          "excerpt": "Haut-Uele : Sur 13 laboratoires, 3 sont opérationnels (23,0 %), et sur 73 échantillons reçus (70 sangs totaux et 3 écouvillons [swabs]), 64 ont été analysés, révélant 5 cas positifs (dont 4 sangs tota",
-          "source": {
-            "candidate_id": "191-p08-b000-f43fc17b10",
-            "date": "2026-11-21",
-            "page": 8,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 52,
+      "candidate_passages": 53,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 48,
+      "distinct_reporting_sitreps": 49,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-11",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Kivu",
       "recent_examples": [
+        {
+          "excerpt": "Le taux de suivi des contacts s’établit à 82,1 % dans les cinq provinces ayant des contacts en cours de suivi en baisse par rapport à la veille (85,1%) mais toujours inférieur au seuil de 95 %, avec l",
+          "source": {
+            "candidate_id": "195-p05-b014-a0af9399a0",
+            "date": "2026-11-25",
+            "page": 5,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
@@ -13315,29 +13397,39 @@
             "report_number": 191,
             "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
           }
-        },
-        {
-          "excerpt": "La persistance des insuffisances dans le suivi des contacts et la référence rapide des cas suspects, avec un taux national de suivi de 80,4 % contre 81,2 % la veille (−0,8 point), nettement inférieur ",
-          "source": {
-            "candidate_id": "191-p06-b000-0cbc80a5af",
-            "date": "2026-11-21",
-            "page": 6,
-            "report_number": 191,
-            "source_sha256": "58c4e49b27191ef5a43dd0f9aeefbc4e6d10ff3a2b72e298ac4b04da3a4efca8"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 34,
+      "candidate_passages": 36,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 20,
+      "distinct_reporting_sitreps": 21,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-10-29",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Sud-Ubangi",
       "recent_examples": [
+        {
+          "excerpt": "Bas-Uélé : Arrivée de l'équipe conjointe PNHF et OIM. Un incident de destruction de dispositifs de lavage des mains a été enregistré au PoC PK12 Isiro lors d'une grève de motards. Sud-Ubangi : Mission",
+          "source": {
+            "candidate_id": "195-p06-b001-5719867381",
+            "date": "2026-11-25",
+            "page": 6,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
           "source": {
@@ -13347,39 +13439,29 @@
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
-        },
-        {
-          "excerpt": "Le taux de suivi des contacts s’établit à 77,6 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (75,7%) mais toujours inférieur au seuil de 95 %, avec l",
-          "source": {
-            "candidate_id": "193-p05-b012-ba457aa2b0",
-            "date": "2026-11-23",
-            "page": 5,
-            "report_number": 193,
-            "source_sha256": "9273c10a5c6e905254a1f223a118ed6919e41437ff1299739f6dfebb1ef6f719"
-          }
-        },
-        {
-          "excerpt": "1.COORDINATION 1.1. Principales Actions La coordination de la riposte assure le pilotage transversal des opérations à travers plusieurs provinces affectées et exposées, en articulant la surveillance a",
-          "source": {
-            "candidate_id": "191-p04-b014-d24b8c25ae",
-            "date": "2026-11-21",
-            "page": 4,
-            "report_number": 191,
-            "source_sha256": "46205fc5d8e79fb6827915065c9237ac65ea19db19eee9a5e0c5f601acdfe9e5"
-          }
         }
       ],
       "review_status": "UNVERIFIED_THEME_CLUSTER"
     },
     {
-      "candidate_passages": 171,
+      "candidate_passages": 172,
       "caution": "May combine unrelated events; no incident identity or causal claim is asserted.",
-      "distinct_reporting_sitreps": 87,
+      "distinct_reporting_sitreps": 88,
       "event_type_candidate": "service_disruption",
       "first_report_date": "2026-07-16",
-      "last_report_date": "2026-11-24",
+      "last_report_date": "2026-11-25",
       "province_mention": "Tshopo",
       "recent_examples": [
+        {
+          "excerpt": "Ituri : 13 laboratoires sur 15 ont fonctionné (86,7 %), les laboratoires de la Maladie à Virus Ebola (MVE) des zones de santé de Nizi et Lita ayant été suspendus en raison de la situation sécuritaire ",
+          "source": {
+            "candidate_id": "195-p07-b000-607f442fa9",
+            "date": "2026-11-25",
+            "page": 7,
+            "report_number": 195,
+            "source_sha256": "e412d950e073bdb1c3ecd03dabc02865906547b715622c8044b8896310e3f40d"
+          }
+        },
         {
           "excerpt": "Le taux de suivi des contacts s’établit à 85,1 % dans les cinq provinces ayant des contacts en cours de suivi en hausse par rapport à la veille (77,6%) mais toujours inférieur au seuil de 95 %, avec l",
           "source": {
@@ -13396,16 +13478,6 @@
             "candidate_id": "194-p06-b000-0a37742b7a",
             "date": "2026-11-24",
             "page": 6,
-            "report_number": 194,
-            "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
-          }
-        },
-        {
-          "excerpt": "4.3. Vaccination 4.3.1. Principales actions Nord-Kivu : La campagne de vaccination ciblée (notamment dans le cadre de l'étude BRAVO) progresse avec un cumul de 5 342 personnes vaccinées (dont 4 999 ad",
-          "source": {
-            "candidate_id": "194-p08-b000-78a43b7f33",
-            "date": "2026-11-24",
-            "page": 8,
             "report_number": 194,
             "source_sha256": "1c7b2387c1029d4477da9499f7eb8781de11503fc40ccc4eea8db9e398e49e83"
           }
@@ -16464,10 +16536,10 @@
       ]
     }
   ],
-  "generated_at": "2026-11-26T15:29:57.620792+00:00",
+  "generated_at": "2026-11-27T15:20:46.111034+00:00",
   "interpretation_limit": "Counts measure source text coverage and mention frequency, NOT outbreak event incidence, response effectiveness, or causal effects.",
   "methodology": "Lexical grouping by tags and mentioned province; repeated exact source-text hashes are not independent incidents.",
-  "reports_classified": 178,
+  "reports_classified": 179,
   "review_status": "REVIEW_REQUIRED",
   "schema_version": "bdbv-narrative-signals-v1"
 }
